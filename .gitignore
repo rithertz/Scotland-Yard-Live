@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnp.*
+
+# Build output and caches
+dist/
+coverage/
+.turbo/
+.vite/
+playwright-report/
+test-results/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and diagnostics
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Local database volumes
+.pgdata/
+
+# Editors and operating systems
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

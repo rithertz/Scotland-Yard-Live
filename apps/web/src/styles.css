@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #eee9df;
+  background: #111512;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at 72% 35%, #25352b 0%, #18221c 36%, #111512 78%);
+}
+.shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 clamp(24px, 7vw, 112px);
+}
+.topbar,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 82px;
+  border-bottom: 1px solid #ffffff1b;
+}
+.wordmark {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font:
+    500 12px 'DM Mono',
+    monospace;
+  letter-spacing: 0.16em;
+}
+.wordmark-mark {
+  display: grid;
+  place-items: center;
+  width: 31px;
+  height: 31px;
+  border: 1px solid #c8a76b;
+  color: #d8b77c;
+  font-size: 10px;
+  letter-spacing: 0;
+}
+.wordmark-live {
+  color: #d8b77c;
+}
+.environment-label,
+.eyebrow,
+.foundation-note,
+footer {
+  font:
+    10px 'DM Mono',
+    monospace;
+  letter-spacing: 0.15em;
+  color: #9ba69a;
+}
+.hero {
+  width: min(680px, 100%);
+  margin: auto 0;
+  padding: 90px 0 110px;
+}
+.eyebrow {
+  color: #d1b47e;
+  margin: 0 0 28px;
+}
+h1 {
+  margin: 0;
+  font-size: clamp(58px, 9vw, 112px);
+  line-height: 0.98;
+  letter-spacing: -0.065em;
+  font-weight: 500;
+}
+h1 em {
+  font-family: 'Playfair Display', serif;
+  color: #d7b77c;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+.intro {
+  max-width: 440px;
+  color: #b3bdb2;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 32px 0 38px;
+}
+.status-panel {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  max-width: 390px;
+  padding: 17px 19px;
+  border: 1px solid #ffffff20;
+  background: #ffffff08;
+}
+.status-dot {
+  width: 9px;
+  height: 9px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: #c8a76b;
+}
+.status-online {
+  background: #79b58a;
+  box-shadow: 0 0 12px #79b58a88;
+}
+.status-offline {
+  background: #c8786e;
+}
+.status-panel strong {
+  font-size: 12px;
+  font-weight: 600;
+}
+.status-panel p {
+  margin: 4px 0 0;
+  color: #9ba69a;
+  font-size: 12px;
+}
+.foundation-note {
+  margin-top: 25px;
+  font-size: 9px;
+}
+footer {
+  min-height: 56px;
+  border-top: 1px solid #ffffff1b;
+  border-bottom: 0;
+  font-size: 9px;
+}
+@media (max-width: 600px) {
+  .environment-label {
+    display: none;
+  }
+  .hero {
+    padding: 70px 0;
+  }
+  h1 {
+    font-size: clamp(56px, 15vw, 78px);
+  }
+  footer {
+    gap: 20px;
+    font-size: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
