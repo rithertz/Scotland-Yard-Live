@@ -9,6 +9,9 @@ This directory is the repository’s durable documentation index. It describes t
 - [Architecture decisions](architecture/DECISIONS.md) — recorded infrastructure and architecture choices.
 - [Visual identity and experience](frontend/VISUAL-IDENTITY-AND-EXPERIENCE.md) — implemented visual language for the frontend foundation.
 - [Board reconstruction](game/BOARD-RECONSTRUCTION.md) — canonical-board data contract, evidence ledger, source comparison, and currently blocked verification work.
+- [Physical board evidence register](game/BOARD-EVIDENCE-REGISTER.md) — image inventory, quality classifications, region coverage, and missing evidence.
+- [Coordinate reconstruction](game/BOARD-COORDINATE-RECONSTRUCTION.md) — reproducible board-plane calibration and normalized-coordinate method.
+- [Transcription workflow](game/BOARD-TRANSCRIPTION-WORKFLOW.md) — evidence-linked station/edge transcription and review gates.
 
 ## Application documentation
 
