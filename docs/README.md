@@ -8,6 +8,7 @@ This directory is the repository’s durable documentation index. It describes t
 - [System overview](architecture/SYSTEM_OVERVIEW.md) — current dependency direction and deferred backend/game-engine work.
 - [Architecture decisions](architecture/DECISIONS.md) — recorded infrastructure and architecture choices.
 - [Visual identity and experience](frontend/VISUAL-IDENTITY-AND-EXPERIENCE.md) — implemented visual language for the frontend foundation.
+- [Board reconstruction](game/BOARD-RECONSTRUCTION.md) — canonical-board data contract, evidence ledger, source comparison, and currently blocked verification work.
 
 ## Application documentation
 
@@ -18,7 +19,7 @@ This directory is the repository’s durable documentation index. It describes t
 The following areas are required by the consolidated project plan but are not complete in this repository yet:
 
 - Canonical rules specification and verification ledger — planned under `docs/game/`.
-- Verified original board reconstruction, graph format, coordinates, and validation — planned under `docs/game/` and the future `packages/board-data/` package.
+- Verified original board reconstruction, graph format, coordinates, and validation — data-package infrastructure and provenance are present in `packages/board-data/`; complete target-edition topology and coordinates remain blocked pending evidence.
 - Pure game engine and authoritative movement validation — planned under the future `packages/engine/` package.
 - Realtime room, player-specific projections, and multiplayer protocol — future server/contracts work.
 
