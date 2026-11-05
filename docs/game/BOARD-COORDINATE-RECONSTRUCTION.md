@@ -97,4 +97,10 @@ The synthetic fixture must remain the active web source until the canonical pack
 
 ## Limitations
 
-The current evidence set cannot provide a reliable full-board transform, complete station-centre set, or 1:1 accuracy claim. A new straight-on, glare-free, high-resolution capture is required before final coordinate work begins.
+## Phase 3B.2 evidence assessment
+
+`complete.jpeg` provides a coherent landscape orientation, all four visible board edges, and a usable overall frame. `top-left.jpeg`, `top-right.jpeg`, `bottom-left.jpeg`, and `bottom-right.jpeg` provide regional overlap and materially better station-marker detail. This is enough to prepare a calibration pass and to inspect the approximate board boundary.
+
+It is not enough to publish canonical coordinates. The complete image is 1280×892, the regional images are rotated/cropped, and no corner control points or image-registration measurements have been recorded. The visible physical board edge and fold must be distinguished from the camera frame before any normalized station centre is promoted.
+
+The current evidence set therefore supports: consistent board orientation, approximate boundary identification, and future multi-image alignment. It does not support: a verified full-board transform, final station-centre coordinates, or a 1:1 accuracy claim.
