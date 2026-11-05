@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scotland-yard-live.invalid/schemas/board-edge-candidates-1-200.schema.json",
+  "title": "Scotland Yard Live board edge candidate dataset",
+  "type": "object",
+  "required": ["metadata", "edges"],
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": [
+        "datasetId",
+        "datasetVersion",
+        "sourceTranscriptionPhase",
+        "canonicalStatus",
+        "playable",
+        "stationRange",
+        "sourceDocuments"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "datasetId": { "const": "scotland-yard-live-board-edge-candidates" },
+        "datasetVersion": { "type": "string", "minLength": 1 },
+        "sourceTranscriptionPhase": { "type": "string", "minLength": 1 },
+        "canonicalStatus": { "const": "non-canonical" },
+        "playable": { "const": false },
+        "stationRange": {
+          "type": "object",
+          "required": ["minObserved", "maxObserved"],
+          "additionalProperties": false,
+          "properties": {
+            "minObserved": { "type": "integer", "minimum": 1 },
+            "maxObserved": { "type": "integer", "minimum": 1 }
+          }
+        },
+        "sourceDocuments": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "edgeId",
+          "from",
+          "to",
+          "transport",
+          "confidence",
+          "verificationStatus",
+          "evidence",
+          "approximateImageRegion",
+          "visualExplanation",
+          "unresolvedNotes"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "edgeId": { "type": "string", "pattern": "^E-[0-9]{3,}$" },
+          "from": { "type": "integer", "minimum": 1 },
+          "to": { "type": "integer", "minimum": 1 },
+          "transport": { "enum": ["taxi", "bus", "underground", "boat"] },
+          "confidence": { "enum": ["high", "medium", "low"] },
+          "verificationStatus": { "enum": ["provisional", "unresolved"] },
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["file", "region"],
+              "additionalProperties": false,
+              "properties": {
+                "file": { "type": "string", "minLength": 1 },
+                "region": { "type": "string", "minLength": 1 }
+              }
+            }
+          },
+          "approximateImageRegion": { "type": "string", "minLength": 1 },
+          "visualExplanation": { "type": "string", "minLength": 1 },
+          "unresolvedNotes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

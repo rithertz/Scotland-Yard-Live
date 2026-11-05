@@ -1,0 +1,2173 @@
+{
+  "metadata": {
+    "datasetId": "scotland-yard-live-board-edge-candidates",
+    "datasetVersion": "3b5.0.0",
+    "sourceTranscriptionPhase": "Phase 3B.5 audit of Phase 3B.3/3B.4 transcription",
+    "canonicalStatus": "non-canonical",
+    "playable": false,
+    "stationRange": {
+      "minObserved": 1,
+      "maxObserved": 200
+    },
+    "sourceDocuments": [
+      "../BOARD-EDGE-TRANSCRIPTION.md",
+      "../BOARD-EVIDENCE-REGISTER.md",
+      "../BOARD-DISCREPANCY-LEDGER.md"
+    ]
+  },
+  "edges": [
+    {
+      "edgeId": "E-001",
+      "from": 1,
+      "to": 8,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-right of crop"
+        }
+      ],
+      "approximateImageRegion": "upper-right of crop",
+      "visualExplanation": "Solid yellow route leaves marker 1 toward 8; inspect the junction beside 1.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-002",
+      "from": 2,
+      "to": 10,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "park/eastern edge"
+        }
+      ],
+      "approximateImageRegion": "park/eastern edge",
+      "visualExplanation": "Yellow route visibly joins markers 2 and 10.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-003",
+      "from": 2,
+      "to": 20,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "park/western edge"
+        }
+      ],
+      "approximateImageRegion": "park/western edge",
+      "visualExplanation": "Yellow route appears to leave 2 toward 20; confirm continuation at the park boundary.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-004",
+      "from": 3,
+      "to": 4,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-right"
+        }
+      ],
+      "approximateImageRegion": "upper-right",
+      "visualExplanation": "Short yellow road between the adjacent markers.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-005",
+      "from": 4,
+      "to": 13,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "approximateImageRegion": "upper-central",
+      "visualExplanation": "Yellow route continues from 4 toward 13; inspect the red route crossing.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-006",
+      "from": 5,
+      "to": 15,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right"
+        }
+      ],
+      "approximateImageRegion": "upper-right",
+      "visualExplanation": "Yellow route visibly connects the northern 5 marker to 15.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-007",
+      "from": 6,
+      "to": 7,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right edge"
+        }
+      ],
+      "approximateImageRegion": "upper-right edge",
+      "visualExplanation": "Short yellow route between 6 and 7.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-008",
+      "from": 7,
+      "to": 17,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right edge"
+        }
+      ],
+      "approximateImageRegion": "upper-right edge",
+      "visualExplanation": "Yellow route continues from 7 to 17.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-009",
+      "from": 8,
+      "to": 18,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-left"
+        }
+      ],
+      "approximateImageRegion": "upper-left",
+      "visualExplanation": "Yellow route is visible near the 8/18 corridor; confirm endpoint at 18.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-010",
+      "from": 9,
+      "to": 20,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "approximateImageRegion": "upper-central",
+      "visualExplanation": "Yellow route from 9 to 20 is visible around the park boundary.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-011",
+      "from": 10,
+      "to": 11,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central park edge"
+        }
+      ],
+      "approximateImageRegion": "central park edge",
+      "visualExplanation": "Short yellow connection between 10 and 11.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-012",
+      "from": 11,
+      "to": 22,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Yellow corridor reaches 22; green route shares part of the corridor.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-013",
+      "from": 12,
+      "to": 23,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Yellow route appears to reach 23; inspect the crossing at 23.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-014",
+      "from": 13,
+      "to": 14,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-central/right"
+        }
+      ],
+      "approximateImageRegion": "upper-central/right",
+      "visualExplanation": "Yellow route is visible between 13 and 14.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-015",
+      "from": 14,
+      "to": 15,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right"
+        }
+      ],
+      "approximateImageRegion": "upper-right",
+      "visualExplanation": "Yellow route continues between adjacent 14 and 15 markers.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-016",
+      "from": 15,
+      "to": 16,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right"
+        }
+      ],
+      "approximateImageRegion": "upper-right",
+      "visualExplanation": "Yellow route corridor visible; red route also crosses nearby.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-017",
+      "from": 16,
+      "to": 29,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right/central"
+        }
+      ],
+      "approximateImageRegion": "upper-right/central",
+      "visualExplanation": "Yellow route appears to connect 16 and 29; verify marker endpoint.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-018",
+      "from": 17,
+      "to": 30,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "eastern edge"
+        }
+      ],
+      "approximateImageRegion": "eastern edge",
+      "visualExplanation": "Yellow route visibly links 17 and 30.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-019",
+      "from": 18,
+      "to": 31,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-left"
+        }
+      ],
+      "approximateImageRegion": "upper-left",
+      "visualExplanation": "Yellow route between 18 and 31 is visible.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-020",
+      "from": 19,
+      "to": 32,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-left/central"
+        }
+      ],
+      "approximateImageRegion": "upper-left/central",
+      "visualExplanation": "Yellow route between 19 and 32 is visible.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-021",
+      "from": 20,
+      "to": 33,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central park edge"
+        }
+      ],
+      "approximateImageRegion": "central park edge",
+      "visualExplanation": "Yellow route leaves 20 toward 33; check crossing with red line.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-022",
+      "from": 3,
+      "to": 11,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "approximateImageRegion": "upper-central",
+      "visualExplanation": "Green corridor reaches 11; confirm it does not terminate at the nearby crossing.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-023",
+      "from": 3,
+      "to": 12,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "approximateImageRegion": "upper-central",
+      "visualExplanation": "Green corridor reaches 12; inspect the shared road segment.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-024",
+      "from": 7,
+      "to": 42,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "eastern edge"
+        }
+      ],
+      "approximateImageRegion": "eastern edge",
+      "visualExplanation": "Green route descends from 7 toward 42; endpoint is near crop boundary.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-025",
+      "from": 11,
+      "to": 22,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Green route shares the 11/22 corridor; separate from yellow evidence.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-026",
+      "from": 13,
+      "to": 14,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-central/right"
+        }
+      ],
+      "approximateImageRegion": "upper-central/right",
+      "visualExplanation": "Green line is visible alongside the yellow corridor.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-027",
+      "from": 14,
+      "to": 15,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right"
+        }
+      ],
+      "approximateImageRegion": "upper-right",
+      "visualExplanation": "Green line continues between 14 and 15; verify at the station markers.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-028",
+      "from": 15,
+      "to": 29,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right/central"
+        }
+      ],
+      "approximateImageRegion": "upper-right/central",
+      "visualExplanation": "Green route crosses the 15/29 corridor; inspect line layering.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-029",
+      "from": 15,
+      "to": 41,
+      "transport": "bus",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "eastern-central"
+        }
+      ],
+      "approximateImageRegion": "eastern-central",
+      "visualExplanation": "Green route appears to leave 15 toward 41; needs a tighter crop.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-030",
+      "from": 22,
+      "to": 23,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Green route visibly follows the corridor between 22 and 23.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-031",
+      "from": 22,
+      "to": 34,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central park edge"
+        }
+      ],
+      "approximateImageRegion": "central park edge",
+      "visualExplanation": "Green route continues from 22 toward 34; check the line split.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-032",
+      "from": 1,
+      "to": 46,
+      "transport": "underground",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-left/central"
+        }
+      ],
+      "approximateImageRegion": "upper-left/central",
+      "visualExplanation": "Dashed red route leaves 1 toward the central 46 marker; verify the long diagonal trace.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-033",
+      "from": 13,
+      "to": 46,
+      "transport": "underground",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Dashed red route approaches 46 from the 13 corridor.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-034",
+      "from": 13,
+      "to": 67,
+      "transport": "underground",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "central/right"
+        }
+      ],
+      "approximateImageRegion": "central/right",
+      "visualExplanation": "Dashed red route continues from 13 toward 67; crossing near 67 requires review.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-035",
+      "from": 13,
+      "to": 89,
+      "transport": "underground",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "central/right"
+        }
+      ],
+      "approximateImageRegion": "central/right",
+      "visualExplanation": "Red route appears to continue toward 89; endpoint is distant and requires annotation.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-036",
+      "from": 46,
+      "to": 74,
+      "transport": "underground",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central-left"
+        }
+      ],
+      "approximateImageRegion": "central-left",
+      "visualExplanation": "Dashed red route runs between 46 and 74.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-037",
+      "from": 46,
+      "to": 79,
+      "transport": "underground",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Dashed red route appears to reach 79; inspect overlap with the 46/74 corridor.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-038",
+      "from": 67,
+      "to": 79,
+      "transport": "underground",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Dashed red line is visible between 67 and 79.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-039",
+      "from": 67,
+      "to": 89,
+      "transport": "underground",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "central/right"
+        }
+      ],
+      "approximateImageRegion": "central/right",
+      "visualExplanation": "Long red corridor appears to connect 67 and 89; requires a close annotated crop.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-040",
+      "from": 79,
+      "to": 93,
+      "transport": "underground",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central-left"
+        }
+      ],
+      "approximateImageRegion": "central-left",
+      "visualExplanation": "Dashed red route continues from 79 toward 93.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-041",
+      "from": 79,
+      "to": 100,
+      "transport": "underground",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "approximateImageRegion": "lower-central",
+      "visualExplanation": "Red line appears to continue toward 100; endpoint is near lower crop boundary.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-042",
+      "from": 101,
+      "to": 102,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower-central/eastern edge"
+        }
+      ],
+      "approximateImageRegion": "lower-central/eastern edge",
+      "visualExplanation": "Solid yellow route is visible between the adjacent markers; confirm the nearby green corridor.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-043",
+      "from": 102,
+      "to": 115,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "river-side lower edge"
+        }
+      ],
+      "approximateImageRegion": "river-side lower edge",
+      "visualExplanation": "Yellow route approaches 115; endpoint is close to the crop/river boundary.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-044",
+      "from": 103,
+      "to": 104,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower-left of crop"
+        }
+      ],
+      "approximateImageRegion": "lower-left of crop",
+      "visualExplanation": "Short yellow connection between the visible markers.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-045",
+      "from": 105,
+      "to": 106,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "approximateImageRegion": "lower-right",
+      "visualExplanation": "Yellow route continues toward 106; inspect the line split near the edge.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-046",
+      "from": 105,
+      "to": 107,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "approximateImageRegion": "lower-right",
+      "visualExplanation": "Yellow corridor visibly branches toward 107.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-047",
+      "from": 106,
+      "to": 107,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "eastern lower edge"
+        }
+      ],
+      "approximateImageRegion": "eastern lower edge",
+      "visualExplanation": "Short yellow route between 106 and 107; confirm marker centres.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-048",
+      "from": 107,
+      "to": 108,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower/eastern edge"
+        }
+      ],
+      "approximateImageRegion": "lower/eastern edge",
+      "visualExplanation": "Yellow route follows the edge corridor toward 108.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-049",
+      "from": 109,
+      "to": 110,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "upper section of crop"
+        }
+      ],
+      "approximateImageRegion": "upper section of crop",
+      "visualExplanation": "Short yellow route visibly joins 109 and 110.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-050",
+      "from": 110,
+      "to": 111,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "approximateImageRegion": "upper-central",
+      "visualExplanation": "Yellow line continues from 110 toward 111; red line crosses nearby.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-051",
+      "from": 111,
+      "to": 112,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "approximateImageRegion": "upper-central",
+      "visualExplanation": "Yellow corridor between 111 and 112 is visible.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-052",
+      "from": 112,
+      "to": 113,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Yellow route reaches 113; inspect the adjacent green route.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-053",
+      "from": 113,
+      "to": 114,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Short yellow connection between 113 and 114.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-054",
+      "from": 114,
+      "to": 115,
+      "transport": "taxi",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "river-side boundary"
+        }
+      ],
+      "approximateImageRegion": "river-side boundary",
+      "visualExplanation": "Yellow line appears to approach 115, but water-side geometry needs an annotated crop.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-055",
+      "from": 115,
+      "to": 116,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "river-side"
+        }
+      ],
+      "approximateImageRegion": "river-side",
+      "visualExplanation": "Yellow route is visible along the 115/116 corridor.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-056",
+      "from": 116,
+      "to": 117,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "upper-right"
+        }
+      ],
+      "approximateImageRegion": "upper-right",
+      "visualExplanation": "Yellow line links 116 and 117; endpoint is near image boundary.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-057",
+      "from": 117,
+      "to": 118,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "upper-right"
+        }
+      ],
+      "approximateImageRegion": "upper-right",
+      "visualExplanation": "Short yellow route between 117 and 118.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-058",
+      "from": 118,
+      "to": 119,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "right edge"
+        }
+      ],
+      "approximateImageRegion": "right edge",
+      "visualExplanation": "Yellow route continues from 118 toward 119.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-059",
+      "from": 127,
+      "to": 133,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central-right"
+        }
+      ],
+      "approximateImageRegion": "central-right",
+      "visualExplanation": "Yellow corridor is visible between 127 and 133.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-060",
+      "from": 128,
+      "to": 135,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "upper-right/central"
+        }
+      ],
+      "approximateImageRegion": "upper-right/central",
+      "visualExplanation": "Yellow route reaches 135; inspect the nearby green line.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-061",
+      "from": 129,
+      "to": 130,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "central-right"
+        }
+      ],
+      "approximateImageRegion": "central-right",
+      "visualExplanation": "Short yellow connection between 129 and 130.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-062",
+      "from": 133,
+      "to": 140,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Yellow route leaves 133 toward 140; bridge/landmark detail is nearby.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-063",
+      "from": 140,
+      "to": 154,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central-lower"
+        }
+      ],
+      "approximateImageRegion": "central-lower",
+      "visualExplanation": "Yellow corridor visibly continues from 140 toward 154.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-064",
+      "from": 154,
+      "to": 155,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "approximateImageRegion": "lower-central",
+      "visualExplanation": "Short yellow route between 154 and 155.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-065",
+      "from": 155,
+      "to": 156,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "approximateImageRegion": "lower-central",
+      "visualExplanation": "Yellow route links 155 and 156.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-066",
+      "from": 156,
+      "to": 157,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "Thames-side lower"
+        }
+      ],
+      "approximateImageRegion": "Thames-side lower",
+      "visualExplanation": "Yellow route approaches 157; bridge/river lines require review.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-067",
+      "from": 157,
+      "to": 158,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "upper-left of crop"
+        }
+      ],
+      "approximateImageRegion": "upper-left of crop",
+      "visualExplanation": "Yellow route appears to continue east from 157 toward 158.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-068",
+      "from": 158,
+      "to": 159,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Yellow corridor reaches 159; inspect the crossing at 159.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-069",
+      "from": 159,
+      "to": 160,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "central-right"
+        }
+      ],
+      "approximateImageRegion": "central-right",
+      "visualExplanation": "Yellow route between 159 and 160 is visible.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-070",
+      "from": 160,
+      "to": 161,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "approximateImageRegion": "lower-right",
+      "visualExplanation": "Yellow route links 160 and 161.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-071",
+      "from": 161,
+      "to": 162,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "approximateImageRegion": "lower-right",
+      "visualExplanation": "Yellow route appears to continue from 161 to 162.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-072",
+      "from": 162,
+      "to": 174,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-right edge"
+        }
+      ],
+      "approximateImageRegion": "lower-right edge",
+      "visualExplanation": "Yellow route follows the lower-right corridor.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-073",
+      "from": 163,
+      "to": 164,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-left"
+        }
+      ],
+      "approximateImageRegion": "lower-left",
+      "visualExplanation": "Short yellow connection between 163 and 164.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-074",
+      "from": 164,
+      "to": 165,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-left/central"
+        }
+      ],
+      "approximateImageRegion": "lower-left/central",
+      "visualExplanation": "Yellow route continues from 164 toward 165.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-075",
+      "from": 165,
+      "to": 166,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "approximateImageRegion": "lower-central",
+      "visualExplanation": "Yellow route visible along the 165/166 corridor.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-076",
+      "from": 166,
+      "to": 167,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "approximateImageRegion": "lower-central",
+      "visualExplanation": "Yellow route appears to join 166 and 167.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-077",
+      "from": 167,
+      "to": 168,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "approximateImageRegion": "lower-central",
+      "visualExplanation": "Yellow corridor continues toward 168.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-078",
+      "from": 168,
+      "to": 169,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "approximateImageRegion": "lower-central",
+      "visualExplanation": "Yellow route is visible between 168 and 169.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-079",
+      "from": 169,
+      "to": 170,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "approximateImageRegion": "lower-central",
+      "visualExplanation": "Yellow route approaches 170 near the river crossings.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-080",
+      "from": 170,
+      "to": 171,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "approximateImageRegion": "lower-central",
+      "visualExplanation": "Yellow corridor continues between 170 and 171.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-081",
+      "from": 171,
+      "to": 172,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "approximateImageRegion": "lower-right",
+      "visualExplanation": "Yellow route appears to connect 171 and 172.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-082",
+      "from": 172,
+      "to": 173,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "approximateImageRegion": "lower-right",
+      "visualExplanation": "Yellow line continues toward 173.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-083",
+      "from": 173,
+      "to": 175,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-right edge"
+        }
+      ],
+      "approximateImageRegion": "lower-right edge",
+      "visualExplanation": "Yellow route between 173 and 175 is visible.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-084",
+      "from": 187,
+      "to": 188,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-left of crop"
+        }
+      ],
+      "approximateImageRegion": "lower-left of crop",
+      "visualExplanation": "Short yellow route between 187 and 188.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-085",
+      "from": 188,
+      "to": 199,
+      "transport": "taxi",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower edge"
+        }
+      ],
+      "approximateImageRegion": "lower edge",
+      "visualExplanation": "Yellow route follows the lower edge toward 199.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-086",
+      "from": 199,
+      "to": 200,
+      "transport": "taxi",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower edge"
+        }
+      ],
+      "approximateImageRegion": "lower edge",
+      "visualExplanation": "Yellow line visibly reaches the printed 200 marker; edition status remains unresolved.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-087",
+      "from": 102,
+      "to": 115,
+      "transport": "bus",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "river-side lower edge"
+        }
+      ],
+      "approximateImageRegion": "river-side lower edge",
+      "visualExplanation": "Green line appears to share the corridor; separate it from the yellow route.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-088",
+      "from": 105,
+      "to": 107,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "approximateImageRegion": "lower-right",
+      "visualExplanation": "Solid green route is visible alongside the yellow corridor.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-089",
+      "from": 105,
+      "to": 108,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower-right edge"
+        }
+      ],
+      "approximateImageRegion": "lower-right edge",
+      "visualExplanation": "Green route continues from 105 toward 108; endpoint is near the crop edge.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-090",
+      "from": 107,
+      "to": 161,
+      "transport": "bus",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "eastern/lower edge"
+        }
+      ],
+      "approximateImageRegion": "eastern/lower edge",
+      "visualExplanation": "Long green corridor appears to continue toward 161; requires a full-crop trace.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-091",
+      "from": 108,
+      "to": 116,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "river-side"
+        }
+      ],
+      "approximateImageRegion": "river-side",
+      "visualExplanation": "Green route follows the water-side corridor between 108 and 116.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-092",
+      "from": 109,
+      "to": 124,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central-left"
+        }
+      ],
+      "approximateImageRegion": "central-left",
+      "visualExplanation": "Green line leaves 109 toward 124; inspect the park boundary.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-093",
+      "from": 111,
+      "to": 124,
+      "transport": "bus",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Green route appears to connect 111 and 124; line crossing needs annotation.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-094",
+      "from": 116,
+      "to": 127,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "approximateImageRegion": "upper-central",
+      "visualExplanation": "Green route is visible from 116 toward 127.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-095",
+      "from": 116,
+      "to": 142,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Green corridor continues toward 142.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-096",
+      "from": 122,
+      "to": 123,
+      "transport": "bus",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "upper-left"
+        }
+      ],
+      "approximateImageRegion": "upper-left",
+      "visualExplanation": "Short green route between 122 and 123.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-097",
+      "from": 123,
+      "to": 124,
+      "transport": "bus",
+      "confidence": "high",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "approximateImageRegion": "upper-central",
+      "visualExplanation": "Green route visibly continues from 123 to 124.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-098",
+      "from": 123,
+      "to": 144,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "left edge"
+        }
+      ],
+      "approximateImageRegion": "left edge",
+      "visualExplanation": "Green route leaves 123 toward 144; confirm the lower-left continuation.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-099",
+      "from": 123,
+      "to": 165,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central/lower-left"
+        }
+      ],
+      "approximateImageRegion": "central/lower-left",
+      "visualExplanation": "Green corridor appears to reach 165.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-100",
+      "from": 124,
+      "to": 153,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Green route continues from 124 toward 153.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-101",
+      "from": 127,
+      "to": 133,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central-right"
+        }
+      ],
+      "approximateImageRegion": "central-right",
+      "visualExplanation": "Green route shares the 127/133 corridor; separate from taxi.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-102",
+      "from": 128,
+      "to": 142,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Green route visibly runs between 128 and 142.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-103",
+      "from": 128,
+      "to": 161,
+      "transport": "bus",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "central-right"
+        }
+      ],
+      "approximateImageRegion": "central-right",
+      "visualExplanation": "Green line appears to continue to 161; endpoint needs a tighter crop.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-104",
+      "from": 133,
+      "to": 140,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Green route shares the 133/140 corridor.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-105",
+      "from": 140,
+      "to": 156,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central-lower"
+        }
+      ],
+      "approximateImageRegion": "central-lower",
+      "visualExplanation": "Green route appears to link 140 and 156.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-106",
+      "from": 156,
+      "to": 157,
+      "transport": "bus",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "Thames-side"
+        }
+      ],
+      "approximateImageRegion": "Thames-side",
+      "visualExplanation": "Green line is visible near 156/157; river crossing needs review.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-107",
+      "from": 104,
+      "to": 115,
+      "transport": "underground",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "river-side"
+        }
+      ],
+      "approximateImageRegion": "river-side",
+      "visualExplanation": "Dashed red route appears to reach 115; endpoint is close to the water/edge.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-108",
+      "from": 105,
+      "to": 108,
+      "transport": "underground",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "approximateImageRegion": "lower-right",
+      "visualExplanation": "Red route is visible in the corridor but may terminate at a crossing; annotate before acceptance.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-109",
+      "from": 111,
+      "to": 153,
+      "transport": "underground",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central/lower-left"
+        }
+      ],
+      "approximateImageRegion": "central/lower-left",
+      "visualExplanation": "Dashed red route visibly runs from 111 toward 153.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-110",
+      "from": 111,
+      "to": 163,
+      "transport": "underground",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-left"
+        }
+      ],
+      "approximateImageRegion": "lower-left",
+      "visualExplanation": "Red route appears to continue to 163.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-111",
+      "from": 128,
+      "to": 140,
+      "transport": "underground",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "central"
+        }
+      ],
+      "approximateImageRegion": "central",
+      "visualExplanation": "Dashed red route is visible between 128 and 140.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-112",
+      "from": 128,
+      "to": 185,
+      "transport": "underground",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "approximateImageRegion": "lower-central",
+      "visualExplanation": "Long red route appears to continue toward 185; endpoint is distant.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-113",
+      "from": 140,
+      "to": 153,
+      "transport": "underground",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central/lower"
+        }
+      ],
+      "approximateImageRegion": "central/lower",
+      "visualExplanation": "Dashed red route visibly crosses the 140/153 corridor.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-114",
+      "from": 153,
+      "to": 163,
+      "transport": "underground",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-left/central"
+        }
+      ],
+      "approximateImageRegion": "lower-left/central",
+      "visualExplanation": "Red route appears to link 153 and 163.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-115",
+      "from": 153,
+      "to": 185,
+      "transport": "underground",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "approximateImageRegion": "lower-central",
+      "visualExplanation": "Long red route is visible toward 185; requires overlap review.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-116",
+      "from": 185,
+      "to": 187,
+      "transport": "underground",
+      "confidence": "medium",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "approximateImageRegion": "lower-right",
+      "visualExplanation": "Dashed red route appears to connect 185 and 187.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-117",
+      "from": 46,
+      "to": 101,
+      "transport": "underground",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "cross-boundary"
+        },
+        {
+          "file": "top-right.jpeg",
+          "region": "cross-boundary"
+        }
+      ],
+      "approximateImageRegion": "cross-boundary",
+      "visualExplanation": "Long dashed route appears to continue toward 101; endpoint and route split require annotation.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-118",
+      "from": 67,
+      "to": 102,
+      "transport": "bus",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "cross-boundary"
+        }
+      ],
+      "approximateImageRegion": "cross-boundary",
+      "visualExplanation": "Green corridor appears to leave 67 toward 102; crossing is difficult to distinguish.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-119",
+      "from": 79,
+      "to": 110,
+      "transport": "underground",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-left.jpeg",
+          "region": "cross-boundary"
+        },
+        {
+          "file": "bottom-left.jpeg",
+          "region": "cross-boundary"
+        }
+      ],
+      "approximateImageRegion": "cross-boundary",
+      "visualExplanation": "Red route appears to continue across the image boundary; verify both endpoint markers.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-120",
+      "from": 82,
+      "to": 101,
+      "transport": "bus",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "cross-boundary"
+        }
+      ],
+      "approximateImageRegion": "cross-boundary",
+      "visualExplanation": "Green line may reach 101; endpoint is close to a crossing.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-121",
+      "from": 89,
+      "to": 118,
+      "transport": "bus",
+      "confidence": "low",
+      "verificationStatus": "provisional",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "cross-boundary"
+        },
+        {
+          "file": "bottom-right.jpeg",
+          "region": "cross-boundary"
+        }
+      ],
+      "approximateImageRegion": "cross-boundary",
+      "visualExplanation": "Water-side/eastern route is visible but endpoint trace is not yet conclusive.",
+      "unresolvedNotes": ""
+    },
+    {
+      "edgeId": "E-122",
+      "from": 108,
+      "to": 115,
+      "transport": "boat",
+      "confidence": "low",
+      "verificationStatus": "unresolved",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "Thames route"
+        },
+        {
+          "file": "complete.jpeg",
+          "region": "Thames route"
+        }
+      ],
+      "approximateImageRegion": "Thames route",
+      "visualExplanation": "Thames region and both marker areas are visible, but the black/river line cannot be traced continuously between endpoints.",
+      "unresolvedNotes": "Thames region and both marker areas are visible, but the black/river line cannot be traced continuously between endpoints."
+    },
+    {
+      "edgeId": "E-123",
+      "from": 115,
+      "to": 118,
+      "transport": "boat",
+      "confidence": "low",
+      "verificationStatus": "unresolved",
+      "evidence": [
+        {
+          "file": "top-right.jpeg",
+          "region": "Thames route"
+        },
+        {
+          "file": "bottom-right.jpeg",
+          "region": "Thames route"
+        }
+      ],
+      "approximateImageRegion": "Thames route",
+      "visualExplanation": "Water-side markers are visible; endpoint route is obscured by bridge/river geometry.",
+      "unresolvedNotes": "Water-side markers are visible; endpoint route is obscured by bridge/river geometry."
+    },
+    {
+      "edgeId": "E-124",
+      "from": 115,
+      "to": 157,
+      "transport": "boat",
+      "confidence": "low",
+      "verificationStatus": "unresolved",
+      "evidence": [
+        {
+          "file": "complete.jpeg",
+          "region": "Thames route"
+        },
+        {
+          "file": "bottom-left.jpeg",
+          "region": "Thames route"
+        }
+      ],
+      "approximateImageRegion": "Thames route",
+      "visualExplanation": "River and bridges are visible, but no clean endpoint trace is recorded.",
+      "unresolvedNotes": "River and bridges are visible, but no clean endpoint trace is recorded."
+    },
+    {
+      "edgeId": "E-125",
+      "from": 157,
+      "to": 194,
+      "transport": "boat",
+      "confidence": "low",
+      "verificationStatus": "unresolved",
+      "evidence": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "Thames route"
+        },
+        {
+          "file": "complete.jpeg",
+          "region": "Thames route"
+        }
+      ],
+      "approximateImageRegion": "Thames route",
+      "visualExplanation": "Southern Thames region is visible; the boat line needs a dedicated annotated crop.",
+      "unresolvedNotes": "Southern Thames region is visible; the boat line needs a dedicated annotated crop."
+    }
+  ]
+}
