@@ -8,7 +8,7 @@ The repository is on `feat/board-photo-transcription` for this audit. The canoni
 
 ## Target-edition identification
 
-The project decision identifies the target as the 1985 Milton Bradley / Funskool India edition, product code 4500-X2. The supplied board photographs are consistent with a Central London Scotland Yard board and visibly show the blue Scotland Yard / A Milton Bradley Game border. They do not show a sufficiently legible copyright panel in the accessible images to independently re-read every identification field.
+The supplied rulebook PDF provides direct identity evidence on page 12: `© 1985 by Milton Bradley Co.`, `Manufactured under licence by Funskool (India) Ltd.`, and product code `4500-X2`. The project decision therefore has strong primary rulebook support. The supplied board photographs are consistent with a Central London Scotland Yard board and visibly show the blue Scotland Yard / A Milton Bradley Game border, but they do not show a sufficiently legible copyright panel to prove that the photographed board is exactly the same target edition.
 
 The close-up image visibly includes station `200`. This is an observed physical-board fact, not a resolution of the project’s locked 1–199 target. It may indicate an edition difference, a modified/reference board, or a reading/identification issue. It remains unresolved.
 
@@ -86,7 +86,7 @@ The set supports a consistent orientation and an approximate board boundary. It 
 
 IMG-12 clearly shows a printed marker labelled `200` in the lower/right region, and IMG-08 provides whole-board context for the same board. This confirms that `200` is physically present in the newly photographed board. It does not resolve whether the photographed board is the exact locked 4500-X2 target, whether the project’s 1–199 assumption is wrong, or whether an edition/reference discrepancy exists. The 1–199 project target and package validator are retained unchanged pending owner approval based on edition evidence.
 
-No station `200` record has been added to the package. No station inventory has been generated from the photographs.
+No station `200` record has been added to the package. The visual station inventory records marker presence only; it is not canonical station data.
 
 ## Boat-route evidence
 
@@ -95,6 +95,8 @@ The supplied rulebook states the black-ticket river journey in the reviewed page
 ## Starting-position evidence
 
 IMG-03 contains readable card faces, including several values, but it is a casual spread with cropped cards and no controlled count or edition panel. It can support a future transcription worksheet after each card is re-photographed face-up, numbered in a complete inventory, and cross-checked against the target edition. It does not justify a canonical starting-position dataset or allocation logic.
+
+The Phase 3C.1 audit records 13 safely legible observed values from IMG-03, but does not treat them as the complete 18-card set. The rulebook confirms the count of 18 cards and the card-driven setup, not the full number list.
 
 ## Confirmed, unresolved, and unsupported facts
 
@@ -109,13 +111,18 @@ Confirmed for evidence workflow:
 Unresolved:
 
 - Whether the photographed board is exactly product 4500-X2.
-- Whether the photographed board is exactly product 4500-X2.
 - Whether the target physical edition contains 199 or 200 numbered stations.
 - The complete station inventory and every station centre.
 - The complete taxi, bus, underground, and boat topology.
 - The complete starting-position card set.
 - A geometrically accurate board boundary and fold model.
 - A complete, independently reviewed edge transcription.
+- A complete, independently reviewed station 1–100 edge transcription; the current pass has only a provisional review set.
+- A complete, independently reviewed station 101–200 edge transcription; Phase 3B.4 currently adds only a partial provisional review set and five provisional cross-boundary candidates.
+- A validated candidate-edge artifact; Phase 3B.5 now provides a non-canonical JSON mirror and human-review queue, but no candidate is playable or canonical.
+- A targeted Phase 3B.6 review of conflicting, low-confidence, cross-boundary, boat, and station-200 observations; no candidate was promoted to verified status.
+- Direct rulebook identity evidence for 1985 Milton Bradley / Funskool India / `4500-X2` is now recorded; exact board-photo identity remains probable but unproven.
+- Phase 3C.1 starting-position audit records 13 legible card values, not a complete or canonical 18-value list.
 
 Unsupported and deliberately not claimed:
 

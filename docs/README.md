@@ -13,7 +13,12 @@ This directory is the repository’s durable documentation index. It describes t
 - [Coordinate reconstruction](game/BOARD-COORDINATE-RECONSTRUCTION.md) — reproducible board-plane calibration and normalized-coordinate method.
 - [Transcription workflow](game/BOARD-TRANSCRIPTION-WORKFLOW.md) — evidence-linked station/edge transcription and review gates.
 - [Station inventory](game/BOARD-STATION-INVENTORY.md) — physical marker observations from the Phase 3B.2 photographs; not canonical station data.
+- [Edition identity audit](game/BOARD-EDITION-IDENTITY.md) — rulebook identity evidence and the unresolved board-to-rulebook match.
+- [Canonical inventory decision](game/BOARD-CANONICAL-INVENTORY-DECISION.md) — deferred 199-versus-200 playable-station decision and evidence gates.
+- [Starting-position audit](game/BOARD-STARTING-POSITIONS-AUDIT.md) — partial card-face observations and missing evidence for all 18 start positions.
 - [Edge transcription](game/BOARD-EDGE-TRANSCRIPTION.md) — transport-line evidence boundary and future endpoint-record format.
+- [Edge candidate dataset](game/data/board-edge-candidates-1-200.json) — machine-readable, non-canonical candidate edges and evidence references.
+- [Edge human-review queue](game/BOARD-EDGE-HUMAN-REVIEW.md) — prioritized review batches for ambiguous and conflicting observations.
 - [Discrepancy ledger](game/BOARD-DISCREPANCY-LEDGER.md) — unresolved station-range, boat-route, starting-card, and calibration decisions.
 
 ## Application documentation
