@@ -2,9 +2,9 @@
 
 ## Status
 
-This is the Phase 3B.1 evidence audit for the locked target: the 1985 Milton Bradley Scotland Yard board manufactured under licence by Funskool (India) Ltd., product code 4500-X2. The physical board is the primary visual authority. This register does not create canonical stations, edges, coordinates, or starting positions.
+This register now includes the Phase 3B.2 five-photo set. The locked target remains the 1985 Milton Bradley Scotland Yard board manufactured under licence by Funskool (India) Ltd., product code 4500-X2. The physical board is the primary visual authority. This register does not create canonical stations, edges, coordinates, or starting positions.
 
-The repository remains on `feat/board-evidence-audit` with a clean working tree at the start of this audit. The canonical dataset remains unavailable in `@scotland-yard-live/board-data`, and the existing synthetic web board remains active.
+The repository is on `feat/board-photo-transcription` for this audit. The canonical dataset remains unavailable in `@scotland-yard-live/board-data`, and the existing synthetic web board remains active.
 
 ## Target-edition identification
 
@@ -28,6 +28,18 @@ Dimensions were read from the image files, not inferred from the rendered chat p
 
 Classification means suitability for reconstruction, not aesthetic quality: A would support precise transcription, B supports partial transcription with cross-checking, C is contextual/card evidence, and D would be unusable.
 
+### Phase 3B.2 photographs
+
+| ID     | File                                                | Dimensions | Aspect | Classification | Coverage and limitations                                                                                                                                                                                                                                                            |
+| ------ | --------------------------------------------------- | ---------: | -----: | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| IMG-08 | `docs/game/evidence/board-photos/complete.jpeg`     |   1280×892 |  1.435 | B              | Complete board and all four outer edges are visible in a landscape capture. Orientation is coherent and substantially better for region coverage than the earlier portrait photos, but the source is still not a calibrated scan; small route junctions need close-up confirmation. |
+| IMG-09 | `docs/game/evidence/board-photos/top-left.jpeg`     |   925×1280 |  0.723 | B              | Upper-left/upper-central region, including stations 1–114 and the northern parks/city area. Rotated relative to the board, cropped, and perspective-distorted; strong for station-number and local line inspection.                                                                 |
+| IMG-10 | `docs/game/evidence/board-photos/top-right.jpeg`    |   885×1280 |  0.691 | B              | Upper-right/eastern-central region, including stations roughly 4–107 and the eastern river/bridge area. Rotated/cropped; overlaps IMG-09 and IMG-08.                                                                                                                                |
+| IMG-11 | `docs/game/evidence/board-photos/bottom-left.jpeg`  |   914×1280 |  0.714 | B              | Lower-left/southwestern region, including stations roughly 113–197 and the western/southern Thames. Rotated/cropped; overlaps IMG-08 and the lower central area.                                                                                                                    |
+| IMG-12 | `docs/game/evidence/board-photos/bottom-right.jpeg` |  1080×1499 |  0.720 | B              | Lower-right/southeastern region, including stations roughly 113–200 and the eastern/southern Thames. Rotated/cropped; provides the clearest new confirmation of the printed `200` marker.                                                                                           |
+
+The new set is substantially more useful than the earlier portrait captures. It still does not support a complete, independently reviewed edge transcription: the close-ups are rotated/cropped and the complete view is not high enough resolution to settle every line crossing without ambiguity.
+
 ## Region-coverage inventory
 
 | Region                             | Available evidence                                  | Coverage result                                                                                                       |
@@ -44,35 +56,35 @@ Classification means suitability for reconstruction, not aesthetic quality: A wo
 
 ### Is there a complete, straight-on image?
 
-No. IMG-04–IMG-07 show nearly the full board, but they are handheld perspective photographs. IMG-01 is a lower-resolution overview. None provides a flat board plane with all corners, consistent lighting, and no glare/fold interference.
+`complete.jpeg` is a complete landscape reference with all four board edges visible and a coherent orientation. It is not a calibrated straight-on scan: the board remains photographed on fabric, with mild perspective and insufficient pixel density for final station-centre and edge measurement. The four close-ups provide overlap and detail but are individually rotated/cropped.
 
 ### Can all station numbers be read?
 
-No, not reliably at one time from one image. Many numbers are visually present in the full-board images, but the perspective and resolution make a complete auditable transcription unsafe. IMG-02 supports local reading only.
+The new five-photo set supports a conservative station-number inventory from 1 through 200. The complete image provides sequence context and the four close-ups provide local confirmation. This confirms printed marker observations, not canonical edition inventory or transport connectivity.
 
 ### Can taxi, bus, and underground lines be distinguished?
 
-Often locally, yes: the board’s yellow, green, and red route conventions are visible. Not reliably across the full board because glare, blur, fold geometry, and line crossings obscure individual routes. No complete edge list is verified by this register.
+Yes, locally: solid yellow taxi, solid green bus, and dashed red underground markings are visibly distinct in the new close-ups. However, the images do not yet establish every endpoint and line crossing well enough for a complete verified edge list. No canonical edge has been added.
 
 ### Can boat connections be traced?
 
-The Thames geography and water region are visible, but the supplied photographs do not provide a clean, close, straight-on trace of every boat connection and endpoint. The original rules remain the stronger source for the rule wording; the target-board visual cross-check is unresolved.
+The Thames, bridges, and water-side station markers are substantially clearer in IMG-08 and IMG-11/IMG-12. The photographs establish the geography and visible boat-line context, but not a complete, unambiguous endpoint transcription for all candidate discrepancies. The original rules remain the stronger source for rule wording; target-board edge verification remains unresolved.
 
 ### Are board edges and the coordinate frame visible?
 
-The outer board edge is visible in the complete-board photographs, but perspective changes the apparent frame and the physical fold is visible. This is sufficient to design a calibration workflow, not to commit final normalized coordinates.
+Yes, IMG-08 clearly shows the complete outer frame. It is sufficient to define a working board orientation and approximate boundary, but not to commit final normalized coordinates because the image is not a calibrated scan and the close-ups do not yet provide measured control-point overlap.
 
 ### Are labels hidden by glare, folds, or pieces?
 
-Yes. IMG-04 has strong central glare; IMG-05/IMG-06 show reflective/dark areas; all complete-board captures include a fold/seam or perspective effects. No pawns materially block the supplied board overview, but small station graphics and route junctions remain difficult to audit.
+The new images have no major pawn occlusion. Cropping, rotation, perspective, fabric boundary, and small route crossings remain limitations. The earlier images still have glare/fold issues, but the new `complete.jpeg` is the primary overall reference.
 
 ### Can accurate coordinate extraction be performed?
 
-Not from this set alone. Coordinates can be estimated for a prototype overlay, but the evidence does not support verified canonical coordinates or a claim of 1:1 accuracy.
+The set supports a consistent orientation and an approximate board boundary. It does not yet support verified canonical coordinates: `complete.jpeg` is only 1280×892 and the close-ups lack recorded corner control points and a controlled calibration target.
 
 ## Station 200 discrepancy
 
-IMG-02 clearly shows a marker labelled `200` in the visible lower/right region. This conflicts with the locked project target of stations 1–199. The correct interpretation is unresolved: the photograph may represent a related edition, the target may have a different inventory than assumed, or the board/reference may include a non-station notation. The 1–199 project target is therefore retained but not independently confirmed.
+IMG-12 clearly shows a printed marker labelled `200` in the lower/right region, and IMG-08 provides whole-board context for the same board. This confirms that `200` is physically present in the newly photographed board. It does not resolve whether the photographed board is the exact locked 4500-X2 target, whether the project’s 1–199 assumption is wrong, or whether an edition/reference discrepancy exists. The 1–199 project target and package validator are retained unchanged pending owner approval based on edition evidence.
 
 No station `200` record has been added to the package. No station inventory has been generated from the photographs.
 
@@ -91,16 +103,19 @@ Confirmed for evidence workflow:
 - The supplied images depict a Central London Scotland Yard board with the expected transport colour language and Thames geography.
 - IMG-02 visibly contains a `200` marker.
 - The available image files are all portrait-oriented captures with the dimensions listed above.
-- The accessible complete-board images are perspective-distorted and affected by glare and/or a fold.
+- The new set contains a complete landscape reference and four overlapping regional close-ups.
+- The new set visibly includes station `200`.
 
 Unresolved:
 
+- Whether the photographed board is exactly product 4500-X2.
 - Whether the photographed board is exactly product 4500-X2.
 - Whether the target physical edition contains 199 or 200 numbered stations.
 - The complete station inventory and every station centre.
 - The complete taxi, bus, underground, and boat topology.
 - The complete starting-position card set.
 - A geometrically accurate board boundary and fold model.
+- A complete, independently reviewed edge transcription.
 
 Unsupported and deliberately not claimed:
 

@@ -12,6 +12,9 @@ This directory is the repository’s durable documentation index. It describes t
 - [Physical board evidence register](game/BOARD-EVIDENCE-REGISTER.md) — image inventory, quality classifications, region coverage, and missing evidence.
 - [Coordinate reconstruction](game/BOARD-COORDINATE-RECONSTRUCTION.md) — reproducible board-plane calibration and normalized-coordinate method.
 - [Transcription workflow](game/BOARD-TRANSCRIPTION-WORKFLOW.md) — evidence-linked station/edge transcription and review gates.
+- [Station inventory](game/BOARD-STATION-INVENTORY.md) — physical marker observations from the Phase 3B.2 photographs; not canonical station data.
+- [Edge transcription](game/BOARD-EDGE-TRANSCRIPTION.md) — transport-line evidence boundary and future endpoint-record format.
+- [Discrepancy ledger](game/BOARD-DISCREPANCY-LEDGER.md) — unresolved station-range, boat-route, starting-card, and calibration decisions.
 
 ## Application documentation
 
