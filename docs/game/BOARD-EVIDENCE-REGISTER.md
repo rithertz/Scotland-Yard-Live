@@ -123,6 +123,7 @@ Unresolved:
 - A targeted Phase 3B.6 review of conflicting, low-confidence, cross-boundary, boat, and station-200 observations; no candidate was promoted to verified status.
 - Direct rulebook identity evidence for 1985 Milton Bradley / Funskool India / `4500-X2` is now recorded; exact board-photo identity remains probable but unproven.
 - Phase 3C.1 starting-position audit records 13 legible card values, not a complete or canonical 18-value list.
+- Phase 3C.2 audited all 125 candidate edges: 121 land-route rows remain provisional and 4 boat rows remain unresolved; no row was promoted to verified.
 
 Unsupported and deliberately not claimed:
 

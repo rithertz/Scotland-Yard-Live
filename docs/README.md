@@ -19,6 +19,8 @@ This directory is the repository’s durable documentation index. It describes t
 - [Edge transcription](game/BOARD-EDGE-TRANSCRIPTION.md) — transport-line evidence boundary and future endpoint-record format.
 - [Edge candidate dataset](game/data/board-edge-candidates-1-200.json) — machine-readable, non-canonical candidate edges and evidence references.
 - [Edge human-review queue](game/BOARD-EDGE-HUMAN-REVIEW.md) — prioritized review batches for ambiguous and conflicting observations.
+- [Graph verification](game/BOARD-GRAPH-VERIFICATION.md) — Phase 3C.2 audit of the non-canonical 125-row candidate set.
+- [Canonical graph decision](game/BOARD-CANONICAL-GRAPH-DECISION.md) — evidence gate decision; no canonical graph has been introduced.
 - [Discrepancy ledger](game/BOARD-DISCREPANCY-LEDGER.md) — unresolved station-range, boat-route, starting-card, and calibration decisions.
 
 ## Application documentation

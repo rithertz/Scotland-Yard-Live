@@ -246,3 +246,11 @@ The previous discrepancy includes `108–115`, `115–118`, `115–157`, and `15
 ## Acceptance rule for the next pass
 
 An edge may become `verified-from-physical-board` only when both endpoint markers and the intervening transport line are visible in a source crop, with no unresolved crossing or occlusion. A second reviewer must reproduce the reading. Until then, leave the row absent from canonical data or explicitly unresolved in an annotation worksheet.
+
+## Phase 3C.2 graph audit
+
+The 125-row candidate artifact was audited without changing this evidence
+boundary. All 66 taxi, 33 bus, and 22 underground rows remain provisional; all
+four boat rows remain unresolved. No candidate is a verified or canonical
+transport edge. See [BOARD-GRAPH-VERIFICATION.md](BOARD-GRAPH-VERIFICATION.md)
+and [BOARD-CANONICAL-GRAPH-DECISION.md](BOARD-CANONICAL-GRAPH-DECISION.md).
