@@ -1,0 +1,441 @@
+{
+  "grid": {
+    "rows": 4,
+    "cols": 5,
+    "total_tiles": 20
+  },
+  "canvas_dimensions": [
+    1350,
+    1000
+  ],
+  "tile_dimensions": [
+    380,
+    350
+  ],
+  "overlap_px": {
+    "horizontal": 138,
+    "vertical": 133
+  },
+  "tiles": [
+    {
+      "tile_id": "A1",
+      "row": "A",
+      "col": 1,
+      "bounds_canvas_px": [
+        0,
+        0,
+        380,
+        350
+      ],
+      "bounds_normalized": [
+        0.0,
+        0.0,
+        0.2815,
+        0.35
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "A2",
+      "row": "A",
+      "col": 2,
+      "bounds_canvas_px": [
+        242,
+        0,
+        622,
+        350
+      ],
+      "bounds_normalized": [
+        0.1793,
+        0.0,
+        0.4607,
+        0.35
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "A3",
+      "row": "A",
+      "col": 3,
+      "bounds_canvas_px": [
+        485,
+        0,
+        865,
+        350
+      ],
+      "bounds_normalized": [
+        0.3593,
+        0.0,
+        0.6407,
+        0.35
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "A4",
+      "row": "A",
+      "col": 4,
+      "bounds_canvas_px": [
+        728,
+        0,
+        1108,
+        350
+      ],
+      "bounds_normalized": [
+        0.5393,
+        0.0,
+        0.8207,
+        0.35
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "A5",
+      "row": "A",
+      "col": 5,
+      "bounds_canvas_px": [
+        970,
+        0,
+        1350,
+        350
+      ],
+      "bounds_normalized": [
+        0.7185,
+        0.0,
+        1.0,
+        0.35
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "B1",
+      "row": "B",
+      "col": 1,
+      "bounds_canvas_px": [
+        0,
+        217,
+        380,
+        567
+      ],
+      "bounds_normalized": [
+        0.0,
+        0.217,
+        0.2815,
+        0.567
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "B2",
+      "row": "B",
+      "col": 2,
+      "bounds_canvas_px": [
+        242,
+        217,
+        622,
+        567
+      ],
+      "bounds_normalized": [
+        0.1793,
+        0.217,
+        0.4607,
+        0.567
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "B3",
+      "row": "B",
+      "col": 3,
+      "bounds_canvas_px": [
+        485,
+        217,
+        865,
+        567
+      ],
+      "bounds_normalized": [
+        0.3593,
+        0.217,
+        0.6407,
+        0.567
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "B4",
+      "row": "B",
+      "col": 4,
+      "bounds_canvas_px": [
+        728,
+        217,
+        1108,
+        567
+      ],
+      "bounds_normalized": [
+        0.5393,
+        0.217,
+        0.8207,
+        0.567
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "B5",
+      "row": "B",
+      "col": 5,
+      "bounds_canvas_px": [
+        970,
+        217,
+        1350,
+        567
+      ],
+      "bounds_normalized": [
+        0.7185,
+        0.217,
+        1.0,
+        0.567
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "C1",
+      "row": "C",
+      "col": 1,
+      "bounds_canvas_px": [
+        0,
+        433,
+        380,
+        783
+      ],
+      "bounds_normalized": [
+        0.0,
+        0.433,
+        0.2815,
+        0.783
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "C2",
+      "row": "C",
+      "col": 2,
+      "bounds_canvas_px": [
+        242,
+        433,
+        622,
+        783
+      ],
+      "bounds_normalized": [
+        0.1793,
+        0.433,
+        0.4607,
+        0.783
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "C3",
+      "row": "C",
+      "col": 3,
+      "bounds_canvas_px": [
+        485,
+        433,
+        865,
+        783
+      ],
+      "bounds_normalized": [
+        0.3593,
+        0.433,
+        0.6407,
+        0.783
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "C4",
+      "row": "C",
+      "col": 4,
+      "bounds_canvas_px": [
+        728,
+        433,
+        1108,
+        783
+      ],
+      "bounds_normalized": [
+        0.5393,
+        0.433,
+        0.8207,
+        0.783
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "C5",
+      "row": "C",
+      "col": 5,
+      "bounds_canvas_px": [
+        970,
+        433,
+        1350,
+        783
+      ],
+      "bounds_normalized": [
+        0.7185,
+        0.433,
+        1.0,
+        0.783
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "D1",
+      "row": "D",
+      "col": 1,
+      "bounds_canvas_px": [
+        0,
+        650,
+        380,
+        1000
+      ],
+      "bounds_normalized": [
+        0.0,
+        0.65,
+        0.2815,
+        1.0
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "D2",
+      "row": "D",
+      "col": 2,
+      "bounds_canvas_px": [
+        242,
+        650,
+        622,
+        1000
+      ],
+      "bounds_normalized": [
+        0.1793,
+        0.65,
+        0.4607,
+        1.0
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "D3",
+      "row": "D",
+      "col": 3,
+      "bounds_canvas_px": [
+        485,
+        650,
+        865,
+        1000
+      ],
+      "bounds_normalized": [
+        0.3593,
+        0.65,
+        0.6407,
+        1.0
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "D4",
+      "row": "D",
+      "col": 4,
+      "bounds_canvas_px": [
+        728,
+        650,
+        1108,
+        1000
+      ],
+      "bounds_normalized": [
+        0.5393,
+        0.65,
+        0.8207,
+        1.0
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    },
+    {
+      "tile_id": "D5",
+      "row": "D",
+      "col": 5,
+      "bounds_canvas_px": [
+        970,
+        650,
+        1350,
+        1000
+      ],
+      "bounds_normalized": [
+        0.7185,
+        0.65,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        380,
+        350
+      ]
+    }
+  ]
+}

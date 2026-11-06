@@ -1,0 +1,3210 @@
+{
+  "metadata": {
+    "edition": {
+      "id": "milton-bradley-funskool-1985-4500-x2",
+      "name": "Scotland Yard (1985 Central London board)",
+      "manufacturer": "Milton Bradley; Funskool",
+      "productCode": "4500-X2",
+      "stationCount": 199
+    },
+    "datasetVersion": "3D-final-best-effort-1.0.0",
+    "coordinateSystem": "normalized-0-to-1",
+    "state": "incomplete-verification",
+    "provenance": [
+      {
+        "id": "phase-3d3-registered-marker-pool",
+        "description": "Phase 3D.3 registered high-resolution marker candidates on the 1350x1000 canvas",
+        "status": "candidate-unverified"
+      },
+      {
+        "id": "phase-3d3-retained-identities",
+        "description": "Phase 3D.3 existing identity records for stations 1, 3, 120, 123, 158 and 199",
+        "status": "candidate-unverified"
+      }
+    ],
+    "bestEffort": true,
+    "transportGraphStatus": "unchanged-non-canonical",
+    "marker200Excluded": true
+  },
+  "stations": [
+    {
+      "id": 1,
+      "coordinate": {
+        "x": 0.139215,
+        "y": 0.05662
+      },
+      "coordinateStatus": "verified-from-physical-board",
+      "featureId": "FEAT_0094",
+      "identityStatus": "verified",
+      "provenance": {
+        "source": "registered_top-left.png & rectified_complete.png",
+        "basis": "Printed red Underground badge with clear '1' text in Regent's Park / St. John's Wood sector.",
+        "method": "retained Phase 3D.3 association"
+      }
+    },
+    {
+      "id": 2,
+      "coordinate": {
+        "x": 0.18837,
+        "y": 0.01174
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_010",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 3,
+      "coordinate": {
+        "x": 0.313815,
+        "y": 0.0408
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0080",
+      "identityStatus": "candidate_uncertain",
+      "provenance": {
+        "source": "calibrated photography & curated landmark correspondence",
+        "basis": "Physical marker present at Euston Station approach (FEAT_0080); printed numeric text requires higher optical resolution to confirm without landmark prior.",
+        "method": "retained Phase 3D.3 association"
+      }
+    },
+    {
+      "id": 4,
+      "coordinate": {
+        "x": 0.209815,
+        "y": 0.01255
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_009",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 5,
+      "coordinate": {
+        "x": 0.794259,
+        "y": 0.01289
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_058",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 6,
+      "coordinate": {
+        "x": 0.692096,
+        "y": 0.01344
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_043",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 7,
+      "coordinate": {
+        "x": 0.759348,
+        "y": 0.01346
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A3.jpg; A4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_041",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 8,
+      "coordinate": {
+        "x": 0.803933,
+        "y": 0.0141
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_057",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 9,
+      "coordinate": {
+        "x": 0.740837,
+        "y": 0.01466
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A3.jpg; A4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_042",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 10,
+      "coordinate": {
+        "x": 0.082807,
+        "y": 0.01548
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_012",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 11,
+      "coordinate": {
+        "x": 0.643674,
+        "y": 0.01612
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_044",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 12,
+      "coordinate": {
+        "x": 0.103274,
+        "y": 0.02755
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_008",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 13,
+      "coordinate": {
+        "x": 0.517644,
+        "y": 0.04371
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg; A3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_031",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 14,
+      "coordinate": {
+        "x": 0.720193,
+        "y": 0.04425
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_039",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 15,
+      "coordinate": {
+        "x": 0.758941,
+        "y": 0.04794
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0079",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "A3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_040",
+        "featureMatchDistancePx": 2.06
+      }
+    },
+    {
+      "id": 16,
+      "coordinate": {
+        "x": 0.925289,
+        "y": 0.05688
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0077",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "A4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_056",
+        "featureMatchDistancePx": 1.94
+      }
+    },
+    {
+      "id": 17,
+      "coordinate": {
+        "x": 0.468274,
+        "y": 0.06756
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_029",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 18,
+      "coordinate": {
+        "x": 0.718363,
+        "y": 0.06837
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_038",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 19,
+      "coordinate": {
+        "x": 0.525541,
+        "y": 0.07608
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg; A3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_030",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 20,
+      "coordinate": {
+        "x": 0.401815,
+        "y": 0.09947
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_028",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 21,
+      "coordinate": {
+        "x": 0.389985,
+        "y": 0.10257
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_027",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 22,
+      "coordinate": {
+        "x": 0.187348,
+        "y": 0.10941
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_007",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 23,
+      "coordinate": {
+        "x": 0.523304,
+        "y": 0.1215
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_037",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 24,
+      "coordinate": {
+        "x": 0.513467,
+        "y": 0.13199
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_026",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 25,
+      "coordinate": {
+        "x": 0.555259,
+        "y": 0.13339
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0145",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "A3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_036",
+        "featureMatchDistancePx": 3.09
+      }
+    },
+    {
+      "id": 26,
+      "coordinate": {
+        "x": 0.277556,
+        "y": 0.13622
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_025",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 27,
+      "coordinate": {
+        "x": 0.259459,
+        "y": 0.14031
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_024",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 28,
+      "coordinate": {
+        "x": 0.441385,
+        "y": 0.14953
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_022",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 29,
+      "coordinate": {
+        "x": 0.29463,
+        "y": 0.15505
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_023",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 30,
+      "coordinate": {
+        "x": 0.397481,
+        "y": 0.16451
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_020",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 31,
+      "coordinate": {
+        "x": 0.460326,
+        "y": 0.16473
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_019",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 32,
+      "coordinate": {
+        "x": 0.796452,
+        "y": 0.17289
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_055",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 33,
+      "coordinate": {
+        "x": 0.262519,
+        "y": 0.17384
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg; B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_021",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 34,
+      "coordinate": {
+        "x": 0.422119,
+        "y": 0.18659
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_074",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 35,
+      "coordinate": {
+        "x": 0.673733,
+        "y": 0.19027
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A4.jpg; B3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_053",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 36,
+      "coordinate": {
+        "x": 0.745896,
+        "y": 0.19374
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_079",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 37,
+      "coordinate": {
+        "x": 0.27423,
+        "y": 0.19624
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg; B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_018",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 38,
+      "coordinate": {
+        "x": 0.713081,
+        "y": 0.20018
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_054",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 39,
+      "coordinate": {
+        "x": 0.386926,
+        "y": 0.20046
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_073",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 40,
+      "coordinate": {
+        "x": 0.561304,
+        "y": 0.20295
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_035",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 41,
+      "coordinate": {
+        "x": 0.520911,
+        "y": 0.20642
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_034",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 42,
+      "coordinate": {
+        "x": 0.264259,
+        "y": 0.21345
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_017",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 43,
+      "coordinate": {
+        "x": 0.353526,
+        "y": 0.21469
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg; B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_016",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 44,
+      "coordinate": {
+        "x": 0.672452,
+        "y": 0.22586
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A4.jpg; B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_052",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 45,
+      "coordinate": {
+        "x": 0.949896,
+        "y": 0.22663
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A4.jpg; B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_051",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 46,
+      "coordinate": {
+        "x": 0.5874,
+        "y": 0.23422
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_033",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 47,
+      "coordinate": {
+        "x": 0.26117,
+        "y": 0.23642
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_015",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 48,
+      "coordinate": {
+        "x": 0.359407,
+        "y": 0.24494
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_072",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 49,
+      "coordinate": {
+        "x": 0.216541,
+        "y": 0.24514
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A1.jpg; B1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_005",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 50,
+      "coordinate": {
+        "x": 0.799015,
+        "y": 0.25864
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_050",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 51,
+      "coordinate": {
+        "x": 0.030244,
+        "y": 0.26328
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_004",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 52,
+      "coordinate": {
+        "x": 0.783733,
+        "y": 0.26438
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0101",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "A4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_048",
+        "featureMatchDistancePx": 0.91
+      }
+    },
+    {
+      "id": 53,
+      "coordinate": {
+        "x": 0.251689,
+        "y": 0.26613
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_071",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 54,
+      "coordinate": {
+        "x": 0.103274,
+        "y": 0.26658
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_062",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 55,
+      "coordinate": {
+        "x": 0.312607,
+        "y": 0.27184
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_006",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 56,
+      "coordinate": {
+        "x": 0.574652,
+        "y": 0.28842
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_070",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 57,
+      "coordinate": {
+        "x": 0.83543,
+        "y": 0.28933
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_049",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 58,
+      "coordinate": {
+        "x": 0.983311,
+        "y": 0.29381
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_095",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 59,
+      "coordinate": {
+        "x": 0.056748,
+        "y": 0.2965
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A1.jpg; B1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_003",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 60,
+      "coordinate": {
+        "x": 0.839519,
+        "y": 0.30273
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_096",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 61,
+      "coordinate": {
+        "x": 0.858341,
+        "y": 0.30825
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A4.jpg; B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_047",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 62,
+      "coordinate": {
+        "x": 0.875163,
+        "y": 0.31172
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_046",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 63,
+      "coordinate": {
+        "x": 0.892222,
+        "y": 0.3174
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_045",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 64,
+      "coordinate": {
+        "x": 0.104696,
+        "y": 0.31881
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_002",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 65,
+      "coordinate": {
+        "x": 0.117504,
+        "y": 0.3226
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A1.jpg; B1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_001",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 66,
+      "coordinate": {
+        "x": 0.500089,
+        "y": 0.34995
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "A2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_014",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 67,
+      "coordinate": {
+        "x": 0.485911,
+        "y": 0.35369
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0052",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "A2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_013",
+        "featureMatchDistancePx": 5.66
+      }
+    },
+    {
+      "id": 68,
+      "coordinate": {
+        "x": 0.369607,
+        "y": 0.35664
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_069",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 69,
+      "coordinate": {
+        "x": 0.841244,
+        "y": 0.35768
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0050",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_094",
+        "featureMatchDistancePx": 2.77
+      }
+    },
+    {
+      "id": 70,
+      "coordinate": {
+        "x": 0.855659,
+        "y": 0.36096
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0051",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_093",
+        "featureMatchDistancePx": 4.05
+      }
+    },
+    {
+      "id": 71,
+      "coordinate": {
+        "x": 0.577807,
+        "y": 0.36465
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_068",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 72,
+      "coordinate": {
+        "x": 0.5906,
+        "y": 0.37328
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_067",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 73,
+      "coordinate": {
+        "x": 0.073622,
+        "y": 0.37846
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_061",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 74,
+      "coordinate": {
+        "x": 0.702474,
+        "y": 0.3803
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0047",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_092",
+        "featureMatchDistancePx": 7.91
+      }
+    },
+    {
+      "id": 75,
+      "coordinate": {
+        "x": 0.151133,
+        "y": 0.39913
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_060",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 76,
+      "coordinate": {
+        "x": 0.774207,
+        "y": 0.40132
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0045",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "B3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_078",
+        "featureMatchDistancePx": 6.0
+      }
+    },
+    {
+      "id": 77,
+      "coordinate": {
+        "x": 0.841607,
+        "y": 0.4033
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_090",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 78,
+      "coordinate": {
+        "x": 0.791333,
+        "y": 0.40466
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0043",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_091",
+        "featureMatchDistancePx": 10.38
+      }
+    },
+    {
+      "id": 79,
+      "coordinate": {
+        "x": 0.673467,
+        "y": 0.4122
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B3.jpg; B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_077",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 80,
+      "coordinate": {
+        "x": 0.886378,
+        "y": 0.41837
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0041",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_088",
+        "featureMatchDistancePx": 0.53
+      }
+    },
+    {
+      "id": 81,
+      "coordinate": {
+        "x": 0.984378,
+        "y": 0.41958
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_087",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 82,
+      "coordinate": {
+        "x": 0.640089,
+        "y": 0.42054
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0040",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "B3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_076",
+        "featureMatchDistancePx": 2.24
+      }
+    },
+    {
+      "id": 83,
+      "coordinate": {
+        "x": 0.705681,
+        "y": 0.42057
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0039",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_089",
+        "featureMatchDistancePx": 7.65
+      }
+    },
+    {
+      "id": 84,
+      "coordinate": {
+        "x": 0.243889,
+        "y": 0.442
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0144",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "B1.jpg; B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_059",
+        "featureMatchDistancePx": 2.34
+      }
+    },
+    {
+      "id": 85,
+      "coordinate": {
+        "x": 0.858637,
+        "y": 0.44974
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_161",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 86,
+      "coordinate": {
+        "x": 0.937274,
+        "y": 0.46242
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0037",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_160",
+        "featureMatchDistancePx": 11.05
+      }
+    },
+    {
+      "id": 87,
+      "coordinate": {
+        "x": 0.875733,
+        "y": 0.46245
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0035",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "B4.jpg; C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_086",
+        "featureMatchDistancePx": 4.96
+      }
+    },
+    {
+      "id": 88,
+      "coordinate": {
+        "x": 0.357133,
+        "y": 0.47672
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0087",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_108",
+        "featureMatchDistancePx": 9.12
+      }
+    },
+    {
+      "id": 89,
+      "coordinate": {
+        "x": 0.915378,
+        "y": 0.47889
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B4.jpg; C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_085",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 90,
+      "coordinate": {
+        "x": 0.925052,
+        "y": 0.48085
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_159",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 91,
+      "coordinate": {
+        "x": 0.552452,
+        "y": 0.48164
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_066",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 92,
+      "coordinate": {
+        "x": 0.386993,
+        "y": 0.50513
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_122",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 93,
+      "coordinate": {
+        "x": 0.9676,
+        "y": 0.50541
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B4.jpg; C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_084",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 94,
+      "coordinate": {
+        "x": 0.413926,
+        "y": 0.50615
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_125",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 95,
+      "coordinate": {
+        "x": 0.826756,
+        "y": 0.5073
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0126",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "B4.jpg; C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_082",
+        "featureMatchDistancePx": 2.62
+      }
+    },
+    {
+      "id": 96,
+      "coordinate": {
+        "x": 0.538948,
+        "y": 0.50935
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0099",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_124",
+        "featureMatchDistancePx": 11.53
+      }
+    },
+    {
+      "id": 97,
+      "coordinate": {
+        "x": 0.703178,
+        "y": 0.51247
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0100",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_146",
+        "featureMatchDistancePx": 10.1
+      }
+    },
+    {
+      "id": 98,
+      "coordinate": {
+        "x": 0.683681,
+        "y": 0.51362
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0032",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_081",
+        "featureMatchDistancePx": 2.85
+      }
+    },
+    {
+      "id": 99,
+      "coordinate": {
+        "x": 0.716541,
+        "y": 0.51479
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_083",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 100,
+      "coordinate": {
+        "x": 0.359119,
+        "y": 0.51574
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_123",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 101,
+      "coordinate": {
+        "x": 0.476311,
+        "y": 0.51796
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_145",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 102,
+      "coordinate": {
+        "x": 0.659933,
+        "y": 0.52165
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_075",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 103,
+      "coordinate": {
+        "x": 0.497563,
+        "y": 0.52598
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_063",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 104,
+      "coordinate": {
+        "x": 0.4182,
+        "y": 0.52649
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_064",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 105,
+      "coordinate": {
+        "x": 0.323022,
+        "y": 0.52854
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_065",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 106,
+      "coordinate": {
+        "x": 0.745674,
+        "y": 0.53253
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0029",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_144",
+        "featureMatchDistancePx": 1.36
+      }
+    },
+    {
+      "id": 107,
+      "coordinate": {
+        "x": 0.541333,
+        "y": 0.53274
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_120",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 108,
+      "coordinate": {
+        "x": 0.594948,
+        "y": 0.53941
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_142",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 109,
+      "coordinate": {
+        "x": 0.909422,
+        "y": 0.54117
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "B4.jpg; C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_080",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 110,
+      "coordinate": {
+        "x": 0.483511,
+        "y": 0.54461
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_143",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 111,
+      "coordinate": {
+        "x": 0.743459,
+        "y": 0.55376
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_141",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 112,
+      "coordinate": {
+        "x": 0.361319,
+        "y": 0.55517
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_121",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 113,
+      "coordinate": {
+        "x": 0.971637,
+        "y": 0.56388
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_158",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 114,
+      "coordinate": {
+        "x": 0.347096,
+        "y": 0.56877
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_107",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 115,
+      "coordinate": {
+        "x": 0.730541,
+        "y": 0.56937
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0024",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_140",
+        "featureMatchDistancePx": 11.06
+      }
+    },
+    {
+      "id": 116,
+      "coordinate": {
+        "x": 0.358748,
+        "y": 0.58422
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_106",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 117,
+      "coordinate": {
+        "x": 0.186044,
+        "y": 0.58783
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_105",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 118,
+      "coordinate": {
+        "x": 0.290763,
+        "y": 0.59355
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0112",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_118",
+        "featureMatchDistancePx": 9.44
+      }
+    },
+    {
+      "id": 119,
+      "coordinate": {
+        "x": 0.189333,
+        "y": 0.60505
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_103",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 120,
+      "coordinate": {
+        "x": 0.031444,
+        "y": 0.50597
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0141",
+      "identityStatus": "candidate_uncertain",
+      "provenance": {
+        "source": "calibrated photography & curated landmark correspondence",
+        "basis": "Physical marker present at Kensington Gardens North-West (FEAT_0141); printed numeric text requires higher optical resolution to confirm without landmark prior.",
+        "method": "retained Phase 3D.3 association"
+      }
+    },
+    {
+      "id": 121,
+      "coordinate": {
+        "x": 0.474022,
+        "y": 0.60523
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_119",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 122,
+      "coordinate": {
+        "x": 0.531993,
+        "y": 0.6107
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_117",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 123,
+      "coordinate": {
+        "x": 0.128541,
+        "y": 0.50846
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0122",
+      "identityStatus": "candidate_uncertain",
+      "provenance": {
+        "source": "calibrated photography & curated landmark correspondence",
+        "basis": "Physical marker present at The Serpentine / Hyde Park South (FEAT_0122); printed numeric text requires higher optical resolution to confirm without landmark prior.",
+        "method": "retained Phase 3D.3 association"
+      }
+    },
+    {
+      "id": 124,
+      "coordinate": {
+        "x": 0.353452,
+        "y": 0.61982
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C1.jpg; C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_102",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 125,
+      "coordinate": {
+        "x": 0.537311,
+        "y": 0.62286
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_116",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 126,
+      "coordinate": {
+        "x": 0.507007,
+        "y": 0.62597
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0016",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_139",
+        "featureMatchDistancePx": 2.1
+      }
+    },
+    {
+      "id": 127,
+      "coordinate": {
+        "x": 0.528348,
+        "y": 0.63405
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0084",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_138",
+        "featureMatchDistancePx": 11.81
+      }
+    },
+    {
+      "id": 128,
+      "coordinate": {
+        "x": 0.835037,
+        "y": 0.64419
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C4.jpg; D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_157",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 129,
+      "coordinate": {
+        "x": 0.376696,
+        "y": 0.64435
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_115",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 130,
+      "coordinate": {
+        "x": 0.80917,
+        "y": 0.65
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_192",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 131,
+      "coordinate": {
+        "x": 0.502,
+        "y": 0.65231
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_114",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 132,
+      "coordinate": {
+        "x": 0.797622,
+        "y": 0.65368
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C4.jpg; D3.jpg; D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_156",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 133,
+      "coordinate": {
+        "x": 0.84303,
+        "y": 0.65831
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C4.jpg; D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_155",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 134,
+      "coordinate": {
+        "x": 0.626311,
+        "y": 0.66225
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0119",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C3.jpg; D3.jpg; D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_137",
+        "featureMatchDistancePx": 3.54
+      }
+    },
+    {
+      "id": 135,
+      "coordinate": {
+        "x": 0.430933,
+        "y": 0.66468
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_191",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 136,
+      "coordinate": {
+        "x": 0.777815,
+        "y": 0.66487
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_202",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 137,
+      "coordinate": {
+        "x": 0.587237,
+        "y": 0.67133
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C3.jpg; D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_135",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 138,
+      "coordinate": {
+        "x": 0.228356,
+        "y": 0.67145
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_182",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 139,
+      "coordinate": {
+        "x": 0.477674,
+        "y": 0.67152
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_136",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 140,
+      "coordinate": {
+        "x": 0.974844,
+        "y": 0.68176
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_153",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 141,
+      "coordinate": {
+        "x": 0.381563,
+        "y": 0.68554
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_113",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 142,
+      "coordinate": {
+        "x": 0.954659,
+        "y": 0.68687
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_152",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 143,
+      "coordinate": {
+        "x": 0.596407,
+        "y": 0.68901
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_133",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 144,
+      "coordinate": {
+        "x": 0.703059,
+        "y": 0.69589
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0118",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C3.jpg; C4.jpg; D3.jpg; D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_134",
+        "featureMatchDistancePx": 1.8
+      }
+    },
+    {
+      "id": 145,
+      "coordinate": {
+        "x": 0.626067,
+        "y": 0.69785
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C3.jpg; D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_132",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 146,
+      "coordinate": {
+        "x": 0.534896,
+        "y": 0.70329
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_181",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 147,
+      "coordinate": {
+        "x": 0.977237,
+        "y": 0.70345
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_151",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 148,
+      "coordinate": {
+        "x": 0.155837,
+        "y": 0.70362
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_167",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 149,
+      "coordinate": {
+        "x": 0.678837,
+        "y": 0.71025
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0009",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C3.jpg; C4.jpg; D3.jpg; D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_131",
+        "featureMatchDistancePx": 5.1
+      }
+    },
+    {
+      "id": 150,
+      "coordinate": {
+        "x": 0.802681,
+        "y": 0.71204
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_154",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 151,
+      "coordinate": {
+        "x": 0.598548,
+        "y": 0.71216
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0129",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C3.jpg; D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_129",
+        "featureMatchDistancePx": 2.81
+      }
+    },
+    {
+      "id": 152,
+      "coordinate": {
+        "x": 0.147289,
+        "y": 0.7129
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_166",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 153,
+      "coordinate": {
+        "x": 0.585652,
+        "y": 0.71424
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0128",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C3.jpg; D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_128",
+        "featureMatchDistancePx": 4.36
+      }
+    },
+    {
+      "id": 154,
+      "coordinate": {
+        "x": 0.050941,
+        "y": 0.71573
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C1.jpg; D1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_100",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 155,
+      "coordinate": {
+        "x": 0.901985,
+        "y": 0.71769
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C4.jpg; D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_150",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 156,
+      "coordinate": {
+        "x": 0.134178,
+        "y": 0.71784
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0008",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "D1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_165",
+        "featureMatchDistancePx": 6.35
+      }
+    },
+    {
+      "id": 157,
+      "coordinate": {
+        "x": 0.806311,
+        "y": 0.72649
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_201",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 158,
+      "coordinate": {
+        "x": 0.414911,
+        "y": 0.61425
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0018",
+      "identityStatus": "candidate_uncertain",
+      "provenance": {
+        "source": "calibrated photography & curated landmark correspondence",
+        "basis": "Physical marker present at Lambeth Road (FEAT_0018); printed numeric text requires higher optical resolution to confirm without landmark prior.",
+        "method": "retained Phase 3D.3 association"
+      }
+    },
+    {
+      "id": 159,
+      "coordinate": {
+        "x": 0.926704,
+        "y": 0.72826
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C4.jpg; D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_149",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 160,
+      "coordinate": {
+        "x": 0.745037,
+        "y": 0.73344
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_148",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 161,
+      "coordinate": {
+        "x": 0.531815,
+        "y": 0.73802
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0006",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "D2.jpg; D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_180",
+        "featureMatchDistancePx": 9.61
+      }
+    },
+    {
+      "id": 162,
+      "coordinate": {
+        "x": 0.475244,
+        "y": 0.74175
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_130",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 163,
+      "coordinate": {
+        "x": 0.956585,
+        "y": 0.74482
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_147",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 164,
+      "coordinate": {
+        "x": 0.775148,
+        "y": 0.75106
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_189",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 165,
+      "coordinate": {
+        "x": 0.651763,
+        "y": 0.75173
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D3.jpg; D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_190",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 166,
+      "coordinate": {
+        "x": 0.739711,
+        "y": 0.76104
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_127",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 167,
+      "coordinate": {
+        "x": 0.531193,
+        "y": 0.77174
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_126",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 168,
+      "coordinate": {
+        "x": 0.506022,
+        "y": 0.78942
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0105",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "C2.jpg; D2.jpg; D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_112",
+        "featureMatchDistancePx": 2.41
+      }
+    },
+    {
+      "id": 169,
+      "coordinate": {
+        "x": 0.521059,
+        "y": 0.7952
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D2.jpg; D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_179",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 170,
+      "coordinate": {
+        "x": 0.278511,
+        "y": 0.80573
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C2.jpg; D1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_111",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 171,
+      "coordinate": {
+        "x": 0.117422,
+        "y": 0.81193
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_099",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 172,
+      "coordinate": {
+        "x": 0.404319,
+        "y": 0.81401
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_110",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 173,
+      "coordinate": {
+        "x": 0.44757,
+        "y": 0.81531
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C2.jpg; D2.jpg; D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_109",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 174,
+      "coordinate": {
+        "x": 0.427422,
+        "y": 0.8163
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_178",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 175,
+      "coordinate": {
+        "x": 0.103704,
+        "y": 0.82803
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_098",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 176,
+      "coordinate": {
+        "x": 0.838941,
+        "y": 0.8356
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_200",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 177,
+      "coordinate": {
+        "x": 0.163615,
+        "y": 0.83647
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "C1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_097",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 178,
+      "coordinate": {
+        "x": 0.24863,
+        "y": 0.85767
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_177",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 179,
+      "coordinate": {
+        "x": 0.273726,
+        "y": 0.86508
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_176",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 180,
+      "coordinate": {
+        "x": 0.13043,
+        "y": 0.86521
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_164",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 181,
+      "coordinate": {
+        "x": 0.888207,
+        "y": 0.86652
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_199",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 182,
+      "coordinate": {
+        "x": 0.547541,
+        "y": 0.86879
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D2.jpg; D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_174",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 183,
+      "coordinate": {
+        "x": 0.480837,
+        "y": 0.8707
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_175",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 184,
+      "coordinate": {
+        "x": 0.442719,
+        "y": 0.87311
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_172",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 185,
+      "coordinate": {
+        "x": 0.328667,
+        "y": 0.87542
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_163",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 186,
+      "coordinate": {
+        "x": 0.234985,
+        "y": 0.87589
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0103",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "D2.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_173",
+        "featureMatchDistancePx": 0.28
+      }
+    },
+    {
+      "id": 187,
+      "coordinate": {
+        "x": 0.100511,
+        "y": 0.89225
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D1.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_162",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 188,
+      "coordinate": {
+        "x": 0.820911,
+        "y": 0.90439
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_198",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 189,
+      "coordinate": {
+        "x": 0.525059,
+        "y": 0.91201
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D2.jpg; D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_171",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 190,
+      "coordinate": {
+        "x": 0.564059,
+        "y": 0.93992
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D2.jpg; D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_170",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 191,
+      "coordinate": {
+        "x": 0.7084,
+        "y": 0.94276
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_188",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 192,
+      "coordinate": {
+        "x": 0.800111,
+        "y": 0.94846
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_187",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 193,
+      "coordinate": {
+        "x": 0.495311,
+        "y": 0.96137
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": "FEAT_0001",
+      "identityStatus": "approximate",
+      "provenance": {
+        "source": "D2.jpg; D3.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_169",
+        "featureMatchDistancePx": 8.79
+      }
+    },
+    {
+      "id": 194,
+      "coordinate": {
+        "x": 0.945763,
+        "y": 0.96524
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_196",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 195,
+      "coordinate": {
+        "x": 0.816659,
+        "y": 0.97239
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D3.jpg; D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_186",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 196,
+      "coordinate": {
+        "x": 0.966933,
+        "y": 0.97623
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_195",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 197,
+      "coordinate": {
+        "x": 0.909304,
+        "y": 0.9847
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_194",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 198,
+      "coordinate": {
+        "x": 0.823948,
+        "y": 0.98872
+      },
+      "coordinateStatus": "candidate-unverified",
+      "featureId": null,
+      "identityStatus": "unmatched-feature-identity",
+      "provenance": {
+        "source": "D4.jpg",
+        "method": "best-effort assignment to registered physical-marker pool; station-number correspondence not independently verified",
+        "markerCandidate": "HRM_193",
+        "featureMatchDistancePx": null
+      }
+    },
+    {
+      "id": 199,
+      "coordinate": {
+        "x": 0.849267,
+        "y": 0.92071
+      },
+      "coordinateStatus": "verified-from-physical-board",
+      "featureId": "FEAT_0115",
+      "identityStatus": "verified",
+      "provenance": {
+        "source": "registered_bottom-right.png",
+        "basis": "Printed yellow station marker with legible '199' text adjacent to Lower Thames / border fold.",
+        "method": "retained Phase 3D.3 association"
+      }
+    }
+  ],
+  "connections": []
+}

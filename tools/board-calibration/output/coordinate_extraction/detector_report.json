@@ -1,0 +1,147 @@
+{
+  "phase": "3C.3-C.1",
+  "generated": "2026-11-06T11:36:43.395642+00:00",
+  "detector_parameters": {
+    "canvas_dimensions": [
+      1350,
+      1000
+    ],
+    "yellow_badge": {
+      "hsv_lower": [
+        20,
+        100,
+        100
+      ],
+      "hsv_upper": [
+        30,
+        255,
+        255
+      ],
+      "morph_open_k": 3,
+      "morph_close_k": 7,
+      "area_min": 30,
+      "area_max": 3000,
+      "bbox_w_min": 8,
+      "bbox_h_min": 6,
+      "aspect_min": 0.5,
+      "aspect_max": 3.5,
+      "fill_min": 0.15,
+      "yellow_purity_min": 70.0
+    },
+    "red_underground": {
+      "hsv_lower_1": [
+        0,
+        80,
+        60
+      ],
+      "hsv_upper_1": [
+        9,
+        255,
+        255
+      ],
+      "hsv_lower_2": [
+        170,
+        80,
+        60
+      ],
+      "hsv_upper_2": [
+        179,
+        255,
+        255
+      ],
+      "morph_open_k": 3,
+      "morph_close_k": 7,
+      "area_min": 30,
+      "area_max": 1000,
+      "bbox_w_min": 10,
+      "bbox_h_min": 8,
+      "aspect_min": 0.8,
+      "aspect_max": 2.8,
+      "fill_min": 0.2,
+      "red_purity_min": 65.0,
+      "context_hsv_green_lower": [
+        35,
+        60,
+        40
+      ],
+      "context_hsv_green_upper": [
+        85,
+        255,
+        255
+      ]
+    },
+    "ambiguity_thresholds": {
+      "yellow_large_area": 1200,
+      "yellow_borderline_fill": 0.22
+    },
+    "cross_image_duplicate_dist_norm": 0.015
+  },
+  "identity_safeguards": "Provisional detection IDs do not assign canonical Scotland Yard station IDs.",
+  "images": [
+    {
+      "image_name": "full",
+      "image_path": "D:\\03_Development\\GameDev\\Scotland-Yard-Live\\tools\\board-calibration\\output\\rectified_complete.png",
+      "image_w": 1350,
+      "image_h": 1000,
+      "candidate_count": 790,
+      "accepted_count": 94,
+      "rejected_count": 696,
+      "yellow_accepted": 81,
+      "red_accepted": 13,
+      "ambiguous_count": 10
+    },
+    {
+      "image_name": "top-left",
+      "image_path": "D:\\03_Development\\GameDev\\Scotland-Yard-Live\\tools\\board-calibration\\output\\registered_top-left.png",
+      "image_w": 1350,
+      "image_h": 1000,
+      "candidate_count": 97,
+      "accepted_count": 7,
+      "rejected_count": 90,
+      "yellow_accepted": 5,
+      "red_accepted": 2,
+      "ambiguous_count": 0
+    },
+    {
+      "image_name": "top-right",
+      "image_path": "D:\\03_Development\\GameDev\\Scotland-Yard-Live\\tools\\board-calibration\\output\\registered_top-right.png",
+      "image_w": 1350,
+      "image_h": 1000,
+      "candidate_count": 137,
+      "accepted_count": 9,
+      "rejected_count": 128,
+      "yellow_accepted": 8,
+      "red_accepted": 1,
+      "ambiguous_count": 1
+    },
+    {
+      "image_name": "bottom-left",
+      "image_path": "D:\\03_Development\\GameDev\\Scotland-Yard-Live\\tools\\board-calibration\\output\\registered_bottom-left.png",
+      "image_w": 1350,
+      "image_h": 1000,
+      "candidate_count": 197,
+      "accepted_count": 16,
+      "rejected_count": 181,
+      "yellow_accepted": 12,
+      "red_accepted": 4,
+      "ambiguous_count": 1
+    },
+    {
+      "image_name": "bottom-right",
+      "image_path": "D:\\03_Development\\GameDev\\Scotland-Yard-Live\\tools\\board-calibration\\output\\registered_bottom-right.png",
+      "image_w": 1350,
+      "image_h": 1000,
+      "candidate_count": 172,
+      "accepted_count": 12,
+      "rejected_count": 160,
+      "yellow_accepted": 10,
+      "red_accepted": 2,
+      "ambiguous_count": 1
+    }
+  ],
+  "total_accepted_yellow": 116,
+  "total_accepted_red": 22,
+  "total_ambiguous": 13,
+  "total_rejected": 1255,
+  "cross_image_duplicate_groups": 15
+}

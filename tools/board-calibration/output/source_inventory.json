@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "tool": "Scotland Yard Live Board Calibration Tooling",
+    "version": "1.1.0",
+    "phase": "3C.3-B.1 Evidence Audit and Validation Correction",
+    "target_edition": "1985 Milton Bradley / Funskool India 4500-X2",
+    "total_primary_images": 5,
+    "evidence_audit_note": "Audit confirms that complete.jpeg is 1280x892 with SHA-256 2B1B33BB430F57BD29F7EBE4BEB978BC662C9B5E56DFBFBC0F4D40C8F3264E33. The previous textual reference to 1280x960 in the Phase 3C.3-B response was an erroneous narrative typo; the calibration scripts have strictly processed the exact 1280x892 repository file. No source image has been resized, cropped, or replaced."
+  },
+  "images": [
+    {
+      "filename": "complete.jpeg",
+      "relative_path": "docs/game/evidence/board-photos/complete.jpeg",
+      "file_size_bytes": 368710,
+      "sha256": "2B1B33BB430F57BD29F7EBE4BEB978BC662C9B5E56DFBFBC0F4D40C8F3264E33",
+      "sha256_matches_expected": true,
+      "dimensions": {
+        "width": 1280,
+        "height": 892,
+        "channels": 3
+      },
+      "dimensions_match_expected": true,
+      "format": "JPEG",
+      "camera_orientation": "Landscape (1280x892)",
+      "board_orientation": "Inverted / rotated 180 degrees relative to upright board. The River Thames is at the top of the photo; Regent's Park is at the bottom; Tower of London is at the left; Hyde Park is at the right.",
+      "transform_to_canonical": "180-degree rotation + planar projective rectification.",
+      "evidentiary_role": "Global geometric reference; all four board corners and fold seam are visible.",
+      "known_limitations": "Modest resolution (1.4 Mpx); ~2.2 px/mm; mild perspective tilt; top edge grazes the camera frame; board lies on patterned fabric."
+    },
+    {
+      "filename": "top-left.jpeg",
+      "relative_path": "docs/game/evidence/board-photos/top-left.jpeg",
+      "file_size_bytes": 331252,
+      "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
+      "sha256_matches_expected": true,
+      "dimensions": {
+        "width": 925,
+        "height": 1280,
+        "channels": 3
+      },
+      "dimensions_match_expected": true,
+      "format": "JPEG",
+      "camera_orientation": "Portrait (925x1280)",
+      "board_orientation": "Rotated 90 degrees counter-clockwise relative to upright board. Covers North-West quadrant: stations 1-114, Regent's Park, London Zoo, Hyde Park North.",
+      "transform_to_canonical": "Rotate 90 deg CCW + landmark-based homography.",
+      "evidentiary_role": "High-resolution local reference for North-West quadrant.",
+      "known_limitations": "Cropped; rotated; no board corners in frame; perspective distortion."
+    },
+    {
+      "filename": "top-right.jpeg",
+      "relative_path": "docs/game/evidence/board-photos/top-right.jpeg",
+      "file_size_bytes": 307440,
+      "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
+      "sha256_matches_expected": true,
+      "dimensions": {
+        "width": 885,
+        "height": 1280,
+        "channels": 3
+      },
+      "dimensions_match_expected": true,
+      "format": "JPEG",
+      "camera_orientation": "Portrait (885x1280)",
+      "board_orientation": "Rotated 90 degrees counter-clockwise relative to upright board. Covers North-East quadrant: stations 4-107, King's Cross, St Paul's, City of London, Tower.",
+      "transform_to_canonical": "Rotate 90 deg CCW + landmark-based homography.",
+      "evidentiary_role": "High-resolution local reference for North-East quadrant.",
+      "known_limitations": "Cropped; rotated; perspective distortion; right edge partially visible."
+    },
+    {
+      "filename": "bottom-left.jpeg",
+      "relative_path": "docs/game/evidence/board-photos/bottom-left.jpeg",
+      "file_size_bytes": 324563,
+      "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
+      "sha256_matches_expected": true,
+      "dimensions": {
+        "width": 914,
+        "height": 1280,
+        "channels": 3
+      },
+      "dimensions_match_expected": true,
+      "format": "JPEG",
+      "camera_orientation": "Portrait (914x1280)",
+      "board_orientation": "Rotated 90 degrees counter-clockwise relative to upright board. Covers South-West quadrant: stations 113-197, Chelsea, Kensington, Battersea, West Thames.",
+      "transform_to_canonical": "Rotate 90 deg CCW + landmark-based homography.",
+      "evidentiary_role": "High-resolution local reference for South-West quadrant.",
+      "known_limitations": "Cropped; rotated; perspective distortion; left board edge visible."
+    },
+    {
+      "filename": "bottom-right.jpeg",
+      "relative_path": "docs/game/evidence/board-photos/bottom-right.jpeg",
+      "file_size_bytes": 484705,
+      "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
+      "sha256_matches_expected": true,
+      "dimensions": {
+        "width": 1080,
+        "height": 1499,
+        "channels": 3
+      },
+      "dimensions_match_expected": true,
+      "format": "JPEG",
+      "camera_orientation": "Portrait (1080x1499)",
+      "board_orientation": "Rotated 90 degrees counter-clockwise relative to upright board. Covers South-East quadrant: stations 113-200, Southwark, Lambeth, Kennington, station 200.",
+      "transform_to_canonical": "Rotate 90 deg CCW + landmark-based homography.",
+      "evidentiary_role": "High-resolution local reference for South-East quadrant; confirms station 200 marker.",
+      "known_limitations": "Cropped; rotated; perspective distortion; lower title border visible."
+    }
+  ]
+}

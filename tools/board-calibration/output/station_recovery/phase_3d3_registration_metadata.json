@@ -1,0 +1,426 @@
+{
+  "phase": "3D.3",
+  "reference": "rectified_complete.png",
+  "canvas": [
+    1350,
+    1000
+  ],
+  "registrations": [
+    {
+      "filename": "A1.jpg",
+      "good_matches": 109,
+      "inliers": 64,
+      "inlier_ratio": 0.5872,
+      "match_ratio": 0.72,
+      "projected_source_area_px": 156359.2,
+      "homography_source_to_canvas": [
+        [
+          0.0022007472910152838,
+          0.05705155790837528,
+          -9.362409107325757
+        ],
+        [
+          -0.054801698515840706,
+          -0.00020209879379794453,
+          323.53777450280074
+        ],
+        [
+          6.01064959893803e-06,
+          -1.7010494898427348e-06,
+          0.9999999999999999
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\A1.png"
+    },
+    {
+      "filename": "A2.jpg",
+      "good_matches": 66,
+      "inliers": 26,
+      "inlier_ratio": 0.3939,
+      "match_ratio": 0.72,
+      "projected_source_area_px": 132988.9,
+      "homography_source_to_canvas": [
+        [
+          -0.004093859764329373,
+          0.05241726492317165,
+          345.7161315350421
+        ],
+        [
+          -0.05691293811865371,
+          0.0009185165311557589,
+          339.76573296998896
+        ],
+        [
+          -1.1917510988798935e-05,
+          -6.1817982103988914e-06,
+          0.9999999999999999
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\A2.png"
+    },
+    {
+      "filename": "A3.jpg",
+      "good_matches": 52,
+      "inliers": 10,
+      "inlier_ratio": 0.1923,
+      "match_ratio": 0.68,
+      "projected_source_area_px": 108734.5,
+      "homography_source_to_canvas": [
+        [
+          -0.0008767878531942471,
+          0.04836374169890154,
+          692.2223089003847
+        ],
+        [
+          -0.05151887142483248,
+          -0.0018630028808352293,
+          324.33846597294644
+        ],
+        [
+          -1.6918452307012956e-06,
+          -4.329137474496635e-06,
+          1.0
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\A3.png"
+    },
+    {
+      "filename": "A4.jpg",
+      "good_matches": 77,
+      "inliers": 40,
+      "inlier_ratio": 0.5195,
+      "match_ratio": 0.72,
+      "projected_source_area_px": 137809.0,
+      "homography_source_to_canvas": [
+        [
+          0.01915841940224304,
+          0.047498041609255165,
+          896.8928995264072
+        ],
+        [
+          -0.05034622456609734,
+          -0.0005840210081542069,
+          312.2033678611803
+        ],
+        [
+          1.6581472894239263e-05,
+          -6.264014561588359e-06,
+          0.9999999999999999
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\A4.png"
+    },
+    {
+      "filename": "B1.jpg",
+      "good_matches": 116,
+      "inliers": 54,
+      "inlier_ratio": 0.4655,
+      "match_ratio": 0.72,
+      "projected_source_area_px": 116627.7,
+      "homography_source_to_canvas": [
+        [
+          0.005118168239805828,
+          0.060259148613409114,
+          -0.47353012439212405
+        ],
+        [
+          -0.05346375256441296,
+          0.0007493514869254921,
+          535.313738957823
+        ],
+        [
+          1.3110766337129749e-05,
+          5.035806942354036e-07,
+          1.0
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\B1.png"
+    },
+    {
+      "filename": "B2.jpg",
+      "good_matches": 61,
+      "inliers": 29,
+      "inlier_ratio": 0.4754,
+      "match_ratio": 0.72,
+      "projected_source_area_px": 168515.0,
+      "homography_source_to_canvas": [
+        [
+          0.006390678185604984,
+          0.0727234125462551,
+          309.5844676233601
+        ],
+        [
+          -0.05966900449208628,
+          0.007644357286067126,
+          534.7421337648118
+        ],
+        [
+          6.416939690679516e-06,
+          1.595786456894023e-05,
+          0.9999999999999999
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\B2.png"
+    },
+    {
+      "filename": "B3.jpg",
+      "good_matches": 72,
+      "inliers": 45,
+      "inlier_ratio": 0.625,
+      "match_ratio": 0.72,
+      "projected_source_area_px": 148569.0,
+      "homography_source_to_canvas": [
+        [
+          -0.003690792743083238,
+          0.03798255952455405,
+          618.3261671356969
+        ],
+        [
+          -0.05109322052060866,
+          -0.007273476183976994,
+          520.5522100382452
+        ],
+        [
+          -4.338705666964038e-06,
+          -1.5468703050589315e-05,
+          1.0
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\B3.png"
+    },
+    {
+      "filename": "B4.jpg",
+      "good_matches": 83,
+      "inliers": 74,
+      "inlier_ratio": 0.8916,
+      "match_ratio": 0.72,
+      "projected_source_area_px": 150155.7,
+      "homography_source_to_canvas": [
+        [
+          -0.01723633141680033,
+          0.03226720652379911,
+          911.5377742391644
+        ],
+        [
+          -0.05406923974960728,
+          -0.006103078877381115,
+          532.1193566117064
+        ],
+        [
+          -1.6495253686219496e-05,
+          -1.4965580728545694e-05,
+          1.0
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\B4.png"
+    },
+    {
+      "filename": "C1.jpg",
+      "good_matches": 123,
+      "inliers": 64,
+      "inlier_ratio": 0.5203,
+      "match_ratio": 0.72,
+      "projected_source_area_px": 190071.0,
+      "homography_source_to_canvas": [
+        [
+          0.0015625754274736596,
+          0.06193955776876022,
+          -21.702619109740784
+        ],
+        [
+          -0.05720227442021991,
+          -0.004592440543384157,
+          853.9711150543242
+        ],
+        [
+          5.8378750932780926e-06,
+          -3.4723829593493203e-06,
+          0.9999999999999999
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\C1.png"
+    },
+    {
+      "filename": "C2.jpg",
+      "good_matches": 117,
+      "inliers": 67,
+      "inlier_ratio": 0.5726,
+      "match_ratio": 0.72,
+      "projected_source_area_px": 140580.4,
+      "homography_source_to_canvas": [
+        [
+          0.00583995447248659,
+          0.05042102006990708,
+          289.90195319094096
+        ],
+        [
+          -0.04750699050489789,
+          -0.003883601224721446,
+          812.9472899520871
+        ],
+        [
+          7.68574704442346e-06,
+          -5.869586260910316e-06,
+          1.0
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\C2.png"
+    },
+    {
+      "filename": "C3.jpg",
+      "good_matches": 99,
+      "inliers": 72,
+      "inlier_ratio": 0.7273,
+      "match_ratio": 0.72,
+      "projected_source_area_px": 111783.2,
+      "homography_source_to_canvas": [
+        [
+          0.003766332393379575,
+          0.03803145920115058,
+          623.7365897488148
+        ],
+        [
+          -0.0458409230018969,
+          -0.007698855931991883,
+          771.6590102675171
+        ],
+        [
+          3.2546675693264113e-06,
+          -1.2317536414697433e-05,
+          0.9999999999999999
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\C3.png"
+    },
+    {
+      "filename": "C4.jpg",
+      "good_matches": 58,
+      "inliers": 24,
+      "inlier_ratio": 0.4138,
+      "match_ratio": 0.65,
+      "projected_source_area_px": 147235.3,
+      "homography_source_to_canvas": [
+        [
+          0.011830953962174937,
+          0.04779836861535721,
+          856.4572677416868
+        ],
+        [
+          -0.049469308995506736,
+          -0.004608588376173947,
+          740.5866844221505
+        ],
+        [
+          9.34897322982403e-06,
+          -8.09723009157988e-06,
+          0.9999999999999999
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\C4.png"
+    },
+    {
+      "filename": "D1.jpg",
+      "good_matches": 145,
+      "inliers": 59,
+      "inlier_ratio": 0.4069,
+      "match_ratio": 0.72,
+      "projected_source_area_px": 150605.5,
+      "homography_source_to_canvas": [
+        [
+          0.003055888620942826,
+          0.054842293804273724,
+          -12.579553582911927
+        ],
+        [
+          -0.03419327621518859,
+          -0.01231388155318709,
+          1024.841985091526
+        ],
+        [
+          2.6329703382142432e-05,
+          -9.968499622751306e-06,
+          1.0
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\D1.png"
+    },
+    {
+      "filename": "D2.jpg",
+      "good_matches": 57,
+      "inliers": 22,
+      "inlier_ratio": 0.386,
+      "match_ratio": 0.65,
+      "projected_source_area_px": 173504.4,
+      "homography_source_to_canvas": [
+        [
+          0.015262543768608474,
+          0.05748374210957206,
+          267.0571236975757
+        ],
+        [
+          -0.03780413104238055,
+          -0.008399739619891601,
+          1011.5123160999335
+        ],
+        [
+          3.049795814488624e-05,
+          -7.776220534968486e-06,
+          1.0
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\D2.png"
+    },
+    {
+      "filename": "D3.jpg",
+      "good_matches": 50,
+      "inliers": 23,
+      "inlier_ratio": 0.46,
+      "match_ratio": 0.68,
+      "projected_source_area_px": 194084.2,
+      "homography_source_to_canvas": [
+        [
+          0.009921631080748483,
+          0.06289187975573295,
+          556.4047888036445
+        ],
+        [
+          -0.05722031297063967,
+          -0.005429000857882372,
+          1004.9674098444663
+        ],
+        [
+          1.2786050453659214e-05,
+          -5.475445560329168e-06,
+          1.0
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\D3.png"
+    },
+    {
+      "filename": "D4.jpg",
+      "good_matches": 53,
+      "inliers": 15,
+      "inlier_ratio": 0.283,
+      "match_ratio": 0.68,
+      "projected_source_area_px": 185369.7,
+      "homography_source_to_canvas": [
+        [
+          0.025871930970860293,
+          0.0630271059915432,
+          804.6886514364392
+        ],
+        [
+          -0.04543851691457049,
+          -0.0022725807423317865,
+          1004.3888513777422
+        ],
+        [
+          2.4917204843645205e-05,
+          -1.3318181054678314e-06,
+          1.0
+        ]
+      ],
+      "registered_output": "tools\\board-calibration\\output\\station_recovery\\phase_3d3_registered_tiles\\D4.png"
+    }
+  ]
+}

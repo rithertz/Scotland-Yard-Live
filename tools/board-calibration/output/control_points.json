@@ -1,0 +1,92 @@
+{
+  "source_image": "complete.jpeg",
+  "source_dimensions": {
+    "width": 1280,
+    "height": 892
+  },
+  "canonical_canvas": {
+    "width": 1350,
+    "height": 1000,
+    "aspect_ratio": 1.35,
+    "nature": "PROVISIONAL_COMPUTATIONAL_CHOICE"
+  },
+  "corners": {
+    "physical_nw": {
+      "source_pixel_xy": [
+        1202.5,
+        867.5
+      ],
+      "canonical_target_xy": [
+        0.0,
+        0.0
+      ],
+      "normalized_target_xy": [
+        0.0,
+        0.0
+      ],
+      "description": "Physical North-West corner (station 1 area)"
+    },
+    "physical_ne": {
+      "source_pixel_xy": [
+        78.5,
+        860.5
+      ],
+      "canonical_target_xy": [
+        1350.0,
+        0.0
+      ],
+      "normalized_target_xy": [
+        1.0,
+        0.0
+      ],
+      "description": "Physical North-East corner (King's Cross / East End area)"
+    },
+    "physical_se": {
+      "source_pixel_xy": [
+        30.5,
+        0.0
+      ],
+      "canonical_target_xy": [
+        1350.0,
+        1000.0
+      ],
+      "normalized_target_xy": [
+        1.0,
+        1.0
+      ],
+      "description": "Physical South-East corner (station 200 / Southwark area)"
+    },
+    "physical_sw": {
+      "source_pixel_xy": [
+        1217.5,
+        0.0
+      ],
+      "canonical_target_xy": [
+        0.0,
+        1000.0
+      ],
+      "normalized_target_xy": [
+        0.0,
+        1.0
+      ],
+      "description": "Physical South-West corner (Chelsea / Battersea area)"
+    }
+  },
+  "homography_matrix_3x3": [
+    [
+      -1.1375721719989969,
+      -0.019669835827071932,
+      1384.9941194087787
+    ],
+    [
+      0.00724148543556228,
+      -1.162775661367451,
+      1000.0
+    ],
+    [
+      7.241485435562279e-06,
+      -6.197826951718146e-05,
+      1.0
+    ]
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "phase": "3D.3",
+  "pairs": [
+    {
+      "pair": [
+        "A1.jpg",
+        "A2.jpg"
+      ],
+      "overlap_pixels": 36643,
+      "mean_abs_difference": 39.39209853632799
+    },
+    {
+      "pair": [
+        "A2.jpg",
+        "A3.jpg"
+      ],
+      "overlap_pixels": 14293,
+      "mean_abs_difference": 49.91158842323748
+    },
+    {
+      "pair": [
+        "A3.jpg",
+        "A4.jpg"
+      ],
+      "overlap_pixels": 38703,
+      "mean_abs_difference": 55.171123685502415
+    },
+    {
+      "pair": [
+        "B1.jpg",
+        "B2.jpg"
+      ],
+      "overlap_pixels": 25052,
+      "mean_abs_difference": 50.28788120708926
+    },
+    {
+      "pair": [
+        "B2.jpg",
+        "B3.jpg"
+      ],
+      "overlap_pixels": 59251,
+      "mean_abs_difference": 63.987122580209615
+    },
+    {
+      "pair": [
+        "B3.jpg",
+        "B4.jpg"
+      ],
+      "overlap_pixels": 49724,
+      "mean_abs_difference": 40.252735097739524
+    },
+    {
+      "pair": [
+        "C1.jpg",
+        "C2.jpg"
+      ],
+      "overlap_pixels": 61428,
+      "mean_abs_difference": 39.67845282281696
+    },
+    {
+      "pair": [
+        "C2.jpg",
+        "C3.jpg"
+      ],
+      "overlap_pixels": 28453,
+      "mean_abs_difference": 52.6019986176033
+    },
+    {
+      "pair": [
+        "C3.jpg",
+        "C4.jpg"
+      ],
+      "overlap_pixels": 41814,
+      "mean_abs_difference": 50.669951053076325
+    },
+    {
+      "pair": [
+        "D1.jpg",
+        "D2.jpg"
+      ],
+      "overlap_pixels": 53449,
+      "mean_abs_difference": 47.18062701516087
+    },
+    {
+      "pair": [
+        "D2.jpg",
+        "D3.jpg"
+      ],
+      "overlap_pixels": 68935,
+      "mean_abs_difference": 57.434220642634365
+    },
+    {
+      "pair": [
+        "D3.jpg",
+        "D4.jpg"
+      ],
+      "overlap_pixels": 102111,
+      "mean_abs_difference": 47.83824791974747
+    },
+    {
+      "pair": [
+        "A1.jpg",
+        "B1.jpg"
+      ],
+      "overlap_pixels": 32352,
+      "mean_abs_difference": 34.97348953181668
+    },
+    {
+      "pair": [
+        "A2.jpg",
+        "B2.jpg"
+      ],
+      "overlap_pixels": 66158,
+      "mean_abs_difference": 46.02641151989681
+    },
+    {
+      "pair": [
+        "A3.jpg",
+        "B3.jpg"
+      ],
+      "overlap_pixels": 44162,
+      "mean_abs_difference": 53.37797201213713
+    },
+    {
+      "pair": [
+        "A4.jpg",
+        "B4.jpg"
+      ],
+      "overlap_pixels": 48375,
+      "mean_abs_difference": 39.97232041343669
+    },
+    {
+      "pair": [
+        "B1.jpg",
+        "C1.jpg"
+      ],
+      "overlap_pixels": 24501,
+      "mean_abs_difference": 28.371522250792484
+    },
+    {
+      "pair": [
+        "B2.jpg",
+        "C2.jpg"
+      ],
+      "overlap_pixels": 15824,
+      "mean_abs_difference": 50.63112992922144
+    },
+    {
+      "pair": [
+        "B3.jpg",
+        "C3.jpg"
+      ],
+      "overlap_pixels": 6552,
+      "mean_abs_difference": 55.743844118844116
+    },
+    {
+      "pair": [
+        "B4.jpg",
+        "C4.jpg"
+      ],
+      "overlap_pixels": 46552,
+      "mean_abs_difference": 43.98519218651544
+    },
+    {
+      "pair": [
+        "C1.jpg",
+        "D1.jpg"
+      ],
+      "overlap_pixels": 71729,
+      "mean_abs_difference": 42.90111391487404
+    },
+    {
+      "pair": [
+        "C2.jpg",
+        "D2.jpg"
+      ],
+      "overlap_pixels": 75393,
+      "mean_abs_difference": 55.96902011238886
+    },
+    {
+      "pair": [
+        "C3.jpg",
+        "D3.jpg"
+      ],
+      "overlap_pixels": 54031,
+      "mean_abs_difference": 51.384698907417345
+    },
+    {
+      "pair": [
+        "C4.jpg",
+        "D4.jpg"
+      ],
+      "overlap_pixels": 53563,
+      "mean_abs_difference": 59.669772044134945
+    }
+  ]
+}
