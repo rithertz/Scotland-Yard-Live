@@ -8,7 +8,8 @@ This directory is the repository’s durable documentation index. It describes t
 - [System overview](architecture/SYSTEM_OVERVIEW.md) — current dependency direction and deferred backend/game-engine work.
 - [Architecture decisions](architecture/DECISIONS.md) — recorded infrastructure and architecture choices.
 - [Visual identity and experience](frontend/VISUAL-IDENTITY-AND-EXPERIENCE.md) — implemented visual language for the frontend foundation.
-- [Board reconstruction](game/BOARD-RECONSTRUCTION.md) — canonical-board data contract, evidence ledger, source comparison, and currently blocked verification work.
+- [Board reconstruction](game/BOARD-RECONSTRUCTION.md) — canonical-board data contract, evidence ledger, source comparison, and remaining verification work. A best-effort station file now exists; the canonical graph does not.
+- [Phase 3D closeout and Phase 3E readiness](game/PHASE-3D-CLOSEOUT-AND-PHASE-3E-READINESS.md) — delivered station-reconstruction scope, limits, and the guardrails for transport-graph work.
 - [Physical board evidence register](game/BOARD-EVIDENCE-REGISTER.md) — image inventory, quality classifications, region coverage, and missing evidence.
 - [Coordinate reconstruction](game/BOARD-COORDINATE-RECONSTRUCTION.md) — reproducible board-plane calibration and normalized-coordinate method.
 - [Transcription workflow](game/BOARD-TRANSCRIPTION-WORKFLOW.md) — evidence-linked station/edge transcription and review gates.
@@ -32,7 +33,7 @@ This directory is the repository’s durable documentation index. It describes t
 The following areas are required by the consolidated project plan but are not complete in this repository yet:
 
 - Canonical rules specification and verification ledger — planned under `docs/game/`.
-- Verified original board reconstruction, graph format, coordinates, and validation — data-package infrastructure and provenance are present in `packages/board-data/`; complete target-edition topology and coordinates remain blocked pending evidence.
+- Verified original board reconstruction and canonical transport graph — `packages/board-data` contains the data contract, validator, availability gate, and a best-effort `incomplete-verification` station file. Canonical topology and canonical-complete coordinates remain blocked. See [the Phase 3D closeout](game/PHASE-3D-CLOSEOUT-AND-PHASE-3E-READINESS.md).
 - Pure game engine and authoritative movement validation — planned under the future `packages/engine/` package.
 - Realtime room, player-specific projections, and multiplayer protocol — future server/contracts work.
 
