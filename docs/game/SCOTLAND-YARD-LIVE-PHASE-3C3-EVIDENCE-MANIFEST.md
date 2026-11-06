@@ -20,13 +20,13 @@ Apply the project's approved authority order. For board reconstruction, use the 
 
 The following five files are the designated primary photo set from the completed evidence audit. The filenames below are the repository names under `docs/game/evidence/board-photos/`. Keep these originals unchanged.
 
-| Repository file | Original dimensions | Intended evidentiary use | Known limitations |
-|---|---:|---|---|
-| `complete.jpeg` | 1280 × 892 | Overall board composition; global layout; approximate relation of major regions; cross-checking overlap | Perspective, resolution and local legibility may limit station/edge transcription |
-| `top-left.jpeg` | 925 × 1280 | Detailed upper-left region; local station markers and route tracing | Partial region; perspective/overlap |
-| `top-right.jpeg` | 885 × 1280 | Detailed upper-right region; local station markers and route tracing | Partial region; perspective/overlap |
-| `bottom-left.jpeg` | 914 × 1280 | Detailed lower-left region; local station markers and route tracing | Partial region; perspective/overlap |
-| `bottom-right.jpeg` | 1080 × 1499 | Detailed lower-right region; local station markers and route tracing | Partial region; perspective/overlap |
+| Repository file     | Original dimensions | Intended evidentiary use                                                                                | Known limitations                                                                 |
+| ------------------- | ------------------: | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| `complete.jpeg`     |          1280 × 892 | Overall board composition; global layout; approximate relation of major regions; cross-checking overlap | Perspective, resolution and local legibility may limit station/edge transcription |
+| `top-left.jpeg`     |          925 × 1280 | Detailed upper-left region; local station markers and route tracing                                     | Partial region; perspective/overlap                                               |
+| `top-right.jpeg`    |          885 × 1280 | Detailed upper-right region; local station markers and route tracing                                    | Partial region; perspective/overlap                                               |
+| `bottom-left.jpeg`  |          914 × 1280 | Detailed lower-left region; local station markers and route tracing                                     | Partial region; perspective/overlap                                               |
+| `bottom-right.jpeg` |         1080 × 1499 | Detailed lower-right region; local station markers and route tracing                                    | Partial region; perspective/overlap                                               |
 
 The five photos overlap imperfectly. Treat them as separate observations until a reproducible registration/calibration process demonstrates how they fit together. Do not assume they form a perfect scan.
 
@@ -34,15 +34,15 @@ The five photos overlap imperfectly. Treat them as separate observations until a
 
 The uploaded context also contains these additional images. Their exact repository destinations must be checked before the final handoff; do not assume every uploaded filename has already been committed.
 
-| Uploaded filename | Dimensions | Likely use | Evidence caution |
-|---|---:|---|---|
-| `full-1.jpeg` | 1152 × 2048 | Alternate full-board photograph; compare overall appearance and visible regions | Photograph, not a scan; check glare, angle and completeness |
-| `full-2.jpeg` | 1152 × 2048 | Alternate full-board photograph; corroboration | Same limitations |
-| `full-3.jpeg` | 2160 × 3840 | Higher-resolution alternate full-board photograph; potentially useful local detail | High pixel count does not remove perspective, glare or lens distortion |
-| `bottom right.jpeg` | 1152 × 2048 | Additional lower-right detail | Partial/angled view |
-| `soctland-yard board pic.jpg` | 1080 × 1920 | Earlier overall board photograph | Compare against the designated five-photo set; avoid treating as more authoritative by filename |
-| `full-board-online-sample.png` | 760 × 570 | General visual comparison only | Online/recreated sample; not authoritative for this physical edition |
-| `full-sample-2.webp` | 1530 × 1200 | General visual comparison only; may help identify broad layout conventions | Online/recreated sample; not authoritative for this physical edition |
+| Uploaded filename              |  Dimensions | Likely use                                                                         | Evidence caution                                                                                |
+| ------------------------------ | ----------: | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `full-1.jpeg`                  | 1152 × 2048 | Alternate full-board photograph; compare overall appearance and visible regions    | Photograph, not a scan; check glare, angle and completeness                                     |
+| `full-2.jpeg`                  | 1152 × 2048 | Alternate full-board photograph; corroboration                                     | Same limitations                                                                                |
+| `full-3.jpeg`                  | 2160 × 3840 | Higher-resolution alternate full-board photograph; potentially useful local detail | High pixel count does not remove perspective, glare or lens distortion                          |
+| `bottom right.jpeg`            | 1152 × 2048 | Additional lower-right detail                                                      | Partial/angled view                                                                             |
+| `soctland-yard board pic.jpg`  | 1080 × 1920 | Earlier overall board photograph                                                   | Compare against the designated five-photo set; avoid treating as more authoritative by filename |
+| `full-board-online-sample.png` |   760 × 570 | General visual comparison only                                                     | Online/recreated sample; not authoritative for this physical edition                            |
+| `full-sample-2.webp`           | 1530 × 1200 | General visual comparison only; may help identify broad layout conventions         | Online/recreated sample; not authoritative for this physical edition                            |
 
 `scotland-yard mrx board.jpg` (899 × 1599) is a photograph of Mr X/logbook-related components, not the board map. Do not use it for board geometry.
 
@@ -59,6 +59,7 @@ If the repository contains a higher-quality or separately cropped version, compa
 `scotland-yard official rules.pdf` is the supplied 12-page Milton Bradley / Funskool India rulebook.
 
 Prior edition audit findings:
+
 - Identified as the 1985 Milton Bradley / Funskool India edition, product `4500-X2` (rulebook page 12).
 - It confirms an 18-card starting-location setup.
 - It explicitly describes boat route legs `194–157`, `157–115`, and `115–118`.

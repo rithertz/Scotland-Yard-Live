@@ -10,31 +10,34 @@ state, or multiplayer protocol.
 
 ## 1. Approved design decisions
 
-  -----------------------------------------------------------------------
-  Dimension                           Decision
-  ----------------------------------- -----------------------------------
-  Visual personality                  **Metropolitan Casefile** ---
-                                      vintage detective dossier, paper,
-                                      ink, brass and investigative
-                                      editorial design
+---
 
-  Interface density                   **Balanced** --- board dominates;
-                                      essential game information remains
-                                      accessible
+Dimension Decision
 
-  Animation                           **Expressive** --- noticeable,
-                                      purposeful transitions and
-                                      cinematic moments, not constant
-                                      motion
+---
 
-  Board presentation                  **Physical** --- preserve the
-                                      original board's visual character
-                                      and geography; do not modernise it
-                                      into a generic map
+Visual personality **Metropolitan Casefile** ---
+vintage detective dossier, paper,
+ink, brass and investigative
+editorial design
 
-  Surrounding interface               **Dark** --- deep ink/navy shell
-                                      around warm paper dossier surfaces
-  -----------------------------------------------------------------------
+Interface density **Balanced** --- board dominates;
+essential game information remains
+accessible
+
+Animation **Expressive** --- noticeable,
+purposeful transitions and
+cinematic moments, not constant
+motion
+
+Board presentation **Physical** --- preserve the
+original board's visual character
+and geography; do not modernise it
+into a generic map
+
+Surrounding interface **Dark** --- deep ink/navy shell
+around warm paper dossier surfaces
+-----------------------------------------------------------------------
 
 **Design statement:** Scotland Yard Live is a confidential metropolitan
 pursuit casefile: a dark, premium investigative operations room wrapped
@@ -91,60 +94,63 @@ Richup.io is explicitly not a visual reference.
 These existing tokens remain the baseline. Refinements require
 justification; do not silently replace their semantic roles.
 
-  -----------------------------------------------------------------------
-  Token                   Value                   Role
-  ----------------------- ----------------------- -----------------------
-  `--ink-950`             `#0B1018`               Deepest application
-                                                  background
+---
 
-  `--ink-900`             `#151D28`               Command bar, dossiers,
-                                                  primary dark surfaces
+Token Value Role
 
-  `--ink-800`             `#242A32`               Raised panels, board
-                                                  frame, dark controls
+---
 
-  `--charcoal-700`        `#343A42`               Secondary borders and
-                                                  muted controls
+`--ink-950` `#0B1018` Deepest application
+background
 
-  `--paper-100`           `#E9DDC5`               Main board base and
-                                                  paper surfaces
+`--ink-900` `#151D28` Command bar, dossiers,
+primary dark surfaces
 
-  `--paper-200`           `#F5EBD8`               Paper highlights and
-                                                  high-contrast labels
+`--ink-800` `#242A32` Raised panels, board
+frame, dark controls
 
-  `--paper-300`           `#CDBB9C`               Paper borders,
-                                                  annotations and muted
-                                                  fills
+`--charcoal-700` `#343A42` Secondary borders and
+muted controls
 
-  `--text-ink`            `#202A32`               Text on paper
+`--paper-100` `#E9DDC5` Main board base and
+paper surfaces
 
-  `--text-muted`          `#87939A`               Secondary text on dark
-                                                  surfaces
+`--paper-200` `#F5EBD8` Paper highlights and
+high-contrast labels
 
-  `--signal-red`          `#D71920`               Mr X, pursuit signals,
-                                                  urgent alerts, selected
-                                                  evidence
+`--paper-300` `#CDBB9C` Paper borders,
+annotations and muted
+fills
 
-  `--blood-red`           `#8F171C`               Deep crimson fills and
-                                                  meaningful stamps
+`--text-ink` `#202A32` Text on paper
 
-  `--signal-gold`         `#D9A83F`               Detective emphasis,
-                                                  selected tickets,
-                                                  active state
+`--text-muted` `#87939A` Secondary text on dark
+surfaces
 
-  `--muted-brass`         `#9E8150`               Metadata and aged
-                                                  hardware cues
+`--signal-red` `#D71920` Mr X, pursuit signals,
+urgent alerts, selected
+evidence
 
-  `--taxi-yellow`         `#D6A928`               Taxi route
+`--blood-red` `#8F171C` Deep crimson fills and
+meaningful stamps
 
-  `--bus-green`           `#39846A`               Bus route
+`--signal-gold` `#D9A83F` Detective emphasis,
+selected tickets,
+active state
 
-  `--underground-red`     `#B94A4B`               Underground route
+`--muted-brass` `#9E8150` Metadata and aged
+hardware cues
 
-  `--water-blue`          `#4F86A5`               River and boat route
+`--taxi-yellow` `#D6A928` Taxi route
 
-  `--focus-blue`          `#2E77B7`               Keyboard focus only
-  -----------------------------------------------------------------------
+`--bus-green` `#39846A` Bus route
+
+`--underground-red` `#B94A4B` Underground route
+
+`--water-blue` `#4F86A5` River and boat route
+
+`--focus-blue` `#2E77B7` Keyboard focus only
+-----------------------------------------------------------------------
 
 Colour rules: - Use colour semantically, not decoratively. Signal red
 must remain scarce. - Do not use crimson for generic selection if it
@@ -157,15 +163,15 @@ focus must be distinct from game selection.
 
 Use three clear roles:
 
--   **Editorial display:** Playfair Display, Source Serif 4 or Cormorant
-    Garamond. Case titles, major headings and selected editorial
-    moments. Sentence case, controlled tracking and readable leading.
--   **Interface sans:** DM Sans, Inter or IBM Plex Sans. Controls,
-    player names, instructions and body copy. Prioritise compact-size
-    legibility.
--   **Operational mono:** DM Mono, IBM Plex Mono or another readable
-    monospace. Room codes, station IDs, timestamps, ticket counts and
-    short stamps.
+- **Editorial display:** Playfair Display, Source Serif 4 or Cormorant
+  Garamond. Case titles, major headings and selected editorial
+  moments. Sentence case, controlled tracking and readable leading.
+- **Interface sans:** DM Sans, Inter or IBM Plex Sans. Controls,
+  player names, instructions and body copy. Prioritise compact-size
+  legibility.
+- **Operational mono:** DM Mono, IBM Plex Mono or another readable
+  monospace. Room codes, station IDs, timestamps, ticket counts and
+  short stamps.
 
 Do not use monospace for paragraphs or uppercase for every label.
 Inspect existing font loading before adding dependencies. Prefer a small
@@ -181,38 +187,38 @@ Centralise tokens rather than scattering arbitrary values.
 
 ### Desktop
 
--   Give the board the largest share of available space.
--   Side panels are attached dossier leaves, not equal dashboard
-    columns.
--   Keep turn/action state visible near the board.
--   Avoid panel widths that make the board hard to interpret.
--   Visually distinguish the warm paper board from the dark operations
-    shell.
+- Give the board the largest share of available space.
+- Side panels are attached dossier leaves, not equal dashboard
+  columns.
+- Keep turn/action state visible near the board.
+- Avoid panel widths that make the board hard to interpret.
+- Visually distinguish the warm paper board from the dark operations
+  shell.
 
 ### Mobile/narrow layouts
 
--   Preserve the board as the central interaction surface.
--   Move secondary dossiers/history into drawers, sheets or compact
-    tabs.
--   Do not merely shrink the desktop dashboard.
--   Keep primary turn/action information available.
--   Maintain practical touch targets and avoid overlap with station hit
-    targets.
+- Preserve the board as the central interaction surface.
+- Move secondary dossiers/history into drawers, sheets or compact
+  tabs.
+- Do not merely shrink the desktop dashboard.
+- Keep primary turn/action information available.
+- Maintain practical touch targets and avoid overlap with station hit
+  targets.
 
 ### Surface rules
 
--   Dark panels: 1px translucent rule and one restrained shadow.
--   Paper: warm base, fine static grain and thin ink rules.
--   Crimson stamps: meaningful statuses only; optional 1--2° rotation,
-    never generic decoration.
--   Avoid stacks of identical rounded cards; prefer composed surfaces
-    and internal dividers.
--   Use 2--3px top rules for section identity and 1px rules for
-    information grouping.
--   Reserve rounded corners mainly for controls, markers and interactive
-    elements; casefile surfaces remain mostly square.
--   Texture is atmosphere, never content; it must not reduce
-    station-number or label legibility.
+- Dark panels: 1px translucent rule and one restrained shadow.
+- Paper: warm base, fine static grain and thin ink rules.
+- Crimson stamps: meaningful statuses only; optional 1--2° rotation,
+  never generic decoration.
+- Avoid stacks of identical rounded cards; prefer composed surfaces
+  and internal dividers.
+- Use 2--3px top rules for section identity and 1px rules for
+  information grouping.
+- Reserve rounded corners mainly for controls, markers and interactive
+  elements; casefile surfaces remain mostly square.
+- Texture is atmosphere, never content; it must not reduce
+  station-number or label legibility.
 
 ## 6. Board presentation --- physical fidelity is mandatory
 
@@ -253,14 +259,14 @@ The renderer must not create gameplay truth from visual effects.
 
 ### Geometry and interaction
 
--   Maintain a stable SVG coordinate system and preserve board aspect
-    ratio.
--   Pan/zoom the board scene as one coherent surface.
--   Keep inspector and evidence/history panels outside the SVG scene.
--   Make station hit targets larger than visible markers.
--   Keep labels legible at useful zoom levels.
--   Support keyboard focus and pointer selection.
--   Avoid hit-target overlap; document unavoidable crowded areas.
+- Maintain a stable SVG coordinate system and preserve board aspect
+  ratio.
+- Pan/zoom the board scene as one coherent surface.
+- Keep inspector and evidence/history panels outside the SVG scene.
+- Make station hit targets larger than visible markers.
+- Keep labels legible at useful zoom levels.
+- Support keyboard focus and pointer selection.
+- Avoid hit-target overlap; document unavoidable crowded areas.
 
 ### Station states
 
@@ -280,39 +286,42 @@ revealed.
 
 ## 7. Interface inventory
 
-  -----------------------------------------------------------------------
-  Area                    Treatment               Priority information
-  ----------------------- ----------------------- -----------------------
-  Command/header          Dark ink, compact       Room, round,
-                          metadata, restrained    connection/game status
-                          brass
+---
 
-  Main board              Warm paper inside dark  Board and active
-                          frame                   pursuit
+Area Treatment Priority information
 
-  Turn/action indicator   High-contrast           Whose turn; expected
-                          operational panel       action
+---
 
-  Player/personnel        Dark shell with paper   Player, pawn and status
-  dossier                 details
+Command/header Dark ink, compact Room, round,
+metadata, restrained connection/game status
+brass
 
-  Station inspector       Paper report/dossier    Station ID and
-                          leaf                    authorised context
+Main board Warm paper inside dark Board and active
+frame pursuit
 
-  Ticket folio            Tactile ticket/card     Ticket type and
-                          treatment               remaining count
+Turn/action indicator High-contrast Whose turn; expected
+operational panel action
 
-  Move history            Ruled logbook/timeline  Recent confirmed
-                                                  moves/events
+Player/personnel Dark shell with paper Player, pawn and status
+dossier details
 
-  Mr X dossier            Classified dark/crimson Authorised visible
-                          treatment               information only
+Station inspector Paper report/dossier Station ID and
+leaf authorised context
 
-  Dialogs                 Focused premium modal   One task at a time
+Ticket folio Tactile ticket/card Ticket type and
+treatment remaining count
 
-  Notifications           Short, high-signal      Important changes only
-                          treatment
-  -----------------------------------------------------------------------
+Move history Ruled logbook/timeline Recent confirmed
+moves/events
+
+Mr X dossier Classified dark/crimson Authorised visible
+treatment information only
+
+Dialogs Focused premium modal One task at a time
+
+Notifications Short, high-signal Important changes only
+treatment
+-----------------------------------------------------------------------
 
 Avoid repeating the same information across panels unless repetition
 materially improves immediate game comprehension.
@@ -330,37 +339,42 @@ action.
 
 ### Motion tiers
 
-  -----------------------------------------------------------------------
-  Tier                    Examples                Character
-  ----------------------- ----------------------- -----------------------
-  Micro                   Button press, ticket    Immediate, crisp,
-                          selection, focus/hover  subtle
+---
 
-  Interface               Drawer, inspector,      Smooth, clearly
-                          dialog, panel           noticeable
+Tier Examples Character
 
-  Game event              Pawn movement, turn     Expressive and
-                          change, ticket use      spatially coherent
+---
 
-  Cinematic               Mr X reveal, game       Strongest emphasis;
-                          start/end, decisive     rare and brief
-                          capture
-  -----------------------------------------------------------------------
+Micro Button press, ticket Immediate, crisp,
+selection, focus/hover subtle
+
+Interface Drawer, inspector, Smooth, clearly
+dialog, panel noticeable
+
+Game event Pawn movement, turn Expressive and
+change, ticket use spatially coherent
+
+Cinematic Mr X reveal, game Strongest emphasis;
+start/end, decisive rare and brief
+capture
+-----------------------------------------------------------------------
 
 ### Suggested initial timing ranges
 
 These are starting points for implementation and playtesting, not rigid
 mandates.
 
-  Motion                     Initial duration
-  ------------------------ ------------------
-  Hover/press feedback              90--160ms
-  Small state transition           140--220ms
-  Panel/drawer                     200--320ms
-  Pawn movement                    250--450ms
-  Turn transition                  250--400ms
-  Important reveal                 450--750ms
-  Game start/end                   500--900ms
+Motion Initial duration
+
+---
+
+Hover/press feedback 90--160ms
+Small state transition 140--220ms
+Panel/drawer 200--320ms
+Pawn movement 250--450ms
+Turn transition 250--400ms
+Important reveal 450--750ms
+Game start/end 500--900ms
 
 Prefer transform and opacity. Use consistent easing: responsive ease-out
 for entrances, ease-in for exits and deliberate but not sluggish curves
@@ -368,18 +382,18 @@ for game events.
 
 ### Board animation constraints
 
--   Animate a pawn between exact source/destination coordinates supplied
-    by canonical data/state.
--   Never draw or imply an unverified route connection.
--   Do not interpolate through unrelated station markers if it implies
-    false movement.
--   Keep camera and pawn coordinate systems aligned.
--   Avoid simultaneous camera/pawn movement that makes the destination
-    hard to track.
--   Final pawn position must match authoritative state, not animation
-    progress.
--   Reconcile late/out-of-order events to authoritative state.
--   Effects must not obscure station IDs or pawns.
+- Animate a pawn between exact source/destination coordinates supplied
+  by canonical data/state.
+- Never draw or imply an unverified route connection.
+- Do not interpolate through unrelated station markers if it implies
+  false movement.
+- Keep camera and pawn coordinate systems aligned.
+- Avoid simultaneous camera/pawn movement that makes the destination
+  hard to track.
+- Final pawn position must match authoritative state, not animation
+  progress.
+- Reconcile late/out-of-order events to authoritative state.
+- Effects must not obscure station IDs or pawns.
 
 Reserve strongest effects for Mr X reveal rounds, capture/game-ending
 events, game start and important confirmed state changes. Do not
@@ -398,18 +412,18 @@ be available only through animation.
 Use the libraries as component/technique sources, not as wholesale
 design systems.
 
--   Prefer one coherent Motion-based animation foundation where
-    justified.
--   Inspect package versions, lockfile, current installation
-    instructions and APIs before adding dependencies.
--   Avoid duplicate animation engines.
--   Copy/adapt only components that can be restyled to this design
-    system.
--   Candidate Motion Primitives use: dialogs, accordions/expandable
-    panels, limited text transitions and reusable interface patterns.
--   Candidate React Bits use: restrained micro-interactions, limited
-    text effects, selective emphasis/spotlight and subtle surface
-    techniques.
+- Prefer one coherent Motion-based animation foundation where
+  justified.
+- Inspect package versions, lockfile, current installation
+  instructions and APIs before adding dependencies.
+- Avoid duplicate animation engines.
+- Copy/adapt only components that can be restyled to this design
+  system.
+- Candidate Motion Primitives use: dialogs, accordions/expandable
+  panels, limited text transitions and reusable interface patterns.
+- Candidate React Bits use: restrained micro-interactions, limited
+  text effects, selective emphasis/spotlight and subtle surface
+  techniques.
 
 Avoid particle-heavy backgrounds, cursor-following board effects,
 distortion, excessive 3D cards, neon/glow-heavy treatments and
@@ -456,30 +470,30 @@ interaction consequences and migration/testing.
 
 ### Accessibility
 
--   All actions keyboard reachable.
--   Visible focus distinct from selection.
--   Never rely on colour alone.
--   Use semantic controls and meaningful accessible names.
--   Announce important state changes without overwhelming assistive
-    technology.
--   Respect reduced motion.
+- All actions keyboard reachable.
+- Visible focus distinct from selection.
+- Never rely on colour alone.
+- Use semantic controls and meaningful accessible names.
+- Announce important state changes without overwhelming assistive
+  technology.
+- Respect reduced motion.
 
 ### Responsiveness
 
--   Desktop composition prioritises a large board.
--   Mobile is deliberately composed, not merely shrunken.
--   Touch targets remain practical.
--   Drawers/panels must not cover the only board controls.
--   Avoid hover-only functionality.
+- Desktop composition prioritises a large board.
+- Mobile is deliberately composed, not merely shrunken.
+- Touch targets remain practical.
+- Drawers/panels must not cover the only board controls.
+- Avoid hover-only functionality.
 
 ### Performance
 
--   Prefer transform/opacity animation.
--   Avoid rerendering the full SVG scene for transient effects.
--   Keep textures lightweight.
--   Avoid large image/video backgrounds.
--   Profile with realistic station/route counts.
--   Keep the application responsive during live updates.
+- Prefer transform/opacity animation.
+- Avoid rerendering the full SVG scene for transient effects.
+- Keep textures lightweight.
+- Avoid large image/video backgrounds.
+- Profile with realistic station/route counts.
+- Keep the application responsive during live updates.
 
 ## 12. Design-system deliverables
 
@@ -500,27 +514,27 @@ the evidence-gated Phase 3C.3 process.
 
 ## 13. Visual QA acceptance checklist
 
--   [ ] Experience reads as a confidential metropolitan casefile.
--   [ ] Surrounding interface is predominantly dark ink/navy.
--   [ ] Paper surfaces are warm and physical, not flat white.
--   [ ] Board is visually dominant.
--   [ ] Physical board appearance is preserved where evidence supports
-    it.
--   [ ] Information density is balanced.
--   [ ] Turn/action state is quickly identifiable.
--   [ ] Typography roles are distinct and readable.
--   [ ] Route types are not distinguished by colour alone.
--   [ ] Station numbers/routes remain legible.
--   [ ] Selection, occupancy, focus and reveal states are
-    distinguishable.
--   [ ] Important motion is expressive; routine motion remains
-    efficient.
--   [ ] Reduced-motion mode remains usable.
--   [ ] Narrow layouts are deliberately composed.
--   [ ] No visual effect implies unverified topology or rules.
--   [ ] No hidden Mr X information is exposed.
--   [ ] Existing pan/zoom remains coherent.
--   [ ] No unnecessary animation or component dependency is introduced.
+- [ ] Experience reads as a confidential metropolitan casefile.
+- [ ] Surrounding interface is predominantly dark ink/navy.
+- [ ] Paper surfaces are warm and physical, not flat white.
+- [ ] Board is visually dominant.
+- [ ] Physical board appearance is preserved where evidence supports
+      it.
+- [ ] Information density is balanced.
+- [ ] Turn/action state is quickly identifiable.
+- [ ] Typography roles are distinct and readable.
+- [ ] Route types are not distinguished by colour alone.
+- [ ] Station numbers/routes remain legible.
+- [ ] Selection, occupancy, focus and reveal states are
+      distinguishable.
+- [ ] Important motion is expressive; routine motion remains
+      efficient.
+- [ ] Reduced-motion mode remains usable.
+- [ ] Narrow layouts are deliberately composed.
+- [ ] No visual effect implies unverified topology or rules.
+- [ ] No hidden Mr X information is exposed.
+- [ ] Existing pan/zoom remains coherent.
+- [ ] No unnecessary animation or component dependency is introduced.
 
 ## 14. Explicit non-goals
 

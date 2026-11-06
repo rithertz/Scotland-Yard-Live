@@ -5,6 +5,7 @@
 This directory contains the offline, reproducible Python + OpenCV board calibration foundation for **Scotland Yard Live**.
 
 Phase 3C.3-B.1 conducts an evidence audit and implements independent held-out registration validation:
+
 1. **B1: Source Image Identity & Cryptographic Audit** — Verified dimensions ($1280 \times 892$ for `complete.jpeg`), cryptographic SHA-256 hashes, and orientation mapping. Tamper detection raises immediate exceptions if evidence files are modified.
 2. **B2: Global Rectification** — Planar homography mapping the four outer board corners of `complete.jpeg` into a provisional computational working canvas ($1350 \times 1000$, aspect ratio 1.350).
 3. **B3: Independent Registration Validation** — Deterministic 75% fitting / 25% held-out validation partition using spatial interleaving. Homographies are fitted strictly on the fitting subset; residuals are independently measured on both subsets.
@@ -84,6 +85,7 @@ tools/board-calibration/.venv/Scripts/python.exe tools/board-calibration/test_ca
 ```
 
 All 12 unit tests validate:
+
 - Cryptographic SHA-256 hash integrity across all 5 source photographs.
 - Tamper detection raising `ValueError` on mismatched or altered files.
 - Control point bounds and global corner homography mapping.
@@ -122,11 +124,11 @@ The calibration framework strictly distinguishes three concepts:
 
 Evaluation using independent 75% fitting and 25% held-out validation subsets:
 
-| Metric | Fitting Inliers | Independent Held-Out Validation Inliers |
-| :--- | :--- | :--- |
-| **Global Mean Residual** | $0.000710\text{ norm}$ ($0.96\text{ px}$) | **$0.000792\text{ norm}$ ($1.07\text{ px}$)** |
+| Metric                     | Fitting Inliers                           | Independent Held-Out Validation Inliers       |
+| :------------------------- | :---------------------------------------- | :-------------------------------------------- |
+| **Global Mean Residual**   | $0.000710\text{ norm}$ ($0.96\text{ px}$) | **$0.000792\text{ norm}$ ($1.07\text{ px}$)** |
 | **Global Median Residual** | $0.000624\text{ norm}$ ($0.84\text{ px}$) | **$0.000685\text{ norm}$ ($0.92\text{ px}$)** |
-| **Global Max Residual** | $0.002217\text{ norm}$ ($2.99\text{ px}$) | **$0.001931\text{ norm}$ ($2.61\text{ px}$)** |
+| **Global Max Residual**    | $0.002217\text{ norm}$ ($2.99\text{ px}$) | **$0.001931\text{ norm}$ ($2.61\text{ px}$)** |
 
 - **Bottom-Right Registration:** 8 candidate matches in `bottom-right.jpeg` were spurious cross-quadrant false positives in the NW/NE quadrants caused by identical London street symbols. RANSAC rejected 100% of these cross-quadrant matches. Within true SE bounds, inliers cover the full quadrant down to Station 200 with an inlier mean residual of $0.000722\text{ norm}$ (fitting) and $0.001001\text{ norm}$ (validation).
 - **Fold Seams:** Residuals within $100\text{ px}$ of the horizontal crease and vertical hinge seam remain under $1.5\text{ px}$ ($0.0011\text{ norm}$), confirming that a single planar homography per photograph is mathematically stable without piecewise warping.

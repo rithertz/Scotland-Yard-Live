@@ -32,13 +32,13 @@ Phase 3C.3 requires reconstructing the physical Scotland Yard board's geometry f
 
 ### 2.1 Primary board photographs
 
-| ID | File | Dimensions | Orientation | Board coverage | Station readability | Calibration utility | Key limitations |
-|---|---|---:|---|---|---|---|---|
-| IMG-08 | `complete.jpeg` | 1280×892 | Landscape, near-horizontal | Full board; all 4 outer corners visible | Medium — most station numbers readable at zoom; small numbers may be ambiguous | **Best global reference.** Four board corners → planar homography. | Low pixel density (~1.4 Mpx); mild perspective; board is on fabric with slight ripple; no calibrated capture |
-| IMG-09 | `top-left.jpeg` | 925×1280 | Portrait, rotated ~90° CW vs. board | Northern/western region; stations 1–114 area | High — station numbers are individually legible at close range | Good for local refinement; no board corners within frame | Rotated; perspective distorted; cropped to region; 3 board edges partially visible (top, left, and parts of internal fold) |
-| IMG-10 | `top-right.jpeg` | 885×1280 | Portrait, rotated ~90° CW vs. board | Northern/eastern region; stations 4–107 area | High — station numbers legible; Thames bridges visible | Good for local refinement and river-corridor detail | Rotated; perspective distorted; board right edge and bottom-right corner partially visible |
-| IMG-11 | `bottom-left.jpeg` | 914×1280 | Portrait, rotated ~90° CW vs. board | Southern/western region; stations 113–197 area | High — station numbers legible; Chelsea/Kensington area clear | Good for local refinement | Rotated; perspective distorted; left edge visible; fold/seam visible |
-| IMG-12 | `bottom-right.jpeg` | 1080×1499 | Portrait, rotated ~90° CW vs. board | Southern/eastern region; stations 113–200 area | High — station numbers legible; marker 200 clearly visible | Good for local refinement and station-200 confirmation | Rotated; perspective distorted; "Scotland Yard" title visible at lower edge |
+| ID     | File                | Dimensions | Orientation                         | Board coverage                                 | Station readability                                                            | Calibration utility                                                | Key limitations                                                                                                            |
+| ------ | ------------------- | ---------: | ----------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| IMG-08 | `complete.jpeg`     |   1280×892 | Landscape, near-horizontal          | Full board; all 4 outer corners visible        | Medium — most station numbers readable at zoom; small numbers may be ambiguous | **Best global reference.** Four board corners → planar homography. | Low pixel density (~1.4 Mpx); mild perspective; board is on fabric with slight ripple; no calibrated capture               |
+| IMG-09 | `top-left.jpeg`     |   925×1280 | Portrait, rotated ~90° CW vs. board | Northern/western region; stations 1–114 area   | High — station numbers are individually legible at close range                 | Good for local refinement; no board corners within frame           | Rotated; perspective distorted; cropped to region; 3 board edges partially visible (top, left, and parts of internal fold) |
+| IMG-10 | `top-right.jpeg`    |   885×1280 | Portrait, rotated ~90° CW vs. board | Northern/eastern region; stations 4–107 area   | High — station numbers legible; Thames bridges visible                         | Good for local refinement and river-corridor detail                | Rotated; perspective distorted; board right edge and bottom-right corner partially visible                                 |
+| IMG-11 | `bottom-left.jpeg`  |   914×1280 | Portrait, rotated ~90° CW vs. board | Southern/western region; stations 113–197 area | High — station numbers legible; Chelsea/Kensington area clear                  | Good for local refinement                                          | Rotated; perspective distorted; left edge visible; fold/seam visible                                                       |
+| IMG-12 | `bottom-right.jpeg` |  1080×1499 | Portrait, rotated ~90° CW vs. board | Southern/eastern region; stations 113–200 area | High — station numbers legible; marker 200 clearly visible                     | Good for local refinement and station-200 confirmation             | Rotated; perspective distorted; "Scotland Yard" title visible at lower edge                                                |
 
 ### 2.2 Coverage overlap analysis
 
@@ -68,13 +68,13 @@ graph TD
 
 **Overlap regions confirmed by visual inspection:**
 
-| Region pair | Shared stations (approximate) | Overlap utility |
-|---|---|---|
-| IMG-09 ↔ IMG-10 | Stations near 13, 43–50, 57, 67 corridor | ~30 shared stations; strong for registration |
-| IMG-09 ↔ IMG-11 | Stations near 78–82, 95–100, 110 corridor | ~15 shared stations; moderate overlap |
-| IMG-10 ↔ IMG-12 | Stations near 105–108, 115–119 corridor | ~12 shared stations; moderate overlap |
-| IMG-11 ↔ IMG-12 | Stations near 140, 155–157, 170 corridor | ~15 shared stations; moderate overlap |
-| IMG-08 ↔ all close-ups | All stations | Global reference; lower precision |
+| Region pair            | Shared stations (approximate)             | Overlap utility                              |
+| ---------------------- | ----------------------------------------- | -------------------------------------------- |
+| IMG-09 ↔ IMG-10        | Stations near 13, 43–50, 57, 67 corridor  | ~30 shared stations; strong for registration |
+| IMG-09 ↔ IMG-11        | Stations near 78–82, 95–100, 110 corridor | ~15 shared stations; moderate overlap        |
+| IMG-10 ↔ IMG-12        | Stations near 105–108, 115–119 corridor   | ~12 shared stations; moderate overlap        |
+| IMG-11 ↔ IMG-12        | Stations near 140, 155–157, 170 corridor  | ~15 shared stations; moderate overlap        |
+| IMG-08 ↔ all close-ups | All stations                              | Global reference; lower precision            |
 
 **Direct observation from photographs:**
 
@@ -86,28 +86,28 @@ graph TD
 
 ### 2.3 Supporting evidence (non-primary)
 
-| Source | Role | Authority level |
-|---|---|---|
+| Source                                                         | Role                                                                 | Authority level                                                       |
+| -------------------------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | `full-1.jpeg`, `full-2.jpeg`, `full-3.jpeg` (older photoscans) | Secondary corroboration; may help resolve specific ambiguous markers | Supporting only — not committed to `docs/game/evidence/board-photos/` |
-| `bottom right.jpeg` (older photoscan) | Additional lower-right detail | Supporting only |
-| `soctland-yard board pic.jpg` (older overview) | Earlier overall reference | Supporting only; lower quality than primary set |
-| `full-board-online-sample.png` | Layout comparison only | **Non-canonical** — online/recreated; not this edition |
-| `full-sample-2.webp` | Layout comparison only | **Non-canonical** — online/recreated; not this edition |
-| `starting cards.jpeg` | Starting-card value evidence | 13 of 18 values safely legible; not coordinate evidence |
-| `scotland-yard official rules.pdf` | Rules, edition identity, boat routes | Primary for rules; does not prove board geometry |
-| `Video-79477.mp4` | Art-direction reference | No board-coordinate evidence |
-| `youtube_video_transcipt.txt` | Gameplay/rules aid | No coordinate evidence |
+| `bottom right.jpeg` (older photoscan)                          | Additional lower-right detail                                        | Supporting only                                                       |
+| `soctland-yard board pic.jpg` (older overview)                 | Earlier overall reference                                            | Supporting only; lower quality than primary set                       |
+| `full-board-online-sample.png`                                 | Layout comparison only                                               | **Non-canonical** — online/recreated; not this edition                |
+| `full-sample-2.webp`                                           | Layout comparison only                                               | **Non-canonical** — online/recreated; not this edition                |
+| `starting cards.jpeg`                                          | Starting-card value evidence                                         | 13 of 18 values safely legible; not coordinate evidence               |
+| `scotland-yard official rules.pdf`                             | Rules, edition identity, boat routes                                 | Primary for rules; does not prove board geometry                      |
+| `Video-79477.mp4`                                              | Art-direction reference                                              | No board-coordinate evidence                                          |
+| `youtube_video_transcipt.txt`                                  | Gameplay/rules aid                                                   | No coordinate evidence                                                |
 
 ### 2.4 Evidence sufficiency assessment
 
-| Question | Assessment | Confidence |
-|---|---|---|
-| Can the board boundary be identified? | Yes — all four corners visible in `complete.jpeg` | High |
-| Can all 200 station markers be located? | Yes, at approximate precision from `complete.jpeg`; refined from close-ups where overlap exists | High for marker presence; Medium for centre precision |
-| Is resolution sufficient for ±1 px station centres? | No — `complete.jpeg` at 1280 px wide covers a board ~580 mm wide; ~2.2 px/mm is too coarse for sub-mm accuracy | Low |
-| Can transport routes be definitively traced? | Not from this task — route tracing requires separate endpoint-crop analysis and is explicitly out of scope | N/A (separate concern) |
-| Is an automated stitching pipeline feasible? | Not reliably — the close-ups are heavily rotated, perspective-distorted, and lack controlled calibration targets | Low |
-| Is the evidence sufficient for a usable initial coordinate set? | **Yes** — with documented precision limits and confidence levels | Medium-High |
+| Question                                                        | Assessment                                                                                                       | Confidence                                            |
+| --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| Can the board boundary be identified?                           | Yes — all four corners visible in `complete.jpeg`                                                                | High                                                  |
+| Can all 200 station markers be located?                         | Yes, at approximate precision from `complete.jpeg`; refined from close-ups where overlap exists                  | High for marker presence; Medium for centre precision |
+| Is resolution sufficient for ±1 px station centres?             | No — `complete.jpeg` at 1280 px wide covers a board ~580 mm wide; ~2.2 px/mm is too coarse for sub-mm accuracy   | Low                                                   |
+| Can transport routes be definitively traced?                    | Not from this task — route tracing requires separate endpoint-crop analysis and is explicitly out of scope       | N/A (separate concern)                                |
+| Is an automated stitching pipeline feasible?                    | Not reliably — the close-ups are heavily rotated, perspective-distorted, and lack controlled calibration targets | Low                                                   |
+| Is the evidence sufficient for a usable initial coordinate set? | **Yes** — with documented precision limits and confidence levels                                                 | Medium-High                                           |
 
 > [!IMPORTANT]
 > The five photographs are **sufficient for an initial approximate coordinate reconstruction** with documented uncertainty. They are **not sufficient for a final calibrated coordinate set** that could claim ±0.001 normalized precision. The proposal proceeds with this understanding and explicitly records the precision limits.
@@ -156,19 +156,20 @@ The calibration strategy uses two complementary techniques:
 
 ### 3.2 Rejected alternatives
 
-| Approach | Reason for rejection |
-|---|---|
-| **Fully automatic feature matching (SIFT/ORB + RANSAC)** | The close-ups are rotated 90°, have significant perspective change, and the board surface has repetitive printed features (buildings, street lines) that would generate many false matches. Manual landmark selection is more reliable for 4–5 images. |
-| **Image stitching into a single mosaic** | Stitching would create a seamless composite image but would also introduce blending artifacts, seam errors, and hide registration residuals. It is better to keep images independent and compare coordinates. |
-| **Lens distortion correction** | No lens model or camera EXIF data is available. The board's printed border lines in `complete.jpeg` appear nearly straight, suggesting barrel/pincushion distortion is minor. Applying a guessed lens model risks introducing more error than it corrects. |
-| **High-order polynomial warping** | Without a controlled calibration target (grid of known points), a polynomial warp beyond a simple homography is under-constrained and risks overfitting to landmark noise. |
-| **Single close-up as master frame** | No single close-up covers the full board or has identifiable board corners. |
+| Approach                                                 | Reason for rejection                                                                                                                                                                                                                                       |
+| -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Fully automatic feature matching (SIFT/ORB + RANSAC)** | The close-ups are rotated 90°, have significant perspective change, and the board surface has repetitive printed features (buildings, street lines) that would generate many false matches. Manual landmark selection is more reliable for 4–5 images.     |
+| **Image stitching into a single mosaic**                 | Stitching would create a seamless composite image but would also introduce blending artifacts, seam errors, and hide registration residuals. It is better to keep images independent and compare coordinates.                                              |
+| **Lens distortion correction**                           | No lens model or camera EXIF data is available. The board's printed border lines in `complete.jpeg` appear nearly straight, suggesting barrel/pincushion distortion is minor. Applying a guessed lens model risks introducing more error than it corrects. |
+| **High-order polynomial warping**                        | Without a controlled calibration target (grid of known points), a polynomial warp beyond a simple homography is under-constrained and risks overfitting to landmark noise.                                                                                 |
+| **Single close-up as master frame**                      | No single close-up covers the full board or has identifiable board corners.                                                                                                                                                                                |
 
 ### 3.3 Board fold treatment
 
 **Observation:** The board fold is visible as a vertical line approximately 50% of the way across the board width. On a physical folding board, each half may sit at a slightly different angle when opened.
 
 **Recommended treatment:**
+
 1. Perform the initial homography using the four outer board corners of `complete.jpeg`. This treats the board as a single plane.
 2. After extracting station centres, check whether stations near the fold show systematic displacement relative to stations far from the fold.
 3. If systematic fold displacement is detected (expected magnitude: 0.001–0.003 in normalized coordinates), document it but do **not** apply a piecewise warp unless the error exceeds the working precision threshold.
@@ -178,13 +179,13 @@ The calibration strategy uses two complementary techniques:
 
 The calibration process should produce:
 
-| Artifact | Contents |
-|---|---|
-| Corner control points | Four pixel coordinates per image (where visible) and their mapped board-plane positions |
+| Artifact                 | Contents                                                                                                                        |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| Corner control points    | Four pixel coordinates per image (where visible) and their mapped board-plane positions                                         |
 | Landmark correspondences | Per close-up: 8–15 station IDs with pixel coordinates in the close-up and expected normalized coordinates from the master frame |
-| Homography matrices | One 3×3 matrix per image (5 total) |
-| Residual report | Per-station overlap residuals for all multi-image stations |
-| Coverage quality map | Per-station: which images contribute, at what pixel density, with what confidence |
+| Homography matrices      | One 3×3 matrix per image (5 total)                                                                                              |
+| Residual report          | Per-station overlap residuals for all multi-image stations                                                                      |
+| Coverage quality map     | Per-station: which images contribute, at what pixel density, with what confidence                                               |
 
 ---
 
@@ -192,16 +193,16 @@ The calibration process should produce:
 
 ### 4.1 Board-local coordinate space
 
-| Property | Specification | Rationale |
-|---|---|---|
-| **Reference frame** | The printed board's outer border rectangle | Stable, printed, visible in evidence |
-| **Origin** | Top-left corner of the outer border | Consistent with SVG/screen convention |
-| **x axis** | Rightward along the top border | Standard screen orientation |
-| **y axis** | Downward along the left border | Standard SVG convention |
-| **Range** | x ∈ [0, 1], y ∈ [0, 1] | Normalized; resolution-independent |
-| **Aspect ratio** | Measured from `complete.jpeg` after rectification; approximately 1.43:1 (width:height) | Must be determined empirically, not assumed |
-| **Station position** | Centre of the printed numbered marker's surrounding circular/rounded outline | Not the label text centroid; see §5 |
-| **Precision** | Store 4 decimal places (0.0001 resolution) | ~0.07 mm at physical board scale; well within working precision; round only for display |
+| Property             | Specification                                                                          | Rationale                                                                               |
+| -------------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| **Reference frame**  | The printed board's outer border rectangle                                             | Stable, printed, visible in evidence                                                    |
+| **Origin**           | Top-left corner of the outer border                                                    | Consistent with SVG/screen convention                                                   |
+| **x axis**           | Rightward along the top border                                                         | Standard screen orientation                                                             |
+| **y axis**           | Downward along the left border                                                         | Standard SVG convention                                                                 |
+| **Range**            | x ∈ [0, 1], y ∈ [0, 1]                                                                 | Normalized; resolution-independent                                                      |
+| **Aspect ratio**     | Measured from `complete.jpeg` after rectification; approximately 1.43:1 (width:height) | Must be determined empirically, not assumed                                             |
+| **Station position** | Centre of the printed numbered marker's surrounding circular/rounded outline           | Not the label text centroid; see §5                                                     |
+| **Precision**        | Store 4 decimal places (0.0001 resolution)                                             | ~0.07 mm at physical board scale; well within working precision; round only for display |
 
 ### 4.2 SVG viewBox contract
 
@@ -211,13 +212,13 @@ viewBox="0 0 1000 <height>"
 
 where `<height>` is computed from the measured board aspect ratio. If the board is 1.43:1, then height ≈ 699.
 
-| Property | Specification |
-|---|---|
-| **viewBox width** | 1000 (fixed design-space units) |
-| **viewBox height** | Computed from measured aspect ratio (approximately 699) |
-| **Mapping from normalized to SVG** | `svgX = normalizedX × 1000`, `svgY = normalizedY × height` |
-| **`preserveAspectRatio`** | `xMidYMid meet` |
-| **Responsive scaling** | The SVG scales uniformly within its container; the viewBox never changes |
+| Property                           | Specification                                                            |
+| ---------------------------------- | ------------------------------------------------------------------------ |
+| **viewBox width**                  | 1000 (fixed design-space units)                                          |
+| **viewBox height**                 | Computed from measured aspect ratio (approximately 699)                  |
+| **Mapping from normalized to SVG** | `svgX = normalizedX × 1000`, `svgY = normalizedY × height`               |
+| **`preserveAspectRatio`**          | `xMidYMid meet`                                                          |
+| **Responsive scaling**             | The SVG scales uniformly within its container; the viewBox never changes |
 
 This contract is compatible with the existing `BoardSvg.tsx`, which already uses `viewBox="0 0 1000 680"`. The height may need minor adjustment (680 → ~699) when the actual aspect ratio is measured.
 
@@ -227,15 +228,15 @@ Every station coordinate should carry:
 
 ```typescript
 type StationCoordinate = {
-  stationId: number;                          // Printed marker number
-  normalizedX: number;                        // [0, 1]
-  normalizedY: number;                        // [0, 1]
+  stationId: number; // Printed marker number
+  normalizedX: number; // [0, 1]
+  normalizedY: number; // [0, 1]
   positionConfidence: 'high' | 'medium' | 'low';
-  primarySourceImage: string;                 // e.g. "top-left.jpeg"
-  crossCheckImages: string[];                 // other images where verified
-  maxOverlapResidual: number | null;          // in normalized coords
+  primarySourceImage: string; // e.g. "top-left.jpeg"
+  crossCheckImages: string[]; // other images where verified
+  maxOverlapResidual: number | null; // in normalized coords
   markerVisibility: 'clear' | 'readable' | 'ambiguous';
-  inventoryStatus: 'observed-marker';         // never 'canonical-playable' at this stage
+  inventoryStatus: 'observed-marker'; // never 'canonical-playable' at this stage
   notes: string;
 };
 ```
@@ -277,6 +278,7 @@ flowchart TD
 **The station centre is the visual centre of the printed marker's surrounding boundary shape**, which on this board is a small rounded rectangle with a yellow background containing a printed number.
 
 Specifically:
+
 - Locate the outer boundary of the yellow marker background.
 - The centre is the geometric midpoint of this boundary.
 - This is **not** the centroid of the printed digits (which may be asymmetrically placed within the marker).
@@ -335,24 +337,24 @@ The extraction produces a machine-readable register:
     "calibrationVersion": "complete-homography-v1",
     "canonicalStatus": "non-canonical",
     "coordinateSystem": "normalized-0-to-1",
-    "boardAspectRatio": null,  // TBD from measurement
-    "extractionDate": "2026-11-XX"
+    "boardAspectRatio": null, // TBD from measurement
+    "extractionDate": "2026-11-XX",
   },
   "markers": [
     {
       "stationId": 1,
-      "normalizedX": 0.0000,  // placeholder
-      "normalizedY": 0.0000,  // placeholder
+      "normalizedX": 0.0, // placeholder
+      "normalizedY": 0.0, // placeholder
       "positionConfidence": "high",
       "primarySourceImage": "top-left.jpeg",
       "crossCheckImages": ["complete.jpeg"],
       "maxOverlapResidual": 0.002,
       "markerVisibility": "clear",
       "inventoryStatus": "observed-marker",
-      "notes": ""
-    }
+      "notes": "",
+    },
     // ... one entry per observed marker, 1 through 200
-  ]
+  ],
 }
 ```
 
@@ -366,12 +368,12 @@ This register is explicitly **non-canonical**. It records visual observations wi
 
 Station coordinates and transport edges are independent evidence domains:
 
-| Concern | Data source | Current status | Owned by |
-|---|---|---|---|
-| Station visual position | Board photographs + calibration | To be extracted (this phase) | Visual coordinate register |
-| Playable station inventory | Edition identity + owner decision | Deferred (D-01, D-21) | `packages/board-data` canonical status |
-| Transport edges | Physical route tracing + independent review | 0 verified; 121 provisional; 4 unresolved | Candidate edge dataset |
-| Movement legality | Verified graph + game rules | Not implemented | Future game engine |
+| Concern                    | Data source                                 | Current status                            | Owned by                               |
+| -------------------------- | ------------------------------------------- | ----------------------------------------- | -------------------------------------- |
+| Station visual position    | Board photographs + calibration             | To be extracted (this phase)              | Visual coordinate register             |
+| Playable station inventory | Edition identity + owner decision           | Deferred (D-01, D-21)                     | `packages/board-data` canonical status |
+| Transport edges            | Physical route tracing + independent review | 0 verified; 121 provisional; 4 unresolved | Candidate edge dataset                 |
+| Movement legality          | Verified graph + game rules                 | Not implemented                           | Future game engine                     |
 
 ### 6.2 Linking mechanism
 
@@ -445,15 +447,15 @@ flowchart TB
 
 ### 7.2 Data vs. decoration separation
 
-| Layer | Data source | Evidence requirement | Art-direction scope |
-|---|---|---|---|
-| 1. Board base | None (pure presentation) | None | Paper-100 fill, border, Metropolitan Casefile texture |
-| 2. Geography | Reference from photographs | Approximate — preserves relative positions of parks, building areas | Simplified/stylized interpretation of printed board geography |
-| 3. Water | Reference from photographs | Approximate — Thames course, major bends, bridges | Styled with `--water-blue` |
-| 4. Transport routes | **Verified edges only** | Each route must be individually verified before rendering | Styled per transport type using approved colour tokens; **no provisional routes rendered as canonical** |
-| 5. Station markers | Visual coordinate register | Per-marker position from calibrated extraction | Yellow markers matching the physical board treatment |
-| 6. Station labels | Reference from photographs | Approximate placement | Separate label-offset metadata; labels do not define station centres |
-| 7–9. Runtime | Server-authoritative game state | N/A | As specified in design-system brief |
+| Layer               | Data source                     | Evidence requirement                                                | Art-direction scope                                                                                     |
+| ------------------- | ------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| 1. Board base       | None (pure presentation)        | None                                                                | Paper-100 fill, border, Metropolitan Casefile texture                                                   |
+| 2. Geography        | Reference from photographs      | Approximate — preserves relative positions of parks, building areas | Simplified/stylized interpretation of printed board geography                                           |
+| 3. Water            | Reference from photographs      | Approximate — Thames course, major bends, bridges                   | Styled with `--water-blue`                                                                              |
+| 4. Transport routes | **Verified edges only**         | Each route must be individually verified before rendering           | Styled per transport type using approved colour tokens; **no provisional routes rendered as canonical** |
+| 5. Station markers  | Visual coordinate register      | Per-marker position from calibrated extraction                      | Yellow markers matching the physical board treatment                                                    |
+| 6. Station labels   | Reference from photographs      | Approximate placement                                               | Separate label-offset metadata; labels do not define station centres                                    |
+| 7–9. Runtime        | Server-authoritative game state | N/A                                                                 | As specified in design-system brief                                                                     |
 
 > [!CAUTION]
 > Layer 4 (transport routes) must **never** consume the 125-row candidate edge dataset as if it were a verified graph. Routes should be added to this layer only as individual edges pass the verification gate defined in `BOARD-GRAPH-VERIFICATION.md`. Until that gate passes, the SVG may show approximate geography and station markers but no authoritative route lines.
@@ -469,11 +471,11 @@ While the transport graph remains unverified:
 
 ### 7.4 Hit target and interaction design
 
-| Element | Visible size | Hit target size | Notes |
-|---|---|---|---|
-| Station marker | ~8–12 SVG units (radius) | 22 SVG units (radius), matching current `station-hit` | Invisible expanded hit circle for reliable click/touch |
-| Station label | Text at readable size | Clicks on labels select the associated station | Labels are positioned via separate offset metadata |
-| Transport route | 2–4 SVG units stroke width | Not directly interactive in current scope | Routes do not define clickable areas |
+| Element         | Visible size               | Hit target size                                       | Notes                                                  |
+| --------------- | -------------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
+| Station marker  | ~8–12 SVG units (radius)   | 22 SVG units (radius), matching current `station-hit` | Invisible expanded hit circle for reliable click/touch |
+| Station label   | Text at readable size      | Clicks on labels select the associated station        | Labels are positioned via separate offset metadata     |
+| Transport route | 2–4 SVG units stroke width | Not directly interactive in current scope             | Routes do not define clickable areas                   |
 
 ### 7.5 Responsive and pan/zoom integration
 
@@ -490,45 +492,45 @@ The SVG architecture is compatible with the existing `BoardViewport.tsx`:
 
 ### 8.1 Material uncertainties
 
-| ID | Uncertainty | Why it matters | Current evidence | Resolution needed | Blocks next stage? |
-|---|---|---|---|---|---|
-| U-01 | **Board/rulebook edition match** | If the photographed board is a different edition than the 4500-X2 rulebook, station count, numbering, and route topology may differ | Board photos show consistent Milton Bradley visual family; rulebook page 12 identifies 4500-X2; no legible board copyright panel | High-resolution photograph of the board's copyright/product panel | **No** for coordinate extraction (we extract what's visible); **Yes** for canonical inventory decision |
-| U-02 | **Station 200 playable status** | Determines whether the canonical board has 199 or 200 playable stations | Marker 200 is clearly visible; rulebook does not state station count; project plan assumes 199 | Edition identity resolution (U-01) + explicit owner decision | **No** for coordinate extraction (position recorded as observed marker); **Yes** for canonical inventory |
-| U-03 | **Complete.jpeg resolution limit** | At 1280×892, station centres can be located to approximately ±0.004–0.006 in normalized coordinates — sufficient for initial reconstruction but not for final sub-mm fidelity | `complete.jpeg` dimensions: 1280×892 | A higher-resolution straight-on board scan (≥4000 px on the long axis) would reduce error by ~3× | **No** — current resolution is sufficient for a usable initial coordinate set |
-| U-04 | **Board fold geometric discontinuity** | The physical fold may cause ~1–3 mm displacement of stations near the fold line | Fold visible in `complete.jpeg` and multiple close-ups | After extraction, measure fold-proximate station residuals; if significant, apply piecewise correction | **No** — expected magnitude is within working precision |
-| U-05 | **Close-up rotation and perspective** | Each close-up is rotated ~90° and perspective-distorted; landmark registration may introduce systematic error if landmarks are poorly distributed | All four close-ups exhibit this | Careful landmark selection; residual analysis after registration | **No** — this is a methodological concern addressed by the calibration procedure |
-| U-06 | **Transport graph verification** | 0 of 125 candidate edges are verified; the SVG cannot render authoritative routes | Phase 3C.2 audit result: Option B | Complete endpoint-crop analysis and independent review (future phases) | **No** for coordinate extraction; **Yes** for route rendering |
-| U-07 | **Starting-card completeness** | Only 13 of 18 card values are legible | `starting cards.jpeg` (IMG-03) | Controlled photograph of all 18 cards face-up | **No** for coordinate extraction |
-| U-08 | **Absent camera/lens metadata** | No EXIF data available for lens model, focal length, or capture settings | N/A | Capture new photos with EXIF preserved, or test straight-line fidelity empirically | **No** — lens distortion appears minor in `complete.jpeg` border lines |
-| U-09 | **Nine multi-transport endpoint conflicts** | Nine station pairs have both taxi and bus (or bus and underground) observations — may represent genuine multi-modal connections or transcription errors | Phase 3B.6 review; `BOARD-EDGE-HUMAN-REVIEW.md` | Annotated endpoint crops + independent review | **No** for coordinate extraction; **Yes** for graph verification |
-| U-10 | **Boat route physical verification** | Four boat candidates (108–115, 115–118, 115–157, 157–194) are unresolved; rulebook supports three of these but photo-to-rulebook edition link is not proven | Rulebook p.10; Thames region in photographs | High-resolution Thames corridor crops + edition identity | **No** for coordinate extraction; **Yes** for graph verification |
+| ID   | Uncertainty                                 | Why it matters                                                                                                                                                                | Current evidence                                                                                                                 | Resolution needed                                                                                      | Blocks next stage?                                                                                       |
+| ---- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| U-01 | **Board/rulebook edition match**            | If the photographed board is a different edition than the 4500-X2 rulebook, station count, numbering, and route topology may differ                                           | Board photos show consistent Milton Bradley visual family; rulebook page 12 identifies 4500-X2; no legible board copyright panel | High-resolution photograph of the board's copyright/product panel                                      | **No** for coordinate extraction (we extract what's visible); **Yes** for canonical inventory decision   |
+| U-02 | **Station 200 playable status**             | Determines whether the canonical board has 199 or 200 playable stations                                                                                                       | Marker 200 is clearly visible; rulebook does not state station count; project plan assumes 199                                   | Edition identity resolution (U-01) + explicit owner decision                                           | **No** for coordinate extraction (position recorded as observed marker); **Yes** for canonical inventory |
+| U-03 | **Complete.jpeg resolution limit**          | At 1280×892, station centres can be located to approximately ±0.004–0.006 in normalized coordinates — sufficient for initial reconstruction but not for final sub-mm fidelity | `complete.jpeg` dimensions: 1280×892                                                                                             | A higher-resolution straight-on board scan (≥4000 px on the long axis) would reduce error by ~3×       | **No** — current resolution is sufficient for a usable initial coordinate set                            |
+| U-04 | **Board fold geometric discontinuity**      | The physical fold may cause ~1–3 mm displacement of stations near the fold line                                                                                               | Fold visible in `complete.jpeg` and multiple close-ups                                                                           | After extraction, measure fold-proximate station residuals; if significant, apply piecewise correction | **No** — expected magnitude is within working precision                                                  |
+| U-05 | **Close-up rotation and perspective**       | Each close-up is rotated ~90° and perspective-distorted; landmark registration may introduce systematic error if landmarks are poorly distributed                             | All four close-ups exhibit this                                                                                                  | Careful landmark selection; residual analysis after registration                                       | **No** — this is a methodological concern addressed by the calibration procedure                         |
+| U-06 | **Transport graph verification**            | 0 of 125 candidate edges are verified; the SVG cannot render authoritative routes                                                                                             | Phase 3C.2 audit result: Option B                                                                                                | Complete endpoint-crop analysis and independent review (future phases)                                 | **No** for coordinate extraction; **Yes** for route rendering                                            |
+| U-07 | **Starting-card completeness**              | Only 13 of 18 card values are legible                                                                                                                                         | `starting cards.jpeg` (IMG-03)                                                                                                   | Controlled photograph of all 18 cards face-up                                                          | **No** for coordinate extraction                                                                         |
+| U-08 | **Absent camera/lens metadata**             | No EXIF data available for lens model, focal length, or capture settings                                                                                                      | N/A                                                                                                                              | Capture new photos with EXIF preserved, or test straight-line fidelity empirically                     | **No** — lens distortion appears minor in `complete.jpeg` border lines                                   |
+| U-09 | **Nine multi-transport endpoint conflicts** | Nine station pairs have both taxi and bus (or bus and underground) observations — may represent genuine multi-modal connections or transcription errors                       | Phase 3B.6 review; `BOARD-EDGE-HUMAN-REVIEW.md`                                                                                  | Annotated endpoint crops + independent review                                                          | **No** for coordinate extraction; **Yes** for graph verification                                         |
+| U-10 | **Boat route physical verification**        | Four boat candidates (108–115, 115–118, 115–157, 157–194) are unresolved; rulebook supports three of these but photo-to-rulebook edition link is not proven                   | Rulebook p.10; Thames region in photographs                                                                                      | High-resolution Thames corridor crops + edition identity                                               | **No** for coordinate extraction; **Yes** for graph verification                                         |
 
 ### 8.2 Risk assessment
 
-| Risk | Likelihood | Impact | Mitigation |
-|---|---|---|---|
-| Homography from `complete.jpeg` introduces systematic positional error due to board not being truly planar | Medium | Low-Medium (±0.003 systematic bias) | Residual analysis against close-ups; document any systematic pattern |
-| Landmark misidentification in close-up registration causes localized coordinate errors | Low | Medium (5–15 stations with ±0.01 error) | Use 8–15 well-distributed landmarks; verify each landmark ID against both images |
-| Board fold is more severe than expected, creating a visible seam in the reconstructed coordinates | Low | Medium | Piecewise correction available; may require new flat scan |
-| Station centre definition is inconsistent between extractors | Medium | Low (±0.002 systematic offset) | Define the centre rule precisely (§5.2); use the marker boundary, not the label |
-| Future higher-resolution scans require re-extraction, invalidating this phase's coordinates | High (likely) | Low (re-extraction is straightforward with the documented methodology) | Store calibration procedure and provenance; make re-extraction reproducible |
+| Risk                                                                                                       | Likelihood    | Impact                                                                 | Mitigation                                                                       |
+| ---------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Homography from `complete.jpeg` introduces systematic positional error due to board not being truly planar | Medium        | Low-Medium (±0.003 systematic bias)                                    | Residual analysis against close-ups; document any systematic pattern             |
+| Landmark misidentification in close-up registration causes localized coordinate errors                     | Low           | Medium (5–15 stations with ±0.01 error)                                | Use 8–15 well-distributed landmarks; verify each landmark ID against both images |
+| Board fold is more severe than expected, creating a visible seam in the reconstructed coordinates          | Low           | Medium                                                                 | Piecewise correction available; may require new flat scan                        |
+| Station centre definition is inconsistent between extractors                                               | Medium        | Low (±0.002 systematic offset)                                         | Define the centre rule precisely (§5.2); use the marker boundary, not the label  |
+| Future higher-resolution scans require re-extraction, invalidating this phase's coordinates                | High (likely) | Low (re-extraction is straightforward with the documented methodology) | Store calibration procedure and provenance; make re-extraction reproducible      |
 
 ---
 
 ## 9. Recommended next steps
 
-| Step | Description | Dependency | Deliverable |
-|---|---|---|---|
-| **1** | Owner reviews and approves this proposal | None | Approval decision |
-| **2** | Implement calibration tooling: a Python or TypeScript script that applies the homography to `complete.jpeg` and produces a rectified working image | Proposal approval | Rectified reference image; homography matrix; corner control points |
-| **3** | Landmark selection for close-ups: manually identify 8–15 shared station landmarks per close-up | Step 2 | Landmark correspondence tables |
-| **4** | Close-up registration: compute and apply `H_closeup` for each close-up | Step 3 | Four registered close-up images; per-station residual report |
-| **5** | Station-centre extraction: extract normalized coordinates for all 200 observed markers using the workflow in §5.3 | Step 4 | Machine-readable visual coordinate register (`board-visual-coordinates.json`) |
-| **6** | Human review register: produce a reviewable document with per-station evidence and confidence | Step 5 | `BOARD-VISUAL-COORDINATE-REGISTER.md` |
-| **7** | SVG board base and geography design: create layers 1–3 (board base, geography, water) from the approved art direction | Proposal approval; independent of Steps 2–6 | SVG board base asset |
-| **8** | SVG station markers: render station markers from the coordinate register | Step 6 | SVG with data-driven station markers |
-| **9** | Owner review of coordinate accuracy: visual overlay of extracted coordinates on the rectified board photo | Step 8 | Overlay comparison image |
-| **10** | Transport route rendering: add routes to layer 4 **only** as individual edges pass the verification gate | Future graph verification phases | Incremental route addition |
+| Step   | Description                                                                                                                                        | Dependency                                  | Deliverable                                                                   |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------------------------------------- |
+| **1**  | Owner reviews and approves this proposal                                                                                                           | None                                        | Approval decision                                                             |
+| **2**  | Implement calibration tooling: a Python or TypeScript script that applies the homography to `complete.jpeg` and produces a rectified working image | Proposal approval                           | Rectified reference image; homography matrix; corner control points           |
+| **3**  | Landmark selection for close-ups: manually identify 8–15 shared station landmarks per close-up                                                     | Step 2                                      | Landmark correspondence tables                                                |
+| **4**  | Close-up registration: compute and apply `H_closeup` for each close-up                                                                             | Step 3                                      | Four registered close-up images; per-station residual report                  |
+| **5**  | Station-centre extraction: extract normalized coordinates for all 200 observed markers using the workflow in §5.3                                  | Step 4                                      | Machine-readable visual coordinate register (`board-visual-coordinates.json`) |
+| **6**  | Human review register: produce a reviewable document with per-station evidence and confidence                                                      | Step 5                                      | `BOARD-VISUAL-COORDINATE-REGISTER.md`                                         |
+| **7**  | SVG board base and geography design: create layers 1–3 (board base, geography, water) from the approved art direction                              | Proposal approval; independent of Steps 2–6 | SVG board base asset                                                          |
+| **8**  | SVG station markers: render station markers from the coordinate register                                                                           | Step 6                                      | SVG with data-driven station markers                                          |
+| **9**  | Owner review of coordinate accuracy: visual overlay of extracted coordinates on the rectified board photo                                          | Step 8                                      | Overlay comparison image                                                      |
+| **10** | Transport route rendering: add routes to layer 4 **only** as individual edges pass the verification gate                                           | Future graph verification phases            | Incremental route addition                                                    |
 
 Steps 2–6 are sequential. Step 7 can proceed in parallel.
 
@@ -556,51 +558,51 @@ This proposal is ready for owner approval when:
 
 ### Repository documents
 
-| File | Inspected |
-|---|---|
-| `README.md` | ✓ |
-| `docs/game/PHASE-3C3-RECONSTRUCTION-BRIEF.md` | ✓ |
-| `docs/game/SCOTLAND-YARD-LIVE-PHASE-3C3-EVIDENCE-MANIFEST.md` | ✓ |
-| `docs/game/BOARD-EVIDENCE-REGISTER.md` | ✓ |
-| `docs/game/BOARD-COORDINATE-RECONSTRUCTION.md` | ✓ |
-| `docs/game/BOARD-GRAPH-VERIFICATION.md` | ✓ |
-| `docs/game/BOARD-CANONICAL-GRAPH-DECISION.md` | ✓ |
-| `docs/game/BOARD-EDITION-IDENTITY.md` | ✓ |
-| `docs/game/BOARD-CANONICAL-INVENTORY-DECISION.md` | ✓ |
-| `docs/game/BOARD-STARTING-POSITIONS-AUDIT.md` | ✓ |
-| `docs/game/BOARD-DISCREPANCY-LEDGER.md` | ✓ |
-| `docs/game/BOARD-EDGE-TRANSCRIPTION.md` | ✓ |
-| `docs/game/BOARD-EDGE-HUMAN-REVIEW.md` | ✓ |
-| `docs/game/BOARD-STATION-INVENTORY.md` | ✓ |
-| `docs/game/BOARD-TRANSCRIPTION-WORKFLOW.md` | ✓ |
-| `docs/game/data/board-edge-candidates-1-200.json` | ✓ (structure and metadata) |
-| `docs/game/data/board-edge-candidates.schema.json` | ✓ |
-| `docs/game/data/validate-board-edge-candidates.mjs` | ✓ |
-| `docs/frontend/SCOTLAND-YARD-LIVE-DESIGN-SYSTEM-BRIEF.md` | ✓ |
-| `docs/frontend/SCOTLAND-YARD-LIVE-MOTION-COMPONENT-CATALOGUE.md` | ✓ |
-| `docs/frontend/SCOTLAND-YARD-LIVE-VIDEO-ART-DIRECTION-REFERENCE.md` | ✓ |
-| `docs/frontend/VISUAL-IDENTITY-AND-EXPERIENCE.md` | ✓ |
-| `packages/board-data/src/types.ts` | ✓ |
-| `packages/board-data/src/validate.ts` | ✓ |
-| `packages/board-data/src/canonical-status.ts` | ✓ |
-| `apps/web/src/features/board/types.ts` | ✓ |
-| `apps/web/src/features/board/components/BoardSvg.tsx` | ✓ |
-| `apps/web/src/features/board/components/BoardViewport.tsx` | ✓ (file listing confirmed) |
+| File                                                                | Inspected                  |
+| ------------------------------------------------------------------- | -------------------------- |
+| `README.md`                                                         | ✓                          |
+| `docs/game/PHASE-3C3-RECONSTRUCTION-BRIEF.md`                       | ✓                          |
+| `docs/game/SCOTLAND-YARD-LIVE-PHASE-3C3-EVIDENCE-MANIFEST.md`       | ✓                          |
+| `docs/game/BOARD-EVIDENCE-REGISTER.md`                              | ✓                          |
+| `docs/game/BOARD-COORDINATE-RECONSTRUCTION.md`                      | ✓                          |
+| `docs/game/BOARD-GRAPH-VERIFICATION.md`                             | ✓                          |
+| `docs/game/BOARD-CANONICAL-GRAPH-DECISION.md`                       | ✓                          |
+| `docs/game/BOARD-EDITION-IDENTITY.md`                               | ✓                          |
+| `docs/game/BOARD-CANONICAL-INVENTORY-DECISION.md`                   | ✓                          |
+| `docs/game/BOARD-STARTING-POSITIONS-AUDIT.md`                       | ✓                          |
+| `docs/game/BOARD-DISCREPANCY-LEDGER.md`                             | ✓                          |
+| `docs/game/BOARD-EDGE-TRANSCRIPTION.md`                             | ✓                          |
+| `docs/game/BOARD-EDGE-HUMAN-REVIEW.md`                              | ✓                          |
+| `docs/game/BOARD-STATION-INVENTORY.md`                              | ✓                          |
+| `docs/game/BOARD-TRANSCRIPTION-WORKFLOW.md`                         | ✓                          |
+| `docs/game/data/board-edge-candidates-1-200.json`                   | ✓ (structure and metadata) |
+| `docs/game/data/board-edge-candidates.schema.json`                  | ✓                          |
+| `docs/game/data/validate-board-edge-candidates.mjs`                 | ✓                          |
+| `docs/frontend/SCOTLAND-YARD-LIVE-DESIGN-SYSTEM-BRIEF.md`           | ✓                          |
+| `docs/frontend/SCOTLAND-YARD-LIVE-MOTION-COMPONENT-CATALOGUE.md`    | ✓                          |
+| `docs/frontend/SCOTLAND-YARD-LIVE-VIDEO-ART-DIRECTION-REFERENCE.md` | ✓                          |
+| `docs/frontend/VISUAL-IDENTITY-AND-EXPERIENCE.md`                   | ✓                          |
+| `packages/board-data/src/types.ts`                                  | ✓                          |
+| `packages/board-data/src/validate.ts`                               | ✓                          |
+| `packages/board-data/src/canonical-status.ts`                       | ✓                          |
+| `apps/web/src/features/board/types.ts`                              | ✓                          |
+| `apps/web/src/features/board/components/BoardSvg.tsx`               | ✓                          |
+| `apps/web/src/features/board/components/BoardViewport.tsx`          | ✓ (file listing confirmed) |
 
 ### Primary photographs
 
-| File | Inspected | Dimensions confirmed |
-|---|---|---|
-| `docs/game/evidence/board-photos/complete.jpeg` | ✓ (full image) | 1280×892 |
-| `docs/game/evidence/board-photos/top-left.jpeg` | ✓ (full image) | 925×1280 |
-| `docs/game/evidence/board-photos/top-right.jpeg` | ✓ (full image) | 885×1280 |
-| `docs/game/evidence/board-photos/bottom-left.jpeg` | ✓ (full image) | 914×1280 |
-| `docs/game/evidence/board-photos/bottom-right.jpeg` | ✓ (full image) | 1080×1499 |
+| File                                                | Inspected      | Dimensions confirmed |
+| --------------------------------------------------- | -------------- | -------------------- |
+| `docs/game/evidence/board-photos/complete.jpeg`     | ✓ (full image) | 1280×892             |
+| `docs/game/evidence/board-photos/top-left.jpeg`     | ✓ (full image) | 925×1280             |
+| `docs/game/evidence/board-photos/top-right.jpeg`    | ✓ (full image) | 885×1280             |
+| `docs/game/evidence/board-photos/bottom-left.jpeg`  | ✓ (full image) | 914×1280             |
+| `docs/game/evidence/board-photos/bottom-right.jpeg` | ✓ (full image) | 1080×1499            |
 
 ## Appendix B — Files created or modified
 
-| File | Action |
-|---|---|
+| File                                                       | Action                      |
+| ---------------------------------------------------------- | --------------------------- |
 | `docs/game/PHASE-3C3-EVIDENCE-AND-CALIBRATION-PROPOSAL.md` | **Created** (this document) |
 
 No other files were created or modified. No application code, package dependencies, canonical data, or game rules were changed.

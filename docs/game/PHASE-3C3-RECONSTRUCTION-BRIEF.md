@@ -204,6 +204,7 @@ Do not make decorative detail more visually dominant than station positions and 
 Inspect the existing synthetic SVG renderer and propose the smallest maintainable integration path.
 
 Prefer:
+
 - SVG rendering from structured data rather than hard-coded station markup.
 - Clear separation between board geometry, station visual positions, transport graph data and runtime game state.
 - A stable viewBox and reusable layers.
@@ -247,6 +248,7 @@ Required principles:
 - Never imply a coordinate is canonical solely because it is stored in a structured file.
 
 A useful data model may distinguish:
+
 - `observedMarker`: a visible printed marker in source evidence;
 - `stationIdentity`: whether the marker is confirmed as a playable station;
 - `visualPosition`: estimated position in the board plane;
@@ -260,18 +262,19 @@ Do not add this model blindly. Inspect existing schemas and propose a compatible
 
 Maintain separate statuses for at least these dimensions:
 
-| Dimension | Example question |
-|---|---|
-| Marker visibility | Is a printed numbered marker visible? |
-| Marker identity | Can its number be read reliably? |
-| Geometric location | Can its centre be located reliably in the rectified board plane? |
-| Playable inventory | Is it confirmed as a playable station? |
-| Transport topology | Are its incident transport edges verified? |
-| Visual styling | Is the drawn line/shape an evidence-backed reproduction or an illustrative treatment? |
+| Dimension          | Example question                                                                      |
+| ------------------ | ------------------------------------------------------------------------------------- |
+| Marker visibility  | Is a printed numbered marker visible?                                                 |
+| Marker identity    | Can its number be read reliably?                                                      |
+| Geometric location | Can its centre be located reliably in the rectified board plane?                      |
+| Playable inventory | Is it confirmed as a playable station?                                                |
+| Transport topology | Are its incident transport edges verified?                                            |
+| Visual styling     | Is the drawn line/shape an evidence-backed reproduction or an illustrative treatment? |
 
 Do not collapse these into one generic confidence field.
 
 For station 200:
+
 - The printed marker is visible in the photographs.
 - Its playable status is unresolved.
 - Its position may be recorded as an observed visual marker if reliably calibrated.
@@ -279,6 +282,7 @@ For station 200:
 - The provisional `199–200` edge must not be drawn as an authoritative playable connection.
 
 For transport routes:
+
 - Phase 3C.2 found no verified candidate edges.
 - Do not convert all 125 candidate records into canonical route paths.
 - If visual linework can be traced from the photo, record it as a visual observation with provenance, distinct from a verified graph edge.
@@ -296,6 +300,7 @@ The existing audit documents identify these outstanding evidence needs:
 The model must inspect the actual assets before deciding what is necessary. Do not ask for new images if the supplied evidence already supports the task. Conversely, do not pretend existing photos are sufficient if they are not.
 
 When requesting new images, specify:
+
 - exact target region;
 - camera orientation and distance;
 - lighting and glare constraints;
@@ -334,6 +339,7 @@ Before changing code, inspect the current implementation and determine whether t
 The agent must recommend a bounded sequence and explain dependencies before making a broad implementation change.
 
 Strictly out of scope:
+
 - canonical transport graph creation;
 - canonical playable station inventory decision;
 - canonical starting-position list;
@@ -397,12 +403,14 @@ If coordinate data is added, test at least:
 - deterministic parsing and rendering.
 
 If calibration transformations are implemented, test:
+
 - transform round-trip or expected mapping behavior;
 - anchor residual bounds;
 - consistency of overlapping source images;
 - malformed/degenerate calibration input handling.
 
 If SVG is modified, test:
+
 - correct rendering of supplied visual data;
 - separation of labels and marker positions;
 - keyboard focus and accessible station names;
@@ -410,6 +418,7 @@ If SVG is modified, test:
 - no hidden Mr X or runtime gameplay data leaks into the static board asset.
 
 Run relevant repository checks, based on actual package scripts:
+
 - focused tests;
 - format check;
 - lint;
@@ -478,6 +487,7 @@ The owner may choose to use one model for analysis/design and Codex for implemen
 The repository owner performs all Git operations.
 
 The model/agent must not:
+
 - create or delete branches;
 - commit or amend commits;
 - push;
@@ -531,13 +541,13 @@ A partial but honest reconstruction is preferable to a complete-looking board wi
 
 The five current project evidence photos were previously recorded with these dimensions and file sizes. Reconfirm against the live repository; do not assume files are unchanged.
 
-| File | Recorded dimensions | Recorded size |
-|---|---:|---:|
-| `complete.jpeg` | 1280 × 892 | 368,710 bytes |
-| `top-left.jpeg` | 925 × 1280 | 331,252 bytes |
-| `top-right.jpeg` | 885 × 1280 | 307,440 bytes |
-| `bottom-left.jpeg` | 914 × 1280 | 324,563 bytes |
-| `bottom-right.jpeg` | 1080 × 1499 | 484,705 bytes |
+| File                | Recorded dimensions | Recorded size |
+| ------------------- | ------------------: | ------------: |
+| `complete.jpeg`     |          1280 × 892 | 368,710 bytes |
+| `top-left.jpeg`     |          925 × 1280 | 331,252 bytes |
+| `top-right.jpeg`    |          885 × 1280 | 307,440 bytes |
+| `bottom-left.jpeg`  |          914 × 1280 | 324,563 bytes |
+| `bottom-right.jpeg` |         1080 × 1499 | 484,705 bytes |
 
 These are the five-photo set committed in the Phase 3B.2 evidence checkpoint. Other older photographs exist in the original context pack and may be useful as secondary corroboration, but the five committed images are the current primary photo set.
 
