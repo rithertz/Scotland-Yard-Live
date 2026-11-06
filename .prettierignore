@@ -3,3 +3,9 @@ dist
 coverage
 .turbo
 pnpm-lock.yaml
+
+# Local Python environment
+tools/board-calibration/.venv/
+
+# Generated calibration artifacts
+tools/board-calibration/output/

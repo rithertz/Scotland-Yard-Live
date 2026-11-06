@@ -1,0 +1,42 @@
+{
+  "image_space_quadrilateral": {
+    "span_north_px": 1124.0217969416785,
+    "span_south_px": 1187.0,
+    "span_west_px": 867.6296733053797,
+    "span_east_px": 861.8377167425431,
+    "average_width_px": 1155.5108984708393,
+    "average_height_px": 864.7336950239614,
+    "raw_2d_aspect_ratio": 1.3362621407262505,
+    "uncertainty_margin": 0.04,
+    "description": "Raw 2D Euclidean span ratio of outer corner control points in complete.jpeg. Does not account for camera perspective pitch, yaw, or out-of-plane paper curvature."
+  },
+  "estimated_physical_board_aspect_ratio": {
+    "status": "UNRESOLVED_FROM_CURRENT_PHOTOGRAPHS",
+    "pinhole_perspective_estimate": 1.225996706610619,
+    "estimated_focal_length_px": 6942.4246998796025,
+    "plausible_range": [
+      1.226,
+      1.376
+    ],
+    "evidence_limitations": "Camera focal length, principal point, and radial distortion parameters are uncalibrated. The top edge of complete.jpeg grazes the frame (y=0.0), introducing significant leverage on vanishing point geometry. Assumed historical Milton Bradley or European board dimensions must NOT be used as proof of this physical board. Direct caliper or ruler measurements of the physical board are unavailable in the evidence set."
+  },
+  "provisional_working_canvas": {
+    "width_px": 1350,
+    "height_px": 1000,
+    "aspect_ratio": 1.35,
+    "classification": "PROVISIONAL_COMPUTATIONAL_CHOICE",
+    "justification": "A convenient integer Cartesian grid (1350x1000) chosen strictly for numerical computation and reproducible pixel coordinates. It must NOT be construed as a confirmed physical board measurement."
+  },
+  "span_north_px": 1124.0217969416785,
+  "span_south_px": 1187.0,
+  "span_west_px": 867.6296733053797,
+  "span_east_px": 861.8377167425431,
+  "average_width_px": 1155.5108984708393,
+  "average_height_px": 864.7336950239614,
+  "raw_2d_aspect_ratio": 1.3362621407262505,
+  "pinhole_3d_aspect_ratio": 1.225996706610619,
+  "estimated_focal_length_px": 6942.4246998796025,
+  "recommended_aspect_ratio": 1.35,
+  "aspect_ratio_uncertainty": 0.04,
+  "explanation": "Image-space 2D corner spans in complete.jpeg yield 1.336 +/- 0.040. Perspective pinhole solution yields 1.226 (sensitive to corner grazing at y=0). Physical board aspect ratio remains UNRESOLVED from the photographs alone. The 1350x1000 working canvas (1.350) is retained strictly as a provisional computational choice."
+}

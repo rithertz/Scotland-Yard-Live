@@ -1,0 +1,1451 @@
+{
+  "metadata": {
+    "phase": "3D.2",
+    "coordinate_system": {
+      "origin": "top-left",
+      "x": "right",
+      "y": "down",
+      "canvas": [
+        1350,
+        1000
+      ]
+    },
+    "summary_counts": {
+      "verified": 2,
+      "candidate_uncertain": 4,
+      "missing_from_evidence": 193,
+      "conflicting": 0,
+      "duplicate": 0
+    },
+    "source_photo_count": 11,
+    "raw_observation_count_preserved": 138,
+    "baseline_feature_count_preserved": 121,
+    "marker_200_excluded": true
+  },
+  "stations": [
+    {
+      "station_id": 1,
+      "assignment_status": "verified",
+      "identity_evidence": "registered_top-left.png & rectified_complete.png",
+      "source_coordinate": [
+        187.94,
+        56.62
+      ],
+      "identity_evidence_limit": null
+    },
+    {
+      "station_id": 2,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 3,
+      "assignment_status": "candidate_uncertain",
+      "identity_evidence": "calibrated photography & curated landmark correspondence",
+      "source_coordinate": [
+        423.65,
+        40.8
+      ],
+      "identity_evidence_limit": null
+    },
+    {
+      "station_id": 4,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 5,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 6,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 7,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 8,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 9,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 10,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 11,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 12,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 13,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 14,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 15,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 16,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 17,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 18,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 19,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 20,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 21,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 22,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 23,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 24,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 25,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 26,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 27,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 28,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 29,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 30,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 31,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 32,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 33,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 34,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 35,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 36,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 37,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 38,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 39,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 40,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 41,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 42,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 43,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 44,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 45,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 46,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 47,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 48,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 49,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 50,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 51,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 52,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 53,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 54,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 55,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 56,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 57,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 58,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 59,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 60,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 61,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 62,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 63,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 64,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 65,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 66,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 67,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 68,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 69,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 70,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 71,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 72,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 73,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 74,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 75,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 76,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 77,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 78,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 79,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 80,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 81,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 82,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 83,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 84,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 85,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 86,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 87,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 88,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 89,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 90,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 91,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 92,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 93,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 94,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 95,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 96,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 97,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 98,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 99,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 100,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 101,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 102,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 103,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 104,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 105,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 106,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 107,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 108,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 109,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 110,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 111,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 112,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 113,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 114,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 115,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 116,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 117,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 118,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 119,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 120,
+      "assignment_status": "candidate_uncertain",
+      "identity_evidence": "calibrated photography & curated landmark correspondence",
+      "source_coordinate": [
+        42.45,
+        505.97
+      ],
+      "identity_evidence_limit": null
+    },
+    {
+      "station_id": 121,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 122,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 123,
+      "assignment_status": "candidate_uncertain",
+      "identity_evidence": "calibrated photography & curated landmark correspondence",
+      "source_coordinate": [
+        173.53,
+        508.46
+      ],
+      "identity_evidence_limit": null
+    },
+    {
+      "station_id": 124,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 125,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 126,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 127,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 128,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 129,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 130,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 131,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 132,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 133,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 134,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 135,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 136,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 137,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 138,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 139,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 140,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 141,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 142,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 143,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 144,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 145,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 146,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 147,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 148,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 149,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 150,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 151,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 152,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 153,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 154,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 155,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 156,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 157,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 158,
+      "assignment_status": "candidate_uncertain",
+      "identity_evidence": "calibrated photography & curated landmark correspondence",
+      "source_coordinate": [
+        560.13,
+        614.25
+      ],
+      "identity_evidence_limit": null
+    },
+    {
+      "station_id": 159,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 160,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 161,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 162,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 163,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 164,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 165,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 166,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 167,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 168,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 169,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 170,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 171,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 172,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 173,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 174,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 175,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 176,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 177,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 178,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 179,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 180,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 181,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 182,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 183,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 184,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 185,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 186,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 187,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 188,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 189,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 190,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 191,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 192,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 193,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 194,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 195,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 196,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 197,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 198,
+      "assignment_status": "missing_from_evidence",
+      "identity_evidence": null,
+      "source_coordinate": null,
+      "identity_evidence_limit": "No defensible marker-to-number assignment established in Phase 3D.2"
+    },
+    {
+      "station_id": 199,
+      "assignment_status": "verified",
+      "identity_evidence": "registered_bottom-right.png",
+      "source_coordinate": [
+        1146.51,
+        920.71
+      ],
+      "identity_evidence_limit": null
+    }
+  ],
+  "marker_200": {
+    "observed_marker_id": 200,
+    "feature_id": "FEAT_0114",
+    "category": "yellow",
+    "status": "observed-physical-marker-unresolved-playability",
+    "pixel_x": 1151.79,
+    "pixel_y": 938.83,
+    "normalized_x": 0.853178,
+    "normalized_y": 0.93883,
+    "evidence_source": "registered_bottom-right.png & complete.jpeg",
+    "evidence_basis": "Clearly printed yellow badge with visible '200' in lower-right margin. Gameplay status deferred per owner decisions.",
+    "confidence": "high-physical-presence"
+  }
+}

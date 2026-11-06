@@ -1,0 +1,3453 @@
+{
+  "metadata": {
+    "phase": "3D.2",
+    "coordinate_system": {
+      "origin": "top-left",
+      "x": "right",
+      "y": "down",
+      "canvas": [
+        1350,
+        1000
+      ]
+    },
+    "summary_counts": {
+      "verified": 2,
+      "candidate_uncertain": 4,
+      "missing_from_evidence": 193,
+      "conflicting": 0,
+      "duplicate": 0
+    },
+    "source_photo_count": 11,
+    "raw_observation_count_preserved": 138,
+    "baseline_feature_count_preserved": 121,
+    "marker_200_excluded": true,
+    "phase_3d3": {
+      "phase": "3D.3",
+      "high_resolution_photographs_inventoried": 16,
+      "high_resolution_photographs_used": 16,
+      "raw_high_resolution_marker_observations": 259,
+      "deduplicated_high_resolution_marker_candidates": 202,
+      "identity_policy": "preserve prior identity status until direct number-to-marker matching is documented"
+    }
+  },
+  "stations": [
+    {
+      "station_id": 1,
+      "feature_id": "FEAT_0094",
+      "category": "red_underground",
+      "status": "verified",
+      "pixel_x": 187.94,
+      "pixel_y": 56.62,
+      "evidence_source": "registered_top-left.png & rectified_complete.png",
+      "evidence_basis": "Printed red Underground badge with clear '1' text in Regent's Park / St. John's Wood sector.",
+      "confidence": "high",
+      "normalized_x": 0.13921481481481482,
+      "normalized_y": 0.05662,
+      "source_images": [
+        "registered_top-left.png",
+        "rectified_complete.png"
+      ],
+      "source_coordinates": {
+        "canvas": [
+          187.94,
+          56.62
+        ]
+      }
+    },
+    {
+      "station_id": 2,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 3,
+      "feature_id": "FEAT_0080",
+      "category": "yellow",
+      "status": "candidate_uncertain",
+      "pixel_x": 423.65,
+      "pixel_y": 40.8,
+      "evidence_source": "calibrated photography & curated landmark correspondence",
+      "evidence_basis": "Physical marker present at Euston Station approach (FEAT_0080); printed numeric text requires higher optical resolution to confirm without landmark prior.",
+      "confidence": "candidate_uncertain",
+      "normalized_x": 0.3138148148148148,
+      "normalized_y": 0.040799999999999996,
+      "source_images": [
+        "calibrated photography",
+        "curated landmark correspondence"
+      ],
+      "source_coordinates": {
+        "canvas": [
+          423.65,
+          40.8
+        ]
+      }
+    },
+    {
+      "station_id": 4,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 5,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 6,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 7,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 8,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 9,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 10,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 11,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 12,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 13,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 14,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 15,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 16,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 17,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 18,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 19,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 20,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 21,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 22,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 23,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 24,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 25,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 26,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 27,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 28,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 29,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 30,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 31,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 32,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 33,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 34,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 35,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 36,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 37,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 38,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 39,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 40,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 41,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 42,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 43,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 44,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 45,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 46,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 47,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 48,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 49,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 50,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 51,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 52,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 53,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 54,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 55,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 56,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 57,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 58,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 59,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 60,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 61,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 62,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 63,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 64,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 65,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 66,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 67,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 68,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 69,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 70,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 71,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 72,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 73,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 74,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 75,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 76,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 77,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 78,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 79,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 80,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 81,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 82,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 83,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 84,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 85,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 86,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 87,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 88,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 89,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 90,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 91,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 92,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 93,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 94,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 95,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 96,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 97,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 98,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 99,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 100,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 101,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 102,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 103,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 104,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 105,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 106,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 107,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 108,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 109,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 110,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 111,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 112,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 113,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 114,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 115,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 116,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 117,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 118,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 119,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 120,
+      "feature_id": "FEAT_0141",
+      "category": "yellow",
+      "status": "candidate_uncertain",
+      "pixel_x": 42.45,
+      "pixel_y": 505.97,
+      "evidence_source": "calibrated photography & curated landmark correspondence",
+      "evidence_basis": "Physical marker present at Kensington Gardens North-West (FEAT_0141); printed numeric text requires higher optical resolution to confirm without landmark prior.",
+      "confidence": "candidate_uncertain",
+      "normalized_x": 0.03144444444444445,
+      "normalized_y": 0.50597,
+      "source_images": [
+        "calibrated photography",
+        "curated landmark correspondence"
+      ],
+      "source_coordinates": {
+        "canvas": [
+          42.45,
+          505.97
+        ]
+      }
+    },
+    {
+      "station_id": 121,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 122,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 123,
+      "feature_id": "FEAT_0122",
+      "category": "yellow",
+      "status": "candidate_uncertain",
+      "pixel_x": 173.53,
+      "pixel_y": 508.46,
+      "evidence_source": "calibrated photography & curated landmark correspondence",
+      "evidence_basis": "Physical marker present at The Serpentine / Hyde Park South (FEAT_0122); printed numeric text requires higher optical resolution to confirm without landmark prior.",
+      "confidence": "candidate_uncertain",
+      "normalized_x": 0.12854074074074073,
+      "normalized_y": 0.50846,
+      "source_images": [
+        "calibrated photography",
+        "curated landmark correspondence"
+      ],
+      "source_coordinates": {
+        "canvas": [
+          173.53,
+          508.46
+        ]
+      }
+    },
+    {
+      "station_id": 124,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 125,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 126,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 127,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 128,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 129,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 130,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 131,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 132,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 133,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 134,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 135,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 136,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 137,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 138,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 139,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 140,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 141,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 142,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 143,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 144,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 145,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 146,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 147,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 148,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 149,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 150,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 151,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 152,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 153,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 154,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 155,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 156,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 157,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 158,
+      "feature_id": "FEAT_0018",
+      "category": "yellow",
+      "status": "candidate_uncertain",
+      "pixel_x": 560.13,
+      "pixel_y": 614.25,
+      "evidence_source": "calibrated photography & curated landmark correspondence",
+      "evidence_basis": "Physical marker present at Lambeth Road (FEAT_0018); printed numeric text requires higher optical resolution to confirm without landmark prior.",
+      "confidence": "candidate_uncertain",
+      "normalized_x": 0.4149111111111111,
+      "normalized_y": 0.61425,
+      "source_images": [
+        "calibrated photography",
+        "curated landmark correspondence"
+      ],
+      "source_coordinates": {
+        "canvas": [
+          560.13,
+          614.25
+        ]
+      }
+    },
+    {
+      "station_id": 159,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 160,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 161,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 162,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 163,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 164,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 165,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 166,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 167,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 168,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 169,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 170,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 171,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 172,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 173,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 174,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 175,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 176,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 177,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 178,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 179,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 180,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 181,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 182,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 183,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 184,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 185,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 186,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 187,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 188,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 189,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 190,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 191,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 192,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 193,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 194,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 195,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 196,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 197,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 198,
+      "feature_id": null,
+      "category": null,
+      "status": "missing_from_evidence",
+      "pixel_x": null,
+      "pixel_y": null,
+      "evidence_source": null,
+      "evidence_basis": "Not resolved with high-confidence printed text reading in current photographic set.",
+      "confidence": "unresolved",
+      "normalized_x": null,
+      "normalized_y": null,
+      "source_images": [],
+      "source_coordinates": {
+        "canvas": null
+      }
+    },
+    {
+      "station_id": 199,
+      "feature_id": "FEAT_0115",
+      "category": "yellow",
+      "status": "verified",
+      "pixel_x": 1146.51,
+      "pixel_y": 920.71,
+      "evidence_source": "registered_bottom-right.png",
+      "evidence_basis": "Printed yellow station marker with legible '199' text adjacent to Lower Thames / border fold.",
+      "confidence": "high",
+      "normalized_x": 0.8492666666666666,
+      "normalized_y": 0.92071,
+      "source_images": [
+        "registered_bottom-right.png"
+      ],
+      "source_coordinates": {
+        "canvas": [
+          1146.51,
+          920.71
+        ]
+      }
+    }
+  ]
+}

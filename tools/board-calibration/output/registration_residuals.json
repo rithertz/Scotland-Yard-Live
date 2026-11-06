@@ -1,0 +1,532 @@
+{
+  "top-left": {
+    "quadrant": "North-West",
+    "source_file": "top-left.jpeg",
+    "source_dimensions": {
+      "width": 925,
+      "height": 1280
+    },
+    "pre_rotation": "90 degrees counter-clockwise",
+    "feature_matches_summary": {
+      "candidate_matches_total": 131,
+      "fitting_subset_count": 98,
+      "validation_subset_count": 33,
+      "split_ratio": "75% fitting / 25% held-out validation (deterministic spatial interleaving)"
+    },
+    "fitting_evaluation": {
+      "inliers_count": 81,
+      "outliers_count": 17,
+      "inlier_ratio": 0.826530612244898,
+      "residuals_canvas_pixels": {
+        "mean_px": 1.0281248092651367,
+        "median_px": 0.8926206827163696,
+        "std_px": 0.587009847164154,
+        "max_px": 2.562465190887451,
+        "rmse_px": 1.1839008331298828
+      },
+      "residuals_normalized_units": {
+        "mean": 0.0007615739327889901,
+        "median": 0.0006612005057158294,
+        "std": 0.00043482210901048447,
+        "max": 0.0018981223636203343,
+        "rmse": 0.0008769635800962095
+      },
+      "directional_residuals_pixels": {
+        "mean_dx": 1.648325991254751e-07,
+        "mean_dy": 1.4128508496469294e-07,
+        "std_dx": 0.8860593438148499,
+        "std_dy": 0.785187840461731,
+        "rmse_dx": 0.8860593438148499,
+        "rmse_dy": 0.785187840461731,
+        "anisotropy_ratio": 1.128467989639016,
+        "dx_dy_correlation": 0.40459590935736633
+      },
+      "fold_proximity_analysis": {
+        "near_fold_count": 38,
+        "far_fold_count": 43,
+        "near_fold_mean_residual": 0.0006693357865364232,
+        "far_fold_mean_residual": 0.0008430866944594799,
+        "correlation_with_fold_distance": 0.2115024527504051
+      }
+    },
+    "held_out_validation_evaluation": {
+      "validation_points_total": 33,
+      "validation_inliers_count": 27,
+      "validation_outliers_count": 6,
+      "validation_inlier_ratio": 0.8181818181818182,
+      "residuals_canvas_pixels": {
+        "mean_px": 1.0273202657699585,
+        "median_px": 0.8615344762802124,
+        "std_px": 0.5675241351127625,
+        "max_px": 2.533353090286255,
+        "rmse_px": 1.173656940460205
+      },
+      "residuals_normalized_units": {
+        "mean": 0.0007609779746444137,
+        "median": 0.0006381736861334906,
+        "std": 0.0004203882482316759,
+        "max": 0.001876557844656485,
+        "rmse": 0.0008693755114520037
+      },
+      "directional_residuals_pixels": {
+        "mean_dx": -0.0790925920009613,
+        "mean_dy": -0.0009066970087587833,
+        "std_dx": 0.8979780077934265,
+        "std_dy": 0.7515647411346436,
+        "rmse_dx": 0.9014544486999512,
+        "rmse_dy": 0.7515652775764465,
+        "anisotropy_ratio": 1.1948112499766044,
+        "dx_dy_correlation": 0.5936111781918844
+      },
+      "fold_proximity_analysis": {
+        "near_fold_count": 13,
+        "far_fold_count": 14,
+        "near_fold_mean_residual": 0.0005871148343779083,
+        "far_fold_mean_residual": 0.0009224222710839025,
+        "correlation_with_fold_distance": 0.1710036689542836
+      },
+      "worst_case_all_validation_points_pixels": {
+        "mean_px": 76.27963256835938,
+        "max_px": 671.4411010742188,
+        "rmse_px": 189.7473602294922
+      }
+    },
+    "curated_landmarks_in_quadrant": {
+      "count": 14,
+      "stations": [
+        1,
+        2,
+        8,
+        10,
+        18,
+        20,
+        21,
+        33,
+        46,
+        58,
+        74,
+        79,
+        93,
+        110
+      ]
+    },
+    "se_spatial_diagnostics": null,
+    "homography_matrix_3x3": [
+      [
+        0.6746924656109209,
+        0.06318323463561142,
+        -34.726750482072376
+      ],
+      [
+        0.02213658178421897,
+        0.69321044316809,
+        -32.451332810776066
+      ],
+      [
+        6.0808981443062384e-05,
+        0.0001760021620405055,
+        1.0
+      ]
+    ]
+  },
+  "top-right": {
+    "quadrant": "North-East",
+    "source_file": "top-right.jpeg",
+    "source_dimensions": {
+      "width": 885,
+      "height": 1280
+    },
+    "pre_rotation": "90 degrees counter-clockwise",
+    "feature_matches_summary": {
+      "candidate_matches_total": 140,
+      "fitting_subset_count": 105,
+      "validation_subset_count": 35,
+      "split_ratio": "75% fitting / 25% held-out validation (deterministic spatial interleaving)"
+    },
+    "fitting_evaluation": {
+      "inliers_count": 86,
+      "outliers_count": 19,
+      "inlier_ratio": 0.819047619047619,
+      "residuals_canvas_pixels": {
+        "mean_px": 0.9156022071838379,
+        "median_px": 0.8430696129798889,
+        "std_px": 0.5175707936286926,
+        "max_px": 2.7551074028015137,
+        "rmse_px": 1.0517637729644775
+      },
+      "residuals_normalized_units": {
+        "mean": 0.0006782238571732132,
+        "median": 0.0006244960096147325,
+        "std": 0.00038338577305829086,
+        "max": 0.0020408202983714916,
+        "rmse": 0.0007790842762699833
+      },
+      "directional_residuals_pixels": {
+        "mean_dx": 0.023013802245259285,
+        "mean_dy": -0.028753036633133888,
+        "std_dx": 0.7245140075683594,
+        "std_dy": 0.7615314722061157,
+        "rmse_dx": 0.7248794436454773,
+        "rmse_dy": 0.7620740532875061,
+        "anisotropy_ratio": 0.9513907619201624,
+        "dx_dy_correlation": -0.17436905502303215
+      },
+      "fold_proximity_analysis": {
+        "near_fold_count": 11,
+        "far_fold_count": 75,
+        "near_fold_mean_residual": 0.0009450183613131745,
+        "far_fold_mean_residual": 0.0006390940879598075,
+        "correlation_with_fold_distance": -0.257530745323385
+      }
+    },
+    "held_out_validation_evaluation": {
+      "validation_points_total": 35,
+      "validation_inliers_count": 27,
+      "validation_outliers_count": 8,
+      "validation_inlier_ratio": 0.7714285714285715,
+      "residuals_canvas_pixels": {
+        "mean_px": 0.9603452086448669,
+        "median_px": 0.8824571967124939,
+        "std_px": 0.46323177218437195,
+        "max_px": 2.118400812149048,
+        "rmse_px": 1.066230058670044
+      },
+      "residuals_normalized_units": {
+        "mean": 0.0007113668212184199,
+        "median": 0.0006536719975648103,
+        "std": 0.00034313464606249776,
+        "max": 0.0015691857867770724,
+        "rmse": 0.0007898000434592918
+      },
+      "directional_residuals_pixels": {
+        "mean_dx": -0.17860017716884613,
+        "mean_dy": 0.013277760706841946,
+        "std_dx": 0.8095124959945679,
+        "std_dy": 0.6704191565513611,
+        "rmse_dx": 0.8289803862571716,
+        "rmse_dy": 0.6705506443977356,
+        "anisotropy_ratio": 1.2074722031493006,
+        "dx_dy_correlation": -0.08142813276897708
+      },
+      "fold_proximity_analysis": {
+        "near_fold_count": 5,
+        "far_fold_count": 22,
+        "near_fold_mean_residual": 0.001093670924504598,
+        "far_fold_mean_residual": 0.0006244795335463,
+        "correlation_with_fold_distance": -0.3892288889966336
+      },
+      "worst_case_all_validation_points_pixels": {
+        "mean_px": 102.20116424560547,
+        "max_px": 1104.05908203125,
+        "rmse_px": 293.99127197265625
+      }
+    },
+    "curated_landmarks_in_quadrant": {
+      "count": 15,
+      "stations": [
+        3,
+        4,
+        13,
+        14,
+        15,
+        23,
+        29,
+        41,
+        50,
+        53,
+        67,
+        71,
+        86,
+        89,
+        107
+      ]
+    },
+    "se_spatial_diagnostics": null,
+    "homography_matrix_3x3": [
+      [
+        0.6631659312149848,
+        0.2030116767312983,
+        604.1537171137597
+      ],
+      [
+        -0.0002046772825156388,
+        0.7212125213727589,
+        -10.523934483264854
+      ],
+      [
+        1.6091357965552168e-05,
+        0.0002293842402151556,
+        1.0
+      ]
+    ]
+  },
+  "bottom-left": {
+    "quadrant": "South-West",
+    "source_file": "bottom-left.jpeg",
+    "source_dimensions": {
+      "width": 914,
+      "height": 1280
+    },
+    "pre_rotation": "90 degrees counter-clockwise",
+    "feature_matches_summary": {
+      "candidate_matches_total": 170,
+      "fitting_subset_count": 127,
+      "validation_subset_count": 43,
+      "split_ratio": "75% fitting / 25% held-out validation (deterministic spatial interleaving)"
+    },
+    "fitting_evaluation": {
+      "inliers_count": 101,
+      "outliers_count": 26,
+      "inlier_ratio": 0.7952755905511811,
+      "residuals_canvas_pixels": {
+        "mean_px": 0.9169765710830688,
+        "median_px": 0.8506981134414673,
+        "std_px": 0.4950478971004486,
+        "max_px": 2.258488178253174,
+        "rmse_px": 1.042074203491211
+      },
+      "residuals_normalized_units": {
+        "mean": 0.000679241904505977,
+        "median": 0.0006301467506973832,
+        "std": 0.0003667021460003323,
+        "max": 0.0016729542061134622,
+        "rmse": 0.000771906817400897
+      },
+      "directional_residuals_pixels": {
+        "mean_dx": -0.009866162203252316,
+        "mean_dy": -0.053315114229917526,
+        "std_dx": 0.6857667565345764,
+        "std_dy": 0.7827532291412354,
+        "rmse_dx": 0.6858376860618591,
+        "rmse_dy": 0.7845668792724609,
+        "anisotropy_ratio": 0.8760957234081761,
+        "dx_dy_correlation": -0.10294066271860373
+      },
+      "fold_proximity_analysis": {
+        "near_fold_count": 7,
+        "far_fold_count": 94,
+        "near_fold_mean_residual": 0.0012667057564649633,
+        "far_fold_mean_residual": 0.0006354946115291241,
+        "correlation_with_fold_distance": -0.2595014587900478
+      }
+    },
+    "held_out_validation_evaluation": {
+      "validation_points_total": 43,
+      "validation_inliers_count": 35,
+      "validation_outliers_count": 8,
+      "validation_inlier_ratio": 0.813953488372093,
+      "residuals_canvas_pixels": {
+        "mean_px": 0.9404350519180298,
+        "median_px": 0.7800866365432739,
+        "std_px": 0.5306583046913147,
+        "max_px": 2.0284016132354736,
+        "rmse_px": 1.079822301864624
+      },
+      "residuals_normalized_units": {
+        "mean": 0.0006966185569763183,
+        "median": 0.0005778419529950177,
+        "std": 0.00039308022569727014,
+        "max": 0.0015025197135077582,
+        "rmse": 0.0007998683717515733
+      },
+      "directional_residuals_pixels": {
+        "mean_dx": -0.04117359593510628,
+        "mean_dy": -0.08583112806081772,
+        "std_dx": 0.7396504282951355,
+        "std_dy": 0.7809426188468933,
+        "rmse_dx": 0.7407954931259155,
+        "rmse_dy": 0.7856451272964478,
+        "anisotropy_ratio": 0.9471251926130909,
+        "dx_dy_correlation": -0.032917268997634
+      },
+      "fold_proximity_analysis": {
+        "near_fold_count": 3,
+        "far_fold_count": 32,
+        "near_fold_mean_residual": 0.0011636469687944578,
+        "far_fold_mean_residual": 0.0006528346540613306,
+        "correlation_with_fold_distance": -0.25423130286710516
+      },
+      "worst_case_all_validation_points_pixels": {
+        "mean_px": 69.57347869873047,
+        "max_px": 820.66552734375,
+        "rmse_px": 207.62026977539062
+      }
+    },
+    "curated_landmarks_in_quadrant": {
+      "count": 14,
+      "stations": [
+        111,
+        120,
+        122,
+        123,
+        138,
+        140,
+        151,
+        153,
+        163,
+        165,
+        180,
+        185,
+        194,
+        197
+      ]
+    },
+    "se_spatial_diagnostics": null,
+    "homography_matrix_3x3": [
+      [
+        0.6022647206517977,
+        0.009079005891442641,
+        -22.942196630322865
+      ],
+      [
+        -0.01918769401156638,
+        0.6811897403088765,
+        493.9472902662641
+      ],
+      [
+        -1.7987496588626078e-05,
+        0.00010961223421004271,
+        0.9999999999999999
+      ]
+    ]
+  },
+  "bottom-right": {
+    "quadrant": "South-East",
+    "source_file": "bottom-right.jpeg",
+    "source_dimensions": {
+      "width": 1080,
+      "height": 1499
+    },
+    "pre_rotation": "90 degrees counter-clockwise",
+    "feature_matches_summary": {
+      "candidate_matches_total": 52,
+      "fitting_subset_count": 39,
+      "validation_subset_count": 13,
+      "split_ratio": "75% fitting / 25% held-out validation (deterministic spatial interleaving)"
+    },
+    "fitting_evaluation": {
+      "inliers_count": 31,
+      "outliers_count": 8,
+      "inlier_ratio": 0.7948717948717948,
+      "residuals_canvas_pixels": {
+        "mean_px": 0.9742615222930908,
+        "median_px": 0.9332879185676575,
+        "std_px": 0.6588912606239319,
+        "max_px": 2.992321252822876,
+        "rmse_px": 1.176147699356079
+      },
+      "residuals_normalized_units": {
+        "mean": 0.0007216752016985857,
+        "median": 0.0006913243841241907,
+        "std": 0.00048806760046217175,
+        "max": 0.0022165342613502787,
+        "rmse": 0.00087122051804154
+      },
+      "directional_residuals_pixels": {
+        "mean_dx": 0.06737690418958664,
+        "mean_dy": 0.06910262256860733,
+        "std_dx": 0.7340273857116699,
+        "std_dy": 0.9138994216918945,
+        "rmse_dx": 0.7371131777763367,
+        "rmse_dy": 0.916508138179779,
+        "anisotropy_ratio": 0.803181803477642,
+        "dx_dy_correlation": 0.6366206826508076
+      },
+      "fold_proximity_analysis": {
+        "near_fold_count": 17,
+        "far_fold_count": 14,
+        "near_fold_mean_residual": 0.0005779587857279124,
+        "far_fold_mean_residual": 0.0008961878322735035,
+        "correlation_with_fold_distance": 0.1597916225219767
+      }
+    },
+    "held_out_validation_evaluation": {
+      "validation_points_total": 13,
+      "validation_inliers_count": 8,
+      "validation_outliers_count": 5,
+      "validation_inlier_ratio": 0.6153846153846154,
+      "residuals_canvas_pixels": {
+        "mean_px": 1.3513166904449463,
+        "median_px": 1.2137889862060547,
+        "std_px": 0.5704572796821594,
+        "max_px": 2.6062614917755127,
+        "rmse_px": 1.4667918682098389
+      },
+      "residuals_normalized_units": {
+        "mean": 0.0010009753262555157,
+        "median": 0.0008991029527452257,
+        "std": 0.00042256094791271067,
+        "max": 0.0019305640679818613,
+        "rmse": 0.001086512494970251
+      },
+      "directional_residuals_pixels": {
+        "mean_dx": 0.2418975830078125,
+        "mean_dy": 0.8260345458984375,
+        "std_dx": 0.8273612856864929,
+        "std_dy": 0.8521173000335693,
+        "rmse_dx": 0.8619983792304993,
+        "rmse_dy": 1.1867759227752686,
+        "anisotropy_ratio": 0.9709476449473551,
+        "dx_dy_correlation": 0.4038712524777487
+      },
+      "fold_proximity_analysis": {
+        "near_fold_count": 2,
+        "far_fold_count": 6,
+        "near_fold_mean_residual": 0.0006278916200002035,
+        "far_fold_mean_residual": 0.0011253365028051682,
+        "correlation_with_fold_distance": 0.18701285504330764
+      },
+      "worst_case_all_validation_points_pixels": {
+        "mean_px": 180.95399475097656,
+        "max_px": 1018.3443603515625,
+        "rmse_px": 352.06414794921875
+      }
+    },
+    "curated_landmarks_in_quadrant": {
+      "count": 17,
+      "stations": [
+        115,
+        118,
+        128,
+        133,
+        136,
+        140,
+        142,
+        157,
+        158,
+        159,
+        170,
+        172,
+        185,
+        187,
+        198,
+        199,
+        200
+      ]
+    },
+    "se_spatial_diagnostics": {
+      "total_candidate_matches": 52,
+      "matches_within_se_quadrant_bounds": 44,
+      "spurious_cross_quadrant_matches": 8,
+      "inlier_ratio_within_se_bounds": 0.7045454545454546,
+      "diagnostic_explanation": "8 of the 52 candidate matches were false cross-quadrant correspondences in the NW/NE quadrants caused by identical London street symbols. RANSAC successfully rejected 100% of these cross-quadrant matches as spatial outliers, yielding 38 geometrically consistent inliers across the SE quadrant."
+    },
+    "homography_matrix_3x3": [
+      [
+        0.48189986470062224,
+        0.012570171692527162,
+        621.3905402906554
+      ],
+      [
+        -0.009630659562311404,
+        0.5005483716592931,
+        486.0093287774804
+      ],
+      [
+        -1.1016497560924476e-05,
+        1.809528212904554e-05,
+        1.0
+      ]
+    ]
+  }
+}

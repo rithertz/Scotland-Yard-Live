@@ -1,0 +1,94 @@
+{
+  "pipeline_status": "SUCCESS",
+  "phase": "3C.3-B.1 Calibration Evidence Audit and Validation Correction",
+  "target_edition": "1985 Milton Bradley / Funskool India 4500-X2",
+  "evidence_audit": {
+    "source_photograph_complete": {
+      "dimensions_px": "1280x892",
+      "sha256": "2B1B33BB430F57BD29F7EBE4BEB978BC662C9B5E56DFBFBC0F4D40C8F3264E33",
+      "status": "VERIFIED_CANONICAL_SOURCE",
+      "discrepancy_resolution": "Typo in earlier narrative text resolved; exact repository file was used throughout."
+    },
+    "source_photographs_all_verified": true
+  },
+  "aspect_ratio_evaluation": {
+    "image_space_quadrilateral_ratio": 1.3362621407262505,
+    "image_space_uncertainty": 0.04,
+    "physical_board_aspect_ratio_status": "UNRESOLVED_FROM_CURRENT_PHOTOGRAPHS",
+    "pinhole_perspective_estimate": 1.225996706610619,
+    "working_canvas_ratio": 1.35,
+    "working_canvas_classification": "PROVISIONAL_COMPUTATIONAL_CHOICE"
+  },
+  "registration_validation_summary": {
+    "methodology": "75% fitting / 25% held-out validation (deterministic spatial interleaving)",
+    "fitting_subset": {
+      "mean_residual_norm": 0.0007101787240416915,
+      "mean_residual_pixels": 0.9587412774562836,
+      "max_residual_norm": 0.0022165342613502787,
+      "max_residual_pixels": 2.9923212528228764
+    },
+    "independent_validation_subset": {
+      "mean_residual_norm": 0.0007924846697736669,
+      "mean_residual_pixels": 1.0698543041944502,
+      "max_residual_norm": 0.0019305640679818613,
+      "max_residual_pixels": 2.6062614917755127
+    },
+    "per_quadrant": {
+      "top-left": {
+        "fitting_inliers": 81,
+        "fitting_mean_norm": 0.0007615739327889901,
+        "validation_inliers": 27,
+        "validation_outliers": 6,
+        "validation_mean_norm": 0.0007609779746444137,
+        "validation_max_norm": 0.001876557844656485
+      },
+      "top-right": {
+        "fitting_inliers": 86,
+        "fitting_mean_norm": 0.0006782238571732132,
+        "validation_inliers": 27,
+        "validation_outliers": 8,
+        "validation_mean_norm": 0.0007113668212184199,
+        "validation_max_norm": 0.0015691857867770724
+      },
+      "bottom-left": {
+        "fitting_inliers": 101,
+        "fitting_mean_norm": 0.000679241904505977,
+        "validation_inliers": 35,
+        "validation_outliers": 8,
+        "validation_mean_norm": 0.0006966185569763183,
+        "validation_max_norm": 0.0015025197135077582
+      },
+      "bottom-right": {
+        "fitting_inliers": 31,
+        "fitting_mean_norm": 0.0007216752016985857,
+        "validation_inliers": 8,
+        "validation_outliers": 5,
+        "validation_mean_norm": 0.0010009753262555157,
+        "validation_max_norm": 0.0019305640679818613
+      }
+    }
+  },
+  "accuracy_statement": {
+    "measured_calibration_precision": "Feature projection error: Fitting mean 0.96 px (0.000710 norm), Independent validation mean 1.07 px (0.000792 norm).",
+    "unsupported_claims_retracted": [
+      "Guaranteed +/-0.002-0.003 normalized positional accuracy across board",
+      "Guaranteed +/-0.0012 station centroid precision",
+      "Approximately 0.5mm physical board accuracy"
+    ],
+    "station_centroid_accuracy_deferred_to": "Phase 3C.3-C (measured against detected physical circular badges)"
+  },
+  "fold_analysis": {
+    "findings": "Quad-fold board exhibits horizontal and vertical seams. Independent held-out validation confirms that residuals near the folds remain under 1.5 px (0.0011 norm), with no statistically significant correlation with fold distance. Planar homography is stable.",
+    "piecewise_correction_warranted": false
+  },
+  "inspection_artifacts": [
+    "inspection/spatial_residuals_map.png",
+    "inspection/overlap_central_cross_fold.png",
+    "inspection/overlap_thames_bridges.png",
+    "inspection/overlap_shared_stations.png"
+  ],
+  "coordinate_extraction_readiness": {
+    "sufficient_for_stage_3c3_c": true,
+    "condition": "Subject to owner review and explicit approval of calibration evidence and provisional canvas."
+  }
+}

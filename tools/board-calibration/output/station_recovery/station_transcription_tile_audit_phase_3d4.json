@@ -1,0 +1,1333 @@
+{
+  "metadata": {
+    "phase": "3D.4",
+    "coordinate_system": {
+      "origin": "top-left",
+      "x": "right",
+      "y": "down",
+      "canvas": [
+        1350,
+        1000
+      ]
+    },
+    "source_phase": "3D.3",
+    "physical_marker_candidates_preserved": 202,
+    "raw_observations_preserved": 138,
+    "identity_policy": "printed number and existing feature correspondence must both be documented; no landmark-only inference",
+    "summary_counts": {
+      "verified": 2,
+      "candidate_uncertain": 4,
+      "unresolved": 193,
+      "conflicting": 0,
+      "duplicate": 0,
+      "number_reading": {
+        "actually_read_directly": 2,
+        "candidate_from_prior_evidence": 4,
+        "read_but_unmapped": 0,
+        "unreadable_or_not_transcribed": 193
+      }
+    },
+    "overlay_numbered_station_ids": [
+      1,
+      3,
+      120,
+      123,
+      158,
+      199
+    ]
+  },
+  "tiles": [
+    {
+      "tile": "A1.jpg",
+      "status": "usable",
+      "dimensions": [
+        8160,
+        6120
+      ],
+      "sha256": "CB6426A22921588DF2F170C160A599C84F57B78FBF3A435AC0028D17D6F75E5B",
+      "raw_marker_observation_count": 12,
+      "observation_centres_canvas": [
+        [
+          159.64,
+          321.15
+        ],
+        [
+          141.34,
+          318.81
+        ],
+        [
+          76.59,
+          296.43
+        ],
+        [
+          40.83,
+          263.28
+        ],
+        [
+          292.45,
+          244.45
+        ],
+        [
+          422.02,
+          271.84
+        ],
+        [
+          252.92,
+          109.41
+        ],
+        [
+          139.42,
+          27.55
+        ],
+        [
+          283.25,
+          12.55
+        ],
+        [
+          254.3,
+          11.74
+        ],
+        [
+          188.21,
+          8.78
+        ],
+        [
+          111.79,
+          15.48
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "A2.jpg",
+      "status": "usable",
+      "dimensions": [
+        5844,
+        6628
+      ],
+      "sha256": "E81E764A6CBB894A3367C09A095F0A4E32509475B95BE763A7874B8B6D1AFEB7",
+      "raw_marker_observation_count": 20,
+      "observation_centres_canvas": [
+        [
+          655.98,
+          353.69
+        ],
+        [
+          675.12,
+          349.95
+        ],
+        [
+          352.58,
+          236.42
+        ],
+        [
+          477.3,
+          214.05
+        ],
+        [
+          356.75,
+          213.45
+        ],
+        [
+          367.74,
+          194.52
+        ],
+        [
+          621.44,
+          164.73
+        ],
+        [
+          536.6,
+          164.51
+        ],
+        [
+          351.95,
+          170.59
+        ],
+        [
+          595.87,
+          149.53
+        ],
+        [
+          397.75,
+          155.05
+        ],
+        [
+          350.27,
+          140.31
+        ],
+        [
+          374.7,
+          136.22
+        ],
+        [
+          693.18,
+          131.99
+        ],
+        [
+          526.48,
+          102.57
+        ],
+        [
+          542.45,
+          99.47
+        ],
+        [
+          632.17,
+          67.56
+        ],
+        [
+          707.66,
+          73.81
+        ],
+        [
+          699.12,
+          43.9
+        ],
+        [
+          369.69,
+          19.96
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "A3.jpg",
+      "status": "usable",
+      "dimensions": [
+        6120,
+        6404
+      ],
+      "sha256": "C8A7580E7AC16E83A4694848E68B380843D4F08BADC1A7619FDA265E3FD8E2C0",
+      "raw_marker_observation_count": 14,
+      "observation_centres_canvas": [
+        [
+          792.99,
+          234.22
+        ],
+        [
+          703.23,
+          206.42
+        ],
+        [
+          757.76,
+          202.95
+        ],
+        [
+          749.6,
+          133.39
+        ],
+        [
+          706.46,
+          121.5
+        ],
+        [
+          969.79,
+          68.37
+        ],
+        [
+          711.31,
+          78.34
+        ],
+        [
+          698.52,
+          43.52
+        ],
+        [
+          972.26,
+          44.25
+        ],
+        [
+          1024.57,
+          47.94
+        ],
+        [
+          1024.71,
+          12.43
+        ],
+        [
+          999.97,
+          13.26
+        ],
+        [
+          934.33,
+          13.44
+        ],
+        [
+          868.96,
+          16.12
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "A4.jpg",
+      "status": "usable",
+      "dimensions": [
+        6120,
+        8160
+      ],
+      "sha256": "3DC36D60236EB37DBD9F3103D25D97E3CFE690F7920264F90AD2D81B59834B2A",
+      "raw_marker_observation_count": 16,
+      "observation_centres_canvas": [
+        [
+          1204.5,
+          317.4
+        ],
+        [
+          1181.47,
+          311.72
+        ],
+        [
+          1158.79,
+          308.19
+        ],
+        [
+          1058.04,
+          264.38
+        ],
+        [
+          1127.83,
+          289.33
+        ],
+        [
+          1078.67,
+          258.64
+        ],
+        [
+          1282.71,
+          224.97
+        ],
+        [
+          908.01,
+          223.95
+        ],
+        [
+          911.36,
+          188.86
+        ],
+        [
+          962.66,
+          200.18
+        ],
+        [
+          1075.21,
+          172.89
+        ],
+        [
+          1249.14,
+          56.88
+        ],
+        [
+          1000.29,
+          16.07
+        ],
+        [
+          1025.53,
+          14.48
+        ],
+        [
+          1085.31,
+          14.1
+        ],
+        [
+          1072.25,
+          12.89
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "B1.jpg",
+      "status": "usable",
+      "dimensions": [
+        5240,
+        6772
+      ],
+      "sha256": "031670FD1B5C743F6CB3F0693D47ECA1A365637D4E4C565AC3090814E23DCC05",
+      "raw_marker_observation_count": 7,
+      "observation_centres_canvas": [
+        [
+          328.75,
+          442.28
+        ],
+        [
+          204.03,
+          399.13
+        ],
+        [
+          99.39,
+          378.46
+        ],
+        [
+          157.62,
+          324.05
+        ],
+        [
+          76.63,
+          296.56
+        ],
+        [
+          139.42,
+          266.58
+        ],
+        [
+          292.21,
+          245.84
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "B2.jpg",
+      "status": "usable",
+      "dimensions": [
+        6120,
+        8160
+      ],
+      "sha256": "5CAED216C25600CFF33331CCAD145551E45BD1BC340DACB27193EFB90AE86875",
+      "raw_marker_observation_count": 16,
+      "observation_centres_canvas": [
+        [
+          671.71,
+          525.98
+        ],
+        [
+          564.57,
+          526.49
+        ],
+        [
+          436.08,
+          528.54
+        ],
+        [
+          745.81,
+          481.64
+        ],
+        [
+          329.76,
+          441.72
+        ],
+        [
+          797.31,
+          373.28
+        ],
+        [
+          780.04,
+          364.65
+        ],
+        [
+          498.97,
+          356.64
+        ],
+        [
+          775.78,
+          288.42
+        ],
+        [
+          339.78,
+          266.13
+        ],
+        [
+          485.2,
+          244.94
+        ],
+        [
+          477.22,
+          215.32
+        ],
+        [
+          522.35,
+          200.46
+        ],
+        [
+          569.86,
+          186.59
+        ],
+        [
+          372.68,
+          197.95
+        ],
+        [
+          356.85,
+          177.09
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "B3.jpg",
+      "status": "usable",
+      "dimensions": [
+        8160,
+        6120
+      ],
+      "sha256": "F77C1EA165D1344C19D0A30BB6C2AAA7C61117CDE49552B068E8ACD214D092A6",
+      "raw_marker_observation_count": 6,
+      "observation_centres_canvas": [
+        [
+          890.91,
+          521.65
+        ],
+        [
+          864.12,
+          420.54
+        ],
+        [
+          908.02,
+          412.96
+        ],
+        [
+          1045.18,
+          401.32
+        ],
+        [
+          907.72,
+          191.68
+        ],
+        [
+          1006.96,
+          193.74
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "B4.jpg",
+      "status": "usable",
+      "dimensions": [
+        6120,
+        8160
+      ],
+      "sha256": "9DD578EFF2C3E64E85C81FFE1D819DF1C92A208B759BF75F2146C38C7832638F",
+      "raw_marker_observation_count": 21,
+      "observation_centres_canvas": [
+        [
+          1226.3,
+          539.84
+        ],
+        [
+          922.97,
+          513.62
+        ],
+        [
+          1116.15,
+          507.6
+        ],
+        [
+          967.33,
+          514.79
+        ],
+        [
+          1307.16,
+          505.72
+        ],
+        [
+          1240.81,
+          481.63
+        ],
+        [
+          1182.58,
+          463.65
+        ],
+        [
+          1328.91,
+          419.58
+        ],
+        [
+          1196.61,
+          418.37
+        ],
+        [
+          910.35,
+          411.44
+        ],
+        [
+          952.67,
+          420.57
+        ],
+        [
+          1136.17,
+          403.3
+        ],
+        [
+          1068.3,
+          404.66
+        ],
+        [
+          948.34,
+          380.3
+        ],
+        [
+          1155.14,
+          360.96
+        ],
+        [
+          1135.68,
+          357.68
+        ],
+        [
+          1158.74,
+          308.31
+        ],
+        [
+          1327.47,
+          293.81
+        ],
+        [
+          1133.35,
+          302.73
+        ],
+        [
+          1282.0,
+          228.29
+        ],
+        [
+          907.61,
+          227.77
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "C1.jpg",
+      "status": "usable",
+      "dimensions": [
+        6120,
+        8160
+      ],
+      "sha256": "6858A48D2CCCDF1C7A953EC64D20662C042E7E137F2380F8005BBC24DE95E4E2",
+      "raw_marker_observation_count": 12,
+      "observation_centres_canvas": [
+        [
+          220.88,
+          836.47
+        ],
+        [
+          140.0,
+          828.03
+        ],
+        [
+          158.52,
+          811.93
+        ],
+        [
+          68.72,
+          716.01
+        ],
+        [
+          117.56,
+          619.03
+        ],
+        [
+          475.19,
+          619.65
+        ],
+        [
+          255.6,
+          605.05
+        ],
+        [
+          191.7,
+          607.35
+        ],
+        [
+          251.16,
+          587.83
+        ],
+        [
+          484.31,
+          584.22
+        ],
+        [
+          468.58,
+          568.77
+        ],
+        [
+          482.13,
+          476.72
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "C2.jpg",
+      "status": "usable",
+      "dimensions": [
+        6120,
+        8160
+      ],
+      "sha256": "56E4CEE058A1A6C261E161FF57CD660EE2E14F8A154BE8742825B60E595C4804",
+      "raw_marker_observation_count": 18,
+      "observation_centres_canvas": [
+        [
+          606.33,
+          814.73
+        ],
+        [
+          545.83,
+          814.01
+        ],
+        [
+          375.99,
+          804.95
+        ],
+        [
+          682.19,
+          787.59
+        ],
+        [
+          515.11,
+          685.54
+        ],
+        [
+          677.7,
+          652.31
+        ],
+        [
+          508.54,
+          644.35
+        ],
+        [
+          725.37,
+          622.86
+        ],
+        [
+          479.14,
+          619.99
+        ],
+        [
+          718.19,
+          610.7
+        ],
+        [
+          392.53,
+          593.55
+        ],
+        [
+          639.93,
+          605.23
+        ],
+        [
+          730.8,
+          532.74
+        ],
+        [
+          487.78,
+          555.17
+        ],
+        [
+          522.44,
+          505.13
+        ],
+        [
+          484.81,
+          515.74
+        ],
+        [
+          727.58,
+          509.35
+        ],
+        [
+          558.8,
+          506.15
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "C3.jpg",
+      "status": "usable",
+      "dimensions": [
+        5420,
+        8160
+      ],
+      "sha256": "6B6728FE8ED9F389C5775F57DE6B96D14FAC29C04A16023E89CF86B9D749A45A",
+      "raw_marker_observation_count": 21,
+      "observation_centres_canvas": [
+        [
+          717.11,
+          771.74
+        ],
+        [
+          998.61,
+          761.04
+        ],
+        [
+          790.41,
+          714.56
+        ],
+        [
+          807.71,
+          712.16
+        ],
+        [
+          641.58,
+          741.75
+        ],
+        [
+          916.53,
+          710.92
+        ],
+        [
+          845.27,
+          697.77
+        ],
+        [
+          805.15,
+          689.01
+        ],
+        [
+          949.7,
+          696.3
+        ],
+        [
+          792.91,
+          671.46
+        ],
+        [
+          644.86,
+          671.52
+        ],
+        [
+          844.48,
+          662.13
+        ],
+        [
+          713.27,
+          634.05
+        ],
+        [
+          684.46,
+          625.97
+        ],
+        [
+          986.23,
+          569.37
+        ],
+        [
+          1003.67,
+          553.76
+        ],
+        [
+          803.18,
+          539.41
+        ],
+        [
+          652.74,
+          544.61
+        ],
+        [
+          1006.66,
+          532.53
+        ],
+        [
+          643.02,
+          517.96
+        ],
+        [
+          949.29,
+          512.47
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "C4.jpg",
+      "status": "usable",
+      "dimensions": [
+        5704,
+        8160
+      ],
+      "sha256": "5932F92B59D495D3C6140541A5BDA6A9185CC585F0ACB213074B2DF8525FFE76",
+      "raw_marker_observation_count": 23,
+      "observation_centres_canvas": [
+        [
+          1291.39,
+          744.82
+        ],
+        [
+          1005.8,
+          733.44
+        ],
+        [
+          1251.97,
+          725.1
+        ],
+        [
+          1218.42,
+          715.71
+        ],
+        [
+          915.98,
+          709.64
+        ],
+        [
+          1319.27,
+          703.45
+        ],
+        [
+          948.0,
+          696.03
+        ],
+        [
+          1288.79,
+          686.87
+        ],
+        [
+          1316.04,
+          681.76
+        ],
+        [
+          1083.62,
+          712.04
+        ],
+        [
+          1138.99,
+          657.67
+        ],
+        [
+          1079.35,
+          652.85
+        ],
+        [
+          1128.22,
+          643.7
+        ],
+        [
+          1311.71,
+          563.88
+        ],
+        [
+          1229.14,
+          542.51
+        ],
+        [
+          1116.09,
+          506.99
+        ],
+        [
+          1305.35,
+          505.1
+        ],
+        [
+          1230.71,
+          476.16
+        ],
+        [
+          1248.82,
+          480.85
+        ],
+        [
+          1263.34,
+          463.0
+        ],
+        [
+          1181.9,
+          461.26
+        ],
+        [
+          1267.3,
+          461.84
+        ],
+        [
+          1159.16,
+          449.74
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "D1.jpg",
+      "status": "usable",
+      "dimensions": [
+        8160,
+        6120
+      ],
+      "sha256": "9F17CDF39CA64FD96648F92DA95304D9443C9934FD721C18A1239B97F6D42CDE",
+      "raw_marker_observation_count": 8,
+      "observation_centres_canvas": [
+        [
+          135.69,
+          892.25
+        ],
+        [
+          443.7,
+          875.42
+        ],
+        [
+          176.08,
+          865.21
+        ],
+        [
+          375.99,
+          806.5
+        ],
+        [
+          181.14,
+          717.84
+        ],
+        [
+          68.81,
+          715.44
+        ],
+        [
+          198.84,
+          712.9
+        ],
+        [
+          210.38,
+          703.62
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "D2.jpg",
+      "status": "usable",
+      "dimensions": [
+        8160,
+        6120
+      ],
+      "sha256": "16B94E5400343221A54B511AD83CF06F4D08DE369E4847DE76083528026D579D",
+      "raw_marker_observation_count": 18,
+      "observation_centres_canvas": [
+        [
+          710.3,
+          993.36
+        ],
+        [
+          670.16,
+          958.51
+        ],
+        [
+          760.23,
+          938.59
+        ],
+        [
+          708.32,
+          911.87
+        ],
+        [
+          597.67,
+          873.11
+        ],
+        [
+          317.23,
+          875.89
+        ],
+        [
+          739.34,
+          868.69
+        ],
+        [
+          649.13,
+          870.7
+        ],
+        [
+          369.53,
+          865.08
+        ],
+        [
+          335.65,
+          857.67
+        ],
+        [
+          602.8,
+          815.92
+        ],
+        [
+          577.02,
+          816.3
+        ],
+        [
+          684.83,
+          790.3
+        ],
+        [
+          703.99,
+          795.01
+        ],
+        [
+          719.23,
+          738.2
+        ],
+        [
+          722.11,
+          703.29
+        ],
+        [
+          308.28,
+          671.45
+        ],
+        [
+          557.77,
+          652.37
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "D3.jpg",
+      "status": "usable",
+      "dimensions": [
+        5312,
+        8160
+      ],
+      "sha256": "0C1B04091C4530EDDFAA62F75A30EEDA31CC9946E236247A7919269E3C9898E8",
+      "raw_marker_observation_count": 26,
+      "observation_centres_canvas": [
+        [
+          942.76,
+          996.63
+        ],
+        [
+          712.23,
+          995.22
+        ],
+        [
+          887.87,
+          991.14
+        ],
+        [
+          1101.64,
+          971.28
+        ],
+        [
+          1080.15,
+          948.46
+        ],
+        [
+          667.18,
+          964.23
+        ],
+        [
+          956.34,
+          942.76
+        ],
+        [
+          762.72,
+          941.26
+        ],
+        [
+          709.33,
+          912.16
+        ],
+        [
+          739.03,
+          868.89
+        ],
+        [
+          603.54,
+          815.28
+        ],
+        [
+          682.38,
+          790.37
+        ],
+        [
+          702.88,
+          795.39
+        ],
+        [
+          1046.45,
+          751.06
+        ],
+        [
+          880.34,
+          752.41
+        ],
+        [
+          716.67,
+          737.84
+        ],
+        [
+          790.86,
+          713.93
+        ],
+        [
+          808.37,
+          712.16
+        ],
+        [
+          916.1,
+          710.29
+        ],
+        [
+          845.11,
+          697.93
+        ],
+        [
+          948.84,
+          695.56
+        ],
+        [
+          792.64,
+          671.19
+        ],
+        [
+          581.76,
+          664.68
+        ],
+        [
+          844.21,
+          661.71
+        ],
+        [
+          1071.85,
+          654.95
+        ],
+        [
+          1092.38,
+          650.0
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    },
+    {
+      "tile": "D4.jpg",
+      "status": "usable",
+      "dimensions": [
+        6120,
+        8160
+      ],
+      "sha256": "7C3515243AD363344971176C3491FE5DB2319BA9E5BF4D6BBAB0AB4FD5A3C000",
+      "raw_marker_observation_count": 21,
+      "observation_centres_canvas": [
+        [
+          885.67,
+          989.4
+        ],
+        [
+          1112.33,
+          988.72
+        ],
+        [
+          1227.56,
+          984.7
+        ],
+        [
+          1305.36,
+          976.23
+        ],
+        [
+          1276.78,
+          965.24
+        ],
+        [
+          1103.35,
+          973.5
+        ],
+        [
+          1155.6,
+          894.18
+        ],
+        [
+          1108.23,
+          904.39
+        ],
+        [
+          1199.08,
+          866.52
+        ],
+        [
+          1132.57,
+          835.6
+        ],
+        [
+          879.43,
+          751.05
+        ],
+        [
+          1250.13,
+          731.43
+        ],
+        [
+          1088.52,
+          726.49
+        ],
+        [
+          1216.93,
+          719.68
+        ],
+        [
+          917.12,
+          710.16
+        ],
+        [
+          950.0,
+          695.67
+        ],
+        [
+          847.86,
+          662.91
+        ],
+        [
+          1137.18,
+          658.94
+        ],
+        [
+          1079.17,
+          653.24
+        ],
+        [
+          1126.38,
+          644.68
+        ],
+        [
+          1050.05,
+          664.87
+        ]
+      ],
+      "identity_transcription_status": "reviewed_for_registration_and_marker_observations",
+      "identity_assignments_from_this_tile": [],
+      "identity_assignment_count": 0,
+      "notes": "Raw high-resolution marker observations are intentionally not treated as printed station identities until a human-readable number and existing feature match are recorded together."
+    }
+  ]
+}
