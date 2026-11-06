@@ -2,7 +2,9 @@
 
 ## Status and boundary
 
-This document defines a reproducible preparation workflow. It does not contain coordinates and does not authorize estimated coordinates to be published as canonical. The current images are useful for planning and regional comparison, but not for final calibration.
+This document defines the original reproducible preparation workflow. The methodology below is unchanged. It does not authorize estimated coordinates to be published as canonical.
+
+The Phase 3B.2 limitations later in this document are historical: they describe the evidence available when this workflow was written. Phase 3D subsequently stored a best-effort coordinate file. That outcome is recorded in the final section and does not replace this calibration method. The images remain insufficient for a verified full-board calibration claim.
 
 ## Coordinate convention
 
@@ -104,3 +106,52 @@ The synthetic fixture must remain the active web source until the canonical pack
 It is not enough to publish canonical coordinates. The complete image is 1280×892, the regional images are rotated/cropped, and no corner control points or image-registration measurements have been recorded. The visible physical board edge and fold must be distinguished from the camera frame before any normalized station centre is promoted.
 
 The current evidence set therefore supports: consistent board orientation, approximate boundary identification, and future multi-image alignment. It does not support: a verified full-board transform, final station-centre coordinates, or a 1:1 accuracy claim.
+
+## Phase 3D outcome (current status)
+
+This section records what the merged best-effort reconstruction delivered. It does not replace the calibration methodology above, and it does not reclassify the Phase 3B.2 limitations as resolved.
+
+Source file: [`packages/board-data/data/stations.json`](../../packages/board-data/data/stations.json), dataset version `3D-final-best-effort-1.0.0`. The same counts are summarized in [`FINAL-PHASE-3D-STATION-RECONSTRUCTION.md`](FINAL-PHASE-3D-STATION-RECONSTRUCTION.md) and `tools/board-calibration/output/station_recovery/final_station_reconstruction_counts.json`.
+
+### Coordinate availability
+
+All 199 records for station IDs 1–199 have a finite normalized `{ x, y }` in the closed interval `[0, 1]`. The file states that these values use the 1350×1000 top-left-origin working canvas. Marker 200 has no coordinate in this file. A stored coordinate is not, by itself, a claim of accuracy or verification.
+
+### Coordinate accuracy
+
+The reconstruction report describes these positions as a usable approximation. It names expected error from marker-to-number assignment, local fold and perspective displacement, and provisional feature matching. `tools/board-calibration/output/control_points.json` records corners for `complete.jpeg` and labels the 1350×1000 canvas `PROVISIONAL_COMPUTATIONAL_CHOICE`. That provisional frame is not the verified promotion described by the methodology above. These 199 values must not be described as verified coordinates.
+
+`coordinateStatus` on the records, counted from the file:
+
+| `coordinateStatus`             | Records | Station IDs                      |
+| ------------------------------ | ------: | -------------------------------- |
+| `verified-from-physical-board` |       2 | 1, 199                           |
+| `candidate-unverified`         |     197 | all other IDs from 1 through 199 |
+
+Those two `verified-from-physical-board` values sit inside a dataset whose metadata state is `incomplete-verification` and whose `bestEffort` flag is `true`. They do not make the dataset `canonical-complete`.
+
+### Station-number-to-feature identity confidence
+
+Identity is a separate field from coordinate status. `identityStatus` is not part of the `VerificationStatus` union in `packages/board-data/src/types.ts`. Counted from `stations.json`:
+
+| `identityStatus`             | Records | Feature ID present                  |
+| ---------------------------- | ------: | ----------------------------------- |
+| `verified`                   |       2 | yes (stations 1 and 199)            |
+| `candidate_uncertain`        |       4 | yes (stations 3, 120, 123, and 158) |
+| `approximate`                |      36 | yes                                 |
+| `unmatched-feature-identity` |     157 | no                                  |
+
+The published reconstruction summary groups the 4 `candidate_uncertain` records with the 36 `approximate` records and reports **40 approximate feature associations**, plus **2 verified retained associations** and **157 unmatched feature identities**. Both descriptions refer to the same 199 records. The file’s four-way split is the record-level evidence; the summary’s 40 is the grouped published count.
+
+Dataset provenance says six earlier identity records were retained, for stations 1, 3, 120, 123, 158, and 199. Of those six, only stations 1 and 199 are `verified`. The other four retained identities are `candidate_uncertain` and their coordinates are `candidate-unverified`. No feature identifiers were fabricated for the 157 unmatched records. The 42 present feature IDs are unique.
+
+### Canonical verification status
+
+- `metadata.state` is `incomplete-verification`.
+- `bestEffort` is `true`.
+- `CANONICAL_DATASET_AVAILABILITY.available` remains `false`, with state `incomplete-verification`.
+- `connections` is empty. Transport topology was not part of this coordinate delivery.
+- `src/index.ts` does not export the file.
+- The synthetic web fixture remains the active board source.
+
+A later canonical promotion still requires the calibration and review steps in this document, plus the gates in [BOARD-RECONSTRUCTION.md](BOARD-RECONSTRUCTION.md). The best-effort file is not that promotion.

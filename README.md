@@ -2,7 +2,19 @@
 
 A real-time multiplayer implementation of the original **Scotland Yard** board game, being built first for private playtesting with friends.
 
-> **Current status:** Phase 1 infrastructure foundation. The repository contains a TypeScript monorepo, a React/Vite web shell, a Fastify API, shared validation contracts, and a PostgreSQL/Drizzle foundation. Private rooms, player sessions, the canonical board, and gameplay are not implemented yet.
+> **Current status:** The infrastructure foundation is implemented, and a best-effort station coordinate reconstruction exists. The canonical transport graph, game engine, and multiplayer gameplay are not available. The web board still uses a synthetic fixture.
+
+## Implementation status
+
+| Area                                                                                       | Status                                                                                                                                        |
+| ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Monorepo, React/Vite web shell, Fastify API, shared contracts, PostgreSQL/Drizzle baseline | Implemented                                                                                                                                   |
+| Best-effort station coordinates in `packages/board-data/data/stations.json`                | Present. 199 records, `incomplete-verification`, `bestEffort: true`. Not verified gameplay topology                                           |
+| Canonical transport graph                                                                  | Not available. `CANONICAL_DATASET_AVAILABILITY.available` remains `false`                                                                     |
+| Web board                                                                                  | Synthetic fixture at `apps/web/src/features/board/data/demo-board-fixture.ts`. `apps/web` does not depend on `@scotland-yard-live/board-data` |
+| Private rooms, player sessions, Socket.IO, game engine, and gameplay                       | Not implemented                                                                                                                               |
+
+Details and Phase 3E limits are in [docs/game/PHASE-3D-CLOSEOUT-AND-PHASE-3E-READINESS.md](docs/game/PHASE-3D-CLOSEOUT-AND-PHASE-3E-READINESS.md).
 
 ## Approved project direction
 
@@ -164,12 +176,15 @@ corepack pnpm format
 ```text
 apps/
   server/       Fastify API and application lifecycle
-  web/          React + Vite player-facing web shell
+  web/          React + Vite player-facing web shell and synthetic board
 packages/
+  board-data/   Board types, validator, canonical-availability gate, best-effort station file
   contracts/    Shared Zod schemas and inferred DTO types
   database/     PostgreSQL pool, Drizzle client, schema and migrations
 docs/
   architecture/ Architecture overview and decision register
+  frontend/     Visual identity and frontend foundation notes
+  game/         Board evidence, audits, reconstruction status, and candidate graph
   PHASE-1-BOOTSTRAP.md
 .github/
   workflows/    GitHub Actions CI
@@ -181,6 +196,7 @@ docker-compose.yml
 - `apps/web` consumes shared contracts and communicates with the API.
 - `apps/server` owns HTTP lifecycle, readiness checks, and future realtime integration.
 - `packages/contracts` owns shared runtime schemas and DTO types.
+- `packages/board-data` owns board types, dataset validation, and the canonical-availability gate. Its best-effort station file is not a canonical graph.
 - `packages/database` owns PostgreSQL connectivity, Drizzle schema and migrations.
 - The future game engine will be a separate pure domain package. It must not depend on React, Fastify, Socket.IO, or PostgreSQL.
 
@@ -199,5 +215,8 @@ The repository uses feature branches for implementation work. The project owner 
 - [System overview](docs/architecture/SYSTEM_OVERVIEW.md)
 - [Architecture decisions](docs/architecture/DECISIONS.md)
 - [Phase 1 bootstrap guide](docs/PHASE-1-BOOTSTRAP.md)
+- [Documentation index](docs/README.md)
+- [Board reconstruction](docs/game/BOARD-RECONSTRUCTION.md)
+- [Phase 3D closeout and Phase 3E readiness](docs/game/PHASE-3D-CLOSEOUT-AND-PHASE-3E-READINESS.md)
 
 The approved consolidated project plan is the product and implementation source of truth.

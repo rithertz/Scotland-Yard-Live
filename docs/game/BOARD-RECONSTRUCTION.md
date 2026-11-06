@@ -2,7 +2,17 @@
 
 ## Status
 
-**Infrastructure and evidence ledger complete; canonical dataset and renderer integration blocked.** The existing web board remains an intentionally synthetic visual fixture. No file in this repository currently claims a 1:1 board reconstruction.
+**Best-effort station coordinates exist; canonical topology and renderer integration remain blocked.** No file in this repository claims a 1:1 board reconstruction.
+
+Current state of the working tree:
+
+- [`packages/board-data/data/stations.json`](../../packages/board-data/data/stations.json) contains 199 station records with normalized coordinates. Its metadata state is `incomplete-verification`, `bestEffort` is `true`, and `connections` is empty.
+- That file is not `canonical-complete` and must not be used as verified gameplay topology.
+- `CANONICAL_DATASET_AVAILABILITY.available` in [`packages/board-data/src/canonical-status.ts`](../../packages/board-data/src/canonical-status.ts) remains `false`.
+- The transport graph is unchanged and non-canonical. The 125-row candidate artifact at [`data/board-edge-candidates-1-200.json`](data/board-edge-candidates-1-200.json) remains non-canonical and non-playable.
+- `apps/web` does not depend on `@scotland-yard-live/board-data`. The active board source remains the synthetic fixture at `apps/web/src/features/board/data/demo-board-fixture.ts`, until the integration and verification requirements in this document are met.
+
+The evidence sections, edition discrepancy, graph decisions, and remaining verification requirements below are preserved. Delivery limits and the next graph milestone are in [PHASE-3D-CLOSEOUT-AND-PHASE-3E-READINESS.md](PHASE-3D-CLOSEOUT-AND-PHASE-3E-READINESS.md).
 
 This document governs the safe reconstruction of the target board. It follows the consolidated project plan and supersedes older context-pack proposals that describe custom-map or editor work.
 
@@ -35,7 +45,7 @@ physical board + original rules ──> evidence ledger / provenance
                        future SVG presentation adapter in apps/web
 ```
 
-The package exposes types, `validateBoardDataset`, `createAdjacency`, `hasSymmetricAdjacency`, edition metadata, and explicit availability state. It exports no candidate graph as canonical. The application must not switch from its synthetic fixture until availability is `true` and the data validates as `canonical-complete`.
+The package entry point exposes types, `validateBoardDataset`, `createAdjacency`, `hasSymmetricAdjacency`, edition metadata, explicit availability state, and `VERIFIED_BOAT_CONNECTIONS`. It does not export `data/stations.json` or any candidate graph as canonical. The application must not switch from its synthetic fixture until availability is `true` and the active dataset validates as `canonical-complete`.
 
 ## 3. Canonical schemas
 
@@ -49,7 +59,7 @@ Coordinates use a normalized `0..1` x/y system. They are resolution-independent 
 
 For `canonical-complete`, the validator requires exactly 199 unique IDs covering 1–199; finite, in-range coordinates; verified coordinate statuses; valid and ordered endpoints; known endpoints; no self-connections; valid transport values; no duplicate same-transport undirected edges; and verified edge status. Runtime adjacency is derived in both directions from each single stored edge and has an explicit symmetry check.
 
-An incomplete-verification dataset can be used only as a workbench during transcription. It is never a substitute for complete canonical data, and no such dataset is shipped from this package.
+An `incomplete-verification` dataset can be used only as a workbench during transcription. `validateBoardDataset` applies the full coordinate and edge verification checks only when `metadata.state` is `canonical-complete`, so a valid incomplete dataset is not canonical data. `data/stations.json` is that workbench file. It is not a substitute for a complete canonical dataset, and it is not the active frontend board source.
 
 ## 5. Evidence and provenance
 
@@ -58,6 +68,8 @@ Verification states are deliberately attached to individual records: `verified-f
 Direct rulebook evidence: page 10 of the supplied rules describes Mr X’s black-ticket Thames journey as `194–157`, `157–115`, and `115–118`, in either direction. These three facts are recorded in `VERIFIED_BOAT_CONNECTIONS`, but are not used as a partial playable graph.
 
 The supplied photographs establish that a physical Central London board exists and show local route/marker detail, but their perspective, resolution, glare, and partial coverage do not permit auditable calibration of all 199 coordinates or transcription of every connection.
+
+Phase 3D later stored approximate normalized coordinates for stations 1–199 in the workbench file. That file does not establish verified calibration of every station centre, or a verified station-number identity for every marker. Coordinate availability, accuracy, identity confidence, and canonical status are distinguished in [BOARD-COORDINATE-RECONSTRUCTION.md](BOARD-COORDINATE-RECONSTRUCTION.md).
 
 ## 6. Candidate comparison and licensing
 
@@ -73,6 +85,8 @@ Candidate repositories were researched for comparison only; no code or dataset h
 Remote branch names are recorded because the review surface did not expose immutable resolved commit SHAs. A future audit must record a commit SHA or immutable archive URL before an external source can be used as verification evidence.
 
 ## 7. Discrepancy ledger
+
+The table below preserves the decisions recorded when it was written. Phase 3D did not close these rows. The best-effort station file does not resolve station range, Thames topology, community-dataset conflicts, coordinate verification, or starting positions. Community candidate coordinates remain unused as canonical data.
 
 | Subject            | Candidate/observed values                                                                                                                                              | Evidence                                           | Decision                                                           | Status                                                               | Required action                                                                                           |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -114,10 +128,11 @@ No graph will be hard-coded in JSX. Existing pan, zoom, reset, keyboard selectio
 
 ## Remaining verification work
 
-- Resolve whether the supplied physical image’s apparent station `200` belongs to the target edition.
-- Obtain a high-resolution, front-on image adequate for 199 station centers and every transport line.
-- Independently transcribe and verify all taxi, bus, underground, and boat edges.
+- The best-effort file covers station IDs 1–199 and excludes marker 200 from that array. The 199-versus-200 playable-inventory decision remains deferred in [BOARD-CANONICAL-INVENTORY-DECISION.md](BOARD-CANONICAL-INVENTORY-DECISION.md). Exclusion from the best-effort array does not prove that marker 200 is absent from the photographed board or non-playable in the target edition.
+- Station coordinates now exist as best-effort normalized values. They are not verified for all 199 stations. The original calibration workflow in this document remains the promotion method.
+- Independently transcribe and verify all taxi, bus, underground, and boat edges. The existing 125 candidate observations stay non-canonical.
 - Verify the complete starting-position set against the target-edition physical components.
 - Record immutable revisions for any future external-source comparison.
+- Keep the synthetic fixture as the active web board until the availability and `canonical-complete` validation gates pass. Renderer integration stays a separate change.
 
 Until those steps are complete, the visual foundation is not a canonical or multiplayer Scotland Yard implementation.
