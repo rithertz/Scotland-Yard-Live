@@ -15,8 +15,8 @@
   "dependencies": {
     "@scotland-yard-live/contracts": "workspace:*",
     "@scotland-yard-live/database": "workspace:*",
-    "@fastify/cors": "^11.1.0",
-    "fastify": "^5.6.2",
+    "@fastify/cors": "^11.4.1",
+    "fastify": "^5.12.8",
     "dotenv": "^18.0.9",
     "zod": "^4.6.7"
   },
