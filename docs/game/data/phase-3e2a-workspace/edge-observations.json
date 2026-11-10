@@ -1,0 +1,3159 @@
+{
+  "phase": "3E.2A",
+  "schema": "phase-3e-2a-edge-observations",
+  "observations": [
+    {
+      "observationId": "OBS-CAND-E-001",
+      "origin": "existing-candidate",
+      "candidateId": "E-001",
+      "from": 1,
+      "to": 8,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-right of crop"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-001",
+        "ST-008"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Solid yellow route leaves marker 1 toward 8; inspect the junction beside 1.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-002",
+      "origin": "existing-candidate",
+      "candidateId": "E-002",
+      "from": 2,
+      "to": 10,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "park/eastern edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-002",
+        "ST-010"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route visibly joins markers 2 and 10.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-003",
+      "origin": "existing-candidate",
+      "candidateId": "E-003",
+      "from": 2,
+      "to": 20,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "park/western edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-002",
+        "ST-020"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route appears to leave 2 toward 20; confirm continuation at the park boundary.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-004",
+      "origin": "existing-candidate",
+      "candidateId": "E-004",
+      "from": 3,
+      "to": 4,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-003",
+        "ST-004"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Short yellow road between the adjacent markers.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-005",
+      "origin": "existing-candidate",
+      "candidateId": "E-005",
+      "from": 4,
+      "to": 13,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-004",
+        "ST-013"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route continues from 4 toward 13; inspect the red route crossing.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-006",
+      "origin": "existing-candidate",
+      "candidateId": "E-006",
+      "from": 5,
+      "to": 15,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-005",
+        "ST-015"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route visibly connects the northern 5 marker to 15.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-007",
+      "origin": "existing-candidate",
+      "candidateId": "E-007",
+      "from": 6,
+      "to": 7,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-006",
+        "ST-007"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Short yellow route between 6 and 7.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-008",
+      "origin": "existing-candidate",
+      "candidateId": "E-008",
+      "from": 7,
+      "to": 17,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-007",
+        "ST-017"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route continues from 7 to 17.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-009",
+      "origin": "existing-candidate",
+      "candidateId": "E-009",
+      "from": 8,
+      "to": 18,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-left"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-008",
+        "ST-018"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route is visible near the 8/18 corridor; confirm endpoint at 18.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-010",
+      "origin": "existing-candidate",
+      "candidateId": "E-010",
+      "from": 9,
+      "to": 20,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-009",
+        "ST-020"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route from 9 to 20 is visible around the park boundary.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-011",
+      "origin": "existing-candidate",
+      "candidateId": "E-011",
+      "from": 10,
+      "to": 11,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central park edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-010",
+        "ST-011"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Short yellow connection between 10 and 11.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-012",
+      "origin": "existing-candidate",
+      "candidateId": "E-012",
+      "from": 11,
+      "to": 22,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-011",
+        "ST-022"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow corridor reaches 22; green route shares part of the corridor.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-013",
+      "origin": "existing-candidate",
+      "candidateId": "E-013",
+      "from": 12,
+      "to": 23,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-012",
+        "ST-023"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route appears to reach 23; inspect the crossing at 23.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-014",
+      "origin": "existing-candidate",
+      "candidateId": "E-014",
+      "from": 13,
+      "to": 14,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-central/right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-013",
+        "ST-014"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route is visible between 13 and 14.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-015",
+      "origin": "existing-candidate",
+      "candidateId": "E-015",
+      "from": 14,
+      "to": 15,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-014",
+        "ST-015"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route continues between adjacent 14 and 15 markers.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-016",
+      "origin": "existing-candidate",
+      "candidateId": "E-016",
+      "from": 15,
+      "to": 16,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-015",
+        "ST-016"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route corridor visible; red route also crosses nearby.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-017",
+      "origin": "existing-candidate",
+      "candidateId": "E-017",
+      "from": 16,
+      "to": 29,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right/central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-016",
+        "ST-029"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route appears to connect 16 and 29; verify marker endpoint.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-018",
+      "origin": "existing-candidate",
+      "candidateId": "E-018",
+      "from": 17,
+      "to": 30,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "eastern edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-017",
+        "ST-030"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route visibly links 17 and 30.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-019",
+      "origin": "existing-candidate",
+      "candidateId": "E-019",
+      "from": 18,
+      "to": 31,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-left"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-018",
+        "ST-031"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route between 18 and 31 is visible.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-020",
+      "origin": "existing-candidate",
+      "candidateId": "E-020",
+      "from": 19,
+      "to": 32,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-left/central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-019",
+        "ST-032"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route between 19 and 32 is visible.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-021",
+      "origin": "existing-candidate",
+      "candidateId": "E-021",
+      "from": 20,
+      "to": 33,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central park edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-020",
+        "ST-033"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route leaves 20 toward 33; check crossing with red line.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-022",
+      "origin": "existing-candidate",
+      "candidateId": "E-022",
+      "from": 3,
+      "to": 11,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-003",
+        "ST-011"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green corridor reaches 11; confirm it does not terminate at the nearby crossing.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-023",
+      "origin": "existing-candidate",
+      "candidateId": "E-023",
+      "from": 3,
+      "to": 12,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-003",
+        "ST-012"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green corridor reaches 12; inspect the shared road segment.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-024",
+      "origin": "existing-candidate",
+      "candidateId": "E-024",
+      "from": 7,
+      "to": 42,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "eastern edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-007",
+        "ST-042"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route descends from 7 toward 42; endpoint is near crop boundary.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-025",
+      "origin": "existing-candidate",
+      "candidateId": "E-025",
+      "from": 11,
+      "to": 22,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-011",
+        "ST-022"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route shares the 11/22 corridor; separate from yellow evidence.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-026",
+      "origin": "existing-candidate",
+      "candidateId": "E-026",
+      "from": 13,
+      "to": 14,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-central/right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-013",
+        "ST-014"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green line is visible alongside the yellow corridor.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-027",
+      "origin": "existing-candidate",
+      "candidateId": "E-027",
+      "from": 14,
+      "to": 15,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-014",
+        "ST-015"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green line continues between 14 and 15; verify at the station markers.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-028",
+      "origin": "existing-candidate",
+      "candidateId": "E-028",
+      "from": 15,
+      "to": 29,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "upper-right/central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-015",
+        "ST-029"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route crosses the 15/29 corridor; inspect line layering.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-029",
+      "origin": "existing-candidate",
+      "candidateId": "E-029",
+      "from": 15,
+      "to": 41,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "eastern-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-015",
+        "ST-041"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route appears to leave 15 toward 41; needs a tighter crop.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-030",
+      "origin": "existing-candidate",
+      "candidateId": "E-030",
+      "from": 22,
+      "to": 23,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-022",
+        "ST-023"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route visibly follows the corridor between 22 and 23.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-031",
+      "origin": "existing-candidate",
+      "candidateId": "E-031",
+      "from": 22,
+      "to": 34,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central park edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-022",
+        "ST-034"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route continues from 22 toward 34; check the line split.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-032",
+      "origin": "existing-candidate",
+      "candidateId": "E-032",
+      "from": 1,
+      "to": 46,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "upper-left/central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-001",
+        "ST-046"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Dashed red route leaves 1 toward the central 46 marker; verify the long diagonal trace.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-033",
+      "origin": "existing-candidate",
+      "candidateId": "E-033",
+      "from": 13,
+      "to": 46,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-013",
+        "ST-046"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Dashed red route approaches 46 from the 13 corridor.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-034",
+      "origin": "existing-candidate",
+      "candidateId": "E-034",
+      "from": 13,
+      "to": 67,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "central/right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-013",
+        "ST-067"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Dashed red route continues from 13 toward 67; crossing near 67 requires review.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-035",
+      "origin": "existing-candidate",
+      "candidateId": "E-035",
+      "from": 13,
+      "to": 89,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "central/right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-013",
+        "ST-089"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Red route appears to continue toward 89; endpoint is distant and requires annotation.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-036",
+      "origin": "existing-candidate",
+      "candidateId": "E-036",
+      "from": 46,
+      "to": 74,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central-left"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-046",
+        "ST-074"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Dashed red route runs between 46 and 74.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-037",
+      "origin": "existing-candidate",
+      "candidateId": "E-037",
+      "from": 46,
+      "to": 79,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-046",
+        "ST-079"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Dashed red route appears to reach 79; inspect overlap with the 46/74 corridor.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-038",
+      "origin": "existing-candidate",
+      "candidateId": "E-038",
+      "from": 67,
+      "to": 79,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-067",
+        "ST-079"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Dashed red line is visible between 67 and 79.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-039",
+      "origin": "existing-candidate",
+      "candidateId": "E-039",
+      "from": 67,
+      "to": 89,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "central/right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-067",
+        "ST-089"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Long red corridor appears to connect 67 and 89; requires a close annotated crop.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-040",
+      "origin": "existing-candidate",
+      "candidateId": "E-040",
+      "from": 79,
+      "to": 93,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "central-left"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-079",
+        "ST-093"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Dashed red route continues from 79 toward 93.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-041",
+      "origin": "existing-candidate",
+      "candidateId": "E-041",
+      "from": 79,
+      "to": 100,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-079",
+        "ST-100"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Red line appears to continue toward 100; endpoint is near lower crop boundary.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-042",
+      "origin": "existing-candidate",
+      "candidateId": "E-042",
+      "from": 101,
+      "to": 102,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower-central/eastern edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-101",
+        "ST-102"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Solid yellow route is visible between the adjacent markers; confirm the nearby green corridor.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-043",
+      "origin": "existing-candidate",
+      "candidateId": "E-043",
+      "from": 102,
+      "to": 115,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "river-side lower edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-102",
+        "ST-115"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route approaches 115; endpoint is close to the crop/river boundary.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-044",
+      "origin": "existing-candidate",
+      "candidateId": "E-044",
+      "from": 103,
+      "to": 104,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower-left of crop"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-103",
+        "ST-104"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Short yellow connection between the visible markers.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-045",
+      "origin": "existing-candidate",
+      "candidateId": "E-045",
+      "from": 105,
+      "to": 106,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-105",
+        "ST-106"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route continues toward 106; inspect the line split near the edge.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-046",
+      "origin": "existing-candidate",
+      "candidateId": "E-046",
+      "from": 105,
+      "to": 107,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-105",
+        "ST-107"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow corridor visibly branches toward 107.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-047",
+      "origin": "existing-candidate",
+      "candidateId": "E-047",
+      "from": 106,
+      "to": 107,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "eastern lower edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-106",
+        "ST-107"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Short yellow route between 106 and 107; confirm marker centres.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-048",
+      "origin": "existing-candidate",
+      "candidateId": "E-048",
+      "from": 107,
+      "to": 108,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower/eastern edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-107",
+        "ST-108"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route follows the edge corridor toward 108.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-049",
+      "origin": "existing-candidate",
+      "candidateId": "E-049",
+      "from": 109,
+      "to": 110,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "upper section of crop"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-109",
+        "ST-110"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Short yellow route visibly joins 109 and 110.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-050",
+      "origin": "existing-candidate",
+      "candidateId": "E-050",
+      "from": 110,
+      "to": 111,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-110",
+        "ST-111"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow line continues from 110 toward 111; red line crosses nearby.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-051",
+      "origin": "existing-candidate",
+      "candidateId": "E-051",
+      "from": 111,
+      "to": 112,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-111",
+        "ST-112"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow corridor between 111 and 112 is visible.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-052",
+      "origin": "existing-candidate",
+      "candidateId": "E-052",
+      "from": 112,
+      "to": 113,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-112",
+        "ST-113"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route reaches 113; inspect the adjacent green route.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-053",
+      "origin": "existing-candidate",
+      "candidateId": "E-053",
+      "from": 113,
+      "to": 114,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-113",
+        "ST-114"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Short yellow connection between 113 and 114.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-054",
+      "origin": "existing-candidate",
+      "candidateId": "E-054",
+      "from": 114,
+      "to": 115,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "river-side boundary"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-114",
+        "ST-115"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow line appears to approach 115, but water-side geometry needs an annotated crop.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-055",
+      "origin": "existing-candidate",
+      "candidateId": "E-055",
+      "from": 115,
+      "to": 116,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "river-side"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-115",
+        "ST-116"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route is visible along the 115/116 corridor.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-056",
+      "origin": "existing-candidate",
+      "candidateId": "E-056",
+      "from": 116,
+      "to": 117,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "upper-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-116",
+        "ST-117"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow line links 116 and 117; endpoint is near image boundary.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-057",
+      "origin": "existing-candidate",
+      "candidateId": "E-057",
+      "from": 117,
+      "to": 118,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "upper-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-117",
+        "ST-118"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Short yellow route between 117 and 118.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-058",
+      "origin": "existing-candidate",
+      "candidateId": "E-058",
+      "from": 118,
+      "to": 119,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "right edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-118",
+        "ST-119"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route continues from 118 toward 119.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-059",
+      "origin": "existing-candidate",
+      "candidateId": "E-059",
+      "from": 127,
+      "to": 133,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-127",
+        "ST-133"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow corridor is visible between 127 and 133.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-060",
+      "origin": "existing-candidate",
+      "candidateId": "E-060",
+      "from": 128,
+      "to": 135,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "upper-right/central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-128",
+        "ST-135"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route reaches 135; inspect the nearby green line.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-061",
+      "origin": "existing-candidate",
+      "candidateId": "E-061",
+      "from": 129,
+      "to": 130,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "central-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-129",
+        "ST-130"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Short yellow connection between 129 and 130.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-062",
+      "origin": "existing-candidate",
+      "candidateId": "E-062",
+      "from": 133,
+      "to": 140,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-133",
+        "ST-140"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route leaves 133 toward 140; bridge/landmark detail is nearby.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-063",
+      "origin": "existing-candidate",
+      "candidateId": "E-063",
+      "from": 140,
+      "to": 154,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central-lower"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-140",
+        "ST-154"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow corridor visibly continues from 140 toward 154.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-064",
+      "origin": "existing-candidate",
+      "candidateId": "E-064",
+      "from": 154,
+      "to": 155,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-154",
+        "ST-155"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Short yellow route between 154 and 155.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-065",
+      "origin": "existing-candidate",
+      "candidateId": "E-065",
+      "from": 155,
+      "to": 156,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-155",
+        "ST-156"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route links 155 and 156.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-066",
+      "origin": "existing-candidate",
+      "candidateId": "E-066",
+      "from": 156,
+      "to": 157,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "Thames-side lower"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-156",
+        "ST-157"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route approaches 157; bridge/river lines require review.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-067",
+      "origin": "existing-candidate",
+      "candidateId": "E-067",
+      "from": 157,
+      "to": 158,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "upper-left of crop"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-157",
+        "ST-158"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route appears to continue east from 157 toward 158.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-068",
+      "origin": "existing-candidate",
+      "candidateId": "E-068",
+      "from": 158,
+      "to": 159,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-158",
+        "ST-159"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow corridor reaches 159; inspect the crossing at 159.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-069",
+      "origin": "existing-candidate",
+      "candidateId": "E-069",
+      "from": 159,
+      "to": 160,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "central-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-159",
+        "ST-160"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route between 159 and 160 is visible.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-070",
+      "origin": "existing-candidate",
+      "candidateId": "E-070",
+      "from": 160,
+      "to": 161,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-160",
+        "ST-161"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route links 160 and 161.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-071",
+      "origin": "existing-candidate",
+      "candidateId": "E-071",
+      "from": 161,
+      "to": 162,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-161",
+        "ST-162"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route appears to continue from 161 to 162.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-072",
+      "origin": "existing-candidate",
+      "candidateId": "E-072",
+      "from": 162,
+      "to": 174,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-right edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-162",
+        "ST-174"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route follows the lower-right corridor.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-073",
+      "origin": "existing-candidate",
+      "candidateId": "E-073",
+      "from": 163,
+      "to": 164,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-left"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-163",
+        "ST-164"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Short yellow connection between 163 and 164.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-074",
+      "origin": "existing-candidate",
+      "candidateId": "E-074",
+      "from": 164,
+      "to": 165,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-left/central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-164",
+        "ST-165"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route continues from 164 toward 165.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-075",
+      "origin": "existing-candidate",
+      "candidateId": "E-075",
+      "from": 165,
+      "to": 166,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-165",
+        "ST-166"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route visible along the 165/166 corridor.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-076",
+      "origin": "existing-candidate",
+      "candidateId": "E-076",
+      "from": 166,
+      "to": 167,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-166",
+        "ST-167"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route appears to join 166 and 167.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-077",
+      "origin": "existing-candidate",
+      "candidateId": "E-077",
+      "from": 167,
+      "to": 168,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-167",
+        "ST-168"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow corridor continues toward 168.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-078",
+      "origin": "existing-candidate",
+      "candidateId": "E-078",
+      "from": 168,
+      "to": 169,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-168",
+        "ST-169"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route is visible between 168 and 169.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-079",
+      "origin": "existing-candidate",
+      "candidateId": "E-079",
+      "from": 169,
+      "to": 170,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-169",
+        "ST-170"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route approaches 170 near the river crossings.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-080",
+      "origin": "existing-candidate",
+      "candidateId": "E-080",
+      "from": 170,
+      "to": 171,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-170",
+        "ST-171"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow corridor continues between 170 and 171.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-081",
+      "origin": "existing-candidate",
+      "candidateId": "E-081",
+      "from": 171,
+      "to": 172,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-171",
+        "ST-172"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route appears to connect 171 and 172.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-082",
+      "origin": "existing-candidate",
+      "candidateId": "E-082",
+      "from": 172,
+      "to": 173,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-172",
+        "ST-173"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow line continues toward 173.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-083",
+      "origin": "existing-candidate",
+      "candidateId": "E-083",
+      "from": 173,
+      "to": 175,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-right edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-173",
+        "ST-175"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route between 173 and 175 is visible.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-084",
+      "origin": "existing-candidate",
+      "candidateId": "E-084",
+      "from": 187,
+      "to": 188,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-left of crop"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-187",
+        "ST-188"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Short yellow route between 187 and 188.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-085",
+      "origin": "existing-candidate",
+      "candidateId": "E-085",
+      "from": 188,
+      "to": 199,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-188",
+        "ST-199"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow route follows the lower edge toward 199.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-086",
+      "origin": "existing-candidate",
+      "candidateId": "E-086",
+      "from": 199,
+      "to": 200,
+      "transport": "taxi",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower edge"
+        }
+      ],
+      "endpointScope": "observed-marker-200",
+      "sourceCropIds": [
+        "ST-199"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Yellow line visibly reaches the printed 200 marker; edition status remains unresolved.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-087",
+      "origin": "existing-candidate",
+      "candidateId": "E-087",
+      "from": 102,
+      "to": 115,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "river-side lower edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-102",
+        "ST-115"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green line appears to share the corridor; separate it from the yellow route.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-088",
+      "origin": "existing-candidate",
+      "candidateId": "E-088",
+      "from": 105,
+      "to": 107,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-105",
+        "ST-107"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Solid green route is visible alongside the yellow corridor.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-089",
+      "origin": "existing-candidate",
+      "candidateId": "E-089",
+      "from": 105,
+      "to": 108,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower-right edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-105",
+        "ST-108"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route continues from 105 toward 108; endpoint is near the crop edge.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-090",
+      "origin": "existing-candidate",
+      "candidateId": "E-090",
+      "from": 107,
+      "to": 161,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "eastern/lower edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-107",
+        "ST-161"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Long green corridor appears to continue toward 161; requires a full-crop trace.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-091",
+      "origin": "existing-candidate",
+      "candidateId": "E-091",
+      "from": 108,
+      "to": 116,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "river-side"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-108",
+        "ST-116"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route follows the water-side corridor between 108 and 116.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-092",
+      "origin": "existing-candidate",
+      "candidateId": "E-092",
+      "from": 109,
+      "to": 124,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central-left"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-109",
+        "ST-124"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green line leaves 109 toward 124; inspect the park boundary.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-093",
+      "origin": "existing-candidate",
+      "candidateId": "E-093",
+      "from": 111,
+      "to": 124,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-111",
+        "ST-124"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route appears to connect 111 and 124; line crossing needs annotation.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-094",
+      "origin": "existing-candidate",
+      "candidateId": "E-094",
+      "from": 116,
+      "to": 127,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-116",
+        "ST-127"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route is visible from 116 toward 127.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-095",
+      "origin": "existing-candidate",
+      "candidateId": "E-095",
+      "from": 116,
+      "to": 142,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-116",
+        "ST-142"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green corridor continues toward 142.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-096",
+      "origin": "existing-candidate",
+      "candidateId": "E-096",
+      "from": 122,
+      "to": 123,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "upper-left"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-122",
+        "ST-123"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Short green route between 122 and 123.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-097",
+      "origin": "existing-candidate",
+      "candidateId": "E-097",
+      "from": 123,
+      "to": 124,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "upper-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-123",
+        "ST-124"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "high",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route visibly continues from 123 to 124.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-098",
+      "origin": "existing-candidate",
+      "candidateId": "E-098",
+      "from": 123,
+      "to": 144,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "left edge"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-123",
+        "ST-144"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route leaves 123 toward 144; confirm the lower-left continuation.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-099",
+      "origin": "existing-candidate",
+      "candidateId": "E-099",
+      "from": 123,
+      "to": 165,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central/lower-left"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-123",
+        "ST-165"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green corridor appears to reach 165.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-100",
+      "origin": "existing-candidate",
+      "candidateId": "E-100",
+      "from": 124,
+      "to": 153,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-124",
+        "ST-153"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route continues from 124 toward 153.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-101",
+      "origin": "existing-candidate",
+      "candidateId": "E-101",
+      "from": 127,
+      "to": 133,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-127",
+        "ST-133"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route shares the 127/133 corridor; separate from taxi.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-102",
+      "origin": "existing-candidate",
+      "candidateId": "E-102",
+      "from": 128,
+      "to": 142,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-128",
+        "ST-142"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route visibly runs between 128 and 142.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-103",
+      "origin": "existing-candidate",
+      "candidateId": "E-103",
+      "from": 128,
+      "to": 161,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "central-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-128",
+        "ST-161"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green line appears to continue to 161; endpoint needs a tighter crop.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-104",
+      "origin": "existing-candidate",
+      "candidateId": "E-104",
+      "from": 133,
+      "to": 140,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-133",
+        "ST-140"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route shares the 133/140 corridor.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-105",
+      "origin": "existing-candidate",
+      "candidateId": "E-105",
+      "from": 140,
+      "to": 156,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central-lower"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-140",
+        "ST-156"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green route appears to link 140 and 156.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-106",
+      "origin": "existing-candidate",
+      "candidateId": "E-106",
+      "from": 156,
+      "to": 157,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "Thames-side"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-156",
+        "ST-157"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green line is visible near 156/157; river crossing needs review.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-107",
+      "origin": "existing-candidate",
+      "candidateId": "E-107",
+      "from": 104,
+      "to": 115,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "river-side"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-104",
+        "ST-115"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Dashed red route appears to reach 115; endpoint is close to the water/edge.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-108",
+      "origin": "existing-candidate",
+      "candidateId": "E-108",
+      "from": 105,
+      "to": 108,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-105",
+        "ST-108"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Red route is visible in the corridor but may terminate at a crossing; annotate before acceptance.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-109",
+      "origin": "existing-candidate",
+      "candidateId": "E-109",
+      "from": 111,
+      "to": 153,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central/lower-left"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-111",
+        "ST-153"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Dashed red route visibly runs from 111 toward 153.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-110",
+      "origin": "existing-candidate",
+      "candidateId": "E-110",
+      "from": 111,
+      "to": 163,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-left"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-111",
+        "ST-163"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Red route appears to continue to 163.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-111",
+      "origin": "existing-candidate",
+      "candidateId": "E-111",
+      "from": 128,
+      "to": 140,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-128",
+        "ST-140"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Dashed red route is visible between 128 and 140.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-112",
+      "origin": "existing-candidate",
+      "candidateId": "E-112",
+      "from": 128,
+      "to": 185,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-128",
+        "ST-185"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Long red route appears to continue toward 185; endpoint is distant.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-113",
+      "origin": "existing-candidate",
+      "candidateId": "E-113",
+      "from": 140,
+      "to": 153,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "central/lower"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-140",
+        "ST-153"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Dashed red route visibly crosses the 140/153 corridor.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-114",
+      "origin": "existing-candidate",
+      "candidateId": "E-114",
+      "from": 153,
+      "to": 163,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-left/central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-153",
+        "ST-163"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Red route appears to link 153 and 163.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-115",
+      "origin": "existing-candidate",
+      "candidateId": "E-115",
+      "from": 153,
+      "to": 185,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "lower-central"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-153",
+        "ST-185"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Long red route is visible toward 185; requires overlap review.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-116",
+      "origin": "existing-candidate",
+      "candidateId": "E-116",
+      "from": 185,
+      "to": 187,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "bottom-right.jpeg",
+          "region": "lower-right"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-185",
+        "ST-187"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "medium",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Dashed red route appears to connect 185 and 187.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-117",
+      "origin": "existing-candidate",
+      "candidateId": "E-117",
+      "from": 46,
+      "to": 101,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "cross-boundary"
+        },
+        {
+          "file": "top-right.jpeg",
+          "region": "cross-boundary"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-046",
+        "ST-101"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Long dashed route appears to continue toward 101; endpoint and route split require annotation.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-118",
+      "origin": "existing-candidate",
+      "candidateId": "E-118",
+      "from": 67,
+      "to": 102,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "cross-boundary"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-067",
+        "ST-102"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green corridor appears to leave 67 toward 102; crossing is difficult to distinguish.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-119",
+      "origin": "existing-candidate",
+      "candidateId": "E-119",
+      "from": 79,
+      "to": 110,
+      "transport": "underground",
+      "sourceReferences": [
+        {
+          "file": "top-left.jpeg",
+          "region": "cross-boundary"
+        },
+        {
+          "file": "bottom-left.jpeg",
+          "region": "cross-boundary"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-079",
+        "ST-110"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Red route appears to continue across the image boundary; verify both endpoint markers.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-120",
+      "origin": "existing-candidate",
+      "candidateId": "E-120",
+      "from": 82,
+      "to": 101,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "cross-boundary"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-082",
+        "ST-101"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Green line may reach 101; endpoint is close to a crossing.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-121",
+      "origin": "existing-candidate",
+      "candidateId": "E-121",
+      "from": 89,
+      "to": 118,
+      "transport": "bus",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "cross-boundary"
+        },
+        {
+          "file": "bottom-right.jpeg",
+          "region": "cross-boundary"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-089",
+        "ST-118"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "provisional",
+      "supportingExplanation": "Water-side/eastern route is visible but endpoint trace is not yet conclusive.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-122",
+      "origin": "existing-candidate",
+      "candidateId": "E-122",
+      "from": 108,
+      "to": 115,
+      "transport": "boat",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "Thames route"
+        },
+        {
+          "file": "complete.jpeg",
+          "region": "Thames route"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-108",
+        "ST-115"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "unresolved",
+      "supportingExplanation": "Thames region and both marker areas are visible, but the black/river line cannot be traced continuously between endpoints.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-123",
+      "origin": "existing-candidate",
+      "candidateId": "E-123",
+      "from": 115,
+      "to": 118,
+      "transport": "boat",
+      "sourceReferences": [
+        {
+          "file": "top-right.jpeg",
+          "region": "Thames route"
+        },
+        {
+          "file": "bottom-right.jpeg",
+          "region": "Thames route"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-115",
+        "ST-118"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "unresolved",
+      "supportingExplanation": "Water-side markers are visible; endpoint route is obscured by bridge/river geometry.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-124",
+      "origin": "existing-candidate",
+      "candidateId": "E-124",
+      "from": 115,
+      "to": 157,
+      "transport": "boat",
+      "sourceReferences": [
+        {
+          "file": "complete.jpeg",
+          "region": "Thames route"
+        },
+        {
+          "file": "bottom-left.jpeg",
+          "region": "Thames route"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-115",
+        "ST-157"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "unresolved",
+      "supportingExplanation": "River and bridges are visible, but no clean endpoint trace is recorded.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    },
+    {
+      "observationId": "OBS-CAND-E-125",
+      "origin": "existing-candidate",
+      "candidateId": "E-125",
+      "from": 157,
+      "to": 194,
+      "transport": "boat",
+      "sourceReferences": [
+        {
+          "file": "bottom-left.jpeg",
+          "region": "Thames route"
+        },
+        {
+          "file": "complete.jpeg",
+          "region": "Thames route"
+        }
+      ],
+      "endpointScope": "playable",
+      "sourceCropIds": [
+        "ST-157",
+        "ST-194"
+      ],
+      "reviewStatus": "needs-review",
+      "confidence": "low",
+      "existingVerificationStatus": "unresolved",
+      "supportingExplanation": "Southern Thames region is visible; the boat line needs a dedicated annotated crop.",
+      "contradictoryObservationIds": [],
+      "notes": "Imported by reference; original candidate JSON remains authoritative and unchanged."
+    }
+  ],
+  "newObservations": []
+}

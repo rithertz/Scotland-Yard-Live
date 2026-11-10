@@ -1,0 +1,2740 @@
+{
+  "phase": "3E.2A",
+  "queueCount": 199,
+  "queue": [
+    {
+      "reviewTargetId": "ST-001",
+      "stationId": 1,
+      "primaryCropId": "ST-001",
+      "incidentExistingCandidateIds": [
+        "E-001",
+        "E-032"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "verified-from-physical-board",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-002",
+      "stationId": 2,
+      "primaryCropId": "ST-002",
+      "incidentExistingCandidateIds": [
+        "E-002",
+        "E-003"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-003",
+      "stationId": 3,
+      "primaryCropId": "ST-003",
+      "incidentExistingCandidateIds": [
+        "E-004",
+        "E-022",
+        "E-023"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-004",
+      "stationId": 4,
+      "primaryCropId": "ST-004",
+      "incidentExistingCandidateIds": [
+        "E-004",
+        "E-005"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-005",
+      "stationId": 5,
+      "primaryCropId": "ST-005",
+      "incidentExistingCandidateIds": [
+        "E-006"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-006",
+      "stationId": 6,
+      "primaryCropId": "ST-006",
+      "incidentExistingCandidateIds": [
+        "E-007"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-007",
+      "stationId": 7,
+      "primaryCropId": "ST-007",
+      "incidentExistingCandidateIds": [
+        "E-007",
+        "E-008",
+        "E-024"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-008",
+      "stationId": 8,
+      "primaryCropId": "ST-008",
+      "incidentExistingCandidateIds": [
+        "E-001",
+        "E-009"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-009",
+      "stationId": 9,
+      "primaryCropId": "ST-009",
+      "incidentExistingCandidateIds": [
+        "E-010"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-010",
+      "stationId": 10,
+      "primaryCropId": "ST-010",
+      "incidentExistingCandidateIds": [
+        "E-002",
+        "E-011"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-011",
+      "stationId": 11,
+      "primaryCropId": "ST-011",
+      "incidentExistingCandidateIds": [
+        "E-011",
+        "E-012",
+        "E-022",
+        "E-025"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-012",
+      "stationId": 12,
+      "primaryCropId": "ST-012",
+      "incidentExistingCandidateIds": [
+        "E-013",
+        "E-023"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-013",
+      "stationId": 13,
+      "primaryCropId": "ST-013",
+      "incidentExistingCandidateIds": [
+        "E-005",
+        "E-014",
+        "E-026",
+        "E-033",
+        "E-034",
+        "E-035"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-014",
+      "stationId": 14,
+      "primaryCropId": "ST-014",
+      "incidentExistingCandidateIds": [
+        "E-014",
+        "E-015",
+        "E-026",
+        "E-027"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-015",
+      "stationId": 15,
+      "primaryCropId": "ST-015",
+      "incidentExistingCandidateIds": [
+        "E-006",
+        "E-015",
+        "E-016",
+        "E-027",
+        "E-028",
+        "E-029"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-016",
+      "stationId": 16,
+      "primaryCropId": "ST-016",
+      "incidentExistingCandidateIds": [
+        "E-016",
+        "E-017"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-017",
+      "stationId": 17,
+      "primaryCropId": "ST-017",
+      "incidentExistingCandidateIds": [
+        "E-008",
+        "E-018"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-018",
+      "stationId": 18,
+      "primaryCropId": "ST-018",
+      "incidentExistingCandidateIds": [
+        "E-009",
+        "E-019"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-019",
+      "stationId": 19,
+      "primaryCropId": "ST-019",
+      "incidentExistingCandidateIds": [
+        "E-020"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-020",
+      "stationId": 20,
+      "primaryCropId": "ST-020",
+      "incidentExistingCandidateIds": [
+        "E-003",
+        "E-010",
+        "E-021"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-021",
+      "stationId": 21,
+      "primaryCropId": "ST-021",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-022",
+      "stationId": 22,
+      "primaryCropId": "ST-022",
+      "incidentExistingCandidateIds": [
+        "E-012",
+        "E-025",
+        "E-030",
+        "E-031"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-023",
+      "stationId": 23,
+      "primaryCropId": "ST-023",
+      "incidentExistingCandidateIds": [
+        "E-013",
+        "E-030"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-024",
+      "stationId": 24,
+      "primaryCropId": "ST-024",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-025",
+      "stationId": 25,
+      "primaryCropId": "ST-025",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-026",
+      "stationId": 26,
+      "primaryCropId": "ST-026",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-027",
+      "stationId": 27,
+      "primaryCropId": "ST-027",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-028",
+      "stationId": 28,
+      "primaryCropId": "ST-028",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-029",
+      "stationId": 29,
+      "primaryCropId": "ST-029",
+      "incidentExistingCandidateIds": [
+        "E-017",
+        "E-028"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-030",
+      "stationId": 30,
+      "primaryCropId": "ST-030",
+      "incidentExistingCandidateIds": [
+        "E-018"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-031",
+      "stationId": 31,
+      "primaryCropId": "ST-031",
+      "incidentExistingCandidateIds": [
+        "E-019"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-032",
+      "stationId": 32,
+      "primaryCropId": "ST-032",
+      "incidentExistingCandidateIds": [
+        "E-020"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-033",
+      "stationId": 33,
+      "primaryCropId": "ST-033",
+      "incidentExistingCandidateIds": [
+        "E-021"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-034",
+      "stationId": 34,
+      "primaryCropId": "ST-034",
+      "incidentExistingCandidateIds": [
+        "E-031"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-035",
+      "stationId": 35,
+      "primaryCropId": "ST-035",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-036",
+      "stationId": 36,
+      "primaryCropId": "ST-036",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-037",
+      "stationId": 37,
+      "primaryCropId": "ST-037",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-038",
+      "stationId": 38,
+      "primaryCropId": "ST-038",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-039",
+      "stationId": 39,
+      "primaryCropId": "ST-039",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-040",
+      "stationId": 40,
+      "primaryCropId": "ST-040",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-041",
+      "stationId": 41,
+      "primaryCropId": "ST-041",
+      "incidentExistingCandidateIds": [
+        "E-029"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-042",
+      "stationId": 42,
+      "primaryCropId": "ST-042",
+      "incidentExistingCandidateIds": [
+        "E-024"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-043",
+      "stationId": 43,
+      "primaryCropId": "ST-043",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-044",
+      "stationId": 44,
+      "primaryCropId": "ST-044",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-045",
+      "stationId": 45,
+      "primaryCropId": "ST-045",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-046",
+      "stationId": 46,
+      "primaryCropId": "ST-046",
+      "incidentExistingCandidateIds": [
+        "E-032",
+        "E-033",
+        "E-036",
+        "E-037",
+        "E-117"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-047",
+      "stationId": 47,
+      "primaryCropId": "ST-047",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-048",
+      "stationId": 48,
+      "primaryCropId": "ST-048",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-049",
+      "stationId": 49,
+      "primaryCropId": "ST-049",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-050",
+      "stationId": 50,
+      "primaryCropId": "ST-050",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-051",
+      "stationId": 51,
+      "primaryCropId": "ST-051",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-052",
+      "stationId": 52,
+      "primaryCropId": "ST-052",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-053",
+      "stationId": 53,
+      "primaryCropId": "ST-053",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-054",
+      "stationId": 54,
+      "primaryCropId": "ST-054",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-055",
+      "stationId": 55,
+      "primaryCropId": "ST-055",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-056",
+      "stationId": 56,
+      "primaryCropId": "ST-056",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-057",
+      "stationId": 57,
+      "primaryCropId": "ST-057",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-058",
+      "stationId": 58,
+      "primaryCropId": "ST-058",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-059",
+      "stationId": 59,
+      "primaryCropId": "ST-059",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-060",
+      "stationId": 60,
+      "primaryCropId": "ST-060",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-061",
+      "stationId": 61,
+      "primaryCropId": "ST-061",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-062",
+      "stationId": 62,
+      "primaryCropId": "ST-062",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-063",
+      "stationId": 63,
+      "primaryCropId": "ST-063",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-064",
+      "stationId": 64,
+      "primaryCropId": "ST-064",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-065",
+      "stationId": 65,
+      "primaryCropId": "ST-065",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-066",
+      "stationId": 66,
+      "primaryCropId": "ST-066",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-067",
+      "stationId": 67,
+      "primaryCropId": "ST-067",
+      "incidentExistingCandidateIds": [
+        "E-034",
+        "E-038",
+        "E-039",
+        "E-118"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-068",
+      "stationId": 68,
+      "primaryCropId": "ST-068",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-069",
+      "stationId": 69,
+      "primaryCropId": "ST-069",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-070",
+      "stationId": 70,
+      "primaryCropId": "ST-070",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-071",
+      "stationId": 71,
+      "primaryCropId": "ST-071",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-072",
+      "stationId": 72,
+      "primaryCropId": "ST-072",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-073",
+      "stationId": 73,
+      "primaryCropId": "ST-073",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-074",
+      "stationId": 74,
+      "primaryCropId": "ST-074",
+      "incidentExistingCandidateIds": [
+        "E-036"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-075",
+      "stationId": 75,
+      "primaryCropId": "ST-075",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-076",
+      "stationId": 76,
+      "primaryCropId": "ST-076",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-077",
+      "stationId": 77,
+      "primaryCropId": "ST-077",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-078",
+      "stationId": 78,
+      "primaryCropId": "ST-078",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-079",
+      "stationId": 79,
+      "primaryCropId": "ST-079",
+      "incidentExistingCandidateIds": [
+        "E-037",
+        "E-038",
+        "E-040",
+        "E-041",
+        "E-119"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-080",
+      "stationId": 80,
+      "primaryCropId": "ST-080",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-081",
+      "stationId": 81,
+      "primaryCropId": "ST-081",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-082",
+      "stationId": 82,
+      "primaryCropId": "ST-082",
+      "incidentExistingCandidateIds": [
+        "E-120"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-083",
+      "stationId": 83,
+      "primaryCropId": "ST-083",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-084",
+      "stationId": 84,
+      "primaryCropId": "ST-084",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-085",
+      "stationId": 85,
+      "primaryCropId": "ST-085",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-086",
+      "stationId": 86,
+      "primaryCropId": "ST-086",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-087",
+      "stationId": 87,
+      "primaryCropId": "ST-087",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-088",
+      "stationId": 88,
+      "primaryCropId": "ST-088",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-089",
+      "stationId": 89,
+      "primaryCropId": "ST-089",
+      "incidentExistingCandidateIds": [
+        "E-035",
+        "E-039",
+        "E-121"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-090",
+      "stationId": 90,
+      "primaryCropId": "ST-090",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-091",
+      "stationId": 91,
+      "primaryCropId": "ST-091",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-092",
+      "stationId": 92,
+      "primaryCropId": "ST-092",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-093",
+      "stationId": 93,
+      "primaryCropId": "ST-093",
+      "incidentExistingCandidateIds": [
+        "E-040"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-094",
+      "stationId": 94,
+      "primaryCropId": "ST-094",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-095",
+      "stationId": 95,
+      "primaryCropId": "ST-095",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-096",
+      "stationId": 96,
+      "primaryCropId": "ST-096",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-097",
+      "stationId": 97,
+      "primaryCropId": "ST-097",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-098",
+      "stationId": 98,
+      "primaryCropId": "ST-098",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-099",
+      "stationId": 99,
+      "primaryCropId": "ST-099",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-100",
+      "stationId": 100,
+      "primaryCropId": "ST-100",
+      "incidentExistingCandidateIds": [
+        "E-041"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-101",
+      "stationId": 101,
+      "primaryCropId": "ST-101",
+      "incidentExistingCandidateIds": [
+        "E-042",
+        "E-117",
+        "E-120"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-102",
+      "stationId": 102,
+      "primaryCropId": "ST-102",
+      "incidentExistingCandidateIds": [
+        "E-042",
+        "E-043",
+        "E-087",
+        "E-118"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-103",
+      "stationId": 103,
+      "primaryCropId": "ST-103",
+      "incidentExistingCandidateIds": [
+        "E-044"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-104",
+      "stationId": 104,
+      "primaryCropId": "ST-104",
+      "incidentExistingCandidateIds": [
+        "E-044",
+        "E-107"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-105",
+      "stationId": 105,
+      "primaryCropId": "ST-105",
+      "incidentExistingCandidateIds": [
+        "E-045",
+        "E-046",
+        "E-088",
+        "E-089",
+        "E-108"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-106",
+      "stationId": 106,
+      "primaryCropId": "ST-106",
+      "incidentExistingCandidateIds": [
+        "E-045",
+        "E-047"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-107",
+      "stationId": 107,
+      "primaryCropId": "ST-107",
+      "incidentExistingCandidateIds": [
+        "E-046",
+        "E-047",
+        "E-048",
+        "E-088",
+        "E-090"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-108",
+      "stationId": 108,
+      "primaryCropId": "ST-108",
+      "incidentExistingCandidateIds": [
+        "E-048",
+        "E-089",
+        "E-091",
+        "E-108",
+        "E-122"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-109",
+      "stationId": 109,
+      "primaryCropId": "ST-109",
+      "incidentExistingCandidateIds": [
+        "E-049",
+        "E-092"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-110",
+      "stationId": 110,
+      "primaryCropId": "ST-110",
+      "incidentExistingCandidateIds": [
+        "E-049",
+        "E-050",
+        "E-119"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-111",
+      "stationId": 111,
+      "primaryCropId": "ST-111",
+      "incidentExistingCandidateIds": [
+        "E-050",
+        "E-051",
+        "E-093",
+        "E-109",
+        "E-110"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-112",
+      "stationId": 112,
+      "primaryCropId": "ST-112",
+      "incidentExistingCandidateIds": [
+        "E-051",
+        "E-052"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-113",
+      "stationId": 113,
+      "primaryCropId": "ST-113",
+      "incidentExistingCandidateIds": [
+        "E-052",
+        "E-053"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-114",
+      "stationId": 114,
+      "primaryCropId": "ST-114",
+      "incidentExistingCandidateIds": [
+        "E-053",
+        "E-054"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-115",
+      "stationId": 115,
+      "primaryCropId": "ST-115",
+      "incidentExistingCandidateIds": [
+        "E-043",
+        "E-054",
+        "E-055",
+        "E-087",
+        "E-107",
+        "E-122",
+        "E-123",
+        "E-124"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-116",
+      "stationId": 116,
+      "primaryCropId": "ST-116",
+      "incidentExistingCandidateIds": [
+        "E-055",
+        "E-056",
+        "E-091",
+        "E-094",
+        "E-095"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-117",
+      "stationId": 117,
+      "primaryCropId": "ST-117",
+      "incidentExistingCandidateIds": [
+        "E-056",
+        "E-057"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-118",
+      "stationId": 118,
+      "primaryCropId": "ST-118",
+      "incidentExistingCandidateIds": [
+        "E-057",
+        "E-058",
+        "E-121",
+        "E-123"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-119",
+      "stationId": 119,
+      "primaryCropId": "ST-119",
+      "incidentExistingCandidateIds": [
+        "E-058"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-120",
+      "stationId": 120,
+      "primaryCropId": "ST-120",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": true,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-121",
+      "stationId": 121,
+      "primaryCropId": "ST-121",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-122",
+      "stationId": 122,
+      "primaryCropId": "ST-122",
+      "incidentExistingCandidateIds": [
+        "E-096"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-123",
+      "stationId": 123,
+      "primaryCropId": "ST-123",
+      "incidentExistingCandidateIds": [
+        "E-096",
+        "E-097",
+        "E-098",
+        "E-099"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-124",
+      "stationId": 124,
+      "primaryCropId": "ST-124",
+      "incidentExistingCandidateIds": [
+        "E-092",
+        "E-093",
+        "E-097",
+        "E-100"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-125",
+      "stationId": 125,
+      "primaryCropId": "ST-125",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-126",
+      "stationId": 126,
+      "primaryCropId": "ST-126",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-127",
+      "stationId": 127,
+      "primaryCropId": "ST-127",
+      "incidentExistingCandidateIds": [
+        "E-059",
+        "E-094",
+        "E-101"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-128",
+      "stationId": 128,
+      "primaryCropId": "ST-128",
+      "incidentExistingCandidateIds": [
+        "E-060",
+        "E-102",
+        "E-103",
+        "E-111",
+        "E-112"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-129",
+      "stationId": 129,
+      "primaryCropId": "ST-129",
+      "incidentExistingCandidateIds": [
+        "E-061"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-130",
+      "stationId": 130,
+      "primaryCropId": "ST-130",
+      "incidentExistingCandidateIds": [
+        "E-061"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-131",
+      "stationId": 131,
+      "primaryCropId": "ST-131",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-132",
+      "stationId": 132,
+      "primaryCropId": "ST-132",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-133",
+      "stationId": 133,
+      "primaryCropId": "ST-133",
+      "incidentExistingCandidateIds": [
+        "E-059",
+        "E-062",
+        "E-101",
+        "E-104"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-134",
+      "stationId": 134,
+      "primaryCropId": "ST-134",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-135",
+      "stationId": 135,
+      "primaryCropId": "ST-135",
+      "incidentExistingCandidateIds": [
+        "E-060"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-136",
+      "stationId": 136,
+      "primaryCropId": "ST-136",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-137",
+      "stationId": 137,
+      "primaryCropId": "ST-137",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-138",
+      "stationId": 138,
+      "primaryCropId": "ST-138",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-139",
+      "stationId": 139,
+      "primaryCropId": "ST-139",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-140",
+      "stationId": 140,
+      "primaryCropId": "ST-140",
+      "incidentExistingCandidateIds": [
+        "E-062",
+        "E-063",
+        "E-104",
+        "E-105",
+        "E-111",
+        "E-113"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-141",
+      "stationId": 141,
+      "primaryCropId": "ST-141",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-142",
+      "stationId": 142,
+      "primaryCropId": "ST-142",
+      "incidentExistingCandidateIds": [
+        "E-095",
+        "E-102"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-143",
+      "stationId": 143,
+      "primaryCropId": "ST-143",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-144",
+      "stationId": 144,
+      "primaryCropId": "ST-144",
+      "incidentExistingCandidateIds": [
+        "E-098"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-145",
+      "stationId": 145,
+      "primaryCropId": "ST-145",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-146",
+      "stationId": 146,
+      "primaryCropId": "ST-146",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-147",
+      "stationId": 147,
+      "primaryCropId": "ST-147",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-148",
+      "stationId": 148,
+      "primaryCropId": "ST-148",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-149",
+      "stationId": 149,
+      "primaryCropId": "ST-149",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-150",
+      "stationId": 150,
+      "primaryCropId": "ST-150",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-151",
+      "stationId": 151,
+      "primaryCropId": "ST-151",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-152",
+      "stationId": 152,
+      "primaryCropId": "ST-152",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-153",
+      "stationId": 153,
+      "primaryCropId": "ST-153",
+      "incidentExistingCandidateIds": [
+        "E-100",
+        "E-109",
+        "E-113",
+        "E-114",
+        "E-115"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-154",
+      "stationId": 154,
+      "primaryCropId": "ST-154",
+      "incidentExistingCandidateIds": [
+        "E-063",
+        "E-064"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-155",
+      "stationId": 155,
+      "primaryCropId": "ST-155",
+      "incidentExistingCandidateIds": [
+        "E-064",
+        "E-065"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-156",
+      "stationId": 156,
+      "primaryCropId": "ST-156",
+      "incidentExistingCandidateIds": [
+        "E-065",
+        "E-066",
+        "E-105",
+        "E-106"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-157",
+      "stationId": 157,
+      "primaryCropId": "ST-157",
+      "incidentExistingCandidateIds": [
+        "E-066",
+        "E-067",
+        "E-106",
+        "E-124",
+        "E-125"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-158",
+      "stationId": 158,
+      "primaryCropId": "ST-158",
+      "incidentExistingCandidateIds": [
+        "E-067",
+        "E-068"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-159",
+      "stationId": 159,
+      "primaryCropId": "ST-159",
+      "incidentExistingCandidateIds": [
+        "E-068",
+        "E-069"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-160",
+      "stationId": 160,
+      "primaryCropId": "ST-160",
+      "incidentExistingCandidateIds": [
+        "E-069",
+        "E-070"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-161",
+      "stationId": 161,
+      "primaryCropId": "ST-161",
+      "incidentExistingCandidateIds": [
+        "E-070",
+        "E-071",
+        "E-090",
+        "E-103"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-162",
+      "stationId": 162,
+      "primaryCropId": "ST-162",
+      "incidentExistingCandidateIds": [
+        "E-071",
+        "E-072"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-163",
+      "stationId": 163,
+      "primaryCropId": "ST-163",
+      "incidentExistingCandidateIds": [
+        "E-073",
+        "E-110",
+        "E-114"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-164",
+      "stationId": 164,
+      "primaryCropId": "ST-164",
+      "incidentExistingCandidateIds": [
+        "E-073",
+        "E-074"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-165",
+      "stationId": 165,
+      "primaryCropId": "ST-165",
+      "incidentExistingCandidateIds": [
+        "E-074",
+        "E-075",
+        "E-099"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-166",
+      "stationId": 166,
+      "primaryCropId": "ST-166",
+      "incidentExistingCandidateIds": [
+        "E-075",
+        "E-076"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-167",
+      "stationId": 167,
+      "primaryCropId": "ST-167",
+      "incidentExistingCandidateIds": [
+        "E-076",
+        "E-077"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-168",
+      "stationId": 168,
+      "primaryCropId": "ST-168",
+      "incidentExistingCandidateIds": [
+        "E-077",
+        "E-078"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-169",
+      "stationId": 169,
+      "primaryCropId": "ST-169",
+      "incidentExistingCandidateIds": [
+        "E-078",
+        "E-079"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-170",
+      "stationId": 170,
+      "primaryCropId": "ST-170",
+      "incidentExistingCandidateIds": [
+        "E-079",
+        "E-080"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-171",
+      "stationId": 171,
+      "primaryCropId": "ST-171",
+      "incidentExistingCandidateIds": [
+        "E-080",
+        "E-081"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-172",
+      "stationId": 172,
+      "primaryCropId": "ST-172",
+      "incidentExistingCandidateIds": [
+        "E-081",
+        "E-082"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-173",
+      "stationId": 173,
+      "primaryCropId": "ST-173",
+      "incidentExistingCandidateIds": [
+        "E-082",
+        "E-083"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-174",
+      "stationId": 174,
+      "primaryCropId": "ST-174",
+      "incidentExistingCandidateIds": [
+        "E-072"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-175",
+      "stationId": 175,
+      "primaryCropId": "ST-175",
+      "incidentExistingCandidateIds": [
+        "E-083"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-176",
+      "stationId": 176,
+      "primaryCropId": "ST-176",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-177",
+      "stationId": 177,
+      "primaryCropId": "ST-177",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-178",
+      "stationId": 178,
+      "primaryCropId": "ST-178",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-179",
+      "stationId": 179,
+      "primaryCropId": "ST-179",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-180",
+      "stationId": 180,
+      "primaryCropId": "ST-180",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-181",
+      "stationId": 181,
+      "primaryCropId": "ST-181",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-182",
+      "stationId": 182,
+      "primaryCropId": "ST-182",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-183",
+      "stationId": 183,
+      "primaryCropId": "ST-183",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-184",
+      "stationId": 184,
+      "primaryCropId": "ST-184",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-185",
+      "stationId": 185,
+      "primaryCropId": "ST-185",
+      "incidentExistingCandidateIds": [
+        "E-112",
+        "E-115",
+        "E-116"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-186",
+      "stationId": 186,
+      "primaryCropId": "ST-186",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-187",
+      "stationId": 187,
+      "primaryCropId": "ST-187",
+      "incidentExistingCandidateIds": [
+        "E-084",
+        "E-116"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-188",
+      "stationId": 188,
+      "primaryCropId": "ST-188",
+      "incidentExistingCandidateIds": [
+        "E-084",
+        "E-085"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-189",
+      "stationId": 189,
+      "primaryCropId": "ST-189",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": false,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-190",
+      "stationId": 190,
+      "primaryCropId": "ST-190",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-191",
+      "stationId": 191,
+      "primaryCropId": "ST-191",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-192",
+      "stationId": 192,
+      "primaryCropId": "ST-192",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-193",
+      "stationId": 193,
+      "primaryCropId": "ST-193",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": true,
+      "foldAdjacent": true,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-194",
+      "stationId": 194,
+      "primaryCropId": "ST-194",
+      "incidentExistingCandidateIds": [
+        "E-125"
+      ],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-195",
+      "stationId": 195,
+      "primaryCropId": "ST-195",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-196",
+      "stationId": 196,
+      "primaryCropId": "ST-196",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-197",
+      "stationId": 197,
+      "primaryCropId": "ST-197",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-198",
+      "stationId": 198,
+      "primaryCropId": "ST-198",
+      "incidentExistingCandidateIds": [],
+      "boundaryCrop": true,
+      "foldAdjacent": false,
+      "coordinateConfidence": "candidate-unverified",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    },
+    {
+      "reviewTargetId": "ST-199",
+      "stationId": 199,
+      "primaryCropId": "ST-199",
+      "incidentExistingCandidateIds": [
+        "E-085",
+        "E-086"
+      ],
+      "boundaryCrop": false,
+      "foldAdjacent": false,
+      "coordinateConfidence": "verified-from-physical-board",
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "notes": "Use source crop for line tracing; registered crop provides common-board context."
+    }
+  ]
+}

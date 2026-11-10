@@ -315,7 +315,7 @@ button:focus-visible,
   box-shadow: 0 14px 38px #050b1080;
 }
 .board-panel::after {
-  content: 'EVIDENCE MAP / SYNTHETIC STUDY';
+  content: 'PROVISIONAL BOARD / RECONSTRUCTION IN PROGRESS';
   position: absolute;
   left: 15px;
   top: -11px;
@@ -358,7 +358,7 @@ button:focus-visible,
   position: relative;
   height: calc(100% - 52px);
   overflow: hidden;
-  background: #d3c1a4;
+  background: #242a32;
 }
 .board-svg {
   display: block;
@@ -423,9 +423,16 @@ button:focus-visible,
 .station-marker {
   cursor: pointer;
 }
-.station-marker.connected .station-ring {
-  stroke: #b93636;
-  stroke-width: 3;
+.station-marker.candidate .station-ring {
+  fill: #f5ebd8e8;
+  stroke: #d71920;
+  stroke-width: 2;
+  stroke-dasharray: 2 2;
+}
+.station-marker.verified .station-ring {
+  fill: #d9a83f;
+  stroke: #202a32;
+  stroke-width: 2;
 }
 .station-marker.selected .station-ring {
   fill: #e4a72e;
@@ -486,6 +493,20 @@ button:focus-visible,
     8px 'DM Mono',
     monospace;
   letter-spacing: 0.08em;
+}
+.legend-marker {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px 0 0;
+  border-radius: 50%;
+  background: #d9a83f;
+  border: 1px solid #202a32;
+  vertical-align: -1px;
+}
+.legend-marker.candidate {
+  background: #f5ebd8;
+  border: 2px dashed #d71920;
 }
 .legend-line {
   display: inline-block;

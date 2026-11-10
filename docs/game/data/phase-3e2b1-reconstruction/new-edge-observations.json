@@ -1,0 +1,718 @@
+{
+  "phase": "3E.2B.1",
+  "schema": "phase-3e2b1-new-edge-observations",
+  "observationIdPolicy": "OBS-3E2B1-NNNNN, monotonically assigned; never reused",
+  "reviewStatusValues": [
+    "not-started",
+    "in-progress",
+    "reviewed",
+    "uncertain",
+    "conflicting",
+    "blocked"
+  ],
+  "observations": [
+    {
+      "observationId": "OBS-3E2B1-00001",
+      "from": 1,
+      "to": 8,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-001",
+        "ST-008"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-left board photograph visibly shows the solid yellow route leaving marker 1 and reaching marker 8; the registered ST-001 context shows both endpoint markers and the intervening route.",
+      "reviewer": "human-guided B-01 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "high",
+      "uncertainty": [
+        "Exact route pixel polyline was not measured from the rotated reference photograph."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-001"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00002",
+      "from": 2,
+      "to": 10,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-002",
+        "ST-010"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-left photograph and registered ST-002 context visibly show the solid yellow route between markers 2 and 10 along the park edge.",
+      "reviewer": "human-guided B-01 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "high",
+      "uncertainty": [
+        "Exact route pixel polyline was not measured."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-002"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00003",
+      "from": 2,
+      "to": 20,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-002",
+        "ST-020"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-left photograph visibly shows the solid yellow route from marker 2 toward marker 20 around the western park edge, with both endpoints readable.",
+      "reviewer": "human-guided B-01 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "The route continuation is close to the crop boundary in the registered context."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-003"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00004",
+      "from": 3,
+      "to": 4,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-003",
+        "ST-004"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "The short solid yellow road between the readable markers 3 and 4 is visible in the upper-right area of the top-left photograph.",
+      "reviewer": "human-guided B-01 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "high",
+      "uncertainty": [
+        "No independent coordinate measurement was made."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-004"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00005",
+      "from": 4,
+      "to": 13,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-004",
+        "ST-013"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "The top-left photograph shows the solid yellow route continuing from readable marker 4 to readable marker 13; the red route crossing is kept separate.",
+      "reviewer": "human-guided B-01 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "Crossing geometry warrants confirmation in a tighter high-resolution crop."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-005"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00006",
+      "from": 5,
+      "to": 15,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-right.jpeg",
+      "sourceCropIds": [
+        "ST-005",
+        "ST-015"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-right photograph and the registered ST-005 context visibly show the solid yellow route from marker 5 to marker 15.",
+      "reviewer": "human-guided B-01 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "high",
+      "uncertainty": [
+        "Exact route pixel polyline was not measured."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-006"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00007",
+      "from": 6,
+      "to": 7,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-right.jpeg",
+      "sourceCropIds": [
+        "ST-006",
+        "ST-007"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "The top-right photograph shows a short solid yellow connection between readable markers 6 and 7.",
+      "reviewer": "human-guided B-01 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "The endpoint area is close to the source-photo edge; overlap confirmation is recommended."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-007"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00008",
+      "from": 7,
+      "to": 17,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-right.jpeg",
+      "sourceCropIds": [
+        "ST-007",
+        "ST-017"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "The top-right photograph visibly shows the solid yellow route continuing from marker 7 to marker 17.",
+      "reviewer": "human-guided B-01 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "Endpoint continuation should be checked against an overlapping crop before wider batch review."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-008"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00009",
+      "from": 8,
+      "to": 18,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-008",
+        "ST-018"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "The top-left photograph shows the solid yellow route in the 8/18 corridor with both printed endpoint markers visible.",
+      "reviewer": "human-guided B-01 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "The route is near an image boundary and should receive overlap confirmation."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-009"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00010",
+      "from": 9,
+      "to": 20,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-009",
+        "ST-020"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-left photograph visibly shows the solid yellow route from marker 9 toward marker 20 around the park boundary.",
+      "reviewer": "human-guided B-01 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "high",
+      "uncertainty": [
+        "Exact route pixel polyline was not measured."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-010"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00011",
+      "from": 10,
+      "to": 11,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-010",
+        "ST-011"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "The short solid yellow connection between readable markers 10 and 11 is visible along the central park edge.",
+      "reviewer": "human-guided B-01 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "high",
+      "uncertainty": [
+        "No independent coordinate measurement was made."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-011"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00012",
+      "from": 1,
+      "to": 46,
+      "transport": "underground",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-001",
+        "ST-046"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "A dashed red route is visibly traceable from marker 1 toward readable marker 46 in the top-left photograph; it is distinct from the solid yellow route.",
+      "reviewer": "human-guided B-01 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "The long route crosses several junctions and should be independently checked in an overlapping source view."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-032"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00013",
+      "from": 11,
+      "to": 22,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-011",
+        "ST-022"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-left evidence shows the solid yellow route from readable marker 11 toward readable marker 22.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "The corridor shares nearby green evidence."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-012"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00014",
+      "from": 12,
+      "to": 23,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-012",
+        "ST-023"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-left evidence shows the solid yellow route from marker 12 to marker 23 with the crossing visible.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "Crossing geometry should be confirmed in overlap."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-013"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00015",
+      "from": 13,
+      "to": 14,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-right.jpeg",
+      "sourceCropIds": [
+        "ST-013",
+        "ST-014"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-right evidence visibly shows the solid yellow route between markers 13 and 14.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "high",
+      "uncertainty": [
+        "No route polyline was measured."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-014"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00016",
+      "from": 14,
+      "to": 15,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-right.jpeg",
+      "sourceCropIds": [
+        "ST-014",
+        "ST-015"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-right evidence visibly shows the adjacent solid yellow route between markers 14 and 15.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "high",
+      "uncertainty": [
+        "No route polyline was measured."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-015"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00017",
+      "from": 15,
+      "to": 16,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-right.jpeg",
+      "sourceCropIds": [
+        "ST-015",
+        "ST-016"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-right evidence shows the solid yellow corridor between markers 15 and 16.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "A red route crosses nearby."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-016"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00018",
+      "from": 16,
+      "to": 29,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-right.jpeg",
+      "sourceCropIds": [
+        "ST-016",
+        "ST-029"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-right evidence shows the yellow route continuing from marker 16 toward marker 29.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "Endpoint layering warrants overlap confirmation."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-017"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00019",
+      "from": 17,
+      "to": 30,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-right.jpeg",
+      "sourceCropIds": [
+        "ST-017",
+        "ST-030"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-right evidence visibly links markers 17 and 30 with a solid yellow route.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "high",
+      "uncertainty": [
+        "No route polyline was measured."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-018"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00020",
+      "from": 18,
+      "to": 31,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-018",
+        "ST-031"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-left evidence visibly shows the yellow route between markers 18 and 31.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "high",
+      "uncertainty": [
+        "No route polyline was measured."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-019"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00021",
+      "from": 19,
+      "to": 32,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-019",
+        "ST-032"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-left evidence visibly shows the yellow route between markers 19 and 32.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "high",
+      "uncertainty": [
+        "No route polyline was measured."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-020"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00022",
+      "from": 20,
+      "to": 33,
+      "transport": "taxi",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-020",
+        "ST-033"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-left evidence shows the solid yellow route leaving marker 20 toward marker 33.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "The red crossing is retained as uncertainty."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-021"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00023",
+      "from": 11,
+      "to": 22,
+      "transport": "bus",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-011",
+        "ST-022"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-left evidence shows a green route sharing the 11/22 corridor, distinct from the yellow route.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "Layering at the junction needs overlap confirmation."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-025"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00024",
+      "from": 13,
+      "to": 14,
+      "transport": "bus",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-right.jpeg",
+      "sourceCropIds": [
+        "ST-013",
+        "ST-014"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-right evidence shows a green route alongside the 13/14 yellow corridor.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "The shared corridor is visually crowded."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-026"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00025",
+      "from": 14,
+      "to": 15,
+      "transport": "bus",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-right.jpeg",
+      "sourceCropIds": [
+        "ST-014",
+        "ST-015"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-right evidence shows green transport markings continuing between markers 14 and 15.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "Endpoint service-line separation needs confirmation."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-027"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00026",
+      "from": 15,
+      "to": 29,
+      "transport": "bus",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-right.jpeg",
+      "sourceCropIds": [
+        "ST-015",
+        "ST-029"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-right evidence shows a green route in the 15/29 corridor.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "Line layering at crossings remains uncertain."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-028"
+      ],
+      "duplicateOfObservationId": null
+    },
+    {
+      "observationId": "OBS-3E2B1-00027",
+      "from": 13,
+      "to": 46,
+      "transport": "underground",
+      "sourcePhotograph": "docs/game/evidence/board-photos/original-references/top-left.jpeg",
+      "sourceCropIds": [
+        "ST-013",
+        "ST-046"
+      ],
+      "sourcePixelRouteCoordinates": null,
+      "registeredBoardRouteCoordinates": null,
+      "evidenceDescription": "Top-left evidence shows the dashed red route continuing from marker 13 toward marker 46.",
+      "reviewer": "human-guided B-02 pilot",
+      "reviewStatus": "reviewed",
+      "confidence": "medium",
+      "uncertainty": [
+        "The long route should be confirmed by an overlapping view."
+      ],
+      "supportingObservationIds": [],
+      "conflictingObservationIds": [],
+      "relatedCandidateIds": [
+        "E-033"
+      ],
+      "duplicateOfObservationId": null
+    }
+  ],
+  "notes": "B-01 and B-02 pilot observations; later batches remain untouched."
+}
