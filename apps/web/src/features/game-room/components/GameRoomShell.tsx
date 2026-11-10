@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { DEMO_BOARD_FIXTURE } from '../../board/data/demo-board-fixture.js';
+import { RECONSTRUCTED_BOARD } from '../../board/data/reconstructed-board-data.js';
 import { BoardViewport } from '../../board/components/BoardViewport.js';
 
 type Ticket = { name: string; symbol: string; count: number; tone: string };
@@ -11,13 +11,10 @@ const tickets: Ticket[] = [
 ];
 
 export function GameRoomShell() {
-  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [selectedId, setSelectedId] = useState<number | null>(null);
   const [ticket, setTicket] = useState('Taxi');
   const [railOpen, setRailOpen] = useState(false);
-  const selectedStation = DEMO_BOARD_FIXTURE.stations.find((station) => station.id === selectedId);
-  const selectedRoutes = selectedId
-    ? DEMO_BOARD_FIXTURE.edges.filter((edge) => edge.from === selectedId || edge.to === selectedId)
-    : [];
+  const selectedStation = RECONSTRUCTED_BOARD.stations.find((station) => station.id === selectedId);
   return (
     <main className="room-shell">
       <header className="command-bar">
@@ -76,42 +73,42 @@ export function GameRoomShell() {
           </section>
           <div className="left-note">
             <span className="stamp">SIMULATED STATE</span>
-            <p>Server-backed room state and rule validation are not connected in this prototype.</p>
+            <p>
+              Station positions are provisional reconstruction data. Transport routes and movement
+              rules are intentionally disabled.
+            </p>
           </div>
         </aside>
         <section className="map-column">
           <div className="map-context">
             <span>
-              <i className="live-dot" /> LIVE ROOM · DEMO STATE
+              <i className="live-dot" /> PROVISIONAL BOARD DATA — RECONSTRUCTION IN PROGRESS
             </span>
-            <span>DRAG TO PAN · WHEEL TO ZOOM</span>
+            <span>DRAG TO PAN · WHEEL TO ZOOM · F TO FIT</span>
           </div>
           <BoardViewport
-            fixture={DEMO_BOARD_FIXTURE}
+            board={RECONSTRUCTED_BOARD}
             selectedId={selectedId}
             onSelect={(id) => setSelectedId(id || null)}
           />
           {selectedStation && (
             <div className="station-inspector">
               <div className="inspector-heading">
-                <span className="section-kicker">LOCATION REPORT · ILLUSTRATIVE</span>
+                <span className="section-kicker">LOCATION REPORT · PROVISIONAL</span>
                 <span className="inspector-state">SELECTED</span>
               </div>
               <div className="inspector-main">
                 <strong>{selectedStation.id}</strong>
-                <span>{selectedStation.district} district · synthetic node</span>
+                <span>
+                  {selectedStation.coordinateStatus} · {selectedStation.identityStatus}
+                </span>
               </div>
               <div className="inspector-facts">
                 <span>
-                  <b>{new Set(selectedRoutes.map((route) => route.type)).size}</b> transport types
+                  <b>—</b> transport graph not loaded
                 </span>
                 <span>
-                  <b>
-                    {selectedId === 'B3' || selectedId === 'C2' || selectedId === 'D4'
-                      ? 'OCCUPIED'
-                      : 'CLEAR'}
-                  </b>{' '}
-                  demo occupancy
+                  <b>{selectedStation.featureId ?? 'UNMATCHED'}</b> physical feature reference
                 </span>
               </div>
               <button onClick={() => setSelectedId(null)}>Clear selection</button>
@@ -180,7 +177,7 @@ export function GameRoomShell() {
         <span>
           <b>SCOTLAND YARD LIVE</b> / METROPOLITAN CASEFILE
         </span>
-        <span>DEMO BOARD DATA IS SYNTHETIC · NO CANONICAL MOVEMENT RULES ACTIVE</span>
+        <span>PROVISIONAL BOARD DATA · RECONSTRUCTION IN PROGRESS · NO MOVEMENT RULES ACTIVE</span>
       </footer>
     </main>
   );

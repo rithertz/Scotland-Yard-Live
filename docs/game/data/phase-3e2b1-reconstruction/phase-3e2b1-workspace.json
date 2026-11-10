@@ -1,0 +1,17 @@
+{
+  "phase": "3E.2B.1",
+  "architecture": {
+    "candidateImport": "candidate-import.json",
+    "newObservations": "new-edge-observations.json",
+    "reviewBatches": "review-batches.json",
+    "dashboard": "review-dashboard.html",
+    "summary": "reconstruction-summary.json"
+  },
+  "evidencePolicy": [
+    "No proximity or numbering inference",
+    "Route evidence must show both endpoints and the intervening route",
+    "Coordinate confidence is separate from edge confidence",
+    "Conflicts and duplicates remain visible",
+    "No automatic promotion to canonical data"
+  ]
+}

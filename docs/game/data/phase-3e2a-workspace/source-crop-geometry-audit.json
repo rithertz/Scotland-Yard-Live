@@ -1,0 +1,625 @@
+{
+  "phase": "3E.2A.1",
+  "checkedRecords": 199,
+  "validHighResolutionSourceCrops": 53,
+  "rectifiedFallbackCrops": 146,
+  "priorInvalidRecords": [
+    {
+      "stationId": 51,
+      "sourceImage": "A1.jpg",
+      "note": "invalid out-of-bounds source quadrilateral detected before Phase 3E.2A.1 repair"
+    },
+    {
+      "stationId": 97,
+      "sourceImage": "B4.jpg",
+      "note": "invalid out-of-bounds source quadrilateral detected before Phase 3E.2A.1 repair"
+    },
+    {
+      "stationId": 98,
+      "sourceImage": "B4.jpg",
+      "note": "invalid out-of-bounds source quadrilateral detected before Phase 3E.2A.1 repair"
+    },
+    {
+      "stationId": 101,
+      "sourceImage": "B3.jpg",
+      "note": "invalid out-of-bounds source quadrilateral detected before Phase 3E.2A.1 repair"
+    },
+    {
+      "stationId": 120,
+      "sourceImage": "B1.jpg",
+      "note": "invalid out-of-bounds source quadrilateral detected before Phase 3E.2A.1 repair"
+    },
+    {
+      "stationId": 162,
+      "sourceImage": "C3.jpg",
+      "note": "invalid out-of-bounds source quadrilateral detected before Phase 3E.2A.1 repair"
+    }
+  ],
+  "repairedRecords": ["ST-051", "ST-097", "ST-098", "ST-101", "ST-120", "ST-162"],
+  "remainingWarnings": [
+    {
+      "stationId": 1,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 2,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 3,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 4,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 5,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 6,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 7,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 8,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 9,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 10,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 11,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 12,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 13,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 14,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 15,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 16,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 17,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 18,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 19,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 20,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 21,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 23,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 24,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 25,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 26,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 27,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 29,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 31,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 33,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 36,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 37,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 38,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 40,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 41,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 42,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 44,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 45,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 46,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 47,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 48,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 49,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 50,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 51,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 52,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 53,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 54,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 55,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 56,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 57,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 58,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 59,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 60,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 61,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 62,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 63,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 64,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 65,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 73,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 81,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 82,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 83,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 84,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 85,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 86,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 87,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 88,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 89,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 90,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 91,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 92,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 93,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 94,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 95,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 96,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 97,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 98,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 99,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 100,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 101,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 102,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 103,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 104,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 105,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 106,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 107,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 108,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 109,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 110,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 112,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 113,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 114,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 116,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 117,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 118,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 120,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 121,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 122,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 123,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 125,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 126,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 127,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 128,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 130,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 131,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 132,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 133,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 136,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 137,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 139,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 140,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 142,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 143,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 144,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 145,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 146,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 147,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 149,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 150,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 151,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 153,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 154,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 155,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 157,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 159,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 160,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 161,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 162,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 163,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 165,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 170,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 178,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 179,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 181,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 183,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 188,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 189,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 190,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 191,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 192,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 193,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 194,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 195,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 196,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 197,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 198,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    },
+    {
+      "stationId": 199,
+      "warning": "all-containing-tile-transforms-produce-invalid-source-quadrilateral"
+    }
+  ]
+}

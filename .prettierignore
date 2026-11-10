@@ -1,11 +1,8 @@
-node_modules
-dist
-coverage
-.turbo
-pnpm-lock.yaml
-
-# Local Python environment
-tools/board-calibration/.venv/
-
-# Generated calibration artifacts
+﻿.venv/
+.pytest_cache/
+node_modules/
+**/node_modules/
+**/dist/
+**/coverage/
 tools/board-calibration/output/
+pnpm-lock.yaml

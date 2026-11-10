@@ -1,0 +1,801 @@
+{
+  "phase": "3E.2B.1",
+  "batchSize": 10,
+  "batches": [
+    {
+      "batchId": "B-01",
+      "stationIds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "candidateIds": [
+        "E-001",
+        "E-002",
+        "E-003",
+        "E-004",
+        "E-005",
+        "E-006",
+        "E-007",
+        "E-008",
+        "E-009",
+        "E-010",
+        "E-011",
+        "E-022",
+        "E-023",
+        "E-024",
+        "E-032"
+      ],
+      "priorityStations": [
+        {
+          "stationId": 1,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 2,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 3,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 4,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 5,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 6,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 7,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 8,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 9,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 10,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        }
+      ],
+      "reviewStatus": "uncertain",
+      "newObservationIds": [
+        "OBS-3E2B1-00001",
+        "OBS-3E2B1-00002",
+        "OBS-3E2B1-00003",
+        "OBS-3E2B1-00004",
+        "OBS-3E2B1-00005",
+        "OBS-3E2B1-00006",
+        "OBS-3E2B1-00007",
+        "OBS-3E2B1-00008",
+        "OBS-3E2B1-00009",
+        "OBS-3E2B1-00010",
+        "OBS-3E2B1-00011",
+        "OBS-3E2B1-00012"
+      ],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion.",
+      "reviewNote": "All B-01 candidate routes were inspected; material ambiguity remains for three bus candidates and several boundary continuations."
+    },
+    {
+      "batchId": "B-02",
+      "stationIds": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "candidateIds": [
+        "E-003",
+        "E-005",
+        "E-006",
+        "E-008",
+        "E-009",
+        "E-010",
+        "E-011",
+        "E-012",
+        "E-013",
+        "E-014",
+        "E-015",
+        "E-016",
+        "E-017",
+        "E-018",
+        "E-019",
+        "E-020",
+        "E-021",
+        "E-022",
+        "E-023",
+        "E-025",
+        "E-026",
+        "E-027",
+        "E-028",
+        "E-029",
+        "E-033",
+        "E-034",
+        "E-035"
+      ],
+      "priorityStations": [
+        {
+          "stationId": 11,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 12,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 13,
+          "boundaryCrop": true,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 14,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 15,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 16,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 17,
+          "boundaryCrop": true,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 18,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 19,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        }
+      ],
+      "reviewStatus": "uncertain",
+      "newObservationIds": [
+        "OBS-3E2B1-00013",
+        "OBS-3E2B1-00014",
+        "OBS-3E2B1-00015",
+        "OBS-3E2B1-00016",
+        "OBS-3E2B1-00017",
+        "OBS-3E2B1-00018",
+        "OBS-3E2B1-00019",
+        "OBS-3E2B1-00020",
+        "OBS-3E2B1-00021",
+        "OBS-3E2B1-00022",
+        "OBS-3E2B1-00023",
+        "OBS-3E2B1-00024",
+        "OBS-3E2B1-00025",
+        "OBS-3E2B1-00026",
+        "OBS-3E2B1-00027"
+      ],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion.",
+      "reviewNote": "B-02 routes were inspected; five overlapping/long-route candidates remain ambiguous or are covered by preserved B-01 observations."
+    },
+    {
+      "batchId": "B-03",
+      "stationIds": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "candidateIds": ["E-012", "E-013", "E-017", "E-018", "E-025", "E-028", "E-030", "E-031"],
+      "priorityStations": [
+        {
+          "stationId": 23,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 24,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-04",
+      "stationIds": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40],
+      "candidateIds": ["E-019", "E-020", "E-021", "E-031"],
+      "priorityStations": [],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-05",
+      "stationIds": [41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "candidateIds": ["E-024", "E-029", "E-032", "E-033", "E-036", "E-037", "E-117"],
+      "priorityStations": [
+        {
+          "stationId": 41,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 45,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-06",
+      "stationIds": [51, 52, 53, 54, 55, 56, 57, 58, 59, 60],
+      "candidateIds": [],
+      "priorityStations": [
+        {
+          "stationId": 51,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 58,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-07",
+      "stationIds": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70],
+      "candidateIds": ["E-034", "E-038", "E-039", "E-118"],
+      "priorityStations": [
+        {
+          "stationId": 66,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 67,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-08",
+      "stationIds": [71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "candidateIds": ["E-036", "E-037", "E-038", "E-040", "E-041", "E-119"],
+      "priorityStations": [],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-09",
+      "stationIds": [81, 82, 83, 84, 85, 86, 87, 88, 89, 90],
+      "candidateIds": ["E-035", "E-039", "E-120", "E-121"],
+      "priorityStations": [
+        {
+          "stationId": 81,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 86,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 87,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 88,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 89,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 90,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-10",
+      "stationIds": [91, 92, 93, 94, 95, 96, 97, 98, 99, 100],
+      "candidateIds": ["E-040", "E-041"],
+      "priorityStations": [
+        {
+          "stationId": 91,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 92,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 93,
+          "boundaryCrop": true,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 94,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 95,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 96,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 97,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 98,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 99,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 100,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-11",
+      "stationIds": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110],
+      "candidateIds": [
+        "E-042",
+        "E-043",
+        "E-044",
+        "E-045",
+        "E-046",
+        "E-047",
+        "E-048",
+        "E-049",
+        "E-050",
+        "E-087",
+        "E-088",
+        "E-089",
+        "E-090",
+        "E-091",
+        "E-092",
+        "E-107",
+        "E-108",
+        "E-117",
+        "E-118",
+        "E-119",
+        "E-120",
+        "E-122"
+      ],
+      "priorityStations": [
+        {
+          "stationId": 101,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 102,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 103,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 104,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 105,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 106,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 107,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 108,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 109,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 110,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-12",
+      "stationIds": [111, 112, 113, 114, 115, 116, 117, 118, 119, 120],
+      "candidateIds": [
+        "E-043",
+        "E-050",
+        "E-051",
+        "E-052",
+        "E-053",
+        "E-054",
+        "E-055",
+        "E-056",
+        "E-057",
+        "E-058",
+        "E-087",
+        "E-091",
+        "E-093",
+        "E-094",
+        "E-095",
+        "E-107",
+        "E-109",
+        "E-110",
+        "E-121",
+        "E-122",
+        "E-123",
+        "E-124"
+      ],
+      "priorityStations": [
+        {
+          "stationId": 113,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 120,
+          "boundaryCrop": true,
+          "foldAdjacent": true
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-13",
+      "stationIds": [121, 122, 123, 124, 125, 126, 127, 128, 129, 130],
+      "candidateIds": [
+        "E-059",
+        "E-060",
+        "E-061",
+        "E-092",
+        "E-093",
+        "E-094",
+        "E-096",
+        "E-097",
+        "E-098",
+        "E-099",
+        "E-100",
+        "E-101",
+        "E-102",
+        "E-103",
+        "E-111",
+        "E-112"
+      ],
+      "priorityStations": [
+        {
+          "stationId": 121,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 122,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 123,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 126,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 127,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-14",
+      "stationIds": [131, 132, 133, 134, 135, 136, 137, 138, 139, 140],
+      "candidateIds": [
+        "E-059",
+        "E-060",
+        "E-062",
+        "E-063",
+        "E-101",
+        "E-104",
+        "E-105",
+        "E-111",
+        "E-113"
+      ],
+      "priorityStations": [
+        {
+          "stationId": 131,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 139,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 140,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-15",
+      "stationIds": [141, 142, 143, 144, 145, 146, 147, 148, 149, 150],
+      "candidateIds": ["E-095", "E-098", "E-102"],
+      "priorityStations": [
+        {
+          "stationId": 142,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 147,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-16",
+      "stationIds": [151, 152, 153, 154, 155, 156, 157, 158, 159, 160],
+      "candidateIds": [
+        "E-063",
+        "E-064",
+        "E-065",
+        "E-066",
+        "E-067",
+        "E-068",
+        "E-069",
+        "E-070",
+        "E-100",
+        "E-105",
+        "E-106",
+        "E-109",
+        "E-113",
+        "E-114",
+        "E-115",
+        "E-124",
+        "E-125"
+      ],
+      "priorityStations": [
+        {
+          "stationId": 154,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-17",
+      "stationIds": [161, 162, 163, 164, 165, 166, 167, 168, 169, 170],
+      "candidateIds": [
+        "E-070",
+        "E-071",
+        "E-072",
+        "E-073",
+        "E-074",
+        "E-075",
+        "E-076",
+        "E-077",
+        "E-078",
+        "E-079",
+        "E-080",
+        "E-090",
+        "E-099",
+        "E-103",
+        "E-110",
+        "E-114"
+      ],
+      "priorityStations": [
+        {
+          "stationId": 161,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 162,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 163,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 167,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 168,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 169,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-18",
+      "stationIds": [171, 172, 173, 174, 175, 176, 177, 178, 179, 180],
+      "candidateIds": ["E-072", "E-080", "E-081", "E-082", "E-083"],
+      "priorityStations": [],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-19",
+      "stationIds": [181, 182, 183, 184, 185, 186, 187, 188, 189, 190],
+      "candidateIds": ["E-084", "E-085", "E-112", "E-115", "E-116"],
+      "priorityStations": [
+        {
+          "stationId": 183,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 189,
+          "boundaryCrop": false,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 190,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    },
+    {
+      "batchId": "B-20",
+      "stationIds": [191, 192, 193, 194, 195, 196, 197, 198, 199],
+      "candidateIds": ["E-085", "E-086", "E-125"],
+      "priorityStations": [
+        {
+          "stationId": 191,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 192,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 193,
+          "boundaryCrop": true,
+          "foldAdjacent": true
+        },
+        {
+          "stationId": 194,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 195,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 196,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 197,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        },
+        {
+          "stationId": 198,
+          "boundaryCrop": true,
+          "foldAdjacent": false
+        }
+      ],
+      "reviewStatus": "not-started",
+      "newObservationIds": [],
+      "reviewRule": "Review all incident candidate routes and any newly discovered routes; station presence alone is not completion."
+    }
+  ]
+}

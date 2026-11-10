@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 3E.2B.1 new transport-edge observation",
+  "type": "object",
+  "required": [
+    "observationId",
+    "from",
+    "to",
+    "transport",
+    "sourcePhotograph",
+    "sourceCropIds",
+    "reviewStatus",
+    "confidence",
+    "evidenceDescription"
+  ],
+  "properties": {
+    "observationId": { "type": "string", "pattern": "^OBS-3E2B1-[0-9]{5}$" },
+    "from": { "type": "integer", "minimum": 1, "maximum": 199 },
+    "to": { "type": "integer", "minimum": 1, "maximum": 199 },
+    "transport": { "enum": ["taxi", "bus", "underground", "boat"] },
+    "sourcePhotograph": { "type": "string", "minLength": 1 },
+    "sourceCropIds": { "type": "array", "items": { "type": "string" } },
+    "sourcePixelRouteCoordinates": { "type": ["array", "null"] },
+    "registeredBoardRouteCoordinates": { "type": ["array", "null"] },
+    "evidenceDescription": { "type": "string", "minLength": 1 },
+    "reviewer": { "type": ["string", "null"] },
+    "reviewStatus": {
+      "enum": ["not-started", "in-progress", "reviewed", "uncertain", "conflicting", "blocked"]
+    },
+    "confidence": { "enum": ["high", "medium", "low", "unknown"] },
+    "uncertainty": { "type": "array", "items": { "type": "string" } },
+    "supportingObservationIds": { "type": "array", "items": { "type": "string" } },
+    "conflictingObservationIds": { "type": "array", "items": { "type": "string" } },
+    "relatedCandidateIds": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^E-[0-9]{3}$" }
+    },
+    "duplicateOfObservationId": { "type": ["string", "null"] }
+  },
+  "additionalProperties": false
+}

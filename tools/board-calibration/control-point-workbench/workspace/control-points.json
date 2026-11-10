@@ -1,0 +1,9 @@
+{
+  "phase": "3F.2.3",
+  "schemaVersion": 1,
+  "coordinateConvention": "Original decoded pixel coordinates; EXIF orientation is recorded but not applied to stored coordinates.",
+  "reviewer": "",
+  "photos": [],
+  "pairs": [],
+  "correspondences": []
+}

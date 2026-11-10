@@ -1,0 +1,611 @@
+{
+  "phase": "3F.2.3",
+  "schemaVersion": 1,
+  "coordinateConvention": "Original decoded pixel coordinates; EXIF orientation is recorded but not applied to stored coordinates.",
+  "reviewer": "",
+  "photos": [
+    {
+      "filename": "A1.jpg",
+      "width": 6120,
+      "height": 8160,
+      "exifOrientation": 6,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/A1.jpg"
+    },
+    {
+      "filename": "A2.jpg",
+      "width": 5844,
+      "height": 6628,
+      "exifOrientation": 0,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/A2.jpg"
+    },
+    {
+      "filename": "A3.jpg",
+      "width": 6120,
+      "height": 6404,
+      "exifOrientation": 0,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/A3.jpg"
+    },
+    {
+      "filename": "A4.jpg",
+      "width": 6120,
+      "height": 8160,
+      "exifOrientation": 1,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/A4.jpg"
+    },
+    {
+      "filename": "B1.jpg",
+      "width": 5240,
+      "height": 6772,
+      "exifOrientation": 0,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/B1.jpg"
+    },
+    {
+      "filename": "B2.jpg",
+      "width": 6120,
+      "height": 8160,
+      "exifOrientation": 3,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/B2.jpg"
+    },
+    {
+      "filename": "B3.jpg",
+      "width": 6120,
+      "height": 8160,
+      "exifOrientation": 6,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/B3.jpg"
+    },
+    {
+      "filename": "B4.jpg",
+      "width": 6120,
+      "height": 8160,
+      "exifOrientation": 1,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/B4.jpg"
+    },
+    {
+      "filename": "C1.jpg",
+      "width": 6120,
+      "height": 8160,
+      "exifOrientation": 1,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/C1.jpg"
+    },
+    {
+      "filename": "C2.jpg",
+      "width": 6120,
+      "height": 8160,
+      "exifOrientation": 1,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/C2.jpg"
+    },
+    {
+      "filename": "C3.jpg",
+      "width": 5420,
+      "height": 8160,
+      "exifOrientation": 0,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/C3.jpg"
+    },
+    {
+      "filename": "C4.jpg",
+      "width": 5704,
+      "height": 8160,
+      "exifOrientation": 3,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/C4.jpg"
+    },
+    {
+      "filename": "D1.jpg",
+      "width": 6120,
+      "height": 8160,
+      "exifOrientation": 8,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/D1.jpg"
+    },
+    {
+      "filename": "D2.jpg",
+      "width": 6120,
+      "height": 8160,
+      "exifOrientation": 8,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/D2.jpg"
+    },
+    {
+      "filename": "D3.jpg",
+      "width": 5312,
+      "height": 8160,
+      "exifOrientation": 0,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/D3.jpg"
+    },
+    {
+      "filename": "D4.jpg",
+      "width": 6120,
+      "height": 8160,
+      "exifOrientation": 1,
+      "src": "../../../docs/game/evidence/board-photos/high-resolution/D4.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "pairId": "A1-A2",
+      "photoA": "A1.jpg",
+      "photoB": "A2.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "A2-A3",
+      "photoA": "A2.jpg",
+      "photoB": "A3.jpg",
+      "status": "draft",
+      "insufficientEvidence": true
+    },
+    {
+      "pairId": "A3-A4",
+      "photoA": "A3.jpg",
+      "photoB": "A4.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "B1-B2",
+      "photoA": "B1.jpg",
+      "photoB": "B2.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "B2-B3",
+      "photoA": "B2.jpg",
+      "photoB": "B3.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "B3-B4",
+      "photoA": "B3.jpg",
+      "photoB": "B4.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "C1-C2",
+      "photoA": "C1.jpg",
+      "photoB": "C2.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "C2-C3",
+      "photoA": "C2.jpg",
+      "photoB": "C3.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "C3-C4",
+      "photoA": "C3.jpg",
+      "photoB": "C4.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "D1-D2",
+      "photoA": "D1.jpg",
+      "photoB": "D2.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "D2-D3",
+      "photoA": "D2.jpg",
+      "photoB": "D3.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "D3-D4",
+      "photoA": "D3.jpg",
+      "photoB": "D4.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "A1-B1",
+      "photoA": "A1.jpg",
+      "photoB": "B1.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "B1-C1",
+      "photoA": "B1.jpg",
+      "photoB": "C1.jpg",
+      "status": "draft",
+      "insufficientEvidence": true
+    },
+    {
+      "pairId": "C1-D1",
+      "photoA": "C1.jpg",
+      "photoB": "D1.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "A2-B2",
+      "photoA": "A2.jpg",
+      "photoB": "B2.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "B2-C2",
+      "photoA": "B2.jpg",
+      "photoB": "C2.jpg",
+      "status": "draft",
+      "insufficientEvidence": true
+    },
+    {
+      "pairId": "C2-D2",
+      "photoA": "C2.jpg",
+      "photoB": "D2.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "A3-B3",
+      "photoA": "A3.jpg",
+      "photoB": "B3.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "B3-C3",
+      "photoA": "B3.jpg",
+      "photoB": "C3.jpg",
+      "status": "draft",
+      "insufficientEvidence": true
+    },
+    {
+      "pairId": "C3-D3",
+      "photoA": "C3.jpg",
+      "photoB": "D3.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "A4-B4",
+      "photoA": "A4.jpg",
+      "photoB": "B4.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "B4-C4",
+      "photoA": "B4.jpg",
+      "photoB": "C4.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    },
+    {
+      "pairId": "C4-D4",
+      "photoA": "C4.jpg",
+      "photoB": "D4.jpg",
+      "status": "draft",
+      "insufficientEvidence": false
+    }
+  ],
+  "correspondences": [
+    {
+      "id": "CP-001",
+      "pairId": "A3-A4",
+      "left": {
+        "x": 5164.060379490701,
+        "y": 6178.176688683291
+      },
+      "right": {
+        "x": 5149.162618580629,
+        "y": 2180.9079075999352
+      },
+      "leftPhoto": "A3.jpg",
+      "rightPhoto": "A4.jpg",
+      "leftDimensions": {
+        "width": 6120,
+        "height": 6404
+      },
+      "rightDimensions": {
+        "width": 6120,
+        "height": 8160
+      },
+      "leftExifOrientation": 0,
+      "rightExifOrientation": 1,
+      "description": "station 5",
+      "reviewer": "",
+      "confidence": "high",
+      "reviewStatus": "draft",
+      "demo": false
+    },
+    {
+      "id": "CP-002",
+      "pairId": "A3-A4",
+      "left": {
+        "x": 4673.799905119153,
+        "y": 4725.656534267565
+      },
+      "right": {
+        "x": 4517.373415563401,
+        "y": 579.3986692538263
+      },
+      "leftPhoto": "A3.jpg",
+      "rightPhoto": "A4.jpg",
+      "leftDimensions": {
+        "width": 6120,
+        "height": 6404
+      },
+      "rightDimensions": {
+        "width": 6120,
+        "height": 8160
+      },
+      "leftExifOrientation": 0,
+      "rightExifOrientation": 1,
+      "description": "station 15",
+      "reviewer": "",
+      "confidence": "high",
+      "reviewStatus": "draft",
+      "demo": false
+    },
+    {
+      "id": "CP-003",
+      "pairId": "A3-A4",
+      "left": {
+        "x": 4084.996706622755,
+        "y": 4640.709060572114
+      },
+      "right": {
+        "x": 3931.0446321102463,
+        "y": 531.4050781283144
+      },
+      "leftPhoto": "A3.jpg",
+      "rightPhoto": "A4.jpg",
+      "leftDimensions": {
+        "width": 6120,
+        "height": 6404
+      },
+      "rightDimensions": {
+        "width": 6120,
+        "height": 8160
+      },
+      "leftExifOrientation": 0,
+      "rightExifOrientation": 1,
+      "description": "station 26",
+      "reviewer": "",
+      "confidence": "high",
+      "reviewStatus": "draft",
+      "demo": false
+    },
+    {
+      "id": "CP-004",
+      "pairId": "A3-A4",
+      "left": {
+        "x": 3501.5993716279854,
+        "y": 5661.654242991826
+      },
+      "right": {
+        "x": 3266.6198894773142,
+        "y": 1592.8641181882426
+      },
+      "leftPhoto": "A3.jpg",
+      "rightPhoto": "A4.jpg",
+      "leftDimensions": {
+        "width": 6120,
+        "height": 6404
+      },
+      "rightDimensions": {
+        "width": 6120,
+        "height": 8160
+      },
+      "leftExifOrientation": 0,
+      "rightExifOrientation": 1,
+      "description": "station 28",
+      "reviewer": "",
+      "confidence": "high",
+      "reviewStatus": "draft",
+      "demo": false
+    },
+    {
+      "id": "CP-005",
+      "pairId": "A3-A4",
+      "left": {
+        "x": 3112.6678149648055,
+        "y": 4867.585767776495
+      },
+      "right": {
+        "x": 2892.6783290443873,
+        "y": 790.6927825704344
+      },
+      "leftPhoto": "A3.jpg",
+      "rightPhoto": "A4.jpg",
+      "leftDimensions": {
+        "width": 6120,
+        "height": 6404
+      },
+      "rightDimensions": {
+        "width": 6120,
+        "height": 8160
+      },
+      "leftExifOrientation": 0,
+      "rightExifOrientation": 1,
+      "description": "station 27",
+      "reviewer": "",
+      "confidence": "high",
+      "reviewStatus": "draft",
+      "demo": false
+    },
+    {
+      "id": "CP-006",
+      "pairId": "A3-A4",
+      "left": {
+        "x": 1765.1820012145618,
+        "y": 5353.750140357311
+      },
+      "right": {
+        "x": 1505.8942967724415,
+        "y": 1244.446265344144
+      },
+      "leftPhoto": "A3.jpg",
+      "rightPhoto": "A4.jpg",
+      "leftDimensions": {
+        "width": 6120,
+        "height": 6404
+      },
+      "rightDimensions": {
+        "width": 6120,
+        "height": 8160
+      },
+      "leftExifOrientation": 0,
+      "rightExifOrientation": 1,
+      "description": "statiion 40",
+      "reviewer": "",
+      "confidence": "high",
+      "reviewStatus": "draft",
+      "demo": false
+    },
+    {
+      "id": "CP-007",
+      "pairId": "A3-A4",
+      "left": {
+        "x": 2031.3569611231178,
+        "y": 6034.380261970451
+      },
+      "right": {
+        "x": 1739.6582936257328,
+        "y": 2103.336786308666
+      },
+      "leftPhoto": "A3.jpg",
+      "rightPhoto": "A4.jpg",
+      "leftDimensions": {
+        "width": 6120,
+        "height": 6404
+      },
+      "rightDimensions": {
+        "width": 6120,
+        "height": 8160
+      },
+      "leftExifOrientation": 0,
+      "rightExifOrientation": 1,
+      "description": "station 41",
+      "reviewer": "",
+      "confidence": "high",
+      "reviewStatus": "draft",
+      "demo": false
+    },
+    {
+      "id": "CP-008",
+      "pairId": "A3-A4",
+      "left": {
+        "x": 1091.439032520434,
+        "y": 6269.359708717846
+      },
+      "right": {
+        "x": 905.07599495266,
+        "y": 2476.0628614442135
+      },
+      "leftPhoto": "A3.jpg",
+      "rightPhoto": "A4.jpg",
+      "leftDimensions": {
+        "width": 6120,
+        "height": 6404
+      },
+      "rightDimensions": {
+        "width": 6120,
+        "height": 8160
+      },
+      "leftExifOrientation": 0,
+      "rightExifOrientation": 1,
+      "description": "station 54",
+      "reviewer": "",
+      "confidence": "high",
+      "reviewStatus": "draft",
+      "demo": false
+    },
+    {
+      "id": "CP-009",
+      "pairId": "A3-A4",
+      "left": {
+        "x": 1560.1826351624077,
+        "y": 4170.750167077326
+      },
+      "right": {
+        "x": 1406.2305606498994,
+        "y": 191.08996604803215
+      },
+      "leftPhoto": "A3.jpg",
+      "rightPhoto": "A4.jpg",
+      "leftDimensions": {
+        "width": 6120,
+        "height": 6404
+      },
+      "rightDimensions": {
+        "width": 6120,
+        "height": 8160
+      },
+      "leftExifOrientation": 0,
+      "rightExifOrientation": 1,
+      "description": "station 52",
+      "reviewer": "",
+      "confidence": "high",
+      "reviewStatus": "draft",
+      "demo": false
+    },
+    {
+      "id": "CP-010",
+      "pairId": "A3-A4",
+      "left": {
+        "x": 794.2305725412816,
+        "y": 5483.0232522558645
+      },
+      "right": {
+        "x": 678.361381491367,
+        "y": 1615.6725923029994
+      },
+      "leftPhoto": "A3.jpg",
+      "rightPhoto": "A4.jpg",
+      "leftDimensions": {
+        "width": 6120,
+        "height": 6404
+      },
+      "rightDimensions": {
+        "width": 6120,
+        "height": 8160
+      },
+      "leftExifOrientation": 0,
+      "rightExifOrientation": 1,
+      "description": "station  53",
+      "reviewer": "",
+      "confidence": "high",
+      "reviewStatus": "draft",
+      "demo": false
+    },
+    {
+      "id": "CP-011",
+      "pairId": "A3-A4",
+      "left": {
+        "x": 415.02231092338116,
+        "y": 4619.2785409709895
+      },
+      "right": {
+        "x": 267.5524314053091,
+        "y": 825.6554013472434
+      },
+      "leftPhoto": "A3.jpg",
+      "rightPhoto": "A4.jpg",
+      "leftDimensions": {
+        "width": 6120,
+        "height": 6404
+      },
+      "rightDimensions": {
+        "width": 6120,
+        "height": 8160
+      },
+      "leftExifOrientation": 0,
+      "rightExifOrientation": 1,
+      "description": "station 69",
+      "reviewer": "",
+      "confidence": "high",
+      "reviewStatus": "draft",
+      "demo": false
+    }
+  ]
+}

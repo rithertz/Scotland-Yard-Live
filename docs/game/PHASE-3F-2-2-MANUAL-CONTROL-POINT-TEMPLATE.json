@@ -1,0 +1,29 @@
+{
+  "phase": "3F.2.2",
+  "purpose": "Human-annotated cross-photo control points for registration review",
+  "instructions": "Only record a point when the same physical landmark is clearly visible in both photographs. Do not use station IDs unless the printed marker itself is the landmark and its identity is independently readable.",
+  "points": [
+    {
+      "control_point_id": "CP-001",
+      "landmark_description": "",
+      "landmark_class": "building|road_junction|river_edge|bridge|station_marker|other",
+      "source_observations": [
+        {
+          "photo": "A1.jpg",
+          "pixel_x": null,
+          "pixel_y": null,
+          "annotation_confidence": "unreviewed"
+        },
+        {
+          "photo": "A2.jpg",
+          "pixel_x": null,
+          "pixel_y": null,
+          "annotation_confidence": "unreviewed"
+        }
+      ],
+      "same_physical_landmark_confirmed": false,
+      "reviewer": "",
+      "notes": ""
+    }
+  ]
+}
