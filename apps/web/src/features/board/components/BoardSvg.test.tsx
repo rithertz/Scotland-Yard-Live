@@ -1,11 +1,22 @@
 import { renderToStaticMarkup } from 'react-dom/server';
 import { describe, expect, it } from 'vitest';
-import { DEFAULT_BOARD_TRANSFORM, panBoardTransform, zoomBoardTransform } from '../board-transform.js';
+import {
+  DEFAULT_BOARD_TRANSFORM,
+  panBoardTransform,
+  zoomBoardTransform,
+} from '../board-transform.js';
 import { RECONSTRUCTED_BOARD } from '../data/reconstructed-board-data.js';
 import { BoardSvg } from './BoardSvg.js';
 
 function renderBoard(selectedId: number | null = null, transform = DEFAULT_BOARD_TRANSFORM) {
-  return renderToStaticMarkup(<BoardSvg board={RECONSTRUCTED_BOARD} view={transform} selectedId={selectedId} onSelect={() => undefined} />);
+  return renderToStaticMarkup(
+    <BoardSvg
+      board={RECONSTRUCTED_BOARD}
+      view={transform}
+      selectedId={selectedId}
+      onSelect={() => undefined}
+    />,
+  );
 }
 
 function markerIds(markup: string): number[] {
@@ -21,7 +32,11 @@ describe('rendered provisional board SVG', () => {
   });
 
   it('keeps every marker after selection and shared transform changes', () => {
-    const transformed = panBoardTransform(zoomBoardTransform(DEFAULT_BOARD_TRANSFORM, 1.6), 42, -18);
+    const transformed = panBoardTransform(
+      zoomBoardTransform(DEFAULT_BOARD_TRANSFORM, 1.6),
+      42,
+      -18,
+    );
     const markup = renderBoard(100, transformed);
     expect(markerIds(markup)).toHaveLength(199);
     expect(markup).toContain('data-board-surface="true"');

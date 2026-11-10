@@ -35,14 +35,7 @@
       "note": "invalid out-of-bounds source quadrilateral detected before Phase 3E.2A.1 repair"
     }
   ],
-  "repairedRecords": [
-    "ST-051",
-    "ST-097",
-    "ST-098",
-    "ST-101",
-    "ST-120",
-    "ST-162"
-  ],
+  "repairedRecords": ["ST-051", "ST-097", "ST-098", "ST-101", "ST-120", "ST-162"],
   "remainingWarnings": [
     {
       "stationId": 1,

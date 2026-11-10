@@ -6,10 +6,7 @@
       "reviewTargetId": "ST-001",
       "stationId": 1,
       "primaryCropId": "ST-001",
-      "incidentExistingCandidateIds": [
-        "E-001",
-        "E-032"
-      ],
+      "incidentExistingCandidateIds": ["E-001", "E-032"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "verified-from-physical-board",
@@ -21,10 +18,7 @@
       "reviewTargetId": "ST-002",
       "stationId": 2,
       "primaryCropId": "ST-002",
-      "incidentExistingCandidateIds": [
-        "E-002",
-        "E-003"
-      ],
+      "incidentExistingCandidateIds": ["E-002", "E-003"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -36,11 +30,7 @@
       "reviewTargetId": "ST-003",
       "stationId": 3,
       "primaryCropId": "ST-003",
-      "incidentExistingCandidateIds": [
-        "E-004",
-        "E-022",
-        "E-023"
-      ],
+      "incidentExistingCandidateIds": ["E-004", "E-022", "E-023"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -52,10 +42,7 @@
       "reviewTargetId": "ST-004",
       "stationId": 4,
       "primaryCropId": "ST-004",
-      "incidentExistingCandidateIds": [
-        "E-004",
-        "E-005"
-      ],
+      "incidentExistingCandidateIds": ["E-004", "E-005"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -67,9 +54,7 @@
       "reviewTargetId": "ST-005",
       "stationId": 5,
       "primaryCropId": "ST-005",
-      "incidentExistingCandidateIds": [
-        "E-006"
-      ],
+      "incidentExistingCandidateIds": ["E-006"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -81,9 +66,7 @@
       "reviewTargetId": "ST-006",
       "stationId": 6,
       "primaryCropId": "ST-006",
-      "incidentExistingCandidateIds": [
-        "E-007"
-      ],
+      "incidentExistingCandidateIds": ["E-007"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -95,11 +78,7 @@
       "reviewTargetId": "ST-007",
       "stationId": 7,
       "primaryCropId": "ST-007",
-      "incidentExistingCandidateIds": [
-        "E-007",
-        "E-008",
-        "E-024"
-      ],
+      "incidentExistingCandidateIds": ["E-007", "E-008", "E-024"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -111,10 +90,7 @@
       "reviewTargetId": "ST-008",
       "stationId": 8,
       "primaryCropId": "ST-008",
-      "incidentExistingCandidateIds": [
-        "E-001",
-        "E-009"
-      ],
+      "incidentExistingCandidateIds": ["E-001", "E-009"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -126,9 +102,7 @@
       "reviewTargetId": "ST-009",
       "stationId": 9,
       "primaryCropId": "ST-009",
-      "incidentExistingCandidateIds": [
-        "E-010"
-      ],
+      "incidentExistingCandidateIds": ["E-010"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -140,10 +114,7 @@
       "reviewTargetId": "ST-010",
       "stationId": 10,
       "primaryCropId": "ST-010",
-      "incidentExistingCandidateIds": [
-        "E-002",
-        "E-011"
-      ],
+      "incidentExistingCandidateIds": ["E-002", "E-011"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -155,12 +126,7 @@
       "reviewTargetId": "ST-011",
       "stationId": 11,
       "primaryCropId": "ST-011",
-      "incidentExistingCandidateIds": [
-        "E-011",
-        "E-012",
-        "E-022",
-        "E-025"
-      ],
+      "incidentExistingCandidateIds": ["E-011", "E-012", "E-022", "E-025"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -172,10 +138,7 @@
       "reviewTargetId": "ST-012",
       "stationId": 12,
       "primaryCropId": "ST-012",
-      "incidentExistingCandidateIds": [
-        "E-013",
-        "E-023"
-      ],
+      "incidentExistingCandidateIds": ["E-013", "E-023"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -187,14 +150,7 @@
       "reviewTargetId": "ST-013",
       "stationId": 13,
       "primaryCropId": "ST-013",
-      "incidentExistingCandidateIds": [
-        "E-005",
-        "E-014",
-        "E-026",
-        "E-033",
-        "E-034",
-        "E-035"
-      ],
+      "incidentExistingCandidateIds": ["E-005", "E-014", "E-026", "E-033", "E-034", "E-035"],
       "boundaryCrop": true,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -206,12 +162,7 @@
       "reviewTargetId": "ST-014",
       "stationId": 14,
       "primaryCropId": "ST-014",
-      "incidentExistingCandidateIds": [
-        "E-014",
-        "E-015",
-        "E-026",
-        "E-027"
-      ],
+      "incidentExistingCandidateIds": ["E-014", "E-015", "E-026", "E-027"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -223,14 +174,7 @@
       "reviewTargetId": "ST-015",
       "stationId": 15,
       "primaryCropId": "ST-015",
-      "incidentExistingCandidateIds": [
-        "E-006",
-        "E-015",
-        "E-016",
-        "E-027",
-        "E-028",
-        "E-029"
-      ],
+      "incidentExistingCandidateIds": ["E-006", "E-015", "E-016", "E-027", "E-028", "E-029"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -242,10 +186,7 @@
       "reviewTargetId": "ST-016",
       "stationId": 16,
       "primaryCropId": "ST-016",
-      "incidentExistingCandidateIds": [
-        "E-016",
-        "E-017"
-      ],
+      "incidentExistingCandidateIds": ["E-016", "E-017"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -257,10 +198,7 @@
       "reviewTargetId": "ST-017",
       "stationId": 17,
       "primaryCropId": "ST-017",
-      "incidentExistingCandidateIds": [
-        "E-008",
-        "E-018"
-      ],
+      "incidentExistingCandidateIds": ["E-008", "E-018"],
       "boundaryCrop": true,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -272,10 +210,7 @@
       "reviewTargetId": "ST-018",
       "stationId": 18,
       "primaryCropId": "ST-018",
-      "incidentExistingCandidateIds": [
-        "E-009",
-        "E-019"
-      ],
+      "incidentExistingCandidateIds": ["E-009", "E-019"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -287,9 +222,7 @@
       "reviewTargetId": "ST-019",
       "stationId": 19,
       "primaryCropId": "ST-019",
-      "incidentExistingCandidateIds": [
-        "E-020"
-      ],
+      "incidentExistingCandidateIds": ["E-020"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -301,11 +234,7 @@
       "reviewTargetId": "ST-020",
       "stationId": 20,
       "primaryCropId": "ST-020",
-      "incidentExistingCandidateIds": [
-        "E-003",
-        "E-010",
-        "E-021"
-      ],
+      "incidentExistingCandidateIds": ["E-003", "E-010", "E-021"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -329,12 +258,7 @@
       "reviewTargetId": "ST-022",
       "stationId": 22,
       "primaryCropId": "ST-022",
-      "incidentExistingCandidateIds": [
-        "E-012",
-        "E-025",
-        "E-030",
-        "E-031"
-      ],
+      "incidentExistingCandidateIds": ["E-012", "E-025", "E-030", "E-031"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -346,10 +270,7 @@
       "reviewTargetId": "ST-023",
       "stationId": 23,
       "primaryCropId": "ST-023",
-      "incidentExistingCandidateIds": [
-        "E-013",
-        "E-030"
-      ],
+      "incidentExistingCandidateIds": ["E-013", "E-030"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -421,10 +342,7 @@
       "reviewTargetId": "ST-029",
       "stationId": 29,
       "primaryCropId": "ST-029",
-      "incidentExistingCandidateIds": [
-        "E-017",
-        "E-028"
-      ],
+      "incidentExistingCandidateIds": ["E-017", "E-028"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -436,9 +354,7 @@
       "reviewTargetId": "ST-030",
       "stationId": 30,
       "primaryCropId": "ST-030",
-      "incidentExistingCandidateIds": [
-        "E-018"
-      ],
+      "incidentExistingCandidateIds": ["E-018"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -450,9 +366,7 @@
       "reviewTargetId": "ST-031",
       "stationId": 31,
       "primaryCropId": "ST-031",
-      "incidentExistingCandidateIds": [
-        "E-019"
-      ],
+      "incidentExistingCandidateIds": ["E-019"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -464,9 +378,7 @@
       "reviewTargetId": "ST-032",
       "stationId": 32,
       "primaryCropId": "ST-032",
-      "incidentExistingCandidateIds": [
-        "E-020"
-      ],
+      "incidentExistingCandidateIds": ["E-020"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -478,9 +390,7 @@
       "reviewTargetId": "ST-033",
       "stationId": 33,
       "primaryCropId": "ST-033",
-      "incidentExistingCandidateIds": [
-        "E-021"
-      ],
+      "incidentExistingCandidateIds": ["E-021"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -492,9 +402,7 @@
       "reviewTargetId": "ST-034",
       "stationId": 34,
       "primaryCropId": "ST-034",
-      "incidentExistingCandidateIds": [
-        "E-031"
-      ],
+      "incidentExistingCandidateIds": ["E-031"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -578,9 +486,7 @@
       "reviewTargetId": "ST-041",
       "stationId": 41,
       "primaryCropId": "ST-041",
-      "incidentExistingCandidateIds": [
-        "E-029"
-      ],
+      "incidentExistingCandidateIds": ["E-029"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -592,9 +498,7 @@
       "reviewTargetId": "ST-042",
       "stationId": 42,
       "primaryCropId": "ST-042",
-      "incidentExistingCandidateIds": [
-        "E-024"
-      ],
+      "incidentExistingCandidateIds": ["E-024"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -642,13 +546,7 @@
       "reviewTargetId": "ST-046",
       "stationId": 46,
       "primaryCropId": "ST-046",
-      "incidentExistingCandidateIds": [
-        "E-032",
-        "E-033",
-        "E-036",
-        "E-037",
-        "E-117"
-      ],
+      "incidentExistingCandidateIds": ["E-032", "E-033", "E-036", "E-037", "E-117"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -900,12 +798,7 @@
       "reviewTargetId": "ST-067",
       "stationId": 67,
       "primaryCropId": "ST-067",
-      "incidentExistingCandidateIds": [
-        "E-034",
-        "E-038",
-        "E-039",
-        "E-118"
-      ],
+      "incidentExistingCandidateIds": ["E-034", "E-038", "E-039", "E-118"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -989,9 +882,7 @@
       "reviewTargetId": "ST-074",
       "stationId": 74,
       "primaryCropId": "ST-074",
-      "incidentExistingCandidateIds": [
-        "E-036"
-      ],
+      "incidentExistingCandidateIds": ["E-036"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1051,13 +942,7 @@
       "reviewTargetId": "ST-079",
       "stationId": 79,
       "primaryCropId": "ST-079",
-      "incidentExistingCandidateIds": [
-        "E-037",
-        "E-038",
-        "E-040",
-        "E-041",
-        "E-119"
-      ],
+      "incidentExistingCandidateIds": ["E-037", "E-038", "E-040", "E-041", "E-119"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1093,9 +978,7 @@
       "reviewTargetId": "ST-082",
       "stationId": 82,
       "primaryCropId": "ST-082",
-      "incidentExistingCandidateIds": [
-        "E-120"
-      ],
+      "incidentExistingCandidateIds": ["E-120"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1179,11 +1062,7 @@
       "reviewTargetId": "ST-089",
       "stationId": 89,
       "primaryCropId": "ST-089",
-      "incidentExistingCandidateIds": [
-        "E-035",
-        "E-039",
-        "E-121"
-      ],
+      "incidentExistingCandidateIds": ["E-035", "E-039", "E-121"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1231,9 +1110,7 @@
       "reviewTargetId": "ST-093",
       "stationId": 93,
       "primaryCropId": "ST-093",
-      "incidentExistingCandidateIds": [
-        "E-040"
-      ],
+      "incidentExistingCandidateIds": ["E-040"],
       "boundaryCrop": true,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1317,9 +1194,7 @@
       "reviewTargetId": "ST-100",
       "stationId": 100,
       "primaryCropId": "ST-100",
-      "incidentExistingCandidateIds": [
-        "E-041"
-      ],
+      "incidentExistingCandidateIds": ["E-041"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1331,11 +1206,7 @@
       "reviewTargetId": "ST-101",
       "stationId": 101,
       "primaryCropId": "ST-101",
-      "incidentExistingCandidateIds": [
-        "E-042",
-        "E-117",
-        "E-120"
-      ],
+      "incidentExistingCandidateIds": ["E-042", "E-117", "E-120"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1347,12 +1218,7 @@
       "reviewTargetId": "ST-102",
       "stationId": 102,
       "primaryCropId": "ST-102",
-      "incidentExistingCandidateIds": [
-        "E-042",
-        "E-043",
-        "E-087",
-        "E-118"
-      ],
+      "incidentExistingCandidateIds": ["E-042", "E-043", "E-087", "E-118"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1364,9 +1230,7 @@
       "reviewTargetId": "ST-103",
       "stationId": 103,
       "primaryCropId": "ST-103",
-      "incidentExistingCandidateIds": [
-        "E-044"
-      ],
+      "incidentExistingCandidateIds": ["E-044"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1378,10 +1242,7 @@
       "reviewTargetId": "ST-104",
       "stationId": 104,
       "primaryCropId": "ST-104",
-      "incidentExistingCandidateIds": [
-        "E-044",
-        "E-107"
-      ],
+      "incidentExistingCandidateIds": ["E-044", "E-107"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1393,13 +1254,7 @@
       "reviewTargetId": "ST-105",
       "stationId": 105,
       "primaryCropId": "ST-105",
-      "incidentExistingCandidateIds": [
-        "E-045",
-        "E-046",
-        "E-088",
-        "E-089",
-        "E-108"
-      ],
+      "incidentExistingCandidateIds": ["E-045", "E-046", "E-088", "E-089", "E-108"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1411,10 +1266,7 @@
       "reviewTargetId": "ST-106",
       "stationId": 106,
       "primaryCropId": "ST-106",
-      "incidentExistingCandidateIds": [
-        "E-045",
-        "E-047"
-      ],
+      "incidentExistingCandidateIds": ["E-045", "E-047"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1426,13 +1278,7 @@
       "reviewTargetId": "ST-107",
       "stationId": 107,
       "primaryCropId": "ST-107",
-      "incidentExistingCandidateIds": [
-        "E-046",
-        "E-047",
-        "E-048",
-        "E-088",
-        "E-090"
-      ],
+      "incidentExistingCandidateIds": ["E-046", "E-047", "E-048", "E-088", "E-090"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1444,13 +1290,7 @@
       "reviewTargetId": "ST-108",
       "stationId": 108,
       "primaryCropId": "ST-108",
-      "incidentExistingCandidateIds": [
-        "E-048",
-        "E-089",
-        "E-091",
-        "E-108",
-        "E-122"
-      ],
+      "incidentExistingCandidateIds": ["E-048", "E-089", "E-091", "E-108", "E-122"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1462,10 +1302,7 @@
       "reviewTargetId": "ST-109",
       "stationId": 109,
       "primaryCropId": "ST-109",
-      "incidentExistingCandidateIds": [
-        "E-049",
-        "E-092"
-      ],
+      "incidentExistingCandidateIds": ["E-049", "E-092"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1477,11 +1314,7 @@
       "reviewTargetId": "ST-110",
       "stationId": 110,
       "primaryCropId": "ST-110",
-      "incidentExistingCandidateIds": [
-        "E-049",
-        "E-050",
-        "E-119"
-      ],
+      "incidentExistingCandidateIds": ["E-049", "E-050", "E-119"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1493,13 +1326,7 @@
       "reviewTargetId": "ST-111",
       "stationId": 111,
       "primaryCropId": "ST-111",
-      "incidentExistingCandidateIds": [
-        "E-050",
-        "E-051",
-        "E-093",
-        "E-109",
-        "E-110"
-      ],
+      "incidentExistingCandidateIds": ["E-050", "E-051", "E-093", "E-109", "E-110"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1511,10 +1338,7 @@
       "reviewTargetId": "ST-112",
       "stationId": 112,
       "primaryCropId": "ST-112",
-      "incidentExistingCandidateIds": [
-        "E-051",
-        "E-052"
-      ],
+      "incidentExistingCandidateIds": ["E-051", "E-052"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1526,10 +1350,7 @@
       "reviewTargetId": "ST-113",
       "stationId": 113,
       "primaryCropId": "ST-113",
-      "incidentExistingCandidateIds": [
-        "E-052",
-        "E-053"
-      ],
+      "incidentExistingCandidateIds": ["E-052", "E-053"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1541,10 +1362,7 @@
       "reviewTargetId": "ST-114",
       "stationId": 114,
       "primaryCropId": "ST-114",
-      "incidentExistingCandidateIds": [
-        "E-053",
-        "E-054"
-      ],
+      "incidentExistingCandidateIds": ["E-053", "E-054"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1577,13 +1395,7 @@
       "reviewTargetId": "ST-116",
       "stationId": 116,
       "primaryCropId": "ST-116",
-      "incidentExistingCandidateIds": [
-        "E-055",
-        "E-056",
-        "E-091",
-        "E-094",
-        "E-095"
-      ],
+      "incidentExistingCandidateIds": ["E-055", "E-056", "E-091", "E-094", "E-095"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1595,10 +1407,7 @@
       "reviewTargetId": "ST-117",
       "stationId": 117,
       "primaryCropId": "ST-117",
-      "incidentExistingCandidateIds": [
-        "E-056",
-        "E-057"
-      ],
+      "incidentExistingCandidateIds": ["E-056", "E-057"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1610,12 +1419,7 @@
       "reviewTargetId": "ST-118",
       "stationId": 118,
       "primaryCropId": "ST-118",
-      "incidentExistingCandidateIds": [
-        "E-057",
-        "E-058",
-        "E-121",
-        "E-123"
-      ],
+      "incidentExistingCandidateIds": ["E-057", "E-058", "E-121", "E-123"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1627,9 +1431,7 @@
       "reviewTargetId": "ST-119",
       "stationId": 119,
       "primaryCropId": "ST-119",
-      "incidentExistingCandidateIds": [
-        "E-058"
-      ],
+      "incidentExistingCandidateIds": ["E-058"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1665,9 +1467,7 @@
       "reviewTargetId": "ST-122",
       "stationId": 122,
       "primaryCropId": "ST-122",
-      "incidentExistingCandidateIds": [
-        "E-096"
-      ],
+      "incidentExistingCandidateIds": ["E-096"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1679,12 +1479,7 @@
       "reviewTargetId": "ST-123",
       "stationId": 123,
       "primaryCropId": "ST-123",
-      "incidentExistingCandidateIds": [
-        "E-096",
-        "E-097",
-        "E-098",
-        "E-099"
-      ],
+      "incidentExistingCandidateIds": ["E-096", "E-097", "E-098", "E-099"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1696,12 +1491,7 @@
       "reviewTargetId": "ST-124",
       "stationId": 124,
       "primaryCropId": "ST-124",
-      "incidentExistingCandidateIds": [
-        "E-092",
-        "E-093",
-        "E-097",
-        "E-100"
-      ],
+      "incidentExistingCandidateIds": ["E-092", "E-093", "E-097", "E-100"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1737,11 +1527,7 @@
       "reviewTargetId": "ST-127",
       "stationId": 127,
       "primaryCropId": "ST-127",
-      "incidentExistingCandidateIds": [
-        "E-059",
-        "E-094",
-        "E-101"
-      ],
+      "incidentExistingCandidateIds": ["E-059", "E-094", "E-101"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -1753,13 +1539,7 @@
       "reviewTargetId": "ST-128",
       "stationId": 128,
       "primaryCropId": "ST-128",
-      "incidentExistingCandidateIds": [
-        "E-060",
-        "E-102",
-        "E-103",
-        "E-111",
-        "E-112"
-      ],
+      "incidentExistingCandidateIds": ["E-060", "E-102", "E-103", "E-111", "E-112"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1771,9 +1551,7 @@
       "reviewTargetId": "ST-129",
       "stationId": 129,
       "primaryCropId": "ST-129",
-      "incidentExistingCandidateIds": [
-        "E-061"
-      ],
+      "incidentExistingCandidateIds": ["E-061"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1785,9 +1563,7 @@
       "reviewTargetId": "ST-130",
       "stationId": 130,
       "primaryCropId": "ST-130",
-      "incidentExistingCandidateIds": [
-        "E-061"
-      ],
+      "incidentExistingCandidateIds": ["E-061"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1823,12 +1599,7 @@
       "reviewTargetId": "ST-133",
       "stationId": 133,
       "primaryCropId": "ST-133",
-      "incidentExistingCandidateIds": [
-        "E-059",
-        "E-062",
-        "E-101",
-        "E-104"
-      ],
+      "incidentExistingCandidateIds": ["E-059", "E-062", "E-101", "E-104"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1852,9 +1623,7 @@
       "reviewTargetId": "ST-135",
       "stationId": 135,
       "primaryCropId": "ST-135",
-      "incidentExistingCandidateIds": [
-        "E-060"
-      ],
+      "incidentExistingCandidateIds": ["E-060"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1914,14 +1683,7 @@
       "reviewTargetId": "ST-140",
       "stationId": 140,
       "primaryCropId": "ST-140",
-      "incidentExistingCandidateIds": [
-        "E-062",
-        "E-063",
-        "E-104",
-        "E-105",
-        "E-111",
-        "E-113"
-      ],
+      "incidentExistingCandidateIds": ["E-062", "E-063", "E-104", "E-105", "E-111", "E-113"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1945,10 +1707,7 @@
       "reviewTargetId": "ST-142",
       "stationId": 142,
       "primaryCropId": "ST-142",
-      "incidentExistingCandidateIds": [
-        "E-095",
-        "E-102"
-      ],
+      "incidentExistingCandidateIds": ["E-095", "E-102"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -1972,9 +1731,7 @@
       "reviewTargetId": "ST-144",
       "stationId": 144,
       "primaryCropId": "ST-144",
-      "incidentExistingCandidateIds": [
-        "E-098"
-      ],
+      "incidentExistingCandidateIds": ["E-098"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2082,13 +1839,7 @@
       "reviewTargetId": "ST-153",
       "stationId": 153,
       "primaryCropId": "ST-153",
-      "incidentExistingCandidateIds": [
-        "E-100",
-        "E-109",
-        "E-113",
-        "E-114",
-        "E-115"
-      ],
+      "incidentExistingCandidateIds": ["E-100", "E-109", "E-113", "E-114", "E-115"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2100,10 +1851,7 @@
       "reviewTargetId": "ST-154",
       "stationId": 154,
       "primaryCropId": "ST-154",
-      "incidentExistingCandidateIds": [
-        "E-063",
-        "E-064"
-      ],
+      "incidentExistingCandidateIds": ["E-063", "E-064"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2115,10 +1863,7 @@
       "reviewTargetId": "ST-155",
       "stationId": 155,
       "primaryCropId": "ST-155",
-      "incidentExistingCandidateIds": [
-        "E-064",
-        "E-065"
-      ],
+      "incidentExistingCandidateIds": ["E-064", "E-065"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2130,12 +1875,7 @@
       "reviewTargetId": "ST-156",
       "stationId": 156,
       "primaryCropId": "ST-156",
-      "incidentExistingCandidateIds": [
-        "E-065",
-        "E-066",
-        "E-105",
-        "E-106"
-      ],
+      "incidentExistingCandidateIds": ["E-065", "E-066", "E-105", "E-106"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2147,13 +1887,7 @@
       "reviewTargetId": "ST-157",
       "stationId": 157,
       "primaryCropId": "ST-157",
-      "incidentExistingCandidateIds": [
-        "E-066",
-        "E-067",
-        "E-106",
-        "E-124",
-        "E-125"
-      ],
+      "incidentExistingCandidateIds": ["E-066", "E-067", "E-106", "E-124", "E-125"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2165,10 +1899,7 @@
       "reviewTargetId": "ST-158",
       "stationId": 158,
       "primaryCropId": "ST-158",
-      "incidentExistingCandidateIds": [
-        "E-067",
-        "E-068"
-      ],
+      "incidentExistingCandidateIds": ["E-067", "E-068"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2180,10 +1911,7 @@
       "reviewTargetId": "ST-159",
       "stationId": 159,
       "primaryCropId": "ST-159",
-      "incidentExistingCandidateIds": [
-        "E-068",
-        "E-069"
-      ],
+      "incidentExistingCandidateIds": ["E-068", "E-069"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2195,10 +1923,7 @@
       "reviewTargetId": "ST-160",
       "stationId": 160,
       "primaryCropId": "ST-160",
-      "incidentExistingCandidateIds": [
-        "E-069",
-        "E-070"
-      ],
+      "incidentExistingCandidateIds": ["E-069", "E-070"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2210,12 +1935,7 @@
       "reviewTargetId": "ST-161",
       "stationId": 161,
       "primaryCropId": "ST-161",
-      "incidentExistingCandidateIds": [
-        "E-070",
-        "E-071",
-        "E-090",
-        "E-103"
-      ],
+      "incidentExistingCandidateIds": ["E-070", "E-071", "E-090", "E-103"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -2227,10 +1947,7 @@
       "reviewTargetId": "ST-162",
       "stationId": 162,
       "primaryCropId": "ST-162",
-      "incidentExistingCandidateIds": [
-        "E-071",
-        "E-072"
-      ],
+      "incidentExistingCandidateIds": ["E-071", "E-072"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -2242,11 +1959,7 @@
       "reviewTargetId": "ST-163",
       "stationId": 163,
       "primaryCropId": "ST-163",
-      "incidentExistingCandidateIds": [
-        "E-073",
-        "E-110",
-        "E-114"
-      ],
+      "incidentExistingCandidateIds": ["E-073", "E-110", "E-114"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2258,10 +1971,7 @@
       "reviewTargetId": "ST-164",
       "stationId": 164,
       "primaryCropId": "ST-164",
-      "incidentExistingCandidateIds": [
-        "E-073",
-        "E-074"
-      ],
+      "incidentExistingCandidateIds": ["E-073", "E-074"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2273,11 +1983,7 @@
       "reviewTargetId": "ST-165",
       "stationId": 165,
       "primaryCropId": "ST-165",
-      "incidentExistingCandidateIds": [
-        "E-074",
-        "E-075",
-        "E-099"
-      ],
+      "incidentExistingCandidateIds": ["E-074", "E-075", "E-099"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2289,10 +1995,7 @@
       "reviewTargetId": "ST-166",
       "stationId": 166,
       "primaryCropId": "ST-166",
-      "incidentExistingCandidateIds": [
-        "E-075",
-        "E-076"
-      ],
+      "incidentExistingCandidateIds": ["E-075", "E-076"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2304,10 +2007,7 @@
       "reviewTargetId": "ST-167",
       "stationId": 167,
       "primaryCropId": "ST-167",
-      "incidentExistingCandidateIds": [
-        "E-076",
-        "E-077"
-      ],
+      "incidentExistingCandidateIds": ["E-076", "E-077"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -2319,10 +2019,7 @@
       "reviewTargetId": "ST-168",
       "stationId": 168,
       "primaryCropId": "ST-168",
-      "incidentExistingCandidateIds": [
-        "E-077",
-        "E-078"
-      ],
+      "incidentExistingCandidateIds": ["E-077", "E-078"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -2334,10 +2031,7 @@
       "reviewTargetId": "ST-169",
       "stationId": 169,
       "primaryCropId": "ST-169",
-      "incidentExistingCandidateIds": [
-        "E-078",
-        "E-079"
-      ],
+      "incidentExistingCandidateIds": ["E-078", "E-079"],
       "boundaryCrop": false,
       "foldAdjacent": true,
       "coordinateConfidence": "candidate-unverified",
@@ -2349,10 +2043,7 @@
       "reviewTargetId": "ST-170",
       "stationId": 170,
       "primaryCropId": "ST-170",
-      "incidentExistingCandidateIds": [
-        "E-079",
-        "E-080"
-      ],
+      "incidentExistingCandidateIds": ["E-079", "E-080"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2364,10 +2055,7 @@
       "reviewTargetId": "ST-171",
       "stationId": 171,
       "primaryCropId": "ST-171",
-      "incidentExistingCandidateIds": [
-        "E-080",
-        "E-081"
-      ],
+      "incidentExistingCandidateIds": ["E-080", "E-081"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2379,10 +2067,7 @@
       "reviewTargetId": "ST-172",
       "stationId": 172,
       "primaryCropId": "ST-172",
-      "incidentExistingCandidateIds": [
-        "E-081",
-        "E-082"
-      ],
+      "incidentExistingCandidateIds": ["E-081", "E-082"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2394,10 +2079,7 @@
       "reviewTargetId": "ST-173",
       "stationId": 173,
       "primaryCropId": "ST-173",
-      "incidentExistingCandidateIds": [
-        "E-082",
-        "E-083"
-      ],
+      "incidentExistingCandidateIds": ["E-082", "E-083"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2409,9 +2091,7 @@
       "reviewTargetId": "ST-174",
       "stationId": 174,
       "primaryCropId": "ST-174",
-      "incidentExistingCandidateIds": [
-        "E-072"
-      ],
+      "incidentExistingCandidateIds": ["E-072"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2423,9 +2103,7 @@
       "reviewTargetId": "ST-175",
       "stationId": 175,
       "primaryCropId": "ST-175",
-      "incidentExistingCandidateIds": [
-        "E-083"
-      ],
+      "incidentExistingCandidateIds": ["E-083"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2545,11 +2223,7 @@
       "reviewTargetId": "ST-185",
       "stationId": 185,
       "primaryCropId": "ST-185",
-      "incidentExistingCandidateIds": [
-        "E-112",
-        "E-115",
-        "E-116"
-      ],
+      "incidentExistingCandidateIds": ["E-112", "E-115", "E-116"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2573,10 +2247,7 @@
       "reviewTargetId": "ST-187",
       "stationId": 187,
       "primaryCropId": "ST-187",
-      "incidentExistingCandidateIds": [
-        "E-084",
-        "E-116"
-      ],
+      "incidentExistingCandidateIds": ["E-084", "E-116"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2588,10 +2259,7 @@
       "reviewTargetId": "ST-188",
       "stationId": 188,
       "primaryCropId": "ST-188",
-      "incidentExistingCandidateIds": [
-        "E-084",
-        "E-085"
-      ],
+      "incidentExistingCandidateIds": ["E-084", "E-085"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2663,9 +2331,7 @@
       "reviewTargetId": "ST-194",
       "stationId": 194,
       "primaryCropId": "ST-194",
-      "incidentExistingCandidateIds": [
-        "E-125"
-      ],
+      "incidentExistingCandidateIds": ["E-125"],
       "boundaryCrop": true,
       "foldAdjacent": false,
       "coordinateConfidence": "candidate-unverified",
@@ -2725,10 +2391,7 @@
       "reviewTargetId": "ST-199",
       "stationId": 199,
       "primaryCropId": "ST-199",
-      "incidentExistingCandidateIds": [
-        "E-085",
-        "E-086"
-      ],
+      "incidentExistingCandidateIds": ["E-085", "E-086"],
       "boundaryCrop": false,
       "foldAdjacent": false,
       "coordinateConfidence": "verified-from-physical-board",

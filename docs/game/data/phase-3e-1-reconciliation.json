@@ -10,10 +10,7 @@
       "exists": true,
       "readable": true,
       "sha256": "2B1B33BB430F57BD29F7EBE4BEB978BC662C9B5E56DFBFBC0F4D40C8F3264E33",
-      "dimensions": [
-        1280,
-        892
-      ],
+      "dimensions": [1280, 892],
       "relevant": true,
       "sufficient": false,
       "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -24,10 +21,7 @@
       "exists": true,
       "readable": true,
       "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-      "dimensions": [
-        925,
-        1280
-      ],
+      "dimensions": [925, 1280],
       "relevant": true,
       "sufficient": false,
       "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -38,10 +32,7 @@
       "exists": true,
       "readable": true,
       "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-      "dimensions": [
-        885,
-        1280
-      ],
+      "dimensions": [885, 1280],
       "relevant": true,
       "sufficient": false,
       "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -52,10 +43,7 @@
       "exists": true,
       "readable": true,
       "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-      "dimensions": [
-        914,
-        1280
-      ],
+      "dimensions": [914, 1280],
       "relevant": true,
       "sufficient": false,
       "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -66,10 +54,7 @@
       "exists": true,
       "readable": true,
       "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-      "dimensions": [
-        1080,
-        1499
-      ],
+      "dimensions": [1080, 1499],
       "relevant": true,
       "sufficient": false,
       "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -83,10 +68,7 @@
         "role": "original board reference",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          914,
-          1280
-        ],
+        "dimensions": [914, 1280],
         "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719"
       },
       {
@@ -95,10 +77,7 @@
         "role": "original board reference",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          1080,
-          1499
-        ],
+        "dimensions": [1080, 1499],
         "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1"
       },
       {
@@ -107,10 +86,7 @@
         "role": "original board reference",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          1280,
-          892
-        ],
+        "dimensions": [1280, 892],
         "sha256": "2B1B33BB430F57BD29F7EBE4BEB978BC662C9B5E56DFBFBC0F4D40C8F3264E33"
       },
       {
@@ -119,10 +95,7 @@
         "role": "original board reference",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          925,
-          1280
-        ],
+        "dimensions": [925, 1280],
         "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC"
       },
       {
@@ -131,10 +104,7 @@
         "role": "original board reference",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          885,
-          1280
-        ],
+        "dimensions": [885, 1280],
         "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5"
       },
       {
@@ -143,10 +113,7 @@
         "role": "close-up board evidence",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          899,
-          1599
-        ],
+        "dimensions": [899, 1599],
         "sha256": "7488EE17DC1F109DBE23AADB0FE7244EBD2767CA809975C74DBB173DA2D29A79"
       },
       {
@@ -155,10 +122,7 @@
         "role": "close-up board evidence",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          899,
-          1599
-        ],
+        "dimensions": [899, 1599],
         "sha256": "2F96BAEC3BD316203B34E84017EA3F09D40903F08EA3E449B0DC6483DDF9C99E"
       },
       {
@@ -167,10 +131,7 @@
         "role": "close-up board evidence",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          899,
-          1599
-        ],
+        "dimensions": [899, 1599],
         "sha256": "704D09341D619ABB81B06041E36BEEA93BA8B64A63D6A3D8CDDEEB50D3C76670"
       },
       {
@@ -179,10 +140,7 @@
         "role": "close-up board evidence",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          899,
-          1599
-        ],
+        "dimensions": [899, 1599],
         "sha256": "B7DBE1511115278088C055CC53D1E84D137E5301B6EFAD7740FAD0D37E574593"
       },
       {
@@ -191,10 +149,7 @@
         "role": "close-up board evidence",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          899,
-          1599
-        ],
+        "dimensions": [899, 1599],
         "sha256": "FD342074E2A404215977F58225876888E4998C1ED73736F44E977D2628D3FDE4"
       },
       {
@@ -203,10 +158,7 @@
         "role": "close-up board evidence",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          899,
-          1599
-        ],
+        "dimensions": [899, 1599],
         "sha256": "CA4570CC9F5FA65651D13B6665C8EFC091C64C50F766DDF96BD0E3C8D8532148"
       },
       {
@@ -215,10 +167,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          6120,
-          8160
-        ],
+        "dimensions": [6120, 8160],
         "sha256": "CB6426A22921588DF2F170C160A599C84F57B78FBF3A435AC0028D17D6F75E5B"
       },
       {
@@ -227,10 +176,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          5844,
-          6628
-        ],
+        "dimensions": [5844, 6628],
         "sha256": "E81E764A6CBB894A3367C09A095F0A4E32509475B95BE763A7874B8B6D1AFEB7"
       },
       {
@@ -239,10 +185,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          6120,
-          6404
-        ],
+        "dimensions": [6120, 6404],
         "sha256": "C8A7580E7AC16E83A4694848E68B380843D4F08BADC1A7619FDA265E3FD8E2C0"
       },
       {
@@ -251,10 +194,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          6120,
-          8160
-        ],
+        "dimensions": [6120, 8160],
         "sha256": "3DC36D60236EB37DBD9F3103D25D97E3CFE690F7920264F90AD2D81B59834B2A"
       },
       {
@@ -263,10 +203,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          5240,
-          6772
-        ],
+        "dimensions": [5240, 6772],
         "sha256": "031670FD1B5C743F6CB3F0693D47ECA1A365637D4E4C565AC3090814E23DCC05"
       },
       {
@@ -275,10 +212,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          6120,
-          8160
-        ],
+        "dimensions": [6120, 8160],
         "sha256": "5CAED216C25600CFF33331CCAD145551E45BD1BC340DACB27193EFB90AE86875"
       },
       {
@@ -287,10 +221,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          6120,
-          8160
-        ],
+        "dimensions": [6120, 8160],
         "sha256": "F77C1EA165D1344C19D0A30BB6C2AAA7C61117CDE49552B068E8ACD214D092A6"
       },
       {
@@ -299,10 +230,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          6120,
-          8160
-        ],
+        "dimensions": [6120, 8160],
         "sha256": "9DD578EFF2C3E64E85C81FFE1D819DF1C92A208B759BF75F2146C38C7832638F"
       },
       {
@@ -311,10 +239,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          6120,
-          8160
-        ],
+        "dimensions": [6120, 8160],
         "sha256": "6858A48D2CCCDF1C7A953EC64D20662C042E7E137F2380F8005BBC24DE95E4E2"
       },
       {
@@ -323,10 +248,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          6120,
-          8160
-        ],
+        "dimensions": [6120, 8160],
         "sha256": "56E4CEE058A1A6C261E161FF57CD660EE2E14F8A154BE8742825B60E595C4804"
       },
       {
@@ -335,10 +257,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          5420,
-          8160
-        ],
+        "dimensions": [5420, 8160],
         "sha256": "6B6728FE8ED9F389C5775F57DE6B96D14FAC29C04A16023E89CF86B9D749A45A"
       },
       {
@@ -347,10 +266,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          5704,
-          8160
-        ],
+        "dimensions": [5704, 8160],
         "sha256": "5932F92B59D495D3C6140541A5BDA6A9185CC585F0ACB213074B2DF8525FFE76"
       },
       {
@@ -359,10 +275,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          6120,
-          8160
-        ],
+        "dimensions": [6120, 8160],
         "sha256": "9F17CDF39CA64FD96648F92DA95304D9443C9934FD721C18A1239B97F6D42CDE"
       },
       {
@@ -371,10 +284,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          6120,
-          8160
-        ],
+        "dimensions": [6120, 8160],
         "sha256": "16B94E5400343221A54B511AD83CF06F4D08DE369E4847DE76083528026D579D"
       },
       {
@@ -383,10 +293,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          5312,
-          8160
-        ],
+        "dimensions": [5312, 8160],
         "sha256": "0C1B04091C4530EDDFAA62F75A30EEDA31CC9946E236247A7919269E3C9898E8"
       },
       {
@@ -395,10 +302,7 @@
         "role": "high-resolution board tile",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          6120,
-          8160
-        ],
+        "dimensions": [6120, 8160],
         "sha256": "7C3515243AD363344971176C3491FE5DB2319BA9E5BF4D6BBAB0AB4FD5A3C000"
       }
     ],
@@ -409,10 +313,7 @@
         "role": "derived registered board image",
         "exists": true,
         "readable": true,
-        "dimensions": [
-          1350,
-          1000
-        ]
+        "dimensions": [1350, 1000]
       }
     ],
     "rulebook": {
@@ -482,10 +383,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -523,10 +421,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -564,10 +459,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -605,10 +497,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -646,10 +535,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -687,10 +573,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -728,10 +611,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -769,10 +649,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -810,10 +687,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -851,10 +725,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -892,10 +763,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -933,10 +801,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -974,10 +839,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1015,10 +877,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1056,10 +915,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1097,10 +953,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1138,10 +991,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1179,10 +1029,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1220,10 +1067,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1261,10 +1105,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1302,10 +1143,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1343,10 +1181,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1384,10 +1219,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1425,10 +1257,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1466,10 +1295,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1507,10 +1333,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1548,10 +1371,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1589,10 +1409,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1630,10 +1447,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1671,10 +1485,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1712,10 +1523,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1753,10 +1561,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1794,10 +1599,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1835,10 +1637,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1876,10 +1675,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1917,10 +1713,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1958,10 +1751,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -1999,10 +1789,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2040,10 +1827,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2081,10 +1865,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2122,10 +1903,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2163,10 +1941,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2204,10 +1979,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2245,10 +2017,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2286,10 +2055,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2327,10 +2093,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2368,10 +2131,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2409,10 +2169,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2450,10 +2207,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2491,10 +2245,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2532,10 +2283,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2573,10 +2321,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2614,10 +2359,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2655,10 +2397,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2696,10 +2435,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2737,10 +2473,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2778,10 +2511,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2819,10 +2549,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2860,10 +2587,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2901,10 +2625,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2942,10 +2663,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -2983,10 +2701,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3024,10 +2739,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3065,10 +2777,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3106,10 +2815,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3147,10 +2853,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3188,10 +2891,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3229,10 +2929,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3270,10 +2967,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3311,10 +3005,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3352,10 +3043,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3393,10 +3081,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3434,10 +3119,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3475,10 +3157,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3516,10 +3195,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3557,10 +3233,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3598,10 +3271,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3639,10 +3309,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3680,10 +3347,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3721,10 +3385,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3762,10 +3423,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3803,10 +3461,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3844,10 +3499,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3885,10 +3537,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3926,10 +3575,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -3967,10 +3613,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4008,10 +3651,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4049,10 +3689,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4090,10 +3727,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4131,10 +3765,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4172,10 +3803,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4213,10 +3841,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4254,10 +3879,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4295,10 +3917,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4336,10 +3955,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4377,10 +3993,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4418,10 +4031,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4459,10 +4069,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4500,10 +4107,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4541,10 +4145,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4582,10 +4183,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4623,10 +4221,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4664,10 +4259,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4705,10 +4297,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4746,10 +4335,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4787,10 +4373,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4828,10 +4411,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4869,10 +4449,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4910,10 +4487,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4951,10 +4525,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -4992,10 +4563,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5033,10 +4601,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5074,10 +4639,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5115,10 +4677,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5156,10 +4715,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5197,10 +4753,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5242,10 +4795,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5256,10 +4806,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5297,10 +4844,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5342,10 +4886,7 @@
           "exists": true,
           "readable": true,
           "sha256": "CF2CA9C1F12AAB41A9B1FA86C9959CE4BE1345442708D8D53C106C7605B68FAC",
-          "dimensions": [
-            925,
-            1280
-          ],
+          "dimensions": [925, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5356,10 +4897,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5397,10 +4935,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5442,10 +4977,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5456,10 +4988,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5501,10 +5030,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5515,10 +5041,7 @@
           "exists": true,
           "readable": true,
           "sha256": "2B1B33BB430F57BD29F7EBE4BEB978BC662C9B5E56DFBFBC0F4D40C8F3264E33",
-          "dimensions": [
-            1280,
-            892
-          ],
+          "dimensions": [1280, 892],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5560,10 +5083,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5574,10 +5094,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5619,10 +5136,7 @@
           "exists": true,
           "readable": true,
           "sha256": "2B1B33BB430F57BD29F7EBE4BEB978BC662C9B5E56DFBFBC0F4D40C8F3264E33",
-          "dimensions": [
-            1280,
-            892
-          ],
+          "dimensions": [1280, 892],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5633,10 +5147,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5678,10 +5189,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5692,10 +5200,7 @@
           "exists": true,
           "readable": true,
           "sha256": "2B1B33BB430F57BD29F7EBE4BEB978BC662C9B5E56DFBFBC0F4D40C8F3264E33",
-          "dimensions": [
-            1280,
-            892
-          ],
+          "dimensions": [1280, 892],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5849,10 +5354,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5863,10 +5365,7 @@
           "exists": true,
           "readable": true,
           "sha256": "2B1B33BB430F57BD29F7EBE4BEB978BC662C9B5E56DFBFBC0F4D40C8F3264E33",
-          "dimensions": [
-            1280,
-            892
-          ],
+          "dimensions": [1280, 892],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5908,10 +5407,7 @@
           "exists": true,
           "readable": true,
           "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-          "dimensions": [
-            885,
-            1280
-          ],
+          "dimensions": [885, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5922,10 +5418,7 @@
           "exists": true,
           "readable": true,
           "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-          "dimensions": [
-            1080,
-            1499
-          ],
+          "dimensions": [1080, 1499],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5967,10 +5460,7 @@
           "exists": true,
           "readable": true,
           "sha256": "2B1B33BB430F57BD29F7EBE4BEB978BC662C9B5E56DFBFBC0F4D40C8F3264E33",
-          "dimensions": [
-            1280,
-            892
-          ],
+          "dimensions": [1280, 892],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -5981,10 +5471,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -6026,10 +5513,7 @@
           "exists": true,
           "readable": true,
           "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-          "dimensions": [
-            914,
-            1280
-          ],
+          "dimensions": [914, 1280],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -6040,10 +5524,7 @@
           "exists": true,
           "readable": true,
           "sha256": "2B1B33BB430F57BD29F7EBE4BEB978BC662C9B5E56DFBFBC0F4D40C8F3264E33",
-          "dimensions": [
-            1280,
-            892
-          ],
+          "dimensions": [1280, 892],
           "relevant": true,
           "sufficient": false,
           "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -6065,18 +5546,9 @@
     "rulebookPdfFound": false,
     "rulebookPage10Inspected": false,
     "documentedRulebookStatements": [
-      [
-        194,
-        157
-      ],
-      [
-        157,
-        115
-      ],
-      [
-        115,
-        118
-      ]
+      [194, 157],
+      [157, 115],
+      [115, 118]
     ],
     "candidateRows": [
       {
@@ -6104,10 +5576,7 @@
             "exists": true,
             "readable": true,
             "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-            "dimensions": [
-              885,
-              1280
-            ],
+            "dimensions": [885, 1280],
             "relevant": true,
             "sufficient": false,
             "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -6118,10 +5587,7 @@
             "exists": true,
             "readable": true,
             "sha256": "2B1B33BB430F57BD29F7EBE4BEB978BC662C9B5E56DFBFBC0F4D40C8F3264E33",
-            "dimensions": [
-              1280,
-              892
-            ],
+            "dimensions": [1280, 892],
             "relevant": true,
             "sufficient": false,
             "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -6163,10 +5629,7 @@
             "exists": true,
             "readable": true,
             "sha256": "3EB783AF350F518AB0DD535E3DE6CD0714D11CE81A953331091526D3876245F5",
-            "dimensions": [
-              885,
-              1280
-            ],
+            "dimensions": [885, 1280],
             "relevant": true,
             "sufficient": false,
             "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -6177,10 +5640,7 @@
             "exists": true,
             "readable": true,
             "sha256": "855AB1D3652F065C468AD101FB5E64B023082FA6BEBECF91153A7D1E0E4A11B1",
-            "dimensions": [
-              1080,
-              1499
-            ],
+            "dimensions": [1080, 1499],
             "relevant": true,
             "sufficient": false,
             "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -6222,10 +5682,7 @@
             "exists": true,
             "readable": true,
             "sha256": "2B1B33BB430F57BD29F7EBE4BEB978BC662C9B5E56DFBFBC0F4D40C8F3264E33",
-            "dimensions": [
-              1280,
-              892
-            ],
+            "dimensions": [1280, 892],
             "relevant": true,
             "sufficient": false,
             "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -6236,10 +5693,7 @@
             "exists": true,
             "readable": true,
             "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-            "dimensions": [
-              914,
-              1280
-            ],
+            "dimensions": [914, 1280],
             "relevant": true,
             "sufficient": false,
             "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -6281,10 +5735,7 @@
             "exists": true,
             "readable": true,
             "sha256": "489525B999DB44E7AF1C98CB22C660FA7A681058AA76FB7EDE150A46EB325719",
-            "dimensions": [
-              914,
-              1280
-            ],
+            "dimensions": [914, 1280],
             "relevant": true,
             "sufficient": false,
             "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -6295,10 +5746,7 @@
             "exists": true,
             "readable": true,
             "sha256": "2B1B33BB430F57BD29F7EBE4BEB978BC662C9B5E56DFBFBC0F4D40C8F3264E33",
-            "dimensions": [
-              1280,
-              892
-            ],
+            "dimensions": [1280, 892],
             "relevant": true,
             "sufficient": false,
             "limitation": "Source image is readable and region-relevant, but no edge-specific endpoint crop or independent line trace is stored for this candidate."
@@ -6320,10 +5768,7 @@
   },
   "station200Dependency": {
     "candidateId": "E-086",
-    "endpoint": [
-      199,
-      200
-    ],
+    "endpoint": [199, 200],
     "status": "unresolved-inventory-dependency",
     "note": "Marker 200 is physically photographed, but playability/edition status remains unresolved."
   },

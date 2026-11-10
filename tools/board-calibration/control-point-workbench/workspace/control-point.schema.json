@@ -1,15 +1,22 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "required": ["phase", "schemaVersion", "coordinateConvention", "photos", "pairs", "correspondences"],
+  "required": [
+    "phase",
+    "schemaVersion",
+    "coordinateConvention",
+    "photos",
+    "pairs",
+    "correspondences"
+  ],
   "properties": {
-    "phase": {"const": "3F.2.3"},
-    "schemaVersion": {"const": 1},
-    "coordinateConvention": {"type": "string", "minLength": 1},
-    "reviewer": {"type": "string"},
-    "photos": {"type": "array"},
-    "pairs": {"type": "array"},
-    "correspondences": {"type": "array"}
+    "phase": { "const": "3F.2.3" },
+    "schemaVersion": { "const": 1 },
+    "coordinateConvention": { "type": "string", "minLength": 1 },
+    "reviewer": { "type": "string" },
+    "photos": { "type": "array" },
+    "pairs": { "type": "array" },
+    "correspondences": { "type": "array" }
   },
   "additionalProperties": true
 }

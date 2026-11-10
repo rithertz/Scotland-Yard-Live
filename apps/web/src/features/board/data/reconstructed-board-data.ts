@@ -10,7 +10,10 @@ type StationRecord = {
   featureId?: string | null;
 };
 
-const source = stationsDocument as unknown as { metadata: { state: ReconstructedBoard['state'] }; stations: StationRecord[] };
+const source = stationsDocument as unknown as {
+  metadata: { state: ReconstructedBoard['state'] };
+  stations: StationRecord[];
+};
 
 export const RECONSTRUCTED_BOARD: ReconstructedBoard = {
   width: BOARD_ARTWORK_RECT.width,

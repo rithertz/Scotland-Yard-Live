@@ -17,13 +17,13 @@ Each source record contains its repository path, dimensions, SHA-256 and role. O
 
 ## Coordinate systems and transformations
 
-| Source | Coordinate system | Transformation |
-|---|---|---|
-| Original photographs | Source-image pixel coordinates; dimensions vary by file | Original pixels are preserved; no source overwrite |
-| High-resolution tiles | Source-image pixel coordinates | Phase 3D.3 source-to-board homography |
-| Registered/rectified images | 1350×1000 board canvas; origin top-left; x right; y down | Existing Phase 3D.3 registered tile outputs |
-| Station dataset | Normalized `[0,1]` coordinates | `canvas_x = x * 1350`, `canvas_y = y * 1000` |
-| Candidate regions | Historical prose/photo-region references | Not treated as measured coordinates |
+| Source                      | Coordinate system                                        | Transformation                                     |
+| --------------------------- | -------------------------------------------------------- | -------------------------------------------------- |
+| Original photographs        | Source-image pixel coordinates; dimensions vary by file  | Original pixels are preserved; no source overwrite |
+| High-resolution tiles       | Source-image pixel coordinates                           | Phase 3D.3 source-to-board homography              |
+| Registered/rectified images | 1350×1000 board canvas; origin top-left; x right; y down | Existing Phase 3D.3 registered tile outputs        |
+| Station dataset             | Normalized `[0,1]` coordinates                           | `canvas_x = x * 1350`, `canvas_y = y * 1000`       |
+| Candidate regions           | Historical prose/photo-region references                 | Not treated as measured coordinates                |
 
 Each station receives one deterministic primary review target. Where a registered high-resolution tile covers the station centre, the workspace also stores a perspective-corrected source crop and its source-image corner coordinates. The registered crop remains available for common-board context.
 

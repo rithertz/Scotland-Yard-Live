@@ -16,10 +16,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-001",
-        "ST-008"
-      ],
+      "sourceCropIds": ["ST-001", "ST-008"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -41,10 +38,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-002",
-        "ST-010"
-      ],
+      "sourceCropIds": ["ST-002", "ST-010"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -66,10 +60,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-002",
-        "ST-020"
-      ],
+      "sourceCropIds": ["ST-002", "ST-020"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -91,10 +82,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-003",
-        "ST-004"
-      ],
+      "sourceCropIds": ["ST-003", "ST-004"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -116,10 +104,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-004",
-        "ST-013"
-      ],
+      "sourceCropIds": ["ST-004", "ST-013"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -141,10 +126,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-005",
-        "ST-015"
-      ],
+      "sourceCropIds": ["ST-005", "ST-015"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -166,10 +148,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-006",
-        "ST-007"
-      ],
+      "sourceCropIds": ["ST-006", "ST-007"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -191,10 +170,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-007",
-        "ST-017"
-      ],
+      "sourceCropIds": ["ST-007", "ST-017"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -216,10 +192,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-008",
-        "ST-018"
-      ],
+      "sourceCropIds": ["ST-008", "ST-018"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -241,10 +214,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-009",
-        "ST-020"
-      ],
+      "sourceCropIds": ["ST-009", "ST-020"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -266,10 +236,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-010",
-        "ST-011"
-      ],
+      "sourceCropIds": ["ST-010", "ST-011"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -291,10 +258,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-011",
-        "ST-022"
-      ],
+      "sourceCropIds": ["ST-011", "ST-022"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -316,10 +280,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-012",
-        "ST-023"
-      ],
+      "sourceCropIds": ["ST-012", "ST-023"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -341,10 +302,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-013",
-        "ST-014"
-      ],
+      "sourceCropIds": ["ST-013", "ST-014"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -366,10 +324,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-014",
-        "ST-015"
-      ],
+      "sourceCropIds": ["ST-014", "ST-015"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -391,10 +346,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-015",
-        "ST-016"
-      ],
+      "sourceCropIds": ["ST-015", "ST-016"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -416,10 +368,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-016",
-        "ST-029"
-      ],
+      "sourceCropIds": ["ST-016", "ST-029"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -441,10 +390,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-017",
-        "ST-030"
-      ],
+      "sourceCropIds": ["ST-017", "ST-030"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -466,10 +412,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-018",
-        "ST-031"
-      ],
+      "sourceCropIds": ["ST-018", "ST-031"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -491,10 +434,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-019",
-        "ST-032"
-      ],
+      "sourceCropIds": ["ST-019", "ST-032"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -516,10 +456,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-020",
-        "ST-033"
-      ],
+      "sourceCropIds": ["ST-020", "ST-033"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -541,10 +478,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-003",
-        "ST-011"
-      ],
+      "sourceCropIds": ["ST-003", "ST-011"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -566,10 +500,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-003",
-        "ST-012"
-      ],
+      "sourceCropIds": ["ST-003", "ST-012"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -591,10 +522,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-007",
-        "ST-042"
-      ],
+      "sourceCropIds": ["ST-007", "ST-042"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -616,10 +544,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-011",
-        "ST-022"
-      ],
+      "sourceCropIds": ["ST-011", "ST-022"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -641,10 +566,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-013",
-        "ST-014"
-      ],
+      "sourceCropIds": ["ST-013", "ST-014"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -666,10 +588,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-014",
-        "ST-015"
-      ],
+      "sourceCropIds": ["ST-014", "ST-015"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -691,10 +610,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-015",
-        "ST-029"
-      ],
+      "sourceCropIds": ["ST-015", "ST-029"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -716,10 +632,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-015",
-        "ST-041"
-      ],
+      "sourceCropIds": ["ST-015", "ST-041"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -741,10 +654,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-022",
-        "ST-023"
-      ],
+      "sourceCropIds": ["ST-022", "ST-023"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -766,10 +676,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-022",
-        "ST-034"
-      ],
+      "sourceCropIds": ["ST-022", "ST-034"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -791,10 +698,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-001",
-        "ST-046"
-      ],
+      "sourceCropIds": ["ST-001", "ST-046"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -816,10 +720,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-013",
-        "ST-046"
-      ],
+      "sourceCropIds": ["ST-013", "ST-046"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -841,10 +742,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-013",
-        "ST-067"
-      ],
+      "sourceCropIds": ["ST-013", "ST-067"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -866,10 +764,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-013",
-        "ST-089"
-      ],
+      "sourceCropIds": ["ST-013", "ST-089"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -891,10 +786,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-046",
-        "ST-074"
-      ],
+      "sourceCropIds": ["ST-046", "ST-074"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -916,10 +808,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-046",
-        "ST-079"
-      ],
+      "sourceCropIds": ["ST-046", "ST-079"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -941,10 +830,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-067",
-        "ST-079"
-      ],
+      "sourceCropIds": ["ST-067", "ST-079"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -966,10 +852,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-067",
-        "ST-089"
-      ],
+      "sourceCropIds": ["ST-067", "ST-089"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -991,10 +874,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-079",
-        "ST-093"
-      ],
+      "sourceCropIds": ["ST-079", "ST-093"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1016,10 +896,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-079",
-        "ST-100"
-      ],
+      "sourceCropIds": ["ST-079", "ST-100"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -1041,10 +918,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-101",
-        "ST-102"
-      ],
+      "sourceCropIds": ["ST-101", "ST-102"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1066,10 +940,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-102",
-        "ST-115"
-      ],
+      "sourceCropIds": ["ST-102", "ST-115"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1091,10 +962,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-103",
-        "ST-104"
-      ],
+      "sourceCropIds": ["ST-103", "ST-104"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -1116,10 +984,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-105",
-        "ST-106"
-      ],
+      "sourceCropIds": ["ST-105", "ST-106"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1141,10 +1006,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-105",
-        "ST-107"
-      ],
+      "sourceCropIds": ["ST-105", "ST-107"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1166,10 +1028,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-106",
-        "ST-107"
-      ],
+      "sourceCropIds": ["ST-106", "ST-107"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1191,10 +1050,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-107",
-        "ST-108"
-      ],
+      "sourceCropIds": ["ST-107", "ST-108"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1216,10 +1072,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-109",
-        "ST-110"
-      ],
+      "sourceCropIds": ["ST-109", "ST-110"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -1241,10 +1094,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-110",
-        "ST-111"
-      ],
+      "sourceCropIds": ["ST-110", "ST-111"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1266,10 +1116,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-111",
-        "ST-112"
-      ],
+      "sourceCropIds": ["ST-111", "ST-112"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1291,10 +1138,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-112",
-        "ST-113"
-      ],
+      "sourceCropIds": ["ST-112", "ST-113"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1316,10 +1160,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-113",
-        "ST-114"
-      ],
+      "sourceCropIds": ["ST-113", "ST-114"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -1341,10 +1182,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-114",
-        "ST-115"
-      ],
+      "sourceCropIds": ["ST-114", "ST-115"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -1366,10 +1204,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-115",
-        "ST-116"
-      ],
+      "sourceCropIds": ["ST-115", "ST-116"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1391,10 +1226,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-116",
-        "ST-117"
-      ],
+      "sourceCropIds": ["ST-116", "ST-117"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1416,10 +1248,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-117",
-        "ST-118"
-      ],
+      "sourceCropIds": ["ST-117", "ST-118"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -1441,10 +1270,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-118",
-        "ST-119"
-      ],
+      "sourceCropIds": ["ST-118", "ST-119"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1466,10 +1292,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-127",
-        "ST-133"
-      ],
+      "sourceCropIds": ["ST-127", "ST-133"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1491,10 +1314,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-128",
-        "ST-135"
-      ],
+      "sourceCropIds": ["ST-128", "ST-135"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1516,10 +1336,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-129",
-        "ST-130"
-      ],
+      "sourceCropIds": ["ST-129", "ST-130"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -1541,10 +1358,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-133",
-        "ST-140"
-      ],
+      "sourceCropIds": ["ST-133", "ST-140"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1566,10 +1380,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-140",
-        "ST-154"
-      ],
+      "sourceCropIds": ["ST-140", "ST-154"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1591,10 +1402,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-154",
-        "ST-155"
-      ],
+      "sourceCropIds": ["ST-154", "ST-155"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -1616,10 +1424,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-155",
-        "ST-156"
-      ],
+      "sourceCropIds": ["ST-155", "ST-156"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -1641,10 +1446,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-156",
-        "ST-157"
-      ],
+      "sourceCropIds": ["ST-156", "ST-157"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1666,10 +1468,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-157",
-        "ST-158"
-      ],
+      "sourceCropIds": ["ST-157", "ST-158"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1691,10 +1490,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-158",
-        "ST-159"
-      ],
+      "sourceCropIds": ["ST-158", "ST-159"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1716,10 +1512,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-159",
-        "ST-160"
-      ],
+      "sourceCropIds": ["ST-159", "ST-160"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1741,10 +1534,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-160",
-        "ST-161"
-      ],
+      "sourceCropIds": ["ST-160", "ST-161"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -1766,10 +1556,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-161",
-        "ST-162"
-      ],
+      "sourceCropIds": ["ST-161", "ST-162"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1791,10 +1578,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-162",
-        "ST-174"
-      ],
+      "sourceCropIds": ["ST-162", "ST-174"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1816,10 +1600,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-163",
-        "ST-164"
-      ],
+      "sourceCropIds": ["ST-163", "ST-164"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -1841,10 +1622,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-164",
-        "ST-165"
-      ],
+      "sourceCropIds": ["ST-164", "ST-165"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1866,10 +1644,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-165",
-        "ST-166"
-      ],
+      "sourceCropIds": ["ST-165", "ST-166"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1891,10 +1666,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-166",
-        "ST-167"
-      ],
+      "sourceCropIds": ["ST-166", "ST-167"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1916,10 +1688,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-167",
-        "ST-168"
-      ],
+      "sourceCropIds": ["ST-167", "ST-168"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1941,10 +1710,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-168",
-        "ST-169"
-      ],
+      "sourceCropIds": ["ST-168", "ST-169"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1966,10 +1732,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-169",
-        "ST-170"
-      ],
+      "sourceCropIds": ["ST-169", "ST-170"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -1991,10 +1754,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-170",
-        "ST-171"
-      ],
+      "sourceCropIds": ["ST-170", "ST-171"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2016,10 +1776,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-171",
-        "ST-172"
-      ],
+      "sourceCropIds": ["ST-171", "ST-172"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2041,10 +1798,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-172",
-        "ST-173"
-      ],
+      "sourceCropIds": ["ST-172", "ST-173"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2066,10 +1820,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-173",
-        "ST-175"
-      ],
+      "sourceCropIds": ["ST-173", "ST-175"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2091,10 +1842,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-187",
-        "ST-188"
-      ],
+      "sourceCropIds": ["ST-187", "ST-188"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -2116,10 +1864,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-188",
-        "ST-199"
-      ],
+      "sourceCropIds": ["ST-188", "ST-199"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2141,9 +1886,7 @@
         }
       ],
       "endpointScope": "observed-marker-200",
-      "sourceCropIds": [
-        "ST-199"
-      ],
+      "sourceCropIds": ["ST-199"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -2165,10 +1908,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-102",
-        "ST-115"
-      ],
+      "sourceCropIds": ["ST-102", "ST-115"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -2190,10 +1930,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-105",
-        "ST-107"
-      ],
+      "sourceCropIds": ["ST-105", "ST-107"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2215,10 +1952,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-105",
-        "ST-108"
-      ],
+      "sourceCropIds": ["ST-105", "ST-108"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2240,10 +1974,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-107",
-        "ST-161"
-      ],
+      "sourceCropIds": ["ST-107", "ST-161"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -2265,10 +1996,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-108",
-        "ST-116"
-      ],
+      "sourceCropIds": ["ST-108", "ST-116"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2290,10 +2018,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-109",
-        "ST-124"
-      ],
+      "sourceCropIds": ["ST-109", "ST-124"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2315,10 +2040,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-111",
-        "ST-124"
-      ],
+      "sourceCropIds": ["ST-111", "ST-124"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -2340,10 +2062,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-116",
-        "ST-127"
-      ],
+      "sourceCropIds": ["ST-116", "ST-127"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2365,10 +2084,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-116",
-        "ST-142"
-      ],
+      "sourceCropIds": ["ST-116", "ST-142"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2390,10 +2106,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-122",
-        "ST-123"
-      ],
+      "sourceCropIds": ["ST-122", "ST-123"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -2415,10 +2128,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-123",
-        "ST-124"
-      ],
+      "sourceCropIds": ["ST-123", "ST-124"],
       "reviewStatus": "needs-review",
       "confidence": "high",
       "existingVerificationStatus": "provisional",
@@ -2440,10 +2150,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-123",
-        "ST-144"
-      ],
+      "sourceCropIds": ["ST-123", "ST-144"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2465,10 +2172,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-123",
-        "ST-165"
-      ],
+      "sourceCropIds": ["ST-123", "ST-165"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2490,10 +2194,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-124",
-        "ST-153"
-      ],
+      "sourceCropIds": ["ST-124", "ST-153"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2515,10 +2216,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-127",
-        "ST-133"
-      ],
+      "sourceCropIds": ["ST-127", "ST-133"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2540,10 +2238,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-128",
-        "ST-142"
-      ],
+      "sourceCropIds": ["ST-128", "ST-142"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2565,10 +2260,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-128",
-        "ST-161"
-      ],
+      "sourceCropIds": ["ST-128", "ST-161"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -2590,10 +2282,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-133",
-        "ST-140"
-      ],
+      "sourceCropIds": ["ST-133", "ST-140"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2615,10 +2304,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-140",
-        "ST-156"
-      ],
+      "sourceCropIds": ["ST-140", "ST-156"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2640,10 +2326,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-156",
-        "ST-157"
-      ],
+      "sourceCropIds": ["ST-156", "ST-157"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2665,10 +2348,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-104",
-        "ST-115"
-      ],
+      "sourceCropIds": ["ST-104", "ST-115"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -2690,10 +2370,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-105",
-        "ST-108"
-      ],
+      "sourceCropIds": ["ST-105", "ST-108"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -2715,10 +2392,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-111",
-        "ST-153"
-      ],
+      "sourceCropIds": ["ST-111", "ST-153"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2740,10 +2414,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-111",
-        "ST-163"
-      ],
+      "sourceCropIds": ["ST-111", "ST-163"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2765,10 +2436,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-128",
-        "ST-140"
-      ],
+      "sourceCropIds": ["ST-128", "ST-140"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2790,10 +2458,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-128",
-        "ST-185"
-      ],
+      "sourceCropIds": ["ST-128", "ST-185"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -2815,10 +2480,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-140",
-        "ST-153"
-      ],
+      "sourceCropIds": ["ST-140", "ST-153"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2840,10 +2502,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-153",
-        "ST-163"
-      ],
+      "sourceCropIds": ["ST-153", "ST-163"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2865,10 +2524,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-153",
-        "ST-185"
-      ],
+      "sourceCropIds": ["ST-153", "ST-185"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -2890,10 +2546,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-185",
-        "ST-187"
-      ],
+      "sourceCropIds": ["ST-185", "ST-187"],
       "reviewStatus": "needs-review",
       "confidence": "medium",
       "existingVerificationStatus": "provisional",
@@ -2919,10 +2572,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-046",
-        "ST-101"
-      ],
+      "sourceCropIds": ["ST-046", "ST-101"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -2944,10 +2594,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-067",
-        "ST-102"
-      ],
+      "sourceCropIds": ["ST-067", "ST-102"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -2973,10 +2620,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-079",
-        "ST-110"
-      ],
+      "sourceCropIds": ["ST-079", "ST-110"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -2998,10 +2642,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-082",
-        "ST-101"
-      ],
+      "sourceCropIds": ["ST-082", "ST-101"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -3027,10 +2668,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-089",
-        "ST-118"
-      ],
+      "sourceCropIds": ["ST-089", "ST-118"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "provisional",
@@ -3056,10 +2694,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-108",
-        "ST-115"
-      ],
+      "sourceCropIds": ["ST-108", "ST-115"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "unresolved",
@@ -3085,10 +2720,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-115",
-        "ST-118"
-      ],
+      "sourceCropIds": ["ST-115", "ST-118"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "unresolved",
@@ -3114,10 +2746,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-115",
-        "ST-157"
-      ],
+      "sourceCropIds": ["ST-115", "ST-157"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "unresolved",
@@ -3143,10 +2772,7 @@
         }
       ],
       "endpointScope": "playable",
-      "sourceCropIds": [
-        "ST-157",
-        "ST-194"
-      ],
+      "sourceCropIds": ["ST-157", "ST-194"],
       "reviewStatus": "needs-review",
       "confidence": "low",
       "existingVerificationStatus": "unresolved",

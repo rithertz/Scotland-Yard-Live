@@ -1,9 +1,18 @@
 import { describe, expect, it } from 'vitest';
-import { boardCoordinateToSurfacePoint, boardSurfaceTransform, DEFAULT_BOARD_TRANSFORM, panBoardTransform, wheelZoomFactor, zoomBoardTransform } from './board-transform.js';
+import {
+  boardCoordinateToSurfacePoint,
+  boardSurfaceTransform,
+  DEFAULT_BOARD_TRANSFORM,
+  panBoardTransform,
+  wheelZoomFactor,
+  zoomBoardTransform,
+} from './board-transform.js';
 
 describe('unified board surface transform', () => {
   it('maps normalized coordinates onto the canonical board surface', () => {
-    expect(boardCoordinateToSurfacePoint({ width: 1350, height: 1000 }, { x: 0.25, y: 0.75 })).toEqual({ x: 337.5, y: 750 });
+    expect(
+      boardCoordinateToSurfacePoint({ width: 1350, height: 1000 }, { x: 0.25, y: 0.75 }),
+    ).toEqual({ x: 337.5, y: 750 });
   });
 
   it('uses one transform string for the artwork and station overlay surface', () => {

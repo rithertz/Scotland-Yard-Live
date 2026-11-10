@@ -18,7 +18,11 @@ export function wheelZoomFactor(deltaY: number): number {
   return deltaY > 0 ? 0.92 : 1.09;
 }
 
-export function panBoardTransform(transform: BoardTransform, dx: number, dy: number): BoardTransform {
+export function panBoardTransform(
+  transform: BoardTransform,
+  dx: number,
+  dy: number,
+): BoardTransform {
   return { ...transform, x: transform.x + dx, y: transform.y + dy };
 }
 

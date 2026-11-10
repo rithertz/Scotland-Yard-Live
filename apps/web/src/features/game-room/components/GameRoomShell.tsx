@@ -73,7 +73,10 @@ export function GameRoomShell() {
           </section>
           <div className="left-note">
             <span className="stamp">SIMULATED STATE</span>
-            <p>Station positions are provisional reconstruction data. Transport routes and movement rules are intentionally disabled.</p>
+            <p>
+              Station positions are provisional reconstruction data. Transport routes and movement
+              rules are intentionally disabled.
+            </p>
           </div>
         </aside>
         <section className="map-column">
@@ -96,17 +99,16 @@ export function GameRoomShell() {
               </div>
               <div className="inspector-main">
                 <strong>{selectedStation.id}</strong>
-                <span>{selectedStation.coordinateStatus} · {selectedStation.identityStatus}</span>
+                <span>
+                  {selectedStation.coordinateStatus} · {selectedStation.identityStatus}
+                </span>
               </div>
               <div className="inspector-facts">
                 <span>
-                    <b>—</b> transport graph not loaded
+                  <b>—</b> transport graph not loaded
                 </span>
                 <span>
-                  <b>
-                    {selectedStation.featureId ?? 'UNMATCHED'}
-                  </b>{' '}
-                  physical feature reference
+                  <b>{selectedStation.featureId ?? 'UNMATCHED'}</b> physical feature reference
                 </span>
               </div>
               <button onClick={() => setSelectedId(null)}>Clear selection</button>

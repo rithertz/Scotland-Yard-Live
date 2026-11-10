@@ -2,7 +2,13 @@ export function containRect(viewportWidth, viewportHeight, imageWidth, imageHeig
   const scale = Math.min(viewportWidth / imageWidth, viewportHeight / imageHeight);
   const width = imageWidth * scale;
   const height = imageHeight * scale;
-  return { left: (viewportWidth - width) / 2, top: (viewportHeight - height) / 2, width, height, scale };
+  return {
+    left: (viewportWidth - width) / 2,
+    top: (viewportHeight - height) / 2,
+    width,
+    height,
+    scale,
+  };
 }
 
 export function displayToPixel(clientX, clientY, canvasRect, imageWidth, imageHeight) {
@@ -20,7 +26,14 @@ export function pixelToDisplay(x, y, canvasRect, imageWidth, imageHeight) {
 }
 
 export function isInBounds(point, width, height) {
-  return Number.isFinite(point.x) && Number.isFinite(point.y) && point.x >= 0 && point.x <= width && point.y >= 0 && point.y <= height;
+  return (
+    Number.isFinite(point.x) &&
+    Number.isFinite(point.y) &&
+    point.x >= 0 &&
+    point.x <= width &&
+    point.y >= 0 &&
+    point.y <= height
+  );
 }
 
 export function nextCorrespondenceId(existingIds) {
@@ -35,23 +48,33 @@ export function normalizeRotation(degrees) {
 }
 
 export function rotatedDimensions(width, height, rotation) {
-  return normalizeRotation(rotation) % 180 === 0 ? { width, height } : { width: height, height: width };
+  return normalizeRotation(rotation) % 180 === 0
+    ? { width, height }
+    : { width: height, height: width };
 }
 
 export function originalToRotated(point, width, height, rotation) {
   switch (normalizeRotation(rotation)) {
-    case 90: return { x: height - point.y, y: point.x };
-    case 180: return { x: width - point.x, y: height - point.y };
-    case 270: return { x: point.y, y: width - point.x };
-    default: return { x: point.x, y: point.y };
+    case 90:
+      return { x: height - point.y, y: point.x };
+    case 180:
+      return { x: width - point.x, y: height - point.y };
+    case 270:
+      return { x: point.y, y: width - point.x };
+    default:
+      return { x: point.x, y: point.y };
   }
 }
 
 export function rotatedToOriginal(point, width, height, rotation) {
   switch (normalizeRotation(rotation)) {
-    case 90: return { x: point.y, y: height - point.x };
-    case 180: return { x: width - point.x, y: height - point.y };
-    case 270: return { x: width - point.y, y: point.x };
-    default: return { x: point.x, y: point.y };
+    case 90:
+      return { x: point.y, y: height - point.x };
+    case 180:
+      return { x: width - point.x, y: height - point.y };
+    case 270:
+      return { x: width - point.y, y: point.x };
+    default:
+      return { x: point.x, y: point.y };
   }
 }

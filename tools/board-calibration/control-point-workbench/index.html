@@ -8,26 +8,138 @@
   </head>
   <body>
     <header class="topbar">
-      <div><span class="eyebrow">SCOTLAND YARD LIVE</span><h1>Photographic control-point workbench</h1></div>
+      <div>
+        <span class="eyebrow">SCOTLAND YARD LIVE</span>
+        <h1>Photographic control-point workbench</h1>
+      </div>
       <div class="phase-stamp">PHASE 3F.2.3 · ANNOTATION ONLY</div>
     </header>
     <main class="app-shell">
       <aside class="sidebar">
-        <section><h2>Photographs</h2><div id="photo-list" class="photo-list"></div></section>
-        <section><h2>Neighbor pairs <span id="pair-count"></span></h2><div id="pair-list" class="pair-list"></div></section>
-        <section class="data-note"><strong>Raw-pixel convention</strong><p>Stored points use decoded source pixels. EXIF orientation is recorded only; no silent rotation, crop or resize is applied.</p></section>
+        <section>
+          <h2>Photographs</h2>
+          <div id="photo-list" class="photo-list"></div>
+        </section>
+        <section>
+          <h2>Neighbor pairs <span id="pair-count"></span></h2>
+          <div id="pair-list" class="pair-list"></div>
+        </section>
+        <section class="data-note">
+          <strong>Raw-pixel convention</strong>
+          <p>
+            Stored points use decoded source pixels. EXIF orientation is recorded only; no silent
+            rotation, crop or resize is applied.
+          </p>
+        </section>
       </aside>
       <section class="workspace">
         <div class="toolbar">
-          <div><span class="eyebrow">SELECTED PAIR</span><strong id="selected-pair">—</strong><span id="pair-status" class="status-badge">DRAFT</span></div>
-          <div class="toolbar-actions"><label><input id="sync-toggle" type="checkbox" checked /> Sync zoom/pan</label><button id="demo-button">Load test points</button><button id="undo-button">Undo</button><button id="save-button">Download JSON</button><label class="file-button">Load JSON<input id="load-input" type="file" accept="application/json" /></label></div>
+          <div>
+            <span class="eyebrow">SELECTED PAIR</span><strong id="selected-pair">—</strong
+            ><span id="pair-status" class="status-badge">DRAFT</span>
+          </div>
+          <div class="toolbar-actions">
+            <label><input id="sync-toggle" type="checkbox" checked /> Sync zoom/pan</label
+            ><button id="demo-button">Load test points</button><button id="undo-button">Undo</button
+            ><button id="save-button">Download JSON</button
+            ><label class="file-button"
+              >Load JSON<input id="load-input" type="file" accept="application/json"
+            /></label>
+          </div>
         </div>
         <div class="viewer-grid">
-          <article class="viewer-card"><header><span id="left-title">—</span><span id="left-dimensions"></span></header><div id="left-viewer" class="viewer" tabindex="0"><div id="left-canvas" class="viewer-canvas"><div id="left-content" class="viewer-content"><img id="left-image" alt="Selected left source photograph" /><svg id="left-overlay" aria-hidden="true"></svg></div></div><div class="viewer-help">Click to place the next point</div></div><div class="viewer-controls"><button type="button" data-viewer="left" data-action="zoomIn">+</button><button type="button" data-viewer="left" data-action="zoomOut">−</button><button type="button" data-viewer="left" data-action="fit">Fit</button><button type="button" data-viewer="left" data-action="reset">Reset</button><button type="button" data-viewer="left" data-rotate="-90">↺ 90°</button><button type="button" data-viewer="left" data-rotate="90">↻ 90°</button><button type="button" data-viewer="left" data-rotate="180">180°</button><button type="button" data-viewer="left" data-rotate="0">Reset orientation</button><span id="left-rotation" class="rotation-label">ROT 0°</span></div></article>
-          <article class="viewer-card"><header><span id="right-title">—</span><span id="right-dimensions"></span></header><div class="viewer" id="right-viewer" tabindex="0"><div id="right-canvas" class="viewer-canvas"><div id="right-content" class="viewer-content"><img id="right-image" alt="Selected right source photograph" /><svg id="right-overlay" aria-hidden="true"></svg></div></div><div class="viewer-help">Click to place the matching point</div></div><div class="viewer-controls"><button type="button" data-viewer="right" data-action="zoomIn">+</button><button type="button" data-viewer="right" data-action="zoomOut">−</button><button type="button" data-viewer="right" data-action="fit">Fit</button><button type="button" data-viewer="right" data-action="reset">Reset</button><button type="button" data-viewer="right" data-rotate="-90">↺ 90°</button><button type="button" data-viewer="right" data-rotate="90">↻ 90°</button><button type="button" data-viewer="right" data-rotate="180">180°</button><button type="button" data-viewer="right" data-rotate="0">Reset orientation</button><span id="right-rotation" class="rotation-label">ROT 0°</span></div></article>
+          <article class="viewer-card">
+            <header><span id="left-title">—</span><span id="left-dimensions"></span></header>
+            <div id="left-viewer" class="viewer" tabindex="0">
+              <div id="left-canvas" class="viewer-canvas">
+                <div id="left-content" class="viewer-content">
+                  <img id="left-image" alt="Selected left source photograph" /><svg
+                    id="left-overlay"
+                    aria-hidden="true"
+                  ></svg>
+                </div>
+              </div>
+              <div class="viewer-help">Click to place the next point</div>
+            </div>
+            <div class="viewer-controls">
+              <button type="button" data-viewer="left" data-action="zoomIn">+</button
+              ><button type="button" data-viewer="left" data-action="zoomOut">−</button
+              ><button type="button" data-viewer="left" data-action="fit">Fit</button
+              ><button type="button" data-viewer="left" data-action="reset">Reset</button
+              ><button type="button" data-viewer="left" data-rotate="-90">↺ 90°</button
+              ><button type="button" data-viewer="left" data-rotate="90">↻ 90°</button
+              ><button type="button" data-viewer="left" data-rotate="180">180°</button
+              ><button type="button" data-viewer="left" data-rotate="0">Reset orientation</button
+              ><span id="left-rotation" class="rotation-label">ROT 0°</span>
+            </div>
+          </article>
+          <article class="viewer-card">
+            <header><span id="right-title">—</span><span id="right-dimensions"></span></header>
+            <div class="viewer" id="right-viewer" tabindex="0">
+              <div id="right-canvas" class="viewer-canvas">
+                <div id="right-content" class="viewer-content">
+                  <img id="right-image" alt="Selected right source photograph" /><svg
+                    id="right-overlay"
+                    aria-hidden="true"
+                  ></svg>
+                </div>
+              </div>
+              <div class="viewer-help">Click to place the matching point</div>
+            </div>
+            <div class="viewer-controls">
+              <button type="button" data-viewer="right" data-action="zoomIn">+</button
+              ><button type="button" data-viewer="right" data-action="zoomOut">−</button
+              ><button type="button" data-viewer="right" data-action="fit">Fit</button
+              ><button type="button" data-viewer="right" data-action="reset">Reset</button
+              ><button type="button" data-viewer="right" data-rotate="-90">↺ 90°</button
+              ><button type="button" data-viewer="right" data-rotate="90">↻ 90°</button
+              ><button type="button" data-viewer="right" data-rotate="180">180°</button
+              ><button type="button" data-viewer="right" data-rotate="0">Reset orientation</button
+              ><span id="right-rotation" class="rotation-label">ROT 0°</span>
+            </div>
+          </article>
         </div>
-        <section class="annotation-panel"><div class="panel-heading"><div><span class="eyebrow">CORRESPONDENCES</span><h2><span id="point-count">0</span> points · <span id="annotation-status">draft</span></h2></div><div><button id="clear-selection">Clear selection</button><button id="delete-selected">Delete selected point</button></div></div><div id="correspondence-list" class="correspondence-list"></div><div class="editor"><label>Landmark description<input id="description" placeholder="e.g. distinctive bridge parapet" /></label><label>Reviewer<input id="reviewer" /></label><label>Confidence<select id="confidence"><option>unreviewed</option><option>low</option><option>medium</option><option>high</option></select></label><label>Review status<select id="review-status"><option>draft</option><option>reviewed</option><option>accepted</option><option>rejected</option></select></label><button id="apply-edit">Apply to selected</button></div></section>
-        <footer>Test points are explicitly marked as demo data. This workbench does not stitch photographs, alter station coordinates, or create a board master.</footer>
+        <section class="annotation-panel">
+          <div class="panel-heading">
+            <div>
+              <span class="eyebrow">CORRESPONDENCES</span>
+              <h2>
+                <span id="point-count">0</span> points · <span id="annotation-status">draft</span>
+              </h2>
+            </div>
+            <div>
+              <button id="clear-selection">Clear selection</button
+              ><button id="delete-selected">Delete selected point</button>
+            </div>
+          </div>
+          <div id="correspondence-list" class="correspondence-list"></div>
+          <div class="editor">
+            <label
+              >Landmark description<input
+                id="description"
+                placeholder="e.g. distinctive bridge parapet" /></label
+            ><label>Reviewer<input id="reviewer" /></label
+            ><label
+              >Confidence<select id="confidence">
+                <option>unreviewed</option>
+                <option>low</option>
+                <option>medium</option>
+                <option>high</option>
+              </select></label
+            ><label
+              >Review status<select id="review-status">
+                <option>draft</option>
+                <option>reviewed</option>
+                <option>accepted</option>
+                <option>rejected</option>
+              </select></label
+            ><button id="apply-edit">Apply to selected</button>
+          </div>
+        </section>
+        <footer>
+          Test points are explicitly marked as demo data. This workbench does not stitch
+          photographs, alter station coordinates, or create a board master.
+        </footer>
       </section>
     </main>
     <script type="module" src="./workbench.js"></script>

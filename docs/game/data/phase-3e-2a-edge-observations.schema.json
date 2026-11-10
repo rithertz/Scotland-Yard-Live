@@ -4,26 +4,37 @@
   "type": "object",
   "required": ["phase", "schema", "observations", "newObservations"],
   "properties": {
-    "phase": {"const": "3E.2A"},
-    "schema": {"const": "phase-3e-2a-edge-observations"},
-    "observations": {"type": "array", "items": {"$ref": "#/$defs/observation"}},
-    "newObservations": {"type": "array", "items": {"$ref": "#/$defs/observation"}}
+    "phase": { "const": "3E.2A" },
+    "schema": { "const": "phase-3e-2a-edge-observations" },
+    "observations": { "type": "array", "items": { "$ref": "#/$defs/observation" } },
+    "newObservations": { "type": "array", "items": { "$ref": "#/$defs/observation" } }
   },
   "$defs": {
     "observation": {
       "type": "object",
-      "required": ["observationId", "from", "to", "transport", "reviewStatus", "sourceReferences", "sourceCropIds", "endpointScope"],
+      "required": [
+        "observationId",
+        "from",
+        "to",
+        "transport",
+        "reviewStatus",
+        "sourceReferences",
+        "sourceCropIds",
+        "endpointScope"
+      ],
       "properties": {
-        "observationId": {"type": "string", "minLength": 1},
-        "candidateId": {"type": ["string", "null"]},
-        "from": {"type": "integer", "minimum": 1, "maximum": 199},
-        "to": {"type": "integer", "minimum": 1, "maximum": 200},
-        "transport": {"enum": ["taxi", "bus", "underground", "boat"]},
-        "reviewStatus": {"enum": ["needs-review", "observed", "uncertain", "conflicting", "rejected"]},
-        "endpointScope": {"enum": ["playable", "observed-marker-200"]},
-        "sourceReferences": {"type": "array"},
-        "sourceCropIds": {"type": "array", "items": {"type": "string"}},
-        "contradictoryObservationIds": {"type": "array", "items": {"type": "string"}}
+        "observationId": { "type": "string", "minLength": 1 },
+        "candidateId": { "type": ["string", "null"] },
+        "from": { "type": "integer", "minimum": 1, "maximum": 199 },
+        "to": { "type": "integer", "minimum": 1, "maximum": 200 },
+        "transport": { "enum": ["taxi", "bus", "underground", "boat"] },
+        "reviewStatus": {
+          "enum": ["needs-review", "observed", "uncertain", "conflicting", "rejected"]
+        },
+        "endpointScope": { "enum": ["playable", "observed-marker-200"] },
+        "sourceReferences": { "type": "array" },
+        "sourceCropIds": { "type": "array", "items": { "type": "string" } },
+        "contradictoryObservationIds": { "type": "array", "items": { "type": "string" } }
       }
     }
   }

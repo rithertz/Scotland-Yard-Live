@@ -1,5 +1,11 @@
 import { useEffect, useState } from 'react';
-import { DEFAULT_BOARD_TRANSFORM, panBoardTransform, wheelZoomFactor, zoomBoardTransform, type BoardTransform } from '../board-transform.js';
+import {
+  DEFAULT_BOARD_TRANSFORM,
+  panBoardTransform,
+  wheelZoomFactor,
+  zoomBoardTransform,
+  type BoardTransform,
+} from '../board-transform.js';
 import type { ReconstructedBoard } from '../types.js';
 import { BoardSvg } from './BoardSvg.js';
 
@@ -58,7 +64,14 @@ export function BoardViewport({
           (event.currentTarget as HTMLElement).setPointerCapture(event.pointerId);
         }}
         onPointerMove={(event) => {
-          if (drag) setView(panBoardTransform(drag.view, (event.clientX - drag.x) / 2, (event.clientY - drag.y) / 2));
+          if (drag)
+            setView(
+              panBoardTransform(
+                drag.view,
+                (event.clientX - drag.x) / 2,
+                (event.clientY - drag.y) / 2,
+              ),
+            );
         }}
         onPointerUp={() => setDrag(null)}
       >
@@ -73,13 +86,20 @@ export function BoardViewport({
           <button onClick={() => setView(DEFAULT_BOARD_TRANSFORM)} aria-label="Reset board view">
             ↺
           </button>
-          <button onClick={() => setView(DEFAULT_BOARD_TRANSFORM)} aria-label="Fit board to viewport">
+          <button
+            onClick={() => setView(DEFAULT_BOARD_TRANSFORM)}
+            aria-label="Fit board to viewport"
+          >
             ⛶
           </button>
         </div>
         <div className="map-legend">
-          <span><i className="legend-marker verified" /> VERIFIED IDENTITY</span>
-          <span><i className="legend-marker candidate" /> CANDIDATE / UNVERIFIED</span>
+          <span>
+            <i className="legend-marker verified" /> VERIFIED IDENTITY
+          </span>
+          <span>
+            <i className="legend-marker candidate" /> CANDIDATE / UNVERIFIED
+          </span>
         </div>
       </div>
     </section>

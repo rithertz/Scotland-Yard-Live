@@ -8,8 +8,18 @@
       "landmark_description": "",
       "landmark_class": "building|road_junction|river_edge|bridge|station_marker|other",
       "source_observations": [
-        {"photo": "A1.jpg", "pixel_x": null, "pixel_y": null, "annotation_confidence": "unreviewed"},
-        {"photo": "A2.jpg", "pixel_x": null, "pixel_y": null, "annotation_confidence": "unreviewed"}
+        {
+          "photo": "A1.jpg",
+          "pixel_x": null,
+          "pixel_y": null,
+          "annotation_confidence": "unreviewed"
+        },
+        {
+          "photo": "A2.jpg",
+          "pixel_x": null,
+          "pixel_y": null,
+          "annotation_confidence": "unreviewed"
+        }
       ],
       "same_physical_landmark_confirmed": false,
       "reviewer": "",
